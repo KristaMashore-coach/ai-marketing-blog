@@ -1,73 +1,105 @@
-# React + TypeScript + Vite
+# Krista Mashore Content Site
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Production-grade content publishing site for Krista Mashore Coaching. Two jobs:
 
-Currently, two official plugins are available:
+1. **SEO** — rank on Google for real estate marketing, lead generation, and personal branding searches
+2. **AEO** — get cited when ChatGPT, Perplexity, Claude, and Grok answer questions about real estate coaching
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Lives at `blog.kristamashore.com`. Separate from `kristamashore.com` (which runs the GoHighLevel funnels). This site is the front door that brings traffic in. GHL stays the conversion engine.
 
-## React Compiler
+## Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Vite 8 + React 19 + TypeScript + Tailwind 3 + React Router 7
+- JSON-as-CMS at `data/blog/posts.json` and `data/blog/queue.json`
+- JSON-LD baked into static HTML via post-build prerender
+- Daily cron-driven publishing (5 articles/day, 7 days/week, staggered)
+- Vercel hosting + analytics
 
-## Expanding the ESLint configuration
+## Local development
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+npm install
+npm run dev          # vite dev server at http://localhost:5173
+npm run build        # full production build (vite + sitemap + llms.txt + prerender)
+npm run preview      # serve dist/ locally
+npm run lint
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Content workflow (for VAs)
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+Add an article to the queue:
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+node scripts/queue-article.cjs path/to/article.json
 ```
+
+Validates the article against quality gates (title length, meta lengths, FAQ count, banned phrases, em-dashes, slug format) and appends it to `data/blog/queue.json` if it passes.
+
+See `docs/CONTENT-WORKFLOW.md` for the full step-by-step.
+
+## Daily publishing
+
+A cron job on Krista's Mac fires 5x per day (every day) and runs `scripts/publish-batch.cjs`. Each firing pops one article off the queue, moves it to `posts.json`, commits, and pushes. Vercel auto-deploys.
+
+See `docs/CRON-TROUBLESHOOTING.md` if a daily publish fails.
+
+## Approving the seed drafts
+
+The 5 seed articles in `data/blog/posts.json` are flagged `draft: true` until Krista signs off. Drafts are:
+
+- Hidden from the public listing pages
+- Excluded from `sitemap.xml` and `llms.txt`
+- Marked `noindex,nofollow` for search engines
+- Still accessible at `/articles/<slug>` for review
+
+To approve all drafts:
+
+```bash
+npm run approve:drafts
+npm run build && git add -A && git commit -m "approve seed articles" && git push
+```
+
+To approve one:
+
+```bash
+node scripts/approve-drafts.cjs <slug>
+```
+
+## File map
+
+```
+data/blog/
+  posts.json       Published articles (read by site at build time)
+  queue.json       Articles waiting to publish
+scripts/
+  approve-drafts.cjs       Flip draft:true → draft:false
+  generate-llms-txt.cjs    Build /llms.txt + /llms-full.txt
+  generate-sitemap.cjs     Build /sitemap.xml
+  prerender-blog.cjs       Bake JSON-LD into static HTML for AI crawlers
+  publish-batch.cjs        Cron-driven publisher (queue → posts → git push)
+  queue-article.cjs        VA CLI to add an article to the queue
+src/
+  components/    UI primitives + JSON-LD schema components
+  lib/           Site config, posts loader, voice rules
+  pages/         Home, BlogIndex, BlogPost, PillarPage, About, NotFound
+  types/         Post type
+public/
+  robots.txt           Explicit AI bot allow blocks
+  sitemap.xml          Generated at build
+  llms.txt             AI-readable site index
+  llms-full.txt        Full content of every article
+docs/
+  CONTENT-WORKFLOW.md      VA workflow
+  SEO-CHECKLIST.md         Per-article checklist
+  MONTHLY-REVIEW.md        What Krista checks monthly in GSC
+  CRON-TROUBLESHOOTING.md  When the cron fails
+BUILD-DECISIONS.md   Source of truth from the 6-batch interview
+```
+
+## Voice rules
+
+Every article passes through `src/lib/voice.ts` banned-phrase check before it queues. The rule set is enforced both in the queue script (warns/blocks on banned phrases) and in the editorial review.
+
+Source of truth: `~/Desktop/Krista's Personal Operating System/Krista-OS/12-Content-Library/Brand-System/07-Voice-Rules.md`.
+
+Banned: leverage, utilize, optimize, transformative, cutting-edge, seamless, robust, unlock, elevate, empower, journey, delve, embark, In conclusion, Let's explore, dive in, em-dashes, and the rest of the list in `voice.ts`.
