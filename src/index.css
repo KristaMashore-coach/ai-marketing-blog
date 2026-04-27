@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+  body {
+    @apply bg-bg text-ink font-sans;
+    font-feature-settings: "ss01", "cv11";
+  }
+  ::selection {
+    @apply bg-primary-100 text-primary-700;
+  }
+}
+
+@layer components {
+  .article-body :is(h2, h3) {
+    @apply font-display text-ink;
+  }
+  .article-body h2 {
+    @apply text-3xl mt-12 mb-4;
+  }
+  .article-body h3 {
+    @apply text-2xl mt-8 mb-3;
+  }
+  .article-body p {
+    @apply mt-5 text-lg leading-relaxed;
+  }
+  .article-body ul,
+  .article-body ol {
+    @apply mt-5 ml-6 space-y-2 text-lg;
+  }
+  .article-body ul {
+    list-style: disc;
+  }
+  .article-body ol {
+    list-style: decimal;
+  }
+  .article-body a {
+    @apply text-primary-700 underline underline-offset-2 hover:text-primary-600;
+  }
+  .article-body strong {
+    @apply font-semibold text-ink;
+  }
+  .article-body blockquote {
+    @apply mt-6 border-l-4 border-primary-300 pl-4 italic text-ink/80;
+  }
+  .article-body img {
+    @apply my-8 rounded-xl;
+  }
+}

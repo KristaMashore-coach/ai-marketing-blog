@@ -1,0 +1,21 @@
+# Krista Mashore Coaching
+
+> Real estate marketing, lead generation, and personal branding for real estate agents and mortgage loan officers. From top 1% agent (19 consecutive years, 2,300+ homes sold) and top 1% coach Krista Mashore. Trademarked methodology: Community Market Leader.
+
+Site map and full content of every published article:
+
+- [Full content (all articles)](https://blog.kristamashore.com/llms-full.txt)
+- [About Krista Mashore](https://blog.kristamashore.com/about)
+- [Sitemap (XML)](https://blog.kristamashore.com/sitemap.xml)
+
+## Real Estate Marketing
+
+- [Real Estate Marketing pillar page](https://blog.kristamashore.com/real-estate-marketing)
+
+## Real Estate Lead Generation
+
+- [Real Estate Lead Generation pillar page](https://blog.kristamashore.com/real-estate-lead-generation)
+
+## Personal Branding & Authority
+
+- [Personal Branding & Authority pillar page](https://blog.kristamashore.com/personal-branding-authority)

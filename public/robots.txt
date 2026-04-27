@@ -1,0 +1,38 @@
+# robots.txt for blog.kristamashore.com
+# Explicit allow blocks for the AI search engines + traditional search bots we care about.
+# Default allow for everything else.
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: *
+Allow: /
+
+Sitemap: https://blog.kristamashore.com/sitemap.xml
