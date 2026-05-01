@@ -11,9 +11,9 @@ export default function Home() {
     <>
       <SEO
         title={SITE_NAME}
-        description="Real estate marketing, lead generation, and personal branding from Krista Mashore. Top 1% agent for 19 years. 2,300+ homes sold. Coaching agents to be Community Market Leaders®."
-        metaTitle="Real Estate Marketing Coach | Krista Mashore"
-        metaDescription="Real estate marketing, lead generation, and personal branding for agents who want to be chosen, not chase. From top 1% agent and coach Krista Mashore."
+        description="Dominate your market. Real estate marketing, lead generation, and personal branding from Krista Mashore. Top 1% agent for 19 years. 2,300+ homes sold. Coaching agents to be Community Market Leaders®."
+        metaTitle="Real Estate Marketing Coach — Dominate Your Market | Krista Mashore"
+        metaDescription="Dominate your market through real estate marketing, lead generation, and personal branding. For agents who want to be chosen, not chase. From top 1% agent and coach Krista Mashore."
         canonicalPath="/"
       />
 
@@ -23,14 +23,17 @@ export default function Home() {
             For real estate agents and lenders
           </p>
           <h1 className="mt-3 font-display text-4xl sm:text-5xl lg:text-6xl text-ink leading-tight max-w-3xl">
+            Dominate your market.
+            <br />
             Be known before you're needed.
             <br />
             Win before you arrive.
           </h1>
           <p className="mt-6 text-lg text-ink/80 max-w-2xl">
-            Real estate marketing, lead generation, and personal branding from
-            Krista Mashore. Top 1% agent for 19 years. 2,300+ homes sold. Built
-            her coaching company from zero to over $72M in 7.5 years.
+            The marketing system that makes you the agent buyers and sellers
+            actually choose. Real estate marketing, lead generation, and
+            personal branding from Krista Mashore — top 1% agent for 19 years,
+            2,300+ homes sold, $72M+ coaching company built in 7.5 years.
           </p>
           <div className="mt-8 flex flex-wrap gap-4">
             <CTA variant="inline" />
@@ -95,8 +98,8 @@ export default function Home() {
 
       <section className="max-w-6xl mx-auto px-4 sm:px-6 py-16">
         <CTA
-          headline="Ready to stop chasing?"
-          body="The Level Up training shows you the exact system Krista uses to teach agents how to be chosen, not chase. Built from 19 years as a top 1% agent and 7+ years coaching."
+          headline="Ready to dominate your market?"
+          body="The Level Up training shows you the exact system Krista uses to help agents be chosen — not chase. Built from 19 years as a top 1% agent and 7+ years coaching."
         />
       </section>
     </>
