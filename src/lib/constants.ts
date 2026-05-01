@@ -123,5 +123,6 @@ export const ROBOT_AGENTS_ALLOWED = [
   "DuckDuckBot",
 ];
 
-// BRAND-ASSET-PENDING — replace placeholder GA4 ID once Krista delivers her measurement ID
-export const GA4_MEASUREMENT_ID = "G-PLACEHOLDER";
+// GA4 measurement ID for blog.kristamashore.com property (created 2026-05-01).
+// The actual gtag.js snippet lives in index.html — this constant is kept for reference / future use.
+export const GA4_MEASUREMENT_ID = "G-GP89R1W7PB";
