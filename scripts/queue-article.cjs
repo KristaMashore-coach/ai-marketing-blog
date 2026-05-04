@@ -20,7 +20,7 @@ if (!filePath) {
   process.exit(1);
 }
 
-const BANNED = require("../src/lib/voice").BANNED_PHRASES || [];
+const BANNED = require("../src/lib/voice.cjs").BANNED_PHRASES || [];
 
 const REQUIRED = [
   "title",

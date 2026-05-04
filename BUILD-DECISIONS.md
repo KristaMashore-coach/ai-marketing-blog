@@ -40,6 +40,33 @@ These are the three umbrella topics every article rolls up to. Picked deliberate
 
 **Rule for content authoring:** every article must (a) target one of these three pillars and (b) include a clear keyword target and search intent. Articles that don't fit a pillar do not get written.
 
+### Personal Branding & Authority — two locked sub-clusters
+
+Added 2026-05-04 from Krista. Every Personal Branding article also rolls up to one of these two sub-clusters. They are not optional — they are the spine of the pillar.
+
+**Sub-cluster A — Known Before You're Needed**
+
+You become the agent your community sees, trusts, and remembers before they need an agent. Built through:
+
+- Being a **Community Market Leader®** in your town
+- Continually producing content
+- Creating real value
+- **Serving, not selling**
+
+Articles in this sub-cluster teach agents how to show up, day after day, so when someone in their market needs an agent the answer is already obvious.
+
+**Sub-cluster B — Win Before You Arrive**
+
+What you do *before* the appointment showcases your authority and unique value proposition. You demonstrate:
+
+- You are **not a commodity**
+- You have **specialized knowledge**
+- You **use innovation and technology** to deliver results other agents can't
+
+Articles in this sub-cluster teach the pre-appointment authority playbook: pre-listing packages, AI-driven analysis, tech-enabled presentations, and the differentiation moves that close the deal before the agent walks in the door.
+
+These two sub-clusters together = innovation + differentiation = why a seller picks Krista's-system-trained agent over the average agent down the street.
+
 ---
 
 ## Content-type pillars (Krista's brand system)
