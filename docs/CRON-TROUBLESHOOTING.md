@@ -1,8 +1,19 @@
-# Cron troubleshooting
+# Launchd troubleshooting (this site was migrated from cron to launchd)
+
+**Heads up (2026-05-18 update):** the actual daily publisher uses **launchd**, not `cron`. This doc still mentions `cron` and `crontab` in places that haven't been migrated yet. If a section talks about `crontab`, mentally substitute `launchctl list / launchctl load / launchctl start`. Full migration is on the to-do.
+
+**Hard rule discovered the painful way (2026-05-18):** macOS TCC sandbox blocks launchd from executing scripts that live inside `~/Desktop/`, `~/Documents/`, or `~/Downloads/`. If a launchd job is failing with **exit 126** and the stderr says **"Operation not permitted"**, the script path is the problem. Fix: move the script to `~/Scripts/` (or anywhere outside TCC-protected folders) and update the plist's `ProgramArguments` to point there.
+
+Even after the script moves out of `~/Desktop/`, if the script READS files inside `~/Desktop/.../krista-mashore-content-site/`, those reads can ALSO be TCC-blocked depending on which specific folders the system has granted access to. Two long-term fixes for the read problem:
+
+1. **Move `krista-mashore-content-site/` out of `~/Desktop/`** — the original docs say `~/Sites/krista-mashore-content-site/`. Relocating restores the intended architecture.
+2. **Grant Full Disk Access to `/bin/bash`** in System Settings → Privacy & Security → Full Disk Access. One-time setup, fixes all similar issues for any future launchd jobs. Security tradeoff: every launchd-invoked bash script gets unrestricted file access.
+
+---
 
 When the daily publish stops working. Run through these in order.
 
-## 1. Did the cron actually fire?
+## 1. Did the launchd job actually fire?
 
 ```bash
 tail -50 ~/Library/Logs/krista-content-publish.log
@@ -11,21 +22,35 @@ tail -50 ~/Library/Logs/krista-content-publish.log
 - **If the log has recent timestamps but errors:** skip to step 4.
 - **If the log is empty or has nothing recent:** keep going.
 
-## 2. Is cron registered?
+## 2. Is the launchd job registered?
 
 ```bash
-crontab -l
+launchctl list | grep daily-articles
 ```
 
 You should see a line like:
 
 ```
-0 6,9,12,15,18 * * * /Users/kristamashore/Scripts/krista-content-publish.sh
+-	0	com.kristamashore.daily-articles
 ```
 
-- **If empty:** cron got cleared. Re-add it. See `BUILD-DECISIONS.md` for the exact pattern.
-- **If commented out (line starts with #):** publishing was paused. Uncomment and save.
-- **If present:** keep going.
+- The first column is the PID (currently running) or `-` (idle, scheduled).
+- The second column is the last exit code. `0` = clean. `126` = "Operation not permitted" (TCC issue — see top of doc). `1` = script ran but exited with an error.
+- The third column is the label.
+
+If nothing appears: the job isn't loaded. Run:
+
+```bash
+launchctl load ~/Library/LaunchAgents/com.kristamashore.daily-articles.plist
+```
+
+Or to test-fire immediately:
+
+```bash
+launchctl start com.kristamashore.daily-articles
+```
+
+To pause publishing: `launchctl unload ~/Library/LaunchAgents/com.kristamashore.daily-articles.plist`. To resume: `launchctl load ...`.
 
 ## 3. Does the wrapper script run manually?
 
