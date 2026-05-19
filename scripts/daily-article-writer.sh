@@ -7,7 +7,7 @@ LOG_DIR="$HOME/Library/Logs"
 LOG_FILE="$LOG_DIR/krista-daily-articles.log"
 mkdir -p "$LOG_DIR"
 
-PROJECT="/Users/kristamashore/Desktop/krista-mashore-content-site"
+PROJECT="/Users/kristamashore/Sites/krista-mashore-content-site"
 PROMPT_FILE="$PROJECT/scripts/daily-article-prompt.md"
 CLAUDE_BIN="/Users/kristamashore/.local/bin/claude"
 

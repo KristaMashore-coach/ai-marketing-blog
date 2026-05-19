@@ -14,20 +14,20 @@ Use the current system date. Format it as `YYYY-MM-DD` and refer to it as `<toda
 
 ## Where everything lives
 
-**Project:** `/Users/kristamashore/Desktop/krista-mashore-content-site/`
+**Project:** `/Users/kristamashore/Sites/krista-mashore-content-site/`
 
 **Brand source of truth (read these BEFORE writing):**
 - `/Users/kristamashore/Desktop/Krista's Personal Operating System/Krista-OS/12-Content-Library/Brand-System/01-Brand-Brain.md` (positioning, frameworks, philosophy)
 - `/Users/kristamashore/Desktop/Krista's Personal Operating System/Krista-OS/12-Content-Library/Brand-System/02-Ideal-Client.md` (audience psychology and language)
 - `/Users/kristamashore/Desktop/Krista's Personal Operating System/Krista-OS/12-Content-Library/Brand-System/04-Content-Pillars.md` (the six content-type pillars)
 - `/Users/kristamashore/Desktop/Krista's Personal Operating System/Krista-OS/12-Content-Library/Brand-System/07-Voice-Rules.md` (voice — NON-NEGOTIABLE)
-- `/Users/kristamashore/Desktop/krista-mashore-content-site/BUILD-DECISIONS.md` (pillar structure with sub-clusters)
-- `/Users/kristamashore/Desktop/krista-mashore-content-site/docs/CONTENT-ROADMAP-30DAY.md` (topic palette — guidance, not a fixed list)
+- `/Users/kristamashore/Sites/krista-mashore-content-site/BUILD-DECISIONS.md` (pillar structure with sub-clusters)
+- `/Users/kristamashore/Sites/krista-mashore-content-site/docs/CONTENT-ROADMAP-30DAY.md` (topic palette — guidance, not a fixed list)
 - `/Users/kristamashore/.claude/projects/-Users-kristamashore-Desktop-AEO-Blog-Agent/memory/` (read every memory file — feedback Krista has given before)
 
 **Existing content (do NOT duplicate slugs):**
-- `/Users/kristamashore/Desktop/krista-mashore-content-site/data/blog/posts.json`
-- `/Users/kristamashore/Desktop/krista-mashore-content-site/data/blog/queue.json`
+- `/Users/kristamashore/Sites/krista-mashore-content-site/data/blog/posts.json`
+- `/Users/kristamashore/Sites/krista-mashore-content-site/data/blog/queue.json`
 
 ---
 
@@ -38,7 +38,7 @@ For every article, save TWO files:
 1. **Markdown for Obsidian review** — `/Users/kristamashore/Desktop/Krista's Personal Operating System/Krista-OS/Articles/<today>/<slug>.md`
 2. **JSON for the queue script** — `/Users/kristamashore/Desktop/Krista's Personal Operating System/Krista-OS/Articles/<today>/.queue/<slug>.json`
 
-The markdown file uses YAML frontmatter Obsidian renders cleanly. The JSON file matches the schema the queue-article.cjs script validates against (see `/Users/kristamashore/Desktop/krista-mashore-content-site/scripts/queue-article.cjs`).
+The markdown file uses YAML frontmatter Obsidian renders cleanly. The JSON file matches the schema the queue-article.cjs script validates against (see `/Users/kristamashore/Sites/krista-mashore-content-site/scripts/queue-article.cjs`).
 
 ### Markdown frontmatter
 
@@ -83,7 +83,7 @@ You are not picking from a fixed list. You decide what 5 topics to write each da
 
 - Talk to ONE person, not an audience
 - No em dashes anywhere in body or FAQ. Use periods, commas, or `...`
-- Never use a banned phrase (the full list is in `/Users/kristamashore/Desktop/krista-mashore-content-site/src/lib/voice.cjs`)
+- Never use a banned phrase (the full list is in `/Users/kristamashore/Sites/krista-mashore-content-site/src/lib/voice.cjs`)
 - Mix sentence lengths: short, then longer, then medium
 - Use contractions
 - Be direct. "This works." not "This may help."
@@ -148,7 +148,7 @@ alt: "<descriptive alt text>"
 For every article's JSON, run:
 
 ```bash
-cd /Users/kristamashore/Desktop/krista-mashore-content-site
+cd /Users/kristamashore/Sites/krista-mashore-content-site
 node scripts/queue-article.cjs --validate "/Users/kristamashore/Desktop/Krista's Personal Operating System/Krista-OS/Articles/<today>/.queue/<slug>.json"
 ```
 
