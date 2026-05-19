@@ -93,8 +93,12 @@ function buildBody(p) {
   return sections.join('\n');
 }
 
-const drafts = POSTS.filter(p => p.draft);
-console.log(`Found ${drafts.length} drafts.`);
+// As of 2026-05-19 Krista wants ALL articles (drafts + live) editable in
+// Obsidian, since auto-publish skips the draft phase. Pass --drafts-only to
+// limit to drafts.
+const draftsOnly = process.argv.includes('--drafts-only');
+const drafts = draftsOnly ? POSTS.filter(p => p.draft) : POSTS;
+console.log(`Found ${drafts.length} article(s) (${draftsOnly ? 'drafts only' : 'drafts + live'}).`);
 
 drafts.forEach((p, i) => {
   const filename = `${String(i + 1).padStart(2, '0')}-${p.slug}.md`;

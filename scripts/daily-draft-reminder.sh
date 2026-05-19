@@ -7,7 +7,8 @@
 #      production because prerender-blog.cjs filters them out — only local
 #      dev serves them)
 #   3. Opens each draft in a browser tab at http://localhost:5173/articles/<slug>
-#   4. Pops a macOS notification with the draft count
+#   4. Pops a macOS notification AND emails doit@kristamashore.com via Mail.app
+#      with the list of drafts and direct review links
 
 set -uo pipefail
 
@@ -41,20 +42,36 @@ if [ "$DRAFT_COUNT" -eq 0 ]; then
   exit 0
 fi
 
-# Start dev server if not already listening on $DEV_PORT
-if ! /usr/bin/lsof -i tcp:$DEV_PORT >/dev/null 2>&1; then
-  echo "Dev server not running — starting it" >> "$LOG_FILE"
+# Make sure whatever is bound to $DEV_PORT is THIS project's Vite — not a
+# stale dev server from a moved/old project directory (that would 404 every
+# article URL).
+EXPECTED_VITE_CWD="$PROJECT"
+HEALTHY=0
+if /usr/sbin/lsof -i tcp:$DEV_PORT -sTCP:LISTEN >/dev/null 2>&1; then
+  PIDS=$(/usr/sbin/lsof -ti tcp:$DEV_PORT -sTCP:LISTEN 2>/dev/null)
+  for PID in $PIDS; do
+    PID_CWD=$(/usr/sbin/lsof -p "$PID" -a -d cwd -Fn 2>/dev/null | grep '^n' | sed 's/^n//')
+    if [ "$PID_CWD" = "$EXPECTED_VITE_CWD" ]; then
+      HEALTHY=1
+      echo "Dev server on :$DEV_PORT is from the right project (pid $PID)" >> "$LOG_FILE"
+    else
+      echo "Killing stale vite on :$DEV_PORT (pid $PID, cwd=$PID_CWD)" >> "$LOG_FILE"
+      kill "$PID" 2>>"$LOG_FILE"
+    fi
+  done
+fi
+
+if [ "$HEALTHY" -ne 1 ]; then
+  echo "Starting fresh dev server from $PROJECT" >> "$LOG_FILE"
+  cd "$PROJECT"
   /usr/bin/nohup /Users/kristamashore/.local/node/bin/npm --prefix "$PROJECT" run dev >> "$LOG_FILE" 2>&1 &
-  # Wait up to 20s for the port to come up
   for i in $(seq 1 20); do
-    if /usr/bin/lsof -i tcp:$DEV_PORT >/dev/null 2>&1; then
+    if /usr/sbin/lsof -i tcp:$DEV_PORT -sTCP:LISTEN >/dev/null 2>&1; then
       echo "Dev server ready after ${i}s" >> "$LOG_FILE"
       break
     fi
     sleep 1
   done
-else
-  echo "Dev server already running on :$DEV_PORT" >> "$LOG_FILE"
 fi
 
 # Open each draft in a browser tab
@@ -66,7 +83,49 @@ while IFS= read -r SLUG; do
   sleep 0.3
 done <<< "$DRAFT_SLUGS"
 
-# Notify
-/usr/bin/osascript -e "display notification \"$DRAFT_COUNT draft article(s) opened in your browser. Review and tell Claude which to approve.\" with title \"AEO/GEO Draft Review\" sound name \"Glass\"" >> "$LOG_FILE" 2>&1
+# Build the draft list with review links for both the notification and email
+EMAIL_BODY="Good morning Krista,
+
+You have $DRAFT_COUNT AEO/GEO blog draft(s) waiting for your review and approval.
+
+Each draft has been opened in your browser. To approve any of them, just tell Claude (e.g. \"approve drafts 1, 3, and 5\" or paste the slug). To edit, open data/blog/posts.json in the project or tell Claude what to change.
+
+Drafts pending:
+"
+i=1
+while IFS= read -r SLUG; do
+  [ -z "$SLUG" ] && continue
+  EMAIL_BODY+="
+  $i. http://localhost:$DEV_PORT/articles/$SLUG"
+  i=$((i+1))
+done <<< "$DRAFT_SLUGS"
+
+EMAIL_BODY+="
+
+Project: $PROJECT
+Logs:    $LOG_FILE
+"
+
+# Send email via Apple Mail. Body is written to a temp file because embedding
+# multi-line content with quotes directly into AppleScript breaks the parser.
+BODY_FILE=$(/usr/bin/mktemp -t aeo-draft-reminder)
+printf '%s' "$EMAIL_BODY" > "$BODY_FILE"
+EMAIL_SUBJECT="AEO/GEO Draft Review — $DRAFT_COUNT pending"
+
+/usr/bin/osascript >> "$LOG_FILE" 2>&1 <<APPLESCRIPT
+set bodyText to (do shell script "cat " & quoted form of "$BODY_FILE")
+tell application "Mail"
+  set newMessage to make new outgoing message with properties {subject:"$EMAIL_SUBJECT", content:bodyText, visible:false}
+  tell newMessage
+    make new to recipient with properties {address:"doit@kristamashore.com"}
+  end tell
+  send newMessage
+end tell
+APPLESCRIPT
+
+/bin/rm -f "$BODY_FILE"
+
+# Desktop notification
+/usr/bin/osascript -e "display notification \"$DRAFT_COUNT draft article(s) opened. Email sent. Tell Claude which to approve.\" with title \"AEO/GEO Draft Review\" sound name \"Glass\"" >> "$LOG_FILE" 2>&1
 
 echo "===== Daily draft reminder END $(date) =====" >> "$LOG_FILE"

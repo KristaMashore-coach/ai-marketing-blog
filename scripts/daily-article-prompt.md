@@ -92,6 +92,45 @@ You are not picking from a fixed list. You decide what 5 topics to write each da
 
 ---
 
+## Citations (HARD RULE — Krista's no-hallucination directive, 2026-05-19)
+
+**Every factual claim must have a real source URL embedded in the same paragraph as the claim.**
+
+A "factual claim" is anything a fact-checker could verify or dispute:
+
+- Percentages (`30%`, `1-3%`, `60 percent`)
+- "N out of M" ratios ("9 out of 10 buyers...")
+- Specific counts ("2.3 million homes sold", "$50 billion market")
+- Any sentence with "studies show", "research from", "according to", "report says", "data from"
+- Industry averages or benchmarks
+
+**You have THREE options for any factual claim:**
+
+1. **Cite it with a real URL** — `<a href="https://www.nar.realtor/...">NAR's 2024 buyer profile</a> found that 73% of buyers...` Verify the URL exists with WebFetch BEFORE embedding it. If the page 404s or doesn't actually say what you claim, find a different source or drop the claim.
+
+2. **Hedge it as personal observation** — "Most agents I coach see roughly..." / "In my experience..." / "Roughly..." — these explicitly mark the claim as Krista's experience, not a stat.
+
+3. **Cut the claim entirely** — rewrite the sentence without the number. The article can still be strong without it.
+
+**Acceptable sources (in order of preference):**
+- National Association of Realtors (nar.realtor)
+- REAL Trends (realtrends.com)
+- Zillow Research (zillow.com/research)
+- Redfin Data Center (redfin.com/news/data-center)
+- Meta's Ads Manager benchmarks (only the published ones)
+- Inman, HousingWire, RIS Media (for industry trends)
+- Government data (census.gov, bls.gov)
+
+**NEVER cite:**
+- A blog post that itself doesn't cite the original source
+- "Industry studies" without naming the study
+- AI-generated content
+- Wikipedia (use Wikipedia's source, not Wikipedia)
+
+The `scripts/citation-guard.cjs` will reject any article that has an uncited stat. Articles that fail are quarantined and NOT published. You will be running with no human approval — this guard is your safety net. Do not try to bypass it.
+
+---
+
 ## Pre-listing video framing (CRITICAL — Krista has corrected this once already)
 
 If any article touches pre-listing videos, pre-listing packages, or "win before you arrive" content, the pre-listing video is a **MARKETING DIFFERENTIATION DEMO** sent the moment a seller calls. Not a friendly intro 24-48 hours before the meeting. The video shows how you market a home using AI, video, social media. The goal is to demonstrate the seller you are not a commodity. See `pre-listing-video-is-marketing-demo.md` in the memory folder for full rule.
@@ -156,27 +195,28 @@ If validation fails on any article, FIX it before proceeding. Don't queue. Don't
 
 ---
 
-## Notification email (the final step)
+## Auto-publish (the final step — UPDATED 2026-05-19, Krista's directive)
 
-Once all 5 articles are saved AND validated, send Krista a real email via Mail.app:
+**Krista has authorized auto-publish without per-article human approval.** Once all 5 articles are saved to `Articles/<today>/.queue/<slug>.json`, immediately run the auto-publish pipeline:
 
 ```bash
-osascript <<EOF
-tell application "Mail"
-    set newMessage to make new outgoing message with properties {subject:"📝 5 article drafts ready for review — <today>", content:"<body>", visible:false}
-    tell newMessage
-        make new to recipient with properties {address:"doit@kristamashore.com"}
-    end tell
-    send newMessage
-end tell
-EOF
+cd /Users/kristamashore/Sites/krista-mashore-content-site
+node scripts/auto-publish.cjs
 ```
 
-The body should contain:
-- The 5 titles, numbered
-- The Obsidian path: `Krista-OS/Articles/<today>/`
-- A reminder: "Reply with 'approve N' for any article you're good with. I'll queue approved ones for the cron."
-- A one-line summary of why you picked these 5 topics today (the demand signal)
+What this does:
+1. Reads every `*.json` from today's `.queue/` folder
+2. Runs each article through 5 quality gates:
+   - Required-fields validation
+   - Voice rules (banned phrases, em-dashes)
+   - **Citation guard** (rejects uncited stats — this is the line you must not cross)
+   - Slug uniqueness
+   - Build succeeds
+3. Articles that pass → prepended to `posts.json` with `draft: false`, committed, pushed (Vercel auto-deploys in ~60s)
+4. Articles that fail → moved to `quarantine/` with the reason file; Krista is told in the summary email
+5. Summary email lands in `doit@kristamashore.com`
+
+**You do NOT need to send a separate "ready for review" email.** The auto-publish script sends the daily summary.
 
 ---
 
@@ -185,15 +225,15 @@ The body should contain:
 Append a one-line summary to `~/Library/Logs/krista-daily-articles.log`:
 
 ```
-<timestamp> | <today> | wrote 5 | <slug1>, <slug2>, <slug3>, <slug4>, <slug5> | email sent
+<timestamp> | <today> | wrote N | <slug1>, <slug2>, ... | published P | quarantined Q
 ```
 
-If anything fails, log the error and still send the email (or a failure email) so Krista knows the run happened.
+If anything fails, log the error AND still trigger auto-publish for any articles that did get written. Partial wins beat total silence.
 
 ---
 
 ## End condition
 
-When all 5 articles are saved, validated, and the email has been sent, exit. The next run is tomorrow at 5 AM PT.
+When all 5 articles are saved, auto-publish has run, and the summary email is sent, exit. The next run is tomorrow at 5 AM PT.
 
-DO NOT queue articles for the publishing cron yet. Queueing happens only after Krista approves. Krista will tell you which to approve via reply or chat in the next session.
+**If citation-guard rejects any article, that's a SUCCESS state — the guard did its job.** Do not bypass it. Do not strip the stat without rewriting the argument around it. Either find a real source or rewrite to hedge as Krista's observation.
