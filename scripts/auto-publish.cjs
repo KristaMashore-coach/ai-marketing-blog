@@ -190,7 +190,7 @@ for (const file of files) {
 
 // Commit + push
 try {
-  execSync('git add data/blog/posts.json dist/ public/sitemap.xml public/llms*.txt', { cwd: ROOT, stdio: 'inherit' });
+  execSync('git add data/blog/posts.json public/sitemap.xml public/llms.txt public/llms-full.txt', { cwd: ROOT, stdio: 'inherit' });
   const msg = `Auto-publish: ${published.length} article(s) — ${published.map((a) => a.slug).join(', ')}`;
   execSync(`git commit -m ${JSON.stringify(msg)}`, { cwd: ROOT, stdio: 'inherit' });
   execSync('git push', { cwd: ROOT, stdio: 'inherit' });

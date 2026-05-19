@@ -84,7 +84,7 @@ if [ "$BUILD_RC" -ne 0 ]; then
 fi
 
 # Commit and push
-/usr/bin/git add data/blog/posts.json dist/ public/sitemap.xml public/llms*.txt 2>>"$LOG_FILE"
+/usr/bin/git add data/blog/posts.json public/sitemap.xml public/llms.txt public/llms-full.txt 2>>"$LOG_FILE"
 COMMIT_MSG="Auto-sync: Obsidian edits to $(echo "$TOUCHED_SLUGS" | wc -l | tr -d ' ') article(s)"
 /usr/bin/git commit -m "$COMMIT_MSG" >> "$LOG_FILE" 2>&1
 /usr/bin/git push >> "$LOG_FILE" 2>&1
