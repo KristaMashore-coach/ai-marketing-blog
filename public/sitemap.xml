@@ -2,39 +2,69 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://blog.kristamashore.com/</loc>
-    <lastmod>2026-05-19</lastmod>
+    <lastmod>2026-05-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://blog.kristamashore.com/articles</loc>
-    <lastmod>2026-05-19</lastmod>
+    <lastmod>2026-05-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://blog.kristamashore.com/about</loc>
-    <lastmod>2026-05-19</lastmod>
+    <lastmod>2026-05-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://blog.kristamashore.com/real-estate-marketing</loc>
-    <lastmod>2026-05-19</lastmod>
+    <lastmod>2026-05-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://blog.kristamashore.com/real-estate-lead-generation</loc>
-    <lastmod>2026-05-19</lastmod>
+    <lastmod>2026-05-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://blog.kristamashore.com/personal-branding-authority</loc>
-    <lastmod>2026-05-19</lastmod>
+    <lastmod>2026-05-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://blog.kristamashore.com/articles/social-media-content-calendar-real-estate</loc>
+    <lastmod>2026-05-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://blog.kristamashore.com/articles/past-client-lead-generation</loc>
+    <lastmod>2026-05-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://blog.kristamashore.com/articles/google-business-profile-real-estate-agents</loc>
+    <lastmod>2026-05-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://blog.kristamashore.com/articles/differentiation-audit-real-estate</loc>
+    <lastmod>2026-05-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://blog.kristamashore.com/articles/ai-virtual-staging-real-estate-listings</loc>
+    <lastmod>2026-05-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://blog.kristamashore.com/articles/talk-on-camera-real-estate</loc>
