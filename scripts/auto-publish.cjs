@@ -22,6 +22,7 @@
 const fs = require('fs');
 const path = require('path');
 const { execSync, spawnSync } = require('child_process');
+const { mdToHtml, isMarkdownBody, wordCountFromHtml } = require('./lib/md-to-html.cjs');
 
 const ROOT = path.resolve(__dirname, '..');
 const POSTS_PATH = path.join(ROOT, 'data/blog/posts.json');
@@ -143,6 +144,14 @@ for (const file of files) {
     reasons.forEach((r) => log(`    - ${r}`));
     rejected.push({ file, slug: article.slug, reasons });
     continue;
+  }
+
+  // Convert markdown bodies to HTML — BlogPost.tsx injects body via
+  // dangerouslySetInnerHTML and the writer pipeline now emits markdown.
+  if (isMarkdownBody(article.body)) {
+    article.body = mdToHtml(article.body);
+    article.wordCount = wordCountFromHtml(article.body);
+    article.readingMinutes = Math.max(1, Math.round(article.wordCount / 200));
   }
 
   // Stamp dates, mark live, prepend
