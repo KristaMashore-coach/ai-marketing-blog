@@ -154,6 +154,21 @@ for (const file of files) {
     article.readingMinutes = Math.max(1, Math.round(article.wordCount / 200));
   }
 
+  // Paranoid post-conversion check: refuse to ship a body that still has
+  // markdown syntax visible to readers. If this fires, md-to-html.cjs missed
+  // a case — quarantine instead of publishing broken content.
+  const leakedMarkdown = [];
+  if (/(?:^|\n)#{1,3}\s/.test(article.body)) leakedMarkdown.push('heading (# / ## / ###)');
+  if (/\*\*[^*]+\*\*/.test(article.body)) leakedMarkdown.push('bold (**…**)');
+  if (/(?<!!)\[[^\]]+\]\([^)]+\)/.test(article.body)) leakedMarkdown.push('link ([…](…))');
+  if (/!\[[^\]]*\]\([^)]+\)/.test(article.body)) leakedMarkdown.push('image (![…](…))');
+  if (leakedMarkdown.length) {
+    const dest = quarantine(file, article, [`unconverted markdown in body: ${leakedMarkdown.join(', ')}`]);
+    log(`✗ REJECT ${article.slug} → ${dest} (md leaked past converter)`);
+    rejected.push({ file, slug: article.slug, reasons: [`unconverted markdown in body: ${leakedMarkdown.join(', ')}`] });
+    continue;
+  }
+
   // Stamp dates, mark live, prepend
   article.draft = false;
   if (!article.publishedDate) article.publishedDate = today;

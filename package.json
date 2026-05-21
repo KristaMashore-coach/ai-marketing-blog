@@ -5,8 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && node scripts/refresh-hero-images.cjs && vite build && node scripts/generate-sitemap.cjs && node scripts/generate-llms-txt.cjs && node scripts/prerender-blog.cjs",
-    "build:fast": "node scripts/refresh-hero-images.cjs && vite build && node scripts/generate-sitemap.cjs && node scripts/generate-llms-txt.cjs && node scripts/prerender-blog.cjs",
+    "build": "node scripts/check-post-bodies.cjs && tsc -b && node scripts/refresh-hero-images.cjs && vite build && node scripts/generate-sitemap.cjs && node scripts/generate-llms-txt.cjs && node scripts/prerender-blog.cjs",
+    "build:fast": "node scripts/check-post-bodies.cjs && node scripts/refresh-hero-images.cjs && vite build && node scripts/generate-sitemap.cjs && node scripts/generate-llms-txt.cjs && node scripts/prerender-blog.cjs",
+    "check:bodies": "node scripts/check-post-bodies.cjs",
     "lint": "eslint .",
     "preview": "vite preview",
     "publish:batch": "node scripts/publish-batch.cjs",

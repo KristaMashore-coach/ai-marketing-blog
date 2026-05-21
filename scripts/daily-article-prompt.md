@@ -60,6 +60,10 @@ youtubeBacklink: "<full URL of the Krista video this article references>"
 
 Then the article body in markdown, with a `## FAQ` section at the end containing 4-6 Q/A items, and a final `## Internal links` section listing the cross-links you wove into the body.
 
+### JSON body format (important)
+
+In the queued JSON file, the `body` field can be either markdown OR HTML — auto-publish.cjs calls `scripts/lib/md-to-html.cjs` to convert markdown automatically. The page's `<h1>` title, hero image, FAQ accordion, and related-posts grid are rendered by React components, so you do NOT need to include a leading `# Title`, `![](hero)`, `## FAQ`, or `## Internal links` in the body — the converter strips those if they appear at the top or trailing edges. (They stay in the `.md` for Obsidian readability.) Do NOT hand-write `<p>` / `<h2>` tags — write clean markdown and let the converter handle it.
+
 ---
 
 ## Topic selection (the new part of your job)
