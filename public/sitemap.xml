@@ -2,39 +2,69 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://blog.kristamashore.com/</loc>
-    <lastmod>2026-05-21</lastmod>
+    <lastmod>2026-05-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://blog.kristamashore.com/articles</loc>
-    <lastmod>2026-05-21</lastmod>
+    <lastmod>2026-05-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://blog.kristamashore.com/about</loc>
-    <lastmod>2026-05-21</lastmod>
+    <lastmod>2026-05-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://blog.kristamashore.com/real-estate-marketing</loc>
-    <lastmod>2026-05-21</lastmod>
+    <lastmod>2026-05-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://blog.kristamashore.com/real-estate-lead-generation</loc>
-    <lastmod>2026-05-21</lastmod>
+    <lastmod>2026-05-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://blog.kristamashore.com/personal-branding-authority</loc>
-    <lastmod>2026-05-21</lastmod>
+    <lastmod>2026-05-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://blog.kristamashore.com/articles/video-roi-real-estate</loc>
+    <lastmod>2026-05-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://blog.kristamashore.com/articles/replying-to-comments-real-estate</loc>
+    <lastmod>2026-05-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://blog.kristamashore.com/articles/open-house-lead-generation-2026</loc>
+    <lastmod>2026-05-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://blog.kristamashore.com/articles/drone-video-matterport-listings</loc>
+    <lastmod>2026-05-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://blog.kristamashore.com/articles/content-habit-real-estate-agents</loc>
+    <lastmod>2026-05-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://blog.kristamashore.com/articles/when-where-how-often-post-real-estate</loc>
