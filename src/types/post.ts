@@ -1,7 +1,9 @@
 export type TopicalPillar =
-  | "ai-business-automation"
-  | "ai-tools-systems"
-  | "ai-authority-positioning";
+  | "authority-agent-operating-system"
+  | "ai-content-to-client-system"
+  | "ai-run-business"
+  | "community-market-leaders-ai"
+  | "claude-for-dummies";
 
 export type ContentTypePillar =
   | "local-market-authority"

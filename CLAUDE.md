@@ -16,13 +16,22 @@ All three get the same core message: AI makes you more profitable and gives you 
 
 ---
 
-## Content Pillars (Three umbrella topics)
+## Content Pillars (Five pillars — anchored to Krista's IP)
 
-1. **AI for Business Automation** — Real workflows, autonomous agents, reducing manual work
-2. **AI Tools & Systems** — What tools exist, how to implement them, ROI
-3. **Authority & Positioning** — How to position yourself as an AI expert to your market
+1. **The Authority Agent Operating System™** — How to build the AI operating system that makes you the obvious choice in your space. Trademarked framework.
+2. **AI Content to Client System** — Using AI to turn content into clients across marketing → lead gen → nurture → conversion.
+3. **The AI-Run Business** — Workflows, agents, fulfillment, delivery, retention, resell. AI-powered operations.
+4. **Community Market Leaders®: AI for Real Estate & Lenders** — Deep dive A-Z listing process with AI, lender workflows. Tied to CML® trademark + Savvy Seller book.
+5. **Claude for Dummies: The AI Tools That Actually Matter** — Practical Claude-only training. Skills, projects, Claude Code, Claude Desktop. No ChatGPT confusion. Tied to AI Mastermind teaching.
 
-Every article ties to one of these pillars.
+Every article ties to one of these five pillars.
+
+---
+
+## Publishing Cadence
+
+- **Day 1 (launch):** 15 articles
+- **Day 2 onward:** 10 articles per day (70/week)
 
 ---
 

@@ -13,7 +13,7 @@ export const PERSON = {
   url: SITE_URL,
   image: `${SITE_URL}/images/krista-headshot.jpg`,
   description:
-    "Krista Mashore is a top 1% real estate agent for 19 consecutive years, built a $72M coaching company in 7.5 years, and now teaches entrepreneurs, real estate agents, and lenders how to use AI to scale without hiring. She shows business owners how to build autonomous agents, automate repetitive work, and position themselves as the AI authority in their market.",
+    "Krista Mashore is a top 1% real estate agent for 19 consecutive years, built a $72M coaching company in 7.5 years, and now teaches entrepreneurs, real estate agents, and lenders how to use AI to scale without hiring. Creator of The Authority Agent Operating System™ and the Community Market Leader® methodology, now adapted for the AI era.",
   sameAs: [
     "https://kristamashore.com",
     "https://www.linkedin.com/in/krista-mashore",
@@ -23,14 +23,14 @@ export const PERSON = {
   ],
   knowsAbout: [
     "AI for Business",
-    "AI Automation",
-    "Autonomous AI Agents",
+    "Authority Agent Operating System",
+    "AI Content to Client System",
+    "AI Workflows and Autonomous Agents",
+    "Community Market Leader",
     "Claude Code",
-    "AI for Entrepreneurs",
-    "AI for Real Estate Agents",
+    "AI for Real Estate",
     "AI for Lenders",
-    "AI Authority Positioning",
-    "Business Systems",
+    "AI for Entrepreneurs",
   ],
 };
 
@@ -65,36 +65,52 @@ export const COURSES = [
 ];
 
 export const PILLARS = {
-  "ai-business-automation": {
-    label: "AI Business Automation",
-    slug: "ai-business-automation",
+  "authority-agent-operating-system": {
+    label: "The Authority Agent Operating System™",
+    slug: "authority-agent-operating-system",
     role: "anchor" as const,
     description:
-      "Real workflows. Autonomous agents. How to take the work off your plate so you can focus on what only you can do.",
+      "How to build the AI operating system that makes you the obvious choice in your space. The trademarked framework that ties it all together.",
   },
-  "ai-tools-systems": {
-    label: "AI Tools & Systems",
-    slug: "ai-tools-systems",
+  "ai-content-to-client-system": {
+    label: "AI Content to Client System",
+    slug: "ai-content-to-client-system",
     role: "supporting" as const,
     description:
-      "Claude Code, ChatGPT, Make, n8n, and the rest. What to use, how to set it up, and what kind of return to expect.",
+      "Using AI to turn content into clients. Marketing, lead gen, nurture, conversion. All connected.",
   },
-  "ai-authority-positioning": {
-    label: "Authority & Positioning",
-    slug: "ai-authority-positioning",
+  "ai-run-business": {
+    label: "The AI-Run Business",
+    slug: "ai-run-business",
     role: "supporting" as const,
     description:
-      "How to become the AI expert your audience trusts. Content, visibility, and positioning that makes you the obvious choice.",
+      "Workflows, agents, fulfillment, delivery, retention, resell. The AI side of running the actual operation.",
+  },
+  "community-market-leaders-ai": {
+    label: "Community Market Leaders®: AI for Real Estate & Lenders",
+    slug: "community-market-leaders-ai",
+    role: "supporting" as const,
+    description:
+      "Deep dive: A-Z listing process with AI. Pricing, virtual staging, tours, listing copy, lead follow-up, lender workflows.",
+  },
+  "claude-for-dummies": {
+    label: "Claude for Dummies: The AI Tools That Actually Matter",
+    slug: "claude-for-dummies",
+    role: "supporting" as const,
+    description:
+      "Practical Claude-only training. Skip the ChatGPT confusion. Skills, projects, Claude Code, Claude Desktop. What works and how to use it.",
   },
 };
 
 export const NAV_LINKS = [
   { label: "Home", to: "/" },
   { label: "Articles", to: "/articles" },
-  { label: "AI Automation", to: "/ai-business-automation" },
-  { label: "AI Tools", to: "/ai-tools-systems" },
-  { label: "Authority", to: "/ai-authority-positioning" },
-  { label: "About Krista", to: "/about" },
+  { label: "Authority OS", to: "/authority-agent-operating-system" },
+  { label: "Content to Client", to: "/ai-content-to-client-system" },
+  { label: "AI-Run Business", to: "/ai-run-business" },
+  { label: "CML AI", to: "/community-market-leaders-ai" },
+  { label: "Claude", to: "/claude-for-dummies" },
+  { label: "About", to: "/about" },
 ];
 
 export const ROBOT_AGENTS_ALLOWED = [

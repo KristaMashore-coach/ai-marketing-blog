@@ -13,11 +13,13 @@ export default function Footer() {
           </p>
         </div>
         <div>
-          <p className="text-sm font-semibold text-ink mb-3">Topics</p>
+          <p className="text-sm font-semibold text-ink mb-3">Pillars</p>
           <ul className="space-y-2 text-sm">
-            <li><Link to="/ai-business-automation" className="text-muted hover:text-primary-700">AI Business Automation</Link></li>
-            <li><Link to="/ai-tools-systems" className="text-muted hover:text-primary-700">AI Tools & Systems</Link></li>
-            <li><Link to="/ai-authority-positioning" className="text-muted hover:text-primary-700">Authority & Positioning</Link></li>
+            <li><Link to="/authority-agent-operating-system" className="text-muted hover:text-primary-700">Authority Agent OS™</Link></li>
+            <li><Link to="/ai-content-to-client-system" className="text-muted hover:text-primary-700">AI Content to Client</Link></li>
+            <li><Link to="/ai-run-business" className="text-muted hover:text-primary-700">The AI-Run Business</Link></li>
+            <li><Link to="/community-market-leaders-ai" className="text-muted hover:text-primary-700">CML® AI for RE & Lenders</Link></li>
+            <li><Link to="/claude-for-dummies" className="text-muted hover:text-primary-700">Claude for Dummies</Link></li>
           </ul>
         </div>
         <div>

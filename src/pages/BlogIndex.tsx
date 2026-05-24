@@ -35,7 +35,7 @@ export default function BlogIndex() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 py-12 sm:py-16">
           <h1 className="font-display text-4xl sm:text-5xl text-ink">All articles</h1>
           <p className="mt-3 text-lg text-ink/80 max-w-2xl">
-            {allPosts.length} {allPosts.length === 1 ? "article" : "articles"} across three pillars.
+            {allPosts.length} {allPosts.length === 1 ? "article" : "articles"} across five pillars.
           </p>
         </div>
       </header>

@@ -52,9 +52,9 @@ export default function Home() {
           What we cover
         </h2>
         <p className="mt-3 text-muted max-w-2xl">
-          Three lanes. No fluff. Pick one and go deep.
+          Five pillars. Each one built on a framework Krista actually uses in her own business. Pick one and go deep.
         </p>
-        <div className="mt-10 grid sm:grid-cols-3 gap-6">
+        <div className="mt-10 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {Object.values(PILLARS).map((p) => (
             <Link
               key={p.slug}
@@ -62,7 +62,7 @@ export default function Home() {
               className="group rounded-2xl border border-slate-200 hover:border-primary-300 hover:shadow-md transition-all p-6 bg-white block"
             >
               <p className="text-xs font-semibold uppercase tracking-wide text-primary-700">
-                {p.role === "anchor" ? "Anchor" : "Supporting pillar"}
+                {p.role === "anchor" ? "Anchor pillar" : "Supporting pillar"}
               </p>
               <h3 className="mt-2 font-display text-xl text-ink group-hover:text-primary-700">
                 {p.label}

@@ -54,8 +54,15 @@ export default function About() {
 
         <h2 className="mt-12 font-display text-2xl text-ink">What you'll find here</h2>
         <p className="mt-4 text-lg leading-relaxed text-ink/90">
-          Three pillars. AI Business Automation. AI Tools & Systems. Authority & Positioning. Real workflows, what to use, and how to become the AI expert in your space.
+          Five pillars. All anchored to frameworks Krista built and uses every day.
         </p>
+        <ul className="mt-4 list-disc pl-6 space-y-2 text-lg text-ink/90">
+          <li><strong>The Authority Agent Operating System™</strong> — the AI OS that makes you the obvious choice in your space.</li>
+          <li><strong>AI Content to Client System</strong> — turning content into clients across marketing, lead gen, nurture, and conversion.</li>
+          <li><strong>The AI-Run Business</strong> — workflows, agents, fulfillment, delivery, retention, and resell on autopilot.</li>
+          <li><strong>Community Market Leaders®: AI for Real Estate & Lenders</strong> — A-Z AI for the listing process and lender workflows.</li>
+          <li><strong>Claude for Dummies</strong> — practical Claude-only training. Skills, projects, Claude Code, Claude Desktop. No ChatGPT confusion.</li>
+        </ul>
 
         <h2 className="mt-12 font-display text-2xl text-ink">The mission</h2>
         <p className="mt-4 text-lg leading-relaxed text-ink/90">
