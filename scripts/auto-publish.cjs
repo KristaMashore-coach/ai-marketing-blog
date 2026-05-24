@@ -26,7 +26,7 @@ const { mdToHtml, isMarkdownBody, wordCountFromHtml } = require('./lib/md-to-htm
 
 const ROOT = path.resolve(__dirname, '..');
 const POSTS_PATH = path.join(ROOT, 'data/blog/posts.json');
-const NODE = '/Users/kristamashore/.local/node/bin/node';
+const NODE = process.execPath;
 
 const args = process.argv.slice(2);
 const dryRun = args.includes('--dry-run');
@@ -197,7 +197,7 @@ log(`wrote posts.json (backup: ${backup})`);
 // Build
 log('running build...');
 try {
-  execSync('/Users/kristamashore/.local/node/bin/npm run build:fast', { cwd: ROOT, stdio: 'inherit' });
+  execSync('npm run build:fast', { cwd: ROOT, stdio: 'inherit' });
 } catch (e) {
   log('BUILD FAILED — reverting posts.json');
   fs.copyFileSync(backup, POSTS_PATH);
