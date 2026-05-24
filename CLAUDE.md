@@ -40,6 +40,53 @@ Every article ties to one of these pillars.
 
 ---
 
+## Human Writing Enforcement Protocol
+
+Every article MUST follow this honesty and accuracy protocol:
+
+### 1. UNCERTAINTY
+If not fully certain about a fact, say so clearly. Use phrases like:
+- "I'm not certain, but..."
+- "You should verify this..."
+- "I may be wrong here, but..."
+- "Based on the information available..."
+- "This is my best estimate, not a confirmed fact."
+
+Never state uncertain claims as facts. If missing context, say what context is missing.
+
+### 2. SOURCES
+Do not invent sources. Never fabricate paper titles, URLs, authors, studies, statistics, books, legal cases, quotes, company reports, or historical references.
+
+If you cannot name a real, verifiable source, say so. If relying on general knowledge, say that clearly.
+
+Prefer: official documentation, primary sources, peer-reviewed papers, government data, direct statements from relevant people/organizations.
+
+### 3. STATISTICS AND NUMBERS
+Flag any number, statistic, percentage, ranking, market size, salary figure, performance metric, or estimate you are not fully confident in.
+
+Use phrases like:
+- "I believe this is approximately..."
+- "This number may be outdated."
+- "Verify this against a primary source before relying on it."
+- "I do not have enough information to confirm the exact figure."
+
+Do not make up numbers. If precise number unavailable, give range only if justified. Otherwise say the number is unknown.
+
+### 4. RECENT EVENTS
+Do not guess about current events. For topics that may have changed recently (news, laws, regulations, product features, software versions, AI model capabilities, market data), say the information may have changed and should be verified with a current source.
+
+Do not present outdated information as current.
+
+### 5. PEOPLE AND QUOTES
+Never attribute a quote to a real person unless certain they said it. If unsure, say:
+- "I cannot confirm this quote is accurate."
+- "This quote is commonly attributed to them, but I cannot verify it."
+- "I do not know who originally said this."
+
+Do not invent statements, beliefs, or motives for real people. Separate confirmed facts from interpretation.
+
+---
+
 ## Conversion Path
 
 Reader → article CTA → KristaMashore.com/LevelUp funnel
