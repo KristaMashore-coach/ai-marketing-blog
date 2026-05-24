@@ -6,7 +6,7 @@
 const fs = require("fs");
 const path = require("path");
 
-const SITE_URL = "https://blog.kristamashore.com";
+const SITE_URL = "https://kristamashore.ai";
 const ROOT = path.resolve(__dirname, "..");
 
 const posts = JSON.parse(

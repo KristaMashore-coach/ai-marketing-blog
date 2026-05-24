@@ -1,6 +1,6 @@
 # AI Content Site — Krista Mashore Coaching
 
-**Site:** aiBlog.kristamashore.com  
+**Site:** kristamashore.ai  
 **Purpose:** Position Krista as the #1 AI influencer and go-to resource for real estate agents, lenders, and entrepreneurs  
 **Focus:** Teach these audiences how to use AI to create autonomous agents, reduce headcount, and automate everything possible
 
@@ -341,7 +341,7 @@ Default message: "Learn how to build AI systems like this"
 - [ ] GitHub repo: `ai-marketing-blog`
 - [ ] Code pushed to GitHub
 - [ ] Vercel deployment live
-- [ ] Domain `aiBlog.kristamashore.com` connected via Cloudflare DNS
+- [ ] Domain `kristamashore.ai` connected via Cloudflare DNS
 - [ ] 5 seed articles approved and published
 - [ ] Daily cron: 5 articles/day auto-publish
 - [ ] Google Search Console set up

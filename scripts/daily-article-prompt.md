@@ -1,6 +1,6 @@
-# Daily Article Generation — AI Blog (aiBlog.kristamashore.com)
+# Daily Article Generation — AI Blog (kristamashore.ai)
 
-You are running as a scheduled task. Your job is to produce a batch of high-quality blog article drafts for **aiBlog.kristamashore.com** (Krista Mashore — AI for Business), validate them, queue them, and run the autopublish pipeline. This run is autonomous. Do not ask questions. Do not pause for confirmation. Make reasonable judgment calls and finish the work.
+You are running as a scheduled task. Your job is to produce a batch of high-quality blog article drafts for **kristamashore.ai** (Krista Mashore — AI for Business), validate them, queue them, and run the autopublish pipeline. This run is autonomous. Do not ask questions. Do not pause for confirmation. Make reasonable judgment calls and finish the work.
 
 ---
 

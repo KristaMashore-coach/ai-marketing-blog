@@ -1,7 +1,7 @@
 export const SITE_NAME = "Krista Mashore — AI for Business";
 export const SITE_TAGLINE =
   "AI workflows, autonomous agents, and systems that scale your business without scaling your team.";
-export const SITE_URL = "https://aiBlog.kristamashore.com";
+export const SITE_URL = "https://kristamashore.ai";
 export const SITE_AUTHOR = "Krista Mashore";
 
 export const DEFAULT_CTA_URL = "https://kristamashore.com/LevelUp";

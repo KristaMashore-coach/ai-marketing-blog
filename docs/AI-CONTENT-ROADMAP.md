@@ -1,4 +1,4 @@
-# AI Content Roadmap — aiBlog.kristamashore.com
+# AI Content Roadmap — kristamashore.ai
 
 This is the topic palette for the AI blog. **Guidance, not a fixed list.** The article generator can deviate when current news creates a more relevant angle. But every topic here is fair game and pre-validated as on-brand for one of the 5 pillars.
 

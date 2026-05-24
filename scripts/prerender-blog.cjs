@@ -28,7 +28,7 @@ const PILLARS = {
 };
 
 function buildPostJsonLd(post) {
-  const url = `https://blog.kristamashore.com/articles/${post.slug}`;
+  const url = `https://kristamashore.ai/articles/${post.slug}`;
   return {
     "@context": "https://schema.org",
     "@type": "BlogPosting",
@@ -37,18 +37,18 @@ function buildPostJsonLd(post) {
     description: post.excerpt,
     image: post.featuredImage.src.startsWith("http")
       ? post.featuredImage.src
-      : `https://blog.kristamashore.com${post.featuredImage.src}`,
+      : `https://kristamashore.ai${post.featuredImage.src}`,
     url,
     datePublished: post.publishedDate,
     dateModified: post.modifiedDate,
     author: {
       "@type": "Person",
-      "@id": "https://blog.kristamashore.com/#person",
+      "@id": "https://kristamashore.ai/#person",
       name: "Krista Mashore",
     },
     publisher: {
       "@type": "Organization",
-      "@id": "https://blog.kristamashore.com/#organization",
+      "@id": "https://kristamashore.ai/#organization",
       name: "Krista Mashore Coaching",
     },
     keywords: post.keywords.join(", "),
@@ -79,7 +79,7 @@ function buildBreadcrumbJsonLd(crumbs) {
       "@type": "ListItem",
       position: i + 1,
       name: c.name,
-      item: `https://blog.kristamashore.com${c.path}`,
+      item: `https://kristamashore.ai${c.path}`,
     })),
   };
 }
@@ -98,7 +98,7 @@ function injectIntoTemplate(routePath, schemas, titleOverride, descOverride) {
       `<meta name="description" content="${descOverride.replace(/"/g, "&quot;")}" />`
     );
   }
-  const canonicalTag = `<link rel="canonical" href="https://blog.kristamashore.com${routePath}" />`;
+  const canonicalTag = `<link rel="canonical" href="https://kristamashore.ai${routePath}" />`;
   if (!html.includes(canonicalTag)) {
     html = html.replace("</head>", `    ${canonicalTag}\n  </head>`);
   }
