@@ -1,5 +1,66 @@
 [
   {
+    "title": "Past-Client AI Nurture: The 12-Month Touch System That Brings Referrals Back",
+    "slug": "past-client-ai-nurture-12-month-touch-system",
+    "metaTitle": "Past-Client AI Nurture: 12-Month Touch System",
+    "metaDescription": "The 12-month past-client touch schedule that brings referrals back. What AI handles, what stays human, and the exact stack to run it.",
+    "excerpt": "Most agents drop their past clients within 90 days of closing. Here's the 12-month touch system that brings them back, AI-assisted where it should be.",
+    "publishedDate": "2026-05-24T16:08:49.934Z",
+    "modifiedDate": "2026-05-24T16:08:49.934Z",
+    "author": "Krista Mashore",
+    "topicalPillar": "community-market-leaders-ai",
+    "contentTypePillar": "process-and-differentiation",
+    "funnelStage": "nurture",
+    "keywords": [
+      "past client nurture",
+      "real estate referrals",
+      "ai for real estate agents",
+      "follow up system",
+      "12 month touch plan"
+    ],
+    "wordCount": 1323,
+    "readingMinutes": 7,
+    "featuredImage": {
+      "src": "/articles/hero/past-client-ai-nurture-12-month-touch-system.svg",
+      "alt": "Past-client AI nurture 12-month touch system for real estate agents"
+    },
+    "faq": [
+      {
+        "question": "How many past clients do I need before this is worth doing?",
+        "answer": "Even 20. The system works at any volume. If you have 20 past clients and one refers a deal this year, you've covered the cost of your whole stack for two years."
+      },
+      {
+        "question": "What if I haven't talked to my past clients in years?",
+        "answer": "Start with a re-introduction email. It's been a while, here's what's been going on in your zip code since you bought, and I'd love to catch up. Then begin the 12-month schedule from there."
+      },
+      {
+        "question": "Can AI write the phone call script for Month 5?",
+        "answer": "It can draft a script. Do not read it. Use it as a memory jog. The call has to feel like you, not a telemarketer."
+      },
+      {
+        "question": "What CRM should I pick?",
+        "answer": "Whatever you'll actually use. I see Follow Up Boss most often with coaching clients, but kvCORE and Sierra Interactive both work. The CRM matters less than whether you log in."
+      },
+      {
+        "question": "How do I keep AI from making everything sound the same?",
+        "answer": "Build a brand voice doc and load it into a Claude Project. Then every draft runs through your voice, not generic AI voice. Without this step, your past clients will feel the tone change immediately."
+      },
+      {
+        "question": "Do I really need a video tip every month?",
+        "answer": "No. One a quarter is fine if monthly is too much. The 12-touch schedule is the floor, not the ceiling. Some months you'll have something better to send."
+      }
+    ],
+    "internalLinks": [
+      "brand-voice-fingerprinting-claude",
+      "email-nurture-sequences-that-dont-sound-like-ai",
+      "ai-content-repurposing-one-video-eight-posts"
+    ],
+    "ctaUrl": "https://kristamashore.com/LevelUp",
+    "ctaLabel": "Learn the AI System",
+    "body": "<p>You sold a couple a house in March of 2023. Beautiful closing, hugs in the driveway, you sent them a charcuterie board, and then you got busy with the next deal. It's now mid-2026. They just listed with someone else. You found out from Instagram. You felt sick about it for two days.</p>\n<p>This happens to good agents every month and it's almost always the same problem. You closed the deal, you moved on, and somebody else stayed in their inbox for three years while you didn't.</p>\n<p>The fix is a 12-month touch system. AI handles most of it. The two or three touches that matter most stay human. Below is the schedule I run with my coaching clients and the exact tools that make it actually possible.</p>\n<h2>Why past clients matter more than cold leads</h2>\n<p>The Profile of Home Buyers and Sellers has shown for years that a large share of sellers either use an agent they've worked with before or were referred by someone in their network. The most recent figures I've seen put repeat-and-referral business well over half of total transactions for established agents, with top agents often citing 70 to most their pipeline coming from past clients and the people those clients send. You should pull the current numbers directly from the official research page before quoting them publicly: see for the latest Profile of Home Buyers and Sellers.</p>\n<p>The point is this. Past clients are the highest-ROI asset you own. They already trust you. They've already paid you. They know how you work. And they're the cheapest, fastest source of the next deal, if you stay in front of them.</p>\n<p>The problem isn't that agents don't believe this. The problem is that staying in front of 200 past clients for 12 months is a lot of work and most agents quit by month three. AI changes that math.</p>\n<h2>The 12-Month Touch Schedule</h2>\n<p>Twelve touches over twelve months. Some are automated, some are AI-assisted, some are pure human. Here's the schedule.</p>\n<h3>Month 1 (closing month). Closing gift drop. HUMAN.\nDon't outsource this. Walk it over yourself if they're local. Mail it with a handwritten card if they're not. AI cannot do this and it shouldn't.</h3>\n<h3>Month 2. \"How's the house?\" check-in text. HUMAN, AI-drafted.\nA real text from your phone. Have Claude draft it based on what you remember from the closing (kid's name, the dog, the kitchen remodel they were planning). Then rewrite it in your own thumbs. Send.</h3>\n<h3>Month 3. Market update email. AI.\nA short note. \"Here's what's happening in your zip code since you bought.\" Automate this through your CRM. Tools like Follow Up Boss, kvCORE, or Sierra Interactive will pipe MLS data in. Have Claude write the human-sounding intro, not the canned market update template.</h3>\n<h3>Month 4. Home anniversary \"did you know\" tip. AI.\nA short email or video. Something useful. Filter changes for HVAC. The right time to fertilize. Permit reminders if they were planning a remodel. HeyGen with your own avatar makes the video version cheap to produce.</h3>\n<h3>Month 5. Phone call. HUMAN.\nNot a text. Not an email. Pick up the phone. AI is not allowed here. You're going to want to skip this one. Don't. This is the touch that creates referrals.</h3>\n<h3>Month 6. Six-month \"how's the house feeling\" survey. AI-handled, human-reviewed.\nA 3-question email. \"What's working? What's not? What would you change?\" Anything they flag gets a personal reply from you, not an autoresponder. The replies are gold for the next year of content.</h3>\n<h3>Month 7. Useful local content. AI-drafted, human-curated.\nA short roundup of what's opening in town, what's worth driving to, school district news, summer events. Local. Specific. Useful. AI drafts the structure, you add the one inside thing nobody else has.</h3>\n<h3>Month 8. Birthday or move-in anniversary card. HUMAN, with AI assist.\nReal card. Real handwriting. Use a service like Handwrytten or Postable if you must, but write the message yourself. AI helps you remember the date, not write the words.</h3>\n<h3>Month 9. Tax/financial reminder. AI.\nA short note about the home-related tax stuff (property tax due dates, homestead exemption if relevant, the IRS 1098 for mortgage interest if it's tax season). Useful. Not salesy.</h3>\n<h3>Month 10. \"Who do you know?\" referral ask. HUMAN, with AI script.\nThe direct ask. Not \"if you know anyone.\" Specific. \"Hey, do you know anybody at your office who's been talking about moving?\" Claude can draft three variations for you to pick from. The send button is yours.</h3>\n<h3>Month 11. Pop-by drop. HUMAN.\nIf they're local, drop something off. Pumpkins in fall, fresh tomatoes in summer, holiday cookies in December. Cheap. Memorable. Almost nobody does this anymore so it lands hard.</h3>\n<h3>Month 12. Year-in-review note plus market temperature read. AI-drafted, you review.\nWhat happened in their zip code this year. Average sale price change. Days on market. Whether the inventory shifted. Their home is probably worth a different number than it was a year ago. Give them the read.</h3>\n<h2>What AI handles vs. what stays human</h2>\n<p>The line is simpler than it sounds. AI handles anything repeatable, anything data-driven, and anything that scales. Humans handle anything that requires a heartbeat.</p>\n<p><strong>AI handles:</strong> - Market update emails (the data layer) - Anniversary reminders firing into your calendar - Drafting the first version of every email and text - Filtering past-client replies and routing them to you - Producing the video version of any tip using your AI avatar</p>\n<p><strong>Humans handle:</strong> - The closing gift - The Month 5 phone call - The handwritten card moments - The actual conversation when someone replies - Anything emotional, personal, or trust-building</p>\n<p>If you forget that line and let AI do the human touches, you'll feel the drop-off. Past clients can tell when they're being marketed to by a bot. The whole point of this system is that they don't feel marketed to at all.</p>\n<h2>The stack I'd actually use in 2026</h2>\n<p>You can run this with a small stack. You don't need 14 tools.</p>\n<ul><li><strong>A CRM that holds your past-client list and fires off the scheduled emails.</strong> Follow Up Boss is what I see most coaching clients use. kvCORE and Sierra Interactive also work. Pick one and stick with it for two years.</li><li><strong>Claude with a Project for your brand voice.</strong> Every email, text, and script draft runs through it. Costs about $20 a month. If you've never set one up, my piece on claude-projects-setting-up-first-one walks through it.</li><li><strong>HeyGen for the video versions of your monthly tips.</strong> Saves the production cost. Don't overuse the AI avatar. One avatar video a month is fine. Five feels weird.</li><li><strong>Handwrytten for the card touches if your handwriting is illegible.</strong> Better than skipping the card.</li><li><strong>A simple spreadsheet or your CRM's task feature to track which touch each past client got.</strong> Even the best CRM lets people fall through if you don't audit monthly.</li></ul>\n<p>That's it. Five tools. Maybe $80 a month total if you're already on a CRM.</p>\n<h2>Why this works</h2>\n<p>It works because past clients want to hear from you and almost nobody bothers. Twelve touches a year breaks down to one a month. One a month is sustainable. AI does the heavy drafting so you're not staring at a blinking cursor at 10pm. The human touches are the ones that prove you're still real.</p>\n<p>The agents in my Level Up program who run this system are pulling 60 to a lot of their annual transactions from past clients and referrals within 24 months of starting. That's not magic. That's the math of staying in front of 200 people for a year while everybody else forgets.</p>\n<h2>Want the full schedule and templates?</h2>\n<p>I built out every one of these 12 touches with the actual email templates, the phone call scripts, the Claude prompts, and the CRM setup steps inside Level Up. If you want the whole thing handed to you, <a href=\"https://kristamashore.com/LevelUp\">come look at the program</a>.</p>",
+    "draft": false
+  },
+  {
     "title": "The 'You-Replacement Test': How to Know Your AI System Is Actually Working",
     "slug": "you-replacement-test-ai-system",
     "metaTitle": "The You-Replacement Test: Is Your AI System Working?",
