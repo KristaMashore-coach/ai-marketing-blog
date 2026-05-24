@@ -1,7 +1,7 @@
 export type TopicalPillar =
-  | "real-estate-marketing"
-  | "real-estate-lead-generation"
-  | "personal-branding-authority";
+  | "ai-business-automation"
+  | "ai-tools-systems"
+  | "ai-authority-positioning";
 
 export type ContentTypePillar =
   | "local-market-authority"

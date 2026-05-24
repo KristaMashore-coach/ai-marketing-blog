@@ -19,9 +19,9 @@ export default function BlogIndex() {
     <>
       <SEO
         title="All Articles"
-        description="Articles on real estate marketing, lead generation, and personal branding for agents and lenders."
-        metaTitle="All Articles | Krista Mashore"
-        metaDescription="Real estate marketing, lead gen, and branding articles for agents who want predictable pipelines."
+        description="Articles on AI business automation, AI tools and systems, and authority positioning for entrepreneurs, agents, and lenders."
+        metaTitle="All Articles | Krista Mashore — AI for Business"
+        metaDescription="AI workflows, tools, and authority positioning for entrepreneurs, real estate agents, and lenders."
         canonicalPath="/articles"
       />
       <BreadcrumbSchema

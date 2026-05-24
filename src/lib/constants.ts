@@ -1,19 +1,19 @@
-export const SITE_NAME = "Krista Mashore Coaching";
+export const SITE_NAME = "Krista Mashore — AI for Business";
 export const SITE_TAGLINE =
-  "Real estate marketing for agents who want to be chosen, not chase.";
-export const SITE_URL = "https://blog.kristamashore.com";
+  "AI workflows, autonomous agents, and systems that scale your business without scaling your team.";
+export const SITE_URL = "https://aiBlog.kristamashore.com";
 export const SITE_AUTHOR = "Krista Mashore";
 
 export const DEFAULT_CTA_URL = "https://kristamashore.com/LevelUp";
-export const DEFAULT_CTA_LABEL = "Get the Level Up Training";
+export const DEFAULT_CTA_LABEL = "Learn the AI System";
 
 export const PERSON = {
   name: "Krista Mashore",
-  jobTitle: "Real Estate Marketing Coach",
+  jobTitle: "AI Business Coach & Authority",
   url: SITE_URL,
   image: `${SITE_URL}/images/krista-headshot.jpg`,
   description:
-    "Krista Mashore is a top 1% real estate agent for 19 consecutive years. She personally sold 2,300+ homes and built her coaching company from zero to over $72 million in online sales in 7.5 years. She coaches real estate agents and mortgage loan officers on attraction-based marketing using video, social media, AI, and digital sales funnels. Her trademarked Community Market Leader® methodology teaches agents to be known before they're needed.",
+    "Krista Mashore is a top 1% real estate agent for 19 consecutive years, built a $72M coaching company in 7.5 years, and now teaches entrepreneurs, real estate agents, and lenders how to use AI to scale without hiring. She shows business owners how to build autonomous agents, automate repetitive work, and position themselves as the AI authority in their market.",
   sameAs: [
     "https://kristamashore.com",
     "https://www.linkedin.com/in/krista-mashore",
@@ -22,14 +22,15 @@ export const PERSON = {
     "https://www.facebook.com/kristamashore",
   ],
   knowsAbout: [
-    "Real Estate Marketing",
-    "Real Estate Lead Generation",
-    "Real Estate Personal Branding",
-    "Community Market Leader",
-    "Digital Marketing",
-    "Sales Funnels",
-    "Video Marketing",
-    "Real Estate Coaching",
+    "AI for Business",
+    "AI Automation",
+    "Autonomous AI Agents",
+    "Claude Code",
+    "AI for Entrepreneurs",
+    "AI for Real Estate Agents",
+    "AI for Lenders",
+    "AI Authority Positioning",
+    "Business Systems",
   ],
 };
 
@@ -41,7 +42,7 @@ export const ORG = {
   founder: PERSON.name,
   foundingDate: "2017",
   description:
-    "Coaching company for real estate agents and mortgage loan officers. Teaches a complete marketing system covering branding, lead generation, nurture, conversion, and repeat referral business.",
+    "Coaching company helping entrepreneurs, real estate agents, and lenders use AI to automate their business, build autonomous workflows, and scale without hiring more people.",
   sameAs: PERSON.sameAs,
   awards: [
     "11x ClickFunnels Two Comma Club Award ($1M+ funnel)",
@@ -55,58 +56,44 @@ export const ORG = {
 
 export const COURSES = [
   {
-    name: "30-Day Success Plan",
+    name: "Level Up AI Training",
     description:
-      "Entry-point coaching program. Real estate agents and lenders implement attraction-based marketing in 30 days.",
+      "The training that shows you how to use AI to run your business with fewer people, more output, and real systems.",
     provider: ORG.name,
-    url: "https://kristamashore.com/30-day-success-plan",
-  },
-  {
-    name: "Signature Authority System",
-    description:
-      "Flagship coaching program. Complete marketing system: branding, content, lead generation, nurture, conversion, automation, repeat referral.",
-    provider: ORG.name,
-    url: "https://kristamashore.com/signature-authority-system",
-  },
-  {
-    name: "Community Market Leader® Mastermind",
-    description:
-      "Advanced mastermind for established agents who want to dominate their local market.",
-    provider: ORG.name,
-    url: "https://kristamashore.com/community-market-leader-mastermind",
+    url: "https://kristamashore.com/LevelUp",
   },
 ];
 
 export const PILLARS = {
-  "real-estate-marketing": {
-    label: "Real Estate Marketing",
-    slug: "real-estate-marketing",
+  "ai-business-automation": {
+    label: "AI Business Automation",
+    slug: "ai-business-automation",
     role: "anchor" as const,
     description:
-      "How to market like a digital pro: short and long form video, social, paid ads, attraction-based positioning. The umbrella for everything.",
+      "Real workflows. Autonomous agents. How to take the work off your plate so you can focus on what only you can do.",
   },
-  "real-estate-lead-generation": {
-    label: "Real Estate Lead Generation",
-    slug: "real-estate-lead-generation",
+  "ai-tools-systems": {
+    label: "AI Tools & Systems",
+    slug: "ai-tools-systems",
     role: "supporting" as const,
     description:
-      "How to generate leads without cold calling, door knocking, or buying low-quality lists. Funnels, content, and inbound systems.",
+      "Claude Code, ChatGPT, Make, n8n, and the rest. What to use, how to set it up, and what kind of return to expect.",
   },
-  "personal-branding-authority": {
-    label: "Personal Branding & Authority",
-    slug: "personal-branding-authority",
+  "ai-authority-positioning": {
+    label: "Authority & Positioning",
+    slug: "ai-authority-positioning",
     role: "supporting" as const,
     description:
-      "How to become a Community Market Leader® in your town. Win before you arrive. Be known before you're needed.",
+      "How to become the AI expert your audience trusts. Content, visibility, and positioning that makes you the obvious choice.",
   },
 };
 
 export const NAV_LINKS = [
   { label: "Home", to: "/" },
   { label: "Articles", to: "/articles" },
-  { label: "Real Estate Marketing", to: "/real-estate-marketing" },
-  { label: "Lead Generation", to: "/real-estate-lead-generation" },
-  { label: "Personal Branding", to: "/personal-branding-authority" },
+  { label: "AI Automation", to: "/ai-business-automation" },
+  { label: "AI Tools", to: "/ai-tools-systems" },
+  { label: "Authority", to: "/ai-authority-positioning" },
   { label: "About Krista", to: "/about" },
 ];
 
@@ -123,6 +110,4 @@ export const ROBOT_AGENTS_ALLOWED = [
   "DuckDuckBot",
 ];
 
-// GA4 measurement ID for blog.kristamashore.com property (created 2026-05-01).
-// The actual gtag.js snippet lives in index.html — this constant is kept for reference / future use.
-export const GA4_MEASUREMENT_ID = "G-GP89R1W7PB";
+export const GA4_MEASUREMENT_ID = "";

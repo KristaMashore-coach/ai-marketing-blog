@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { PERSON, SITE_NAME } from "../lib/constants";
+import { PERSON, SITE_NAME, SITE_TAGLINE } from "../lib/constants";
 
 export default function Footer() {
   const year = new Date().getFullYear();
@@ -9,15 +9,15 @@ export default function Footer() {
         <div>
           <p className="font-display text-lg font-bold text-ink">{SITE_NAME}</p>
           <p className="text-sm text-muted mt-2">
-            Real estate marketing for agents who want to be chosen, not chase.
+            {SITE_TAGLINE}
           </p>
         </div>
         <div>
           <p className="text-sm font-semibold text-ink mb-3">Topics</p>
           <ul className="space-y-2 text-sm">
-            <li><Link to="/real-estate-marketing" className="text-muted hover:text-primary-700">Real Estate Marketing</Link></li>
-            <li><Link to="/real-estate-lead-generation" className="text-muted hover:text-primary-700">Real Estate Lead Generation</Link></li>
-            <li><Link to="/personal-branding-authority" className="text-muted hover:text-primary-700">Personal Branding</Link></li>
+            <li><Link to="/ai-business-automation" className="text-muted hover:text-primary-700">AI Business Automation</Link></li>
+            <li><Link to="/ai-tools-systems" className="text-muted hover:text-primary-700">AI Tools & Systems</Link></li>
+            <li><Link to="/ai-authority-positioning" className="text-muted hover:text-primary-700">Authority & Positioning</Link></li>
           </ul>
         </div>
         <div>
@@ -38,7 +38,7 @@ export default function Footer() {
       </div>
       <div className="border-t border-slate-200">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 py-4 text-xs text-muted flex flex-wrap gap-4 justify-between">
-          <p>© {year} {SITE_NAME}. Community Market Leader® is a registered trademark.</p>
+          <p>© {year} {SITE_NAME}.</p>
           <p>
             <a href="https://kristamashore.com" className="hover:text-primary-700">kristamashore.com</a>
           </p>
