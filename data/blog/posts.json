@@ -1,1 +1,307 @@
-[]
+[
+  {
+    "title": "Claude Projects: Setting Up Your First One (Step by Step for Business Owners)",
+    "slug": "claude-projects-setting-up-first-one",
+    "metaTitle": "Claude Projects: Set Up Your First One (Step by Step)",
+    "metaDescription": "A plain-English walkthrough of Claude Projects for non-technical business owners. The 3 files to upload, the custom instructions to write, and why this.",
+    "excerpt": "You've been chatting with Claude for months and re-explaining your business every time. Here's how to set up your first Claude Project so Claude already knows who you are.",
+    "publishedDate": "2026-05-24T16:04:35.664Z",
+    "modifiedDate": "2026-05-24T16:04:35.664Z",
+    "author": "Krista Mashore",
+    "topicalPillar": "claude-for-dummies",
+    "contentTypePillar": "educational-authority",
+    "funnelStage": "attention",
+    "keywords": [
+      "Claude Projects setup",
+      "Claude for business owners",
+      "Claude custom instructions",
+      "Claude knowledge base",
+      "AI brand voice"
+    ],
+    "wordCount": 1242,
+    "readingMinutes": 6,
+    "featuredImage": {
+      "src": "/articles/hero/claude-projects-setting-up-first-one.svg",
+      "alt": "Claude Projects setup walkthrough for non-technical business owners"
+    },
+    "faq": [
+      {
+        "question": "Do I need Claude Pro or higher to use Projects?",
+        "answer": "Projects are available on Claude's paid plans. Plan names and pricing change, so verify current pricing on Anthropic's site before subscribing. As a general rule, if you're using Claude for business you want a paid plan anyway because the free tier caps message volume."
+      },
+      {
+        "question": "How many files can I upload to a single Project?",
+        "answer": "There's a per-Project knowledge limit and it's been raised more than once. Rather than quote a number that may be outdated, upload your three core files first, see how Claude handles them, then add more as needed. Most business owners do not need 50 files, they need 5 good ones."
+      },
+      {
+        "question": "Are my uploaded files private?",
+        "answer": "Anthropic states that, by default, your inputs are not used to train their models on consumer plans. Policies change. If this matters for your business, read Anthropic's current data usage policy directly before uploading anything sensitive."
+      },
+      {
+        "question": "Should I use a separate Project for each client?",
+        "answer": "For most solopreneurs, no. One Project for your business is enough. Agencies and coaches with multiple distinct client brands sometimes set up one Project per client. Start with one and split only when you feel friction."
+      },
+      {
+        "question": "What if my voice changes over time?",
+        "answer": "Your Project is a living thing. Update your voice rules document every 60 to 90 days, re-upload the new version, and your Project evolves with you."
+      },
+      {
+        "question": "Can I share a Project with my team?",
+        "answer": "Team plans support shared Projects. Personal plans have been more limited on sharing. Verify on Anthropic's current plan comparison if this matters to you."
+      }
+    ],
+    "internalLinks": [
+      "claude-skills-brand-voice-skill",
+      "brand-voice-fingerprinting-claude",
+      "authority-agent-operating-system-5-layers"
+    ],
+    "ctaUrl": "https://kristamashore.com/LevelUp",
+    "ctaLabel": "Learn the AI System",
+    "body": "<p>You've been chatting with Claude for a couple of months. You like it, you use it for emails and the occasional rewrite, and then every single time you open a new chat you have to explain who you are, what your business does, who you sell to, and what your voice sounds like all over again. And then halfway through the conversation Claude forgets and starts writing like a HubSpot intern. I know. I did the same thing for almost a full year before I figured out what a Claude Project actually is, and once I did my whole AI life changed.</p>\n<p>So I want to walk you through setting up your first one. Not the influencer version with 47 screenshots and a paid template. The version a normal business owner can do in about 90 minutes one Saturday morning.</p>\n<h2>What a Claude Project actually is (in plain English)</h2>\n<p>A Project is a dedicated workspace inside Claude where you upload reference files once, write a set of standing instructions once, and then every conversation you start inside that workspace already knows who you are. Think of it like hiring a new assistant and giving them a binder on day one instead of explaining the business from scratch every Monday.</p>\n<p>Three things make a Project different from a regular chat:</p>\n<p>You upload files that Claude can reference across every conversation inside that Project. You write custom instructions that load at the start of every conversation. And the conversations you have inside the Project stay grouped together, so you can come back to that one rewrite you did three weeks ago without scrolling through 400 random chats.</p>\n<p>That last part sounds boring and it's actually the thing that saves the most time once you get used to it.</p>\n<h2>Why Projects beat just chatting</h2>\n<p>When you chat with Claude in a fresh window, you're talking to a brilliant generalist who knows nothing about you. You spend the first ten messages getting Claude up to speed on your business, your tone, and what you actually want, and by the time the answer starts coming back, you're already tired.</p>\n<p>A Project skips that whole opening act. You walk in, Claude already has your brand brain, your ideal client doc, and your voice rules loaded, and you start with the actual work. I'd estimate a good Project saves me 15 to 20 minutes per session because I'm not re-explaining anything. Across a week that's hours.</p>\n<p>The other thing nobody mentions: Claude tends to write better when it has context. Not slightly better. A lot better. A Claude with no context will hedge, generalize, and use the corporate words you hate. A Claude with your brand brain loaded sounds closer to you, because it has examples to pattern-match against.</p>\n<h2>The 3 files to upload first</h2>\n<p>Don't try to load 50 documents on day one. Pick three, get them right, and add more later as you find gaps.</p>\n<h3>File 1: The Brand Brain</h3>\n<p>This is one document, ideally 4 to 8 pages, that captures the spine of your business. Who you are, who you serve, what you sell, what you charge, your top three offers, your most common objections, your origin story in 3 paragraphs, and the words you use for the things in your world. If you call your audience \"agents and lenders\" don't let Claude default to \"real estate professionals.\" That's what the brand brain is for.</p>\n<p>Build this in Google Docs first. Save it as a PDF. Upload it.</p>\n<h3>File 2: The Ideal Client Doc</h3>\n<p>A separate document because it gets edited more often. Who is the person you want to attract. Their pain points in their own words, not yours. The phrases they use when they describe their problem to a friend at dinner. The objections they have before they buy. The transformation they want. The transformation they actually need (sometimes different). What they've tried before and why it didn't work.</p>\n<p>I keep mine to 3 pages. Anything longer and Claude starts averaging across too many archetypes.</p>\n<h3>File 3: The Voice Rules</h3>\n<p>This is the file most people skip and it's the one that does the heaviest lifting. A voice rules doc lists the words you will never use, the words you do use, the sentence patterns you avoid, the formatting tics you have, and 4 to 6 paragraphs of writing you've personally written that you're happy with. Claude uses those samples to triangulate your voice. Without them, you get the default Claude voice with a polite hat on.</p>\n<p>If you want to skip ahead, I've got a full piece coming on building a brand voice Skill, which is the next step after a voice rules file. Same idea, more portable.</p>\n<h2>The custom instructions to write</h2>\n<p>Inside the Project you'll see a field for custom instructions. This is where most people leave it blank. Don't.</p>\n<p>Write something like this in plain English:</p>\n<p>\"You are working inside the [Your Business] Project. Your job is to help me write, plan, and think out loud about my business. Always reference the brand brain, ideal client doc, and voice rules when generating any client-facing copy. Match my voice, not yours. When in doubt, ask before generating. Use contractions, vary sentence lengths, and no em-dashes. If you're about to use a corporate word like 'use' or 'use,' rewrite it before showing me. Default to specific examples and named clients, not generic advice.\"</p>\n<p>Adjust to taste. The whole instruction block should be maybe 200 to 400 words. Long enough to be useful, short enough that Claude can actually hold it all in working context.</p>\n<h2>The \"this is for my business\" scaffold</h2>\n<p>Once the files are in and the instructions are written, start your first conversation with what I call the scaffold prompt. Something like, \"Read the brand brain and the ideal client doc. Summarize back to me in 5 bullets who this business is, who it serves, and what kind of voice I want. I want to confirm you've understood before I ask you to write anything.\"</p>\n<p>Claude will summarize. You'll find things that are wrong or weak. Fix the source docs, re-upload, summarize again. Two rounds of this and your Project is calibrated. I cannot stress this enough: spending an extra 20 minutes on calibration day saves you weeks of fixing bad output later.</p>\n<p>Pattern interrupt. The number one mistake I see people make at this stage is going straight from setup into \"write me 10 LinkedIn posts.\" Don't. Have one conversation about your business with Claude where you don't ask for output. Just talk. See if the responses sound like someone who knows you. If yes, you're calibrated. If no, the docs need work.</p>\n<h2>What to do once the first Project is humming</h2>\n<p>You're going to want to make more. Resist for two weeks. Use this one Project for everything, and watch where it breaks. Maybe it's bad at writing emails specifically, maybe it loses voice on long-form, maybe it doesn't know your podcast guests. Those gaps tell you what your second Project should be (for me it was a content Project separate from a sales Project), and what additional files to add to your knowledge base.</p>\n<p>If you want the bigger system this Project sits inside, including the Skills layer that makes your voice portable across every Project, that's what I teach inside <a href=\"https://kristamashore.com/LevelUp\">Level Up</a>. Same setup we use internally on my team, end to end, no fluff.</p>",
+    "draft": false
+  },
+  {
+    "title": "How to Build Your First AI Agent in n8n With No Coding (Real Walkthrough)",
+    "slug": "build-ai-agent-n8n-no-coding",
+    "metaTitle": "Build Your First AI Agent in n8n (No Code Walkthrough)",
+    "metaDescription": "A non-technical, step-by-step walkthrough to build a lead-intake AI agent in n8n with Claude, Cal.com, and Gmail. Under $50/month to run.",
+    "excerpt": "You don't need to code. You need an afternoon. Here's exactly how to build a lead-intake AI agent in n8n that qualifies submissions and books calls while you sleep.",
+    "publishedDate": "2026-05-24T16:04:35.664Z",
+    "modifiedDate": "2026-05-24T16:04:35.664Z",
+    "author": "Krista Mashore",
+    "topicalPillar": "ai-run-business",
+    "contentTypePillar": "educational-authority",
+    "funnelStage": "resonance",
+    "keywords": [
+      "n8n ai agent",
+      "no code ai agent",
+      "lead intake automation",
+      "claude n8n workflow",
+      "build ai agent business"
+    ],
+    "wordCount": 1226,
+    "readingMinutes": 6,
+    "featuredImage": {
+      "src": "/articles/hero/build-ai-agent-n8n-no-coding.svg",
+      "alt": "n8n workflow canvas with an AI agent node connected to webhook, Gmail, and calendar nodes"
+    },
+    "faq": [
+      {
+        "question": "Do I need to know any code at all?",
+        "answer": "No. You connect nodes by dragging lines. You write English in the AI agent's system prompt. The only code-ish thing is referencing variables like {{$json.email}}, and n8n autocompletes those for you."
+      },
+      {
+        "question": "Claude or OpenAI, which one?",
+        "answer": "For writing-heavy tasks like replies, summaries, and qualification decisions, Claude tends to sound more like a person. For most other tasks both work fine. Pick one and ship. You can swap models later without rebuilding the workflow."
+      },
+      {
+        "question": "What if I get more than 500 leads a month?",
+        "answer": "Then you should pay attention to API costs and probably run n8n self-hosted. The cost still rarely breaks $100/month for most businesses at that volume."
+      },
+      {
+        "question": "Can the agent actually book on my calendar without me approving?",
+        "answer": "Yes. If that feels too risky for week one, set Cal.com to create a hold that you confirm once you approve. After watching it work for a month, you can let it run free."
+      },
+      {
+        "question": "What if the agent makes a bad decision?",
+        "answer": "Log every run. Review the logs weekly for the first month and adjust your system prompt. After 30 days the agent will outperform a junior VA on this task in most cases."
+      },
+      {
+        "question": "How long until I have it running?",
+        "answer": "First time, give yourself 3 to 4 hours including setup. The second agent you build takes under an hour. By the fifth, you can do it on a Saturday morning."
+      }
+    ],
+    "internalLinks": [
+      "authority-agent-operating-system-5-layers",
+      "mcp-servers-explained-first-five-to-setup",
+      "ai-run-business-stack-2026"
+    ],
+    "ctaUrl": "https://kristamashore.com/LevelUp",
+    "ctaLabel": "Learn the AI System",
+    "body": "<p>You don't need to learn Python. You don't need a developer on retainer. You need a free afternoon, a Claude API key, and the willingness to drag boxes around on a canvas. That's it.</p>\n<p>I'm writing this for the business owner who keeps hearing \"AI agents\" and feels behind. You're not behind. You're 47 minutes away from owning your first one.</p>\n<p>The agent we're building today: a lead-intake agent. Someone fills out a form on your site. The agent reads the submission, looks up the person on LinkedIn (or wherever), decides if they're qualified, drafts a personalized reply, and books a call on your calendar if they pass. All while you're at lunch.</p>\n<h2>Why n8n and not some \"no-code AI platform\"</h2>\n<p>There are a hundred tools promising magical AI agents in 5 minutes. Most of them are wrappers around OpenAI with a pretty UI and a $97/month subscription. n8n is different. It's an open-source workflow tool with a real AI agent node, and you can run it on a $5/month server or use their cloud version if you want zero infrastructure headaches.</p>\n<p>I like n8n because when something breaks at 11pm on a Tuesday, I can see exactly which step failed and fix it. The drag-drop tools that hide everything? Good luck debugging those.</p>\n<p>Two paths to start: - <strong>n8n Cloud.</strong> Sign up at n8n.io, get a hosted instance in about 90 seconds. There's a free trial and paid tiers above that. Check their pricing page for current numbers, it shifts. - <strong>Self-hosted.</strong> Docker container on a $6/month Hetzner box, or one click on Railway. If you have a technical friend, ask them. If not, start with cloud.</p>\n<p>You can always migrate later. Don't let infrastructure paralysis stop you from building the actual thing.</p>\n<h2>The 6 pieces of your lead-intake agent</h2>\n<p>Here's the workflow we're building. Every box on the canvas is a node. You connect them with lines. That's the whole \"coding.\"</p>\n<ol><li><strong>Webhook node</strong> … receives the form submission</li><li><strong>Set node</strong> … cleans up the data (name, email, phone, message)</li><li><strong>AI Agent node</strong> … this is where Claude does the thinking</li><li><strong>Cal.com or Calendly node</strong> … books the meeting</li><li><strong>Gmail node</strong> … sends a personalized reply</li><li><strong>Notion or Airtable node</strong> … logs everything for later</li></ol>\n<p>That's the spine. You can add fancier stuff later (Slack notifications, CRM updates, lead scoring). Start with the spine.</p>\n<h2>Step 1: The webhook</h2>\n<p>In n8n, click the orange \"+\" to add a node. Search \"Webhook.\" Drop it on the canvas. n8n gives you a unique URL.</p>\n<p>Take that URL and paste it into the form tool you use. Tally, Typeform, Jotform, even a basic HTML form on your site… all of them can POST to a webhook. Now when someone submits, n8n catches it instantly.</p>\n<p>(Quick aside, the first time I saw a webhook fire in real time, I felt like a wizard. It's the closest non-developers get to feeling like they wrote actual software.)</p>\n<h2>Step 2: Clean the data with a Set node</h2>\n<p>The webhook gives you raw form data. Usually messy. Names with weird capitalization, phone numbers in 8 different formats, emails with trailing spaces.</p>\n<p>The Set node lets you map fields to clean names. So `fields.email` becomes `email`. `fields.full_name` becomes `name`. You don't write code. You click dropdowns and pick the field you want.</p>\n<p>Takes about 4 minutes.</p>\n<h2>Step 3: The AI Agent node, where the magic happens</h2>\n<p>This is the node that's going to do the actual thinking. Drag in the \"AI Agent\" node (n8n's Advanced AI section).</p>\n<p>You'll plug three things into it: - A model. Pick Claude (Anthropic) or OpenAI. I prefer Claude Sonnet for this kind of task because the responses sound more like a person and less like a chatbot. You'll need an API key from console.anthropic.com or platform.openai.com. - A system prompt. This is where you tell the agent who it is and what to do. - Tools (optional). The agent can call other nodes mid-thought. Cool, but skip this for v1.</p>\n<p>My system prompt looks roughly like this:</p>\n<blockquote><p>You are the lead-intake assistant for [Your Business Name]. You receive form submissions from people interested in working with us. Your job is to: 1. Read the submission and decide if they look like a real prospect (ignore obvious spam, students doing research, agencies trying to sell us SEO). 2. If real, write a 4-sentence personalized reply that references something specific from their submission. 3. Output a JSON object with: qualified (boolean), reply_text (string), suggested_call_length (15 or 30).  Tone: warm, direct, no corporate fluff. Sound like a real person who's read what they wrote.</p></blockquote>\n<p>That's it. Save it. Test it with a fake submission. You'll see the agent's response in the right panel.</p>\n<h2>Step 4: Calendar booking</h2>\n<p>Add a Cal.com node. (Calendly works too, the n8n Calendly node has limited write actions last I checked, so Cal.com tends to be smoother for booking.) Configure it with your API key. Tell it to create a hold or send a booking link based on the `suggested_call_length` the agent returned.</p>\n<p>If your agent returns `qualified: false`, skip this step. Use an IF node to branch.</p>\n<h2>Step 5: Send the reply</h2>\n<p>Gmail node. Connect your account via OAuth (one click). Tell it to send `reply_text` from the AI agent to the email from the form. Set the from address, the subject, done.</p>\n<p>Pro tip: cc yourself on the first 20 emails the agent sends. Watch what it writes. Tweak the system prompt until you'd hit send yourself without editing.</p>\n<h2>Step 6: Log it</h2>\n<p>Airtable or Notion node. Append a row with the submission, the agent's decision, the timestamp. This is your audit trail. When the agent screws up (and it will, occasionally), you'll want this.</p>\n<h2>What it actually costs to run</h2>\n<p>Honest math, monthly: - n8n Cloud starter tier or a $6 self-host server - Anthropic API: pennies per submission on Claude Haiku, a few cents on Sonnet. For a business getting under 500 leads/month, you'll spend under $20. - Cal.com or Calendly: whatever you already pay - Gmail: free if you have Google Workspace</p>\n<p>So under $50/month for an agent that handles intake while you sleep. Compare that to a VA at $1,200/month who only works business hours and needs training.</p>\n<h2>Three things that will go wrong (and they're fine)</h2>\n<ol><li>The first 5 emails will be slightly off. Tweak the prompt. Each tweak takes 60 seconds.</li><li>You'll have a junk submission slip through as \"qualified.\" Add a rule in the prompt: \"If the message is shorter than 12 words OR doesn't mention what they need help with, mark qualified=false.\"</li><li>The agent will book a call for someone who clearly didn't want one yet. Add a step: agent has to explicitly include `wants_call: true` before Cal.com runs.</li></ol>\n<p>You iterate. You're building a system, not casting a spell.</p>\n<h2>You don't need permission to start</h2>\n<p>The agents you'll build next year start with the one you build this weekend. Stop saving the n8n tutorial for later. Open n8n.io, hit start free, and build the spine I just described.</p>\n<p>If you want the full version of this system, including the prompt templates I use across 6 agents in my own business, plus the qualification scoring rubric, that's all inside Level Up. Krista walks you through it on real screens, not theory.</p>\n<p><strong><a href=\"https://kristamashore.com/LevelUp\">Get the AI System Inside Level Up →</a></strong></p>",
+    "draft": false
+  },
+  {
+    "title": "The Authority Agent Operating System: The 5 Layers Every Service Business Needs in 2026",
+    "slug": "authority-agent-operating-system-5-layers",
+    "metaTitle": "The Authority Agent OS: 5 Layers Every Business Needs",
+    "metaDescription": "The 5 layers of the Authority Agent Operating System every coach, agent, and service business needs to scale with AI in 2026 without sounding like a bot.",
+    "excerpt": "Most entrepreneurs build their AI stack backwards. Here are the five layers, in order, that make an AI system sound like you and run your business.",
+    "publishedDate": "2026-05-24T16:04:35.664Z",
+    "modifiedDate": "2026-05-24T16:04:35.664Z",
+    "author": "Krista Mashore",
+    "topicalPillar": "authority-agent-operating-system",
+    "contentTypePillar": "educational-authority",
+    "funnelStage": "authority",
+    "keywords": [
+      "authority agent operating system",
+      "AI for service business",
+      "Claude Skills",
+      "brand voice AI",
+      "AI workflows"
+    ],
+    "wordCount": 1171,
+    "readingMinutes": 6,
+    "featuredImage": {
+      "src": "/articles/hero/authority-agent-operating-system-5-layers.svg",
+      "alt": "Diagram of the five layers of the Authority Agent Operating System: Brand Voice, Knowledge, Workflows, Agents, Distribution"
+    },
+    "faq": [
+      {
+        "question": "Do I need to be technical to build the Authority Agent Operating System?",
+        "answer": "No. The hard part is not the tech, it's the thinking. If you can write down how you do your work, you can build this. Tools like Claude Projects and n8n have gotten friendly enough that no-code people use them every day."
+      },
+      {
+        "question": "How long does this take to set up?",
+        "answer": "Plan on a quarter, not a weekend. The brand voice layer alone takes a few focused sessions. Workflows take longer because you have to document things you've been doing on autopilot."
+      },
+      {
+        "question": "What if I already use ChatGPT, not Claude?",
+        "answer": "The five layers still apply. Brand voice, knowledge, workflows, agents, distribution. The tools change, the architecture doesn't. I personally use Claude because the voice layer holds up better for long-form writing, but pick what works for you."
+      },
+      {
+        "question": "Which layer do I do first if I'm starting from scratch?",
+        "answer": "Layer one, brand voice. Always. Without it, everything downstream sounds wrong."
+      },
+      {
+        "question": "Can I outsource this build?",
+        "answer": "You can outsource layers three through five. You cannot outsource layer one and layer two, because that's your brain and your voice. Those have to come from you, even if someone else types them up."
+      },
+      {
+        "question": "How much should I expect to spend on tools?",
+        "answer": "For a solo or small-team business, under two hundred a month covers it for most people, with Claude, an automation tool like n8n or Make, and a scheduler. Costs scale up if you add a CRM integration or a custom agent stack."
+      }
+    ],
+    "internalLinks": [
+      "claude-projects-setting-up-first-one",
+      "brand-voice-fingerprinting-claude",
+      "ai-run-business-stack-2026"
+    ],
+    "ctaUrl": "https://kristamashore.com/LevelUp",
+    "ctaLabel": "Learn the AI System",
+    "body": "<p>You bought another AI course this weekend, didn't you. Maybe two. I'm not judging, I've done the same thing more times than I want to admit, and the reason none of them stuck is not that you're lazy or that the tools are bad. It's that you skipped the part nobody talks about, which is the part where you decide what kind of business the AI is supposed to be running before you turn the AI on.</p>\n<p>Most entrepreneurs build the wrong thing first. They go straight to prompts and ChatGPT hacks before they've defined what their business even sounds like, and then they wonder why their LinkedIn posts read like a slightly drunk MBA student wrote them. So I want to give you the frame I use with my own team and with the coaching clients I work with, and it's the same frame I built my business on. I call it the Authority Agent Operating System, or AAOS, and it has five layers.</p>\n<p>The reason I'm writing this today is because I got off a call this morning with a coach who has spent eighteen thousand dollars on AI consultants in the last year and her content still sounds nothing like her. So.</p>\n<h2>Layer 1: Brand Voice</h2>\n<p>This is the foundation and it's the one almost everyone gets wrong. Brand voice is not a list of adjectives like \"warm, professional, approachable.\" That is a Pinterest mood board, not a brand voice. A real brand voice is a documented, reusable artifact that captures how you write. The cadence. The words you use. The words you'd never use. The way you start sentences. The way you contradict yourself mid-paragraph because you thought of something better.</p>\n<p>If your AI doesn't have this layer, every other layer is contaminated. You can have the smartest agent in the world and it'll still sound like LinkedIn slop.</p>\n<p>The good news is Claude Skills, which Anthropic rolled out in 2025, make this layer portable. You write your voice into a Skill once and every project you start with Claude can call it. I'll do a whole separate piece on the exact fingerprinting process. For now, know this is layer one for a reason.</p>\n<h2>Layer 2: Knowledge</h2>\n<p>Your brain is layer two. Specifically the parts of your brain that don't live anywhere else yet. Your frameworks, your stories, your client case studies, the way you explain things on calls that nobody has ever transcribed. The pricing logic you carry around in your head. The seven objections you handle every week.</p>\n<p>This is where Claude Projects come in. As of mid-2026, a Claude Project lets you upload a knowledge base of documents and set persistent custom instructions, so every conversation inside that project starts with your full context loaded. I have around 40 documents in my main Project, which is mostly transcripts from coaching calls, my book material, and the frameworks I use most.</p>\n<p>Why this matters: AI without your knowledge is an articulate stranger. AI with your knowledge is a junior version of you. And that's what we're building toward.</p>\n<h2>Layer 3: Workflows</h2>\n<p>Here's where most people start, which is why most people never finish. Workflows are the repeatable jobs the business does over and over. Content production. Lead follow-up. Onboarding emails. Proposal drafting. Refund handling. The dozens of small loops your business runs every week.</p>\n<p>Before AI can touch a workflow, you need to write it down. As in, describe it as steps a 19-year-old VA could follow. If you can't write the workflow down, AI cannot run it. Period. (I keep meeting people who want me to \"AI-ify\" a process they've never even documented. Sigh.)</p>\n<p>Tools I use here: n8n for the multi-step automations that string different apps together, and Make for the simpler ones. Both work fine. Pick the one that makes you less anxious when you look at the canvas.</p>\n<h2>Layer 4: Agents</h2>\n<p>This is the layer that's having a moment, and for good reason. An agent is not a single prompt. An agent is a small, focused worker that can make decisions and call tools on its own. The content-repurposing agent. The \"did this lead respond\" agent. The \"draft three replies to these inbox messages in my voice\" agent.</p>\n<p>The thing that changed agents in the last year and a half is the Model Context Protocol, or MCP. Without going too deep, MCP is the open standard that lets AI applications talk to your other tools. Your calendar. Your CRM. Your Notion. Your Drive. Before MCP, every connection was a custom build. Now it's closer to plug-and-play, and the stack has gotten big.</p>\n<p>For most service businesses, you don't need a swarm of agents. You need three or four good ones that handle the loops you do most often. Quality over quantity, always.</p>\n<h2>Layer 5: Distribution</h2>\n<p>The last layer, and the one I think is most underrated. Distribution is how the content, the conversations, and the offers leave your computer and reach a human. Where it goes. How often. In what format.</p>\n<p>I see entrepreneurs build beautiful AI content engines that produce thirty pieces of content a week and then post none of them because the publishing piece was never built. Don't do that. Build the pipe before you turn on the faucet.</p>\n<p>This is where you wire up your scheduler, your email platform, your podcast distribution, your YouTube uploader. n8n handles a lot of this for me. You'll figure out your own stack.</p>\n<h2>Why most entrepreneurs build this backwards</h2>\n<p>They start with layer four. The shiny agent. The autonomous AI worker. And then they wonder why it sounds wrong, knows nothing, has nowhere to go, and operates on workflows that were never documented.</p>\n<p>It's like buying a Ferrari before you have a driveway, gas, or a destination. You've got a thing that looks expensive sitting in your front yard doing nothing.</p>\n<p>Build in order: voice, knowledge, workflows, agents, distribution. Each layer assumes the one below it. Skip a layer and the whole thing wobbles.</p>\n<p>I built my own AAOS over about fourteen months, and yes that's longer than most YouTube videos make it sound. The voice layer took me almost two months on its own because I kept tweaking the Skill. The agents came last and they came fast, because the foundation was already there.</p>\n<h2>What to do this week</h2>\n<p>Don't try to build all five layers at once. Pick layer one. Spend a Saturday with a coffee and a notepad, pull out twenty pieces of your past content (emails, social posts, voice memos), and start cataloguing what makes your writing sound like you. That's your starting point.</p>\n<p>If you want the full step-by-step on how I built mine, including the exact prompts, the Skill structure, and the agent setups, I walk through the whole thing inside my Level Up training. It's the same system I use to run a business that produces more content than most marketing teams with a fraction of the headcount. Come grab it at <a href=\"https://kristamashore.com/LevelUp\">kristamashore.com/LevelUp</a>.</p>",
+    "draft": false
+  },
+  {
+    "title": "The AI-Run Business Stack Krista Uses Today (Full 2026 Breakdown)",
+    "slug": "ai-run-business-stack-2026",
+    "metaTitle": "Krista's AI-Run Business Stack (2026 Breakdown)",
+    "metaDescription": "The actual 6 AI tools running Krista Mashore's business in 2026: Claude, n8n, Fathom, sales follow-up AI, Notion, and Gmail with MCP. Real costs included.",
+    "excerpt": "Not a list of cool tools. The actual 6 AI products running my business this month, what they cost, and where each one is still rough.",
+    "publishedDate": "2026-05-24T16:04:35.664Z",
+    "modifiedDate": "2026-05-24T16:04:35.664Z",
+    "author": "Krista Mashore",
+    "topicalPillar": "ai-run-business",
+    "contentTypePillar": "proof-and-validation",
+    "funnelStage": "authority",
+    "keywords": [
+      "ai business stack 2026",
+      "krista mashore tools",
+      "claude n8n notion fathom",
+      "ai run business tools",
+      "ai stack entrepreneur"
+    ],
+    "wordCount": 1420,
+    "readingMinutes": 7,
+    "featuredImage": {
+      "src": "/articles/hero/ai-run-business-stack-2026.svg",
+      "alt": "A diagram showing six AI tools (Claude, n8n, Fathom, sales AI, Notion, Gmail) connected as a business operating system"
+    },
+    "faq": [
+      {
+        "question": "Why don't you mention a CRM by name?",
+        "answer": "Because for my business, Notion plus a few connected workflows handles the CRM job well enough that I haven't found a switch worth making. At 10+ salespeople you probably need a real CRM. For solo and small teams, Notion plus AI works."
+      },
+      {
+        "question": "Why Claude and not one model for everything?",
+        "answer": "For non-writing tasks I happily use OpenAI or other models. For writing-heavy work, which is most of what I do, Claude wins for me. I'm pragmatic, not religious."
+      },
+      {
+        "question": "Are you sponsored by any of these tools?",
+        "answer": "No. This stack is what I actually pay for. If a tool ever offers an affiliate arrangement, I'd disclose it. This list is what's earning its keep today."
+      },
+      {
+        "question": "What about ChatGPT, do you use it?",
+        "answer": "Yes, occasionally. For quick searches, image generation, and testing if a prompt that fails in Claude works elsewhere. It's in the stack, just not in the top 6."
+      },
+      {
+        "question": "Should I copy your stack exactly?",
+        "answer": "No. Copy the principle: tools that save time or make money, used deeply, with everything else cut. The specific tools matter less than the discipline of choosing."
+      },
+      {
+        "question": "What's the one tool you'd add first?",
+        "answer": "Claude, then n8n. Those two cover roughly 60% of what the rest does combined. The rest is icing."
+      }
+    ],
+    "internalLinks": [
+      "build-ai-agent-n8n-no-coding",
+      "mcp-servers-explained-first-five-to-setup",
+      "seven-ai-tools-krista-content-engine"
+    ],
+    "ctaUrl": "https://kristamashore.com/LevelUp",
+    "ctaLabel": "Learn the AI System",
+    "body": "<p>I get this question every other week, on stage and in DMs. \"Krista, what's actually in your stack? Like, what do you really use, not the sponsored stuff, the real one.\" Fair. Here it is. The actual tools running my business as of this month, what each one does, what it costs, and where each one is still rough.</p>\n<p>This isn't a list of every shiny tool I've tried. This is the surviving stack after I cut everything that didn't earn its keep.</p>\n<h2>The principle behind the stack</h2>\n<p>One rule: every tool has to either save me hours or earn me money. Not \"be cool.\" Not \"have AI features.\" Save time or make money. If it does neither after 60 days, it goes.</p>\n<p>The second rule. I'd rather have 6 tools I deeply use than 30 I half-use. Half-used tools are worse than no tool, because they put data in places I forget to look.</p>\n<h2>The 6 core tools</h2>\n<h3>1. Claude (writing and agents) ,  ~$20/month for Pro</h3>\n<p>Claude is the brain. I use it for almost all of my long-form writing, content repurposing, sales page drafts, email replies that need actual thought, and increasingly as the model powering my AI agents (more on those below).</p>\n<p>Why Claude and not ChatGPT or Gemini. The writing voice. It's the only model I've used that doesn't make me rewrite every other sentence to sound like me. ChatGPT writes like a startup employee giving a TED talk. Gemini writes like a smart intern who reads a lot of HBR. Claude writes like a person who actually finished a draft.</p>\n<p>Cost: Claude Pro subscription is in the $20/month range for individual use last I checked. API usage for agents is separate and pay-as-you-go. We probably spend $80-150/month combined across team usage at this point, though that fluctuates.</p>\n<p>Where it's still rough. Long context windows are great, but when I dump 40,000 words of source material, it sometimes prioritizes the wrong parts. Solution: I summarize down to about 8,000 words before asking it to write.</p>\n<h3>2. n8n (workflow automation) ,  ~$20-50/month depending on tier</h3>\n<p>n8n is my workflow brain. Anywhere I'd previously hire a VA to \"do this every time that happens,\" n8n does it now. Lead intake. Follow-up sequences. Content distribution. Cross-posting from one platform to another.</p>\n<p>I'm running self-hosted (well, my team is, I'm not touching the server) but n8n Cloud is fine for most people. Their pricing page has the current tiers, I'd just check those rather than trust a number I wrote down 3 months ago.</p>\n<p>Where it's still rough. The community nodes for newer platforms can be flaky. We've had 2 workflows break because a third-party node updated and changed the schema. Stick to the official nodes when possible, or build in error handling.</p>\n<h3>3. Fathom (meeting AI) ,  free tier or paid plans</h3>\n<p>Every Zoom I'm on, Fathom is in there taking notes. It records, transcribes, summarizes, identifies action items, and lets me search across every call I've ever had. So when a client says \"remember when you mentioned that thing about lead magnets 4 months ago,\" I find it in 8 seconds instead of guessing.</p>\n<p>The free tier covered me for a long time. We upgraded to paid because the team plan lets us share recordings across team members and includes a few features like CRM sync. I'd check their pricing page for what's current.</p>\n<p>Why Fathom and not Fireflies or Otter? Honestly, all three work. I picked Fathom because the summaries were the cleanest of the three when I tested. Fireflies is fine. Otter is the OG and has its fans.</p>\n<p>Where it's still rough. Like all meeting AI, it occasionally hears something wrong and the summary inherits the error. I scan every summary before I trust it. Takes 30 seconds, worth it.</p>\n<h3>4. Sales follow-up AI (Lindy or similar) ,  pricing varies</h3>\n<p>I'm being deliberately vague here because I'm still actively testing this category. Lindy is one of the platforms I've evaluated for AI agents that handle inbound sales conversations, follow-ups, scheduling. There are several competitors emerging.</p>\n<p>What I want this category to do: pick up after my team's first reply, follow up on a cadence, qualify the lead, book the call. Stop the \"lead goes cold because nobody followed up on day 7\" problem.</p>\n<p>Where it's still rough. Honestly? This whole category is the roughest part of my stack. The platforms can sound robotic if you don't tune them carefully. I've also seen one tool send a follow-up to a lead AFTER they'd already booked, which is the kind of thing that erodes trust. So I'm hedging. I'm not telling you \"go buy Lindy today.\" I'm telling you this is a category to watch and to pilot carefully.</p>\n<p>If you want my candid take when you're in Level Up, I'll tell you exactly where each platform stands in my testing. The category is moving fast enough that I'd rather give you in-the-moment intel than something I wrote down 6 weeks ago that's already outdated.</p>\n<h3>5. Notion (SOPs and operations brain) ,  ~$8-15/month per user on team plan</h3>\n<p>Notion is where the business lives. Every SOP, every process, every project, every client note, every offer template. If a process exists, it lives in Notion. If it lives nowhere else, it doesn't exist.</p>\n<p>The reason I keep Notion specifically (and not ClickUp, Asana, Monday, or any of the others) is that Notion plays unusually well with AI. They've put real effort into MCP integration. So my AI agents can read and write Notion pages, which means my operations brain is also my agents' brain. That matters more every month.</p>\n<p>Where it's still rough. Notion's search is okay, not great. Their built-in AI is fine for inline tasks but I still prefer dropping content into Claude for serious thinking.</p>\n<h3>6. Gmail with MCP triage ,  Workspace pricing, plus AI usage</h3>\n<p>This isn't a separate product, it's a setup. Gmail (via Google Workspace) connected through an MCP server so my AI agents can read my inbox, draft replies, label, search, and triage. The result: my morning inbox review went from 45 minutes to about 12. The AI does the first pass. I confirm or edit.</p>\n<p>Google Workspace pricing is a few dollars per user per month for the lower tiers, last I checked. The MCP server is free open-source, you just need to be willing to set it up (see my separate article on MCP servers if you haven't).</p>\n<p>Where it's still rough. Permissions and OAuth scopes. Granting an AI agent write access to your inbox is the kind of thing that should make you slightly nervous. I started with read-only for 3 weeks, then graduated to draft-only, then graduated to \"can send if marked auto-send\" with a human review queue for anything else.</p>\n<h2>The total monthly cost, honestly</h2>\n<p>Adding it up rough monthly numbers for a small team: - Claude: $20-200 depending on whether you're on Pro or paying for API agents - n8n: $20-50 if cloud, less if self-hosted - Fathom: $0-50 - Sales follow-up AI: $50-200 (testing category) - Notion: $30-90 for a small team - Google Workspace: $30-100 for a small team</p>\n<p>So somewhere between $150 and $700/month total for a small operation, depending on team size and how much you push usage. Compared to one mid-level operations hire at $5,000-8,000/month, the stack is a steal.</p>\n<h2>What I cut</h2>\n<p>A short list of things I tested in the last 12 months and removed: - 3 different \"all-in-one\" AI marketing platforms. Every one of them did 5 things mediocrely instead of one thing well. - 2 separate CRMs trying to replace what Notion already does for me. - One \"agent builder\" that promised the moon and shipped a thin wrapper around OpenAI.</p>\n<p>This isn't shade. It's that my business doesn't need everything that exists. It needs the 6 tools above doing their jobs.</p>\n<h2>The stack will change. The principles won't.</h2>\n<p>By 2027, half this list might look different. New tools will replace some, mergers will eat others. What won't change: I run my business on tools where the AI can see my data and act on it, not tools where I copy-paste forever between siloed apps.</p>\n<p>If you want me to walk you through this stack on real screens, with the exact setup, the actual templates, and what to skip, that's the whole reason Level Up exists. I show you the system, not just the names of tools.</p>\n<p><strong><a href=\"https://kristamashore.com/LevelUp\">Get the AI System Inside Level Up →</a></strong></p>",
+    "draft": false
+  },
+  {
+    "title": "AI Listing Descriptions That Don't Sound Like AI: The 3-Pass Method",
+    "slug": "ai-listing-descriptions-three-pass-method",
+    "metaTitle": "AI Listing Descriptions: The 3-Pass Method",
+    "metaDescription": "Generic AI listing copy is killing your listings. The 3-pass method using Claude and a brand voice doc that fixes it. Before/after examples inside.",
+    "excerpt": "Every agent's using ChatGPT for listings now and the copy all sounds the same. Here's the 3-pass method that fixes it.",
+    "publishedDate": "2026-05-24T16:04:35.664Z",
+    "modifiedDate": "2026-05-24T16:04:35.664Z",
+    "author": "Krista Mashore",
+    "topicalPillar": "community-market-leaders-ai",
+    "contentTypePillar": "process-and-differentiation",
+    "funnelStage": "resonance",
+    "keywords": [
+      "ai listing descriptions",
+      "claude for real estate",
+      "listing copy",
+      "brand voice ai",
+      "real estate ai workflow"
+    ],
+    "wordCount": 1213,
+    "readingMinutes": 6,
+    "featuredImage": {
+      "src": "/articles/hero/ai-listing-descriptions-three-pass-method.svg",
+      "alt": "AI listing descriptions 3-pass method for real estate agents"
+    },
+    "faq": [
+      {
+        "question": "Why not just use one AI tool and one prompt?",
+        "answer": "Because the output sounds like everyone else's. The 3-pass method separates structure (AI is good at it), voice (AI is okay at it with a voice doc), and local truth (AI cannot do it). Treat the passes as separate jobs."
+      },
+      {
+        "question": "Do I need both Claude and ChatGPT?",
+        "answer": "No. Pick one. I prefer Claude for voice work. ChatGPT is fine if it's what you have. The method matters more than the tool."
+      },
+      {
+        "question": "What goes in a brand voice doc?",
+        "answer": "One page. Five sentences on how you sound, five words you love, five words you hate, and three sample paragraphs you've written that you'd want everything to sound like."
+      },
+      {
+        "question": "Will buyers know I used AI?",
+        "answer": "If you skip Pass 2 and Pass 3, yes, immediately. If you do all three passes, no. Pass 3 is the trust signal because it proves a human walked the house."
+      },
+      {
+        "question": "How long does this take per listing?",
+        "answer": "About 12 minutes once you have a voice doc. Pass 1 takes 90 seconds. Pass 2 takes 3 minutes. Pass 3 is where you slow down with the handwritten touches."
+      },
+      {
+        "question": "My broker requires MLS bullet format. Now what?",
+        "answer": "Run the 3-pass method first, then chop it into the bullet format for the MLS field. The full version goes on your site, in the printed flyer, and into the social posts."
+      }
+    ],
+    "internalLinks": [
+      "brand-voice-fingerprinting-claude",
+      "ai-content-repurposing-one-video-eight-posts",
+      "claude-projects-setting-up-first-one"
+    ],
+    "ctaUrl": "https://kristamashore.com/LevelUp",
+    "ctaLabel": "Learn the AI System",
+    "body": "<p>You took a listing in Brentwood last Tuesday. Beautiful house, weird floor plan, a sunroom the previous owner added without a permit (you're working through that). You opened ChatGPT, pasted in the MLS bullets, asked for a listing description, and got back something that started with \"Nestled in a sought-after neighborhood, this exquisite home offers a perfect blend of modern luxury and timeless charm.\"</p>\n<p>You hated it. Your seller would hate it. Every agent in the office is now pumping out the same beige paragraph and the buyers reading them have started to glaze over.</p>\n<p>Here's the thing. AI is not the problem. One-pass AI is the problem. Below is the 3-pass method I use with Claude and a brand voice doc, and the difference is night and day.</p>\n<h2>Why one-pass AI listing copy is killing you</h2>\n<p>Buyers can smell AI now. So can your sellers. When every house on the MLS sounds like it was written by the same digital intern, your listing blends in. Worse, your sellers start to wonder what they're paying you for if a free chatbot writes their description.</p>\n<p>I'm not anti-AI. I run my whole content engine on it. But you can't hand AI raw bullet points and expect anything that sounds like you. AI gives you structure and speed. You add the soul. That's the deal.</p>\n<h2>The 3-Pass Method</h2>\n<p>Three passes. About 12 minutes per listing once you get the rhythm. Costs you nothing if you already have Claude and a writing tool you trust.</p>\n<h3>Pass 1: Structure with Claude (or ChatGPT, whatever you have)</h3>\n<p>This is the boring pass. You feed Claude the property facts and a tight prompt asking for STRUCTURE only. No flourishes. No adjectives. No \"nestled.\"</p>\n<p>Prompt I use:</p>\n<blockquote><p>\"Write a 180-word listing description for the property below. Plain language. No marketing adjectives. No words like nestled, charming, exquisite, luxurious, perfect, or stunning. Structure it as: 1) one-sentence hook about what makes this house different, 2) the main living spaces, 3) the kitchen and primary suite, 4) the outdoor/lot, 5) the location. Use short, declarative sentences. Property facts: [paste MLS facts here].\"</p></blockquote>\n<p>What you get back is a clean skeleton. It will still be a little robotic. That's fine. Pass 1 is just getting the bones down so you're not staring at a blank page at 9pm.</p>\n<h3>Pass 2: Voice rewrite with your brand voice doc</h3>\n<p>This is the pass nobody runs and it's the whole game.</p>\n<p>You need a brand voice doc. One page. Bullet points on how you write. Your favorite phrases. Words you never use. Tone (warm, direct, a little funny, whatever yours is). If you don't have one yet, write down 5 things about how you sound when you're talking to a friend about a house, then add 5 listing descriptions you've written that you actually liked. That's enough to start.</p>\n<p>Feed Pass 1 back to Claude with this prompt:</p>\n<blockquote><p>\"Rewrite this listing description in my voice using the attached brand voice doc. Keep all the facts. Vary sentence length. Use contractions. Cut any word that doesn't earn its keep. Don't change the structure.\"</p></blockquote>\n<p>You're not asking AI to invent. You're asking it to translate. That's a much smaller ask and AI gets it right way more often.</p>\n<p>If you've never built a brand voice doc for AI, my other piece on brand-voice-fingerprinting-claude walks through it.</p>\n<h3>Pass 3: The local human touches</h3>\n<p>This is the part AI cannot do. You add three things, by hand:</p>\n<ol><li><strong>One sentence about the neighborhood that nobody else knows.</strong> The Thursday food truck on the corner of 4th. The dog park 200 yards away that's not on Google yet. The way the light hits the kitchen at 4pm in October. This is the proof you walked the house.</li></ol>\n<ol><li><strong>A specific buyer line.</strong> Who is this house for? \"If you've been looking for a single-level with a real office, this is it.\" That's a sentence ChatGPT cannot write because it doesn't know your buyer pool.</li></ol>\n<ol><li><strong>One small flaw, named directly.</strong> \"The third bedroom is small. It's a perfect office.\" Sellers panic at this but buyers trust it. And buyers who feel trust show up.</li></ol>\n<p>That's it. Three handwritten touches, 90 seconds of effort, and the description stops sounding like every other listing in the MLS.</p>\n<h2>Before and after (real example, light edits for privacy)</h2>\n<p><strong>One-pass ChatGPT version:</strong></p>\n<p>\"Nestled in the heart of desirable Brentwood, this exquisite 4-bedroom, 3-bath home offers the perfect blend of modern luxury and timeless charm. Step inside to discover an open-concept floor plan flooded with natural light, a gourmet kitchen with top-of-the-line appliances, and a spacious primary suite that serves as your private retreat. The backyard oasis is perfect for entertaining…\"</p>\n<p>You've read that exact paragraph 400 times this year.</p>\n<p><strong>3-Pass version:</strong></p>\n<p>\"This 4-bed in Brentwood has the floor plan you've been waiting for. Single level. Real office off the entry, not a converted closet. The kitchen opens to a living room that actually fits a sectional, which sounds small until you've tried to fit one in the houses across the street. Primary suite is on the opposite end from the guest rooms. The backyard pulls afternoon shade by 3pm in the summer, which anyone who's lived in this part of town will tell you matters. Walk to the Thursday food trucks at the park three blocks down. The third bedroom is small. It's a great office or nursery, less great as a teen room. Worth seeing in person.\"</p>\n<p>Same house. One sounds like a Mad Lib. The other sounds like you actually went.</p>\n<h2>Tools I'd actually pair with this</h2>\n<p>You don't need a stack. You need two things and a voice doc.</p>\n<ul><li><strong>Claude</strong> for Pass 1 and Pass 2. Better at voice work than most options. The Projects feature holds your brand voice doc so you stop pasting it every time.</li><li><strong>HeyGen</strong> if you want to turn the finished description into a 30-second listing video with an AI avatar reading it. I'd use your own face on video for the listing, but HeyGen is fine for the secondary cuts you push to Reels and TikTok.</li></ul>\n<p>You can swap in ChatGPT for Claude on Pass 1. Pass 2 is where Claude pulls ahead in my testing. Test it on your own copy and see.</p>\n<p>A quick note on virtual staging. Tools like Collov AI and REimagineHome can re-stage an empty room in a few minutes. If you're using them on a listing, say so in your description. Buyers find out anyway and the trust hit is not worth the prettier photos.</p>\n<h2>Why this matters in 2026</h2>\n<p>The market shifted. Buyers are slower, pickier, and more skeptical. Generic listing copy used to be background noise. Now it's an active negative. The listings winning attention right now sound specific, honest, and like an actual person walked the property and made an opinion.</p>\n<p>You can do this with AI. You just have to use it like a tool and not like a ghostwriter.</p>\n<h2>Want the full system?</h2>\n<p>I teach this exact 3-pass method, plus the brand voice doc template, plus the buyer-targeting prompts, inside Level Up. Agents are pulling listings off the MLS and getting them written in under 15 minutes with copy that converts. <a href=\"https://kristamashore.com/LevelUp\">Come see how the whole system fits together.</a></p>",
+    "draft": false
+  }
+]
