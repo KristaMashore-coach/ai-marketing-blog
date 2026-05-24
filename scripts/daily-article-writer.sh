@@ -1,13 +1,14 @@
 #!/bin/bash
-# Daily article generation runner. Invoked by launchd at 5:00 AM PT.
+# Daily AI article generation runner. Invoked by launchd at 6:00 AM PT for aiBlog.kristamashore.com.
+# This is the AI BLOG version. The real estate blog uses a separate script.
 
 set -uo pipefail
 
 LOG_DIR="$HOME/Library/Logs"
-LOG_FILE="$LOG_DIR/krista-daily-articles.log"
+LOG_FILE="$LOG_DIR/krista-ai-articles.log"
 mkdir -p "$LOG_DIR"
 
-PROJECT="/Users/kristamashore/Sites/krista-mashore-content-site"
+PROJECT="/Users/kristamashore/ai-marketing-blog-folder"
 PROMPT_FILE="$PROJECT/scripts/daily-article-prompt.md"
 CLAUDE_BIN="/Users/kristamashore/.local/bin/claude"
 
@@ -15,11 +16,11 @@ TODAY=$(date +%Y-%m-%d)
 
 {
   echo ""
-  echo "===== Daily article run START $(date) ====="
+  echo "===== AI article run START $(date) ====="
   echo "Today: $TODAY"
 } >> "$LOG_FILE"
 
-mkdir -p "/Users/kristamashore/Desktop/Krista's Personal Operating System/Krista-OS/Articles/$TODAY/.queue"
+mkdir -p "/Users/kristamashore/Desktop/Krista's Personal Operating System/Krista-OS/AI-Articles/$TODAY/.queue"
 
 cd "$PROJECT"
 
@@ -32,19 +33,19 @@ cd "$PROJECT"
 EXIT_CODE=$?
 
 {
-  echo "===== Daily article run END $(date) (exit $EXIT_CODE) ====="
+  echo "===== AI article run END $(date) (exit $EXIT_CODE) ====="
 } >> "$LOG_FILE"
 
 if [ "$EXIT_CODE" -ne 0 ]; then
   osascript <<MAIL_EOF
 tell application "Mail"
-    set failMsg to make new outgoing message with properties {subject:"⚠️ Daily article run FAILED — $TODAY", content:"The daily article writer exited with code $EXIT_CODE. Check ~/Library/Logs/krista-daily-articles.log for details.", visible:false}
-    tell failMsg
-        make new to recipient with properties {address:"doit@kristamashore.com"}
-    end tell
-    send failMsg
+  set newMessage to make new outgoing message with properties {subject:"AI blog article writer FAILED $(date '+%Y-%m-%d')", content:"Exit code: $EXIT_CODE. See log: $LOG_FILE"}
+  tell newMessage
+    make new to recipient with properties {address:"doit@kristamashore.com"}
+  end tell
+  send newMessage
 end tell
 MAIL_EOF
 fi
 
-exit "$EXIT_CODE"
+exit $EXIT_CODE

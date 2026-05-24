@@ -1,243 +1,256 @@
-# Daily Article Generation — Scheduled Run
+# Daily Article Generation — AI Blog (aiBlog.kristamashore.com)
 
-You are running as a scheduled task at 5:00 AM Pacific time. Your job is to produce 5 high-quality blog article drafts for Krista Mashore Coaching's content site (`blog.kristamashore.com`), save them for review, and email Krista that they're ready.
+You are running as a scheduled task. Your job is to produce a batch of high-quality blog article drafts for **aiBlog.kristamashore.com** (Krista Mashore — AI for Business), validate them, queue them, and run the autopublish pipeline. This run is autonomous. Do not ask questions. Do not pause for confirmation. Make reasonable judgment calls and finish the work.
 
-This run is autonomous. Do not ask questions. Do not pause for confirmation. Make reasonable judgment calls and complete the work.
+---
+
+## How many articles in this run
+
+Check the environment variable `ARTICLE_COUNT`. If set, write that many. If not set:
+- **If `data/blog/posts.json` is empty or has < 5 entries** → write **15 articles** (launch run)
+- **Otherwise** → write **10 articles** (steady-state daily run)
 
 ---
 
 ## What today's date is
 
-Use the current system date. Format it as `YYYY-MM-DD` and refer to it as `<today>` below.
+Use the current system date. Format it as `YYYY-MM-DD`. Refer to it as `<today>` below.
 
 ---
 
-## Where everything lives
+## Where everything lives (absolute paths — use these verbatim)
 
-**Project:** `/Users/kristamashore/Sites/krista-mashore-content-site/`
+**Project root:**
+`/Users/kristamashore/ai-marketing-blog-folder/`
 
-**Brand source of truth (read these BEFORE writing):**
-- `/Users/kristamashore/Desktop/Krista's Personal Operating System/Krista-OS/12-Content-Library/Brand-System/01-Brand-Brain.md` (positioning, frameworks, philosophy)
-- `/Users/kristamashore/Desktop/Krista's Personal Operating System/Krista-OS/12-Content-Library/Brand-System/02-Ideal-Client.md` (audience psychology and language)
-- `/Users/kristamashore/Desktop/Krista's Personal Operating System/Krista-OS/12-Content-Library/Brand-System/04-Content-Pillars.md` (the six content-type pillars)
-- `/Users/kristamashore/Desktop/Krista's Personal Operating System/Krista-OS/12-Content-Library/Brand-System/07-Voice-Rules.md` (voice — NON-NEGOTIABLE)
-- `/Users/kristamashore/Sites/krista-mashore-content-site/BUILD-DECISIONS.md` (pillar structure with sub-clusters)
-- `/Users/kristamashore/Sites/krista-mashore-content-site/docs/CONTENT-ROADMAP-30DAY.md` (topic palette — guidance, not a fixed list)
-- `/Users/kristamashore/.claude/projects/-Users-kristamashore-Desktop-AEO-Blog-Agent/memory/` (read every memory file — feedback Krista has given before)
+**Brand source of truth — read these BEFORE writing:**
+- `/Users/kristamashore/Krista-OS/Krista-OS/12-Content-Library/Brand-System/01-Brand-Brain.md` (positioning, frameworks, philosophy)
+- `/Users/kristamashore/Krista-OS/Krista-OS/12-Content-Library/Brand-System/02-Ideal-Client.md` (audience psychology — extend beyond real estate)
+- `/Users/kristamashore/Krista-OS/Krista-OS/12-Content-Library/Brand-System/07-Voice-Rules.md` (voice — NON-NEGOTIABLE)
+- `/Users/kristamashore/ai-marketing-blog-folder/CLAUDE.md` (5 pillars, audience scope, publishing cadence — read this FIRST every run)
+- `/Users/kristamashore/ai-marketing-blog-folder/docs/AI-CONTENT-ROADMAP.md` (topic palette — guidance, not a fixed list)
+- `/Users/kristamashore/.claude/projects/-Users-kristamashore-ai-content-site/memory/` (read every memory file — feedback Krista has given before)
 
-**Existing content (do NOT duplicate slugs):**
-- `/Users/kristamashore/Sites/krista-mashore-content-site/data/blog/posts.json`
-- `/Users/kristamashore/Sites/krista-mashore-content-site/data/blog/queue.json`
+**Existing AI blog content (do NOT duplicate slugs):**
+- `/Users/kristamashore/ai-marketing-blog-folder/data/blog/posts.json`
+- `/Users/kristamashore/ai-marketing-blog-folder/data/blog/queue.json`
+
+**Real estate blog (for reference only — do NOT write articles there):**
+- `/Users/kristamashore/ai-content-site/data/blog/posts.json` — used to make sure AI articles don't accidentally overlap with real estate topics
 
 ---
 
-## Output for each article
+## Mandatory pre-write research (do this every run, no shortcuts)
 
-For every article, save TWO files:
+Before writing anything, run actual research. The AI niche moves weekly. Generic evergreen content will not rank, will not get cited, and will not position Krista as the AI authority.
 
-1. **Markdown for Obsidian review** — `/Users/kristamashore/Desktop/Krista's Personal Operating System/Krista-OS/Articles/<today>/<slug>.md`
-2. **JSON for the queue script** — `/Users/kristamashore/Desktop/Krista's Personal Operating System/Krista-OS/Articles/<today>/.queue/<slug>.json`
+1. **Pull current AI news from the last 30 days.** WebSearch for: AI tool releases, model updates (Claude/GPT/Gemini), new MCP servers, agent platform launches, AI in real estate news, AI in lending news, AI for entrepreneurs / coaches / consultants. Note specific names, dates, version numbers, pricing if you find it.
 
-The markdown file uses YAML frontmatter Obsidian renders cleanly. The JSON file matches the schema the queue-article.cjs script validates against (see `/Users/kristamashore/Sites/krista-mashore-content-site/scripts/queue-article.cjs`).
+2. **Pull demand signals.** WebSearch and where possible WebFetch:
+   - What entrepreneurs are asking on Reddit (`r/entrepreneur`, `r/smallbusiness`, `r/Claude`, `r/ChatGPT`, `r/artificial`)
+   - What real estate agents are asking about AI (`r/realtors`, `r/realestate`)
+   - What lenders are asking (`r/Mortgages`, mortgage industry news)
+   - "People Also Ask" patterns on Google for AI business topics
+   - Recent posts on X / LinkedIn from AI thought leaders (what's getting traction)
 
-### Markdown frontmatter
+3. **Read every existing slug** in `posts.json` so you don't duplicate. The slug is the unique ID — if it exists, pick a different angle.
 
+4. **Verify before citing.** If a tool, version, or pricing detail is older than your training data, WebFetch the product page and confirm. Do not publish stale info.
+
+---
+
+## Voice (read aloud — must sound like Krista, not like ChatGPT)
+
+This is non-negotiable. The full Human Writing Enforcement Protocol lives in `/Users/kristamashore/ai-marketing-blog-folder/CLAUDE.md`. Re-read it every run. The biggest rules:
+
+- **Talk to ONE person.** "You" not "agents" or "entrepreneurs" (when addressing). Pick a specific reader for that article and write to them.
+- **NO em-dashes anywhere** in body, FAQ, meta, anywhere. Use periods, commas, or `...`.
+- **NO banned words.** Full list in CLAUDE.md. Auto-rejected by `scripts/voice-check`. Examples: leverage, utilize, journey, navigate, unlock, elevate, harness, realm, dive, delve, transform (sparingly only), seamless, robust, comprehensive, cutting-edge, empower, moreover, furthermore, ultimately, essentially.
+- **NO triplet patterns.** "Stop doing X. Stop doing Y. Stop doing Z." Auto-flag.
+- **NO "it's not X, it's Y" or "this isn't just, it's" formulations.** Banned.
+- **Mix sentence lengths.** Short. Then a longer one with a few clauses. Then medium. Vary it.
+- **Use contractions naturally.** Don't, can't, won't, I'm.
+- **Specific numbers, not round.** "13 ways" not "10 ways". "7 minutes" not "5-10 minutes."
+- **Personal flaws and tangents are good.** A sudden side comment, a moment of self-correction, an unfinished thought, the parenthetical aside that has personality not just info.
+- **Pattern interrupts.** Use 2-3 per article. Mid-sentence reset. Sudden question to the reader. Casual admission. Deliberate tangent. Thought correction.
+- **Final check:** Read it aloud. If it sounds like a textbook, LinkedIn post, or AI trying to sound engaging → rewrite.
+
+---
+
+## Topics: how to pick (across all 5 pillars)
+
+The 5 pillars are anchored to Krista's IP. Use the slugs exactly as written. Read `docs/AI-CONTENT-ROADMAP.md` for the topic palette.
+
+1. **`authority-agent-operating-system`** — The Authority Agent Operating System™ (anchor). Trademarked framework. How to build the AI OS that makes you the obvious choice in your space. Audience: any service business owner.
+
+2. **`ai-content-to-client-system`** — Using AI to turn content into clients. Marketing → lead gen → nurture → conversion with AI workflows.
+
+3. **`ai-run-business`** — The AI-Run Business. Workflows, agents, fulfillment, delivery, retention, resell. The operational side.
+
+4. **`community-market-leaders-ai`** — Community Market Leaders®: AI for Real Estate & Lenders. The ONLY pillar narrowly focused on real estate and lender workflows. A-Z listing process with AI, lender automation.
+
+5. **`claude-for-dummies`** — Claude for Dummies: The AI Tools That Actually Matter. Practical Claude-only training. Skills, projects, Claude Code, Claude Desktop, MCP servers, Memory tool, Computer Use. No ChatGPT confusion.
+
+### Distribution per run
+
+**Launch run (15 articles):**
+- 3 articles in `authority-agent-operating-system`
+- 3 articles in `ai-content-to-client-system`
+- 3 articles in `ai-run-business`
+- 3 articles in `community-market-leaders-ai`
+- 3 articles in `claude-for-dummies`
+
+**Daily run (10 articles):**
+- 2 articles in each of the 5 pillars
+
+### Audience scope per article
+
+Each article addresses ONE of these audience profiles (lead with that audience in the first paragraph):
+- Entrepreneur / business owner (general — not industry-specific)
+- Coach / consultant / expert / professional
+- Real estate agent
+- Lender / mortgage officer
+- Solopreneur / creator
+
+Across a 15-article launch, hit at least 4 of these 5 profiles. Across a 10-article daily run, hit at least 3 of these 5. Pillar 4 (CML AI) is the only one locked to real estate and lender audiences.
+
+### Topic selection rules
+
+- **Every article must reference at least one specific, current AI tool, model, or update by name.** Examples: "Claude's Memory tool," "n8n's AI agent nodes," "HeyGen's avatar studio," "MCP servers like the Gmail one," "Lindy's email agent," "Zest AI underwriting," "Collov AI virtual staging." Generic "AI in general" articles are rejected.
+- **Tie to a real demand signal.** Something agents/entrepreneurs are actually searching, asking, or struggling with — cite the signal in your reasoning notes if helpful, but don't fluff the article with it.
+- **Don't duplicate slugs.** Check posts.json + queue.json.
+- **Range across funnel stages.** Don't make every article authority-tier. Mix attention, resonance, authority, capture, nurture, conversion stages.
+
+---
+
+## Output format — for every article, save TWO files
+
+### 1. Markdown for Obsidian review
+
+Path: `/Users/kristamashore/Desktop/Krista's Personal Operating System/Krista-OS/AI-Articles/<today>/<slug>.md`
+
+Frontmatter (YAML):
 ```yaml
 ---
 title: "<full title>"
 slug: "<kebab-case-slug>"
 status: pending-review
-topicalPillar: "<one of: real-estate-marketing | real-estate-lead-generation | personal-branding-authority>"
+topicalPillar: "<one of: authority-agent-operating-system | ai-content-to-client-system | ai-run-business | community-market-leaders-ai | claude-for-dummies>"
 contentTypePillar: "<one of: local-market-authority | problem-solving | educational-authority | proof-and-validation | personal-brand-relatability | process-and-differentiation>"
-subCluster: "<for personal-branding-authority only: known-before-needed | win-before-arrive>"
 funnelStage: "<one of: attention | resonance | authority | capture | nurture | conversion | ascension>"
+audience: "<one of: entrepreneur | coach-consultant | real-estate-agent | lender | solopreneur>"
 keywords: ["primary keyword", "secondary keyword", ...]
 metaTitle: "<≤60 chars>"
 metaDescription: "<≤155 chars>"
-youtubeBacklink: "<full URL of the Krista video this article references>"
+toolsReferenced: ["specific AI tool name 1", "tool name 2", ...]
 ---
 ```
 
-Then the article body in markdown, with a `## FAQ` section at the end containing 4-6 Q/A items, and a final `## Internal links` section listing the cross-links you wove into the body.
+Body: the article (~1,100–1,400 words). Then a `## FAQ` section with ≥4 entries (each Q&A pair). Then a `## Internal links` section listing ≥3 slugs.
 
-### JSON body format (important)
+### 2. JSON for the queue script
 
-In the queued JSON file, the `body` field can be either markdown OR HTML — auto-publish.cjs calls `scripts/lib/md-to-html.cjs` to convert markdown automatically. The page's `<h1>` title, hero image, FAQ accordion, and related-posts grid are rendered by React components, so you do NOT need to include a leading `# Title`, `![](hero)`, `## FAQ`, or `## Internal links` in the body — the converter strips those if they appear at the top or trailing edges. (They stay in the `.md` for Obsidian readability.) Do NOT hand-write `<p>` / `<h2>` tags — write clean markdown and let the converter handle it.
+Path: `/Users/kristamashore/Desktop/Krista's Personal Operating System/Krista-OS/AI-Articles/<today>/.queue/<slug>.json`
 
----
+Schema (all required fields shown; matches `scripts/queue-article.cjs`):
+```json
+{
+  "title": "...",
+  "slug": "kebab-case",
+  "metaTitle": "≤60 chars",
+  "metaDescription": "≤155 chars",
+  "excerpt": "1-2 sentence hook for listing pages",
+  "publishedDate": "",
+  "modifiedDate": "",
+  "author": "Krista Mashore",
+  "topicalPillar": "one of the 5 AI pillar slugs",
+  "contentTypePillar": "one of the 6 content type slugs",
+  "funnelStage": "one of the 7 funnel stage slugs",
+  "keywords": ["k1", "k2", "k3", "k4", "k5"],
+  "wordCount": 0,
+  "readingMinutes": 0,
+  "featuredImage": {
+    "src": "https://placehold.co/1200x675/EA580C/FFFFFF/png?text=<URL-encoded-title>",
+    "alt": "<descriptive alt text>"
+  },
+  "faq": [
+    { "question": "...", "answer": "..." },
+    { "question": "...", "answer": "..." },
+    { "question": "...", "answer": "..." },
+    { "question": "...", "answer": "..." }
+  ],
+  "internalLinks": ["slug-1", "slug-2", "slug-3"],
+  "ctaUrl": "https://kristamashore.com/LevelUp",
+  "ctaLabel": "Learn the AI System",
+  "body": "<article body in markdown — auto-publish converts to HTML>",
+  "draft": false
+}
+```
 
-## Topic selection (the new part of your job)
-
-You are not picking from a fixed list. You decide what 5 topics to write each day based on what's most relevant right now.
-
-**Process:**
-
-1. WebSearch and WebFetch as needed to surface what real estate agents are searching for, asking about, and discussing today
-2. Mine "People Also Ask" data and Reddit threads (`r/realtors`, `r/realestate`, `r/realestateinvesting`)
-3. Cross-reference against the existing posts.json + queue.json to find gaps in the cluster map
-4. Pick 5 topics where (a) there is real search/question demand, (b) the topic fits one of the three topical pillars, and (c) you can build a strong link from a new article back to an existing cluster hub
-
-**Rule:** every Personal Branding & Authority article must roll up to ONE of the two locked sub-clusters (`known-before-needed` or `win-before-arrive`) per `BUILD-DECISIONS.md`. No exceptions.
-
-**Distribution target across the 5 daily articles:** roughly 2 Marketing / 2 Lead Gen / 1 Personal Branding, but you can deviate if the demand signal is strong elsewhere on a given day. Document your reasoning briefly at the top of each article's markdown file (in a `## Why this topic today` section).
-
----
-
-## Voice rules (HARD — fail and rewrite if any are violated)
-
-- Talk to ONE person, not an audience
-- No em dashes anywhere in body or FAQ. Use periods, commas, or `...`
-- Never use a banned phrase (the full list is in `/Users/kristamashore/Sites/krista-mashore-content-site/src/lib/voice.cjs`)
-- Mix sentence lengths: short, then longer, then medium
-- Use contractions
-- Be direct. "This works." not "This may help."
-- Thread Krista's mantras where natural: **Win before you arrive · Known before you're needed · Top producer = top marketer · Community Market Leader® · No chasing · Predictable · Obvious choice · Specialized knowledge · Not a commodity**
-- Run a final pass: would Krista say this out loud? If it sounds like a corporate blog, rewrite.
-
----
-
-## Citations (HARD RULE — Krista's no-hallucination directive, 2026-05-19)
-
-**Every factual claim must have a real source URL embedded in the same paragraph as the claim.**
-
-A "factual claim" is anything a fact-checker could verify or dispute:
-
-- Percentages (`30%`, `1-3%`, `60 percent`)
-- "N out of M" ratios ("9 out of 10 buyers...")
-- Specific counts ("2.3 million homes sold", "$50 billion market")
-- Any sentence with "studies show", "research from", "according to", "report says", "data from"
-- Industry averages or benchmarks
-
-**You have THREE options for any factual claim:**
-
-1. **Cite it with a real URL** — `<a href="https://www.nar.realtor/...">NAR's 2024 buyer profile</a> found that 73% of buyers...` Verify the URL exists with WebFetch BEFORE embedding it. If the page 404s or doesn't actually say what you claim, find a different source or drop the claim.
-
-2. **Hedge it as personal observation** — "Most agents I coach see roughly..." / "In my experience..." / "Roughly..." — these explicitly mark the claim as Krista's experience, not a stat.
-
-3. **Cut the claim entirely** — rewrite the sentence without the number. The article can still be strong without it.
-
-**Acceptable sources (in order of preference):**
-- National Association of Realtors (nar.realtor)
-- REAL Trends (realtrends.com)
-- Zillow Research (zillow.com/research)
-- Redfin Data Center (redfin.com/news/data-center)
-- Meta's Ads Manager benchmarks (only the published ones)
-- Inman, HousingWire, RIS Media (for industry trends)
-- Government data (census.gov, bls.gov)
-
-**NEVER cite:**
-- A blog post that itself doesn't cite the original source
-- "Industry studies" without naming the study
-- AI-generated content
-- Wikipedia (use Wikipedia's source, not Wikipedia)
-
-The `scripts/citation-guard.cjs` will reject any article that has an uncited stat. Articles that fail are quarantined and NOT published. You will be running with no human approval — this guard is your safety net. Do not try to bypass it.
+Leave `publishedDate`, `modifiedDate`, `wordCount`, `readingMinutes` empty/zero — auto-publish.cjs fills them.
 
 ---
 
-## Pre-listing video framing (CRITICAL — Krista has corrected this once already)
+## Citation discipline (HARD RULE — no exceptions)
 
-If any article touches pre-listing videos, pre-listing packages, or "win before you arrive" content, the pre-listing video is a **MARKETING DIFFERENTIATION DEMO** sent the moment a seller calls. Not a friendly intro 24-48 hours before the meeting. The video shows how you market a home using AI, video, social media. The goal is to demonstrate the seller you are not a commodity. See `pre-listing-video-is-marketing-demo.md` in the memory folder for full rule.
+Every factual claim — percentage, ratio, count, "studies show," industry benchmark, pricing, market size — must have one of:
 
----
+1. A real source URL embedded in the same paragraph, OR
+2. Hedged as personal observation ("In Krista's experience…", "From what I've seen working with agents…"), OR
+3. Cut entirely.
 
-## YouTube backlink discovery
+Acceptable sources for AI/business claims: official company sites (anthropic.com, openai.com, etc.), credible tech publications (TechCrunch, Verge, Information), industry research (Gartner, Forrester), government data (BLS, Census), the actual product's pricing page. Never cite Wikipedia, generic blog posts, "industry studies" without naming, or AI-generated content.
 
-For each article, find a relevant Krista Mashore YouTube video and embed it as a backlink in the body. Search:
-
-- WebSearch with `Krista Mashore YouTube <topic keywords>` filtered to `youtube.com`
-- Check her main channel: `https://www.youtube.com/@KristaMashore`
-- Confirm the video URL is real before embedding (WebFetch the URL — if it 404s, skip)
-
-Embed the link naturally in a relevant section of the body. Anchor text should include the actual video title or topic (not "click here"). Set `target="_blank" rel="noopener"`.
+**If you cannot verify a statistic, do not include it.** The citation guard at `scripts/citation-guard.cjs` will quarantine articles with uncited stats — your job is to not let that happen.
 
 ---
 
-## Internal cross-linking rules
+## Internal cross-linking (every article links to ≥3 others)
 
-Every article must include AT LEAST 5 internal links:
+For each article, link to:
+1. The pillar landing page (e.g., `/authority-agent-operating-system`)
+2. At least 1 other article in the same pillar (sibling spoke)
+3. At least 1 article in a different pillar (cross-pillar)
 
-1. The cluster's HUB article (look it up from `CONTENT-ROADMAP-30DAY.md`)
-2. Two SIBLING SPOKES in the same cluster
-3. One CROSS-PILLAR hub from a different pillar
-4. The pillar landing page (`/real-estate-marketing`, `/real-estate-lead-generation`, or `/personal-branding-authority`)
-
-If a hub article doesn't yet exist in `posts.json`, link to a planned slug from the roadmap — but only AFTER you've confirmed the hub will be written soon. Otherwise pick a different existing article.
+If those articles don't exist yet (launch day will start sparse), reference planned slugs that other articles in this batch will cover. The internal links create the hub-and-spoke topical authority SEO needs.
 
 ---
 
-## CTA
-
-Default CTA on every article:
+## CTA (default for all articles unless a specific funnel asset fits better)
 
 - URL: `https://kristamashore.com/LevelUp`
-- Label: `Get the Level Up Training`
+- Label: `Learn the AI System`
 
 ---
 
-## Featured image
+## After all articles are written
 
-Use the orange placeholder pattern (until brand assets land):
+1. **Validate each one:** `node /Users/kristamashore/ai-marketing-blog-folder/scripts/queue-article.cjs --validate "<path>/<slug>.json"`. Fix any errors before moving on. Validation failures are not optional to fix.
 
+2. **Run autopublish:** From the project root, run:
 ```
-src: "https://placehold.co/1200x675/EA580C/FFFFFF/png?text=<URL-encoded title>"
-alt: "<descriptive alt text>"
+cd /Users/kristamashore/ai-marketing-blog-folder
+node scripts/auto-publish.cjs --dir="/Users/kristamashore/Desktop/Krista's Personal Operating System/Krista-OS/AI-Articles/<today>/.queue"
 ```
+
+Pipeline runs: validation → voice rules → citation guard → slug uniqueness → build → posts.json prepend → git commit → git push (Vercel auto-deploys ~60s).
+
+Articles that fail any gate are quarantined to `./quarantine/` with a reason file. Articles that pass go live.
+
+3. **Log the run.** Append to `~/Library/Logs/krista-ai-articles.log`:
+```
+<timestamp> | <today> | requested N | wrote N | published P | quarantined Q | slugs: slug1, slug2, ...
+```
+
+4. **If any quarantined or any unexpected errors,** send a summary email to `doit@kristamashore.com` via osascript Mail.app so Krista knows what to look at.
 
 ---
 
-## Validation (run before declaring done)
+## Reminders
 
-For every article's JSON, run:
-
-```bash
-cd /Users/kristamashore/Sites/krista-mashore-content-site
-node scripts/queue-article.cjs --validate "/Users/kristamashore/Desktop/Krista's Personal Operating System/Krista-OS/Articles/<today>/.queue/<slug>.json"
-```
-
-If validation fails on any article, FIX it before proceeding. Don't queue. Don't email until all 5 pass validation.
-
----
-
-## Auto-publish (the final step — UPDATED 2026-05-19, Krista's directive)
-
-**Krista has authorized auto-publish without per-article human approval.** Once all 5 articles are saved to `Articles/<today>/.queue/<slug>.json`, immediately run the auto-publish pipeline:
-
-```bash
-cd /Users/kristamashore/Sites/krista-mashore-content-site
-node scripts/auto-publish.cjs
-```
-
-What this does:
-1. Reads every `*.json` from today's `.queue/` folder
-2. Runs each article through 5 quality gates:
-   - Required-fields validation
-   - Voice rules (banned phrases, em-dashes)
-   - **Citation guard** (rejects uncited stats — this is the line you must not cross)
-   - Slug uniqueness
-   - Build succeeds
-3. Articles that pass → prepended to `posts.json` with `draft: false`, committed, pushed (Vercel auto-deploys in ~60s)
-4. Articles that fail → moved to `quarantine/` with the reason file; Krista is told in the summary email
-5. Summary email lands in `doit@kristamashore.com`
-
-**You do NOT need to send a separate "ready for review" email.** The auto-publish script sends the daily summary.
-
----
-
-## Logging
-
-Append a one-line summary to `~/Library/Logs/krista-daily-articles.log`:
-
-```
-<timestamp> | <today> | wrote N | <slug1>, <slug2>, ... | published P | quarantined Q
-```
-
-If anything fails, log the error AND still trigger auto-publish for any articles that did get written. Partial wins beat total silence.
-
----
-
-## End condition
-
-When all 5 articles are saved, auto-publish has run, and the summary email is sent, exit. The next run is tomorrow at 5 AM PT.
-
-**If citation-guard rejects any article, that's a SUCCESS state — the guard did its job.** Do not bypass it. Do not strip the stat without rewriting the argument around it. Either find a real source or rewrite to hedge as Krista's observation.
+- This run is autonomous. Do not ask questions.
+- Read the Human Writing Protocol every run. It is the single biggest reason articles get rejected.
+- Articles must reference current AI tools and news by name. Generic content is rejected.
+- The CML pillar (#4) is real estate / lender specific. The other four cover broad business audiences.
+- Citation discipline is enforced. Made-up stats kill the article.
+- The goal: position Krista as the AI authority entrepreneurs, agents, lenders, coaches, and consultants all trust. Every article should reinforce that.

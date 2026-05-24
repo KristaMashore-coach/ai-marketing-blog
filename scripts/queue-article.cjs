@@ -46,9 +46,11 @@ const REQUIRED = [
 ];
 
 const VALID_PILLARS = [
-  "real-estate-marketing",
-  "real-estate-lead-generation",
-  "personal-branding-authority",
+  "authority-agent-operating-system",
+  "ai-content-to-client-system",
+  "ai-run-business",
+  "community-market-leaders-ai",
+  "claude-for-dummies",
 ];
 const VALID_TYPES = [
   "local-market-authority",
