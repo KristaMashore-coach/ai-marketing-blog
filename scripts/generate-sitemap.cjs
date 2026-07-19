@@ -12,10 +12,14 @@ const posts = JSON.parse(
   fs.readFileSync(path.join(ROOT, "data/blog/posts.json"), "utf8")
 ).filter((p) => !p.draft);
 
+// Mirrors src/lib/constants.ts PILLARS. Kept in sync manually since this is a
+// plain Node script (no TS import). Do not invent new pillar slugs here.
 const pillars = [
-  "real-estate-marketing",
-  "real-estate-lead-generation",
-  "personal-branding-authority",
+  "authority-agent-operating-system",
+  "ai-content-to-client-system",
+  "ai-run-business",
+  "community-market-leaders-ai",
+  "claude-for-dummies",
 ];
 
 const today = new Date().toISOString().split("T")[0];

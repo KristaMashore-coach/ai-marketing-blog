@@ -230,7 +230,7 @@ const summaryBody = [
   ``,
   `Auto-publisher ran. ${published.length} article(s) went live this morning:`,
   ``,
-  ...published.map((a, i) => `  ${i + 1}. https://blog.kristamashore.com/articles/${a.slug}\n     "${a.title}"`),
+  ...published.map((a, i) => `  ${i + 1}. https://kristamashore.ai/articles/${a.slug}\n     "${a.title}"`),
   ``,
 ];
 if (rejected.length) {

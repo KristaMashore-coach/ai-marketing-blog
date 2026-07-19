@@ -18,12 +18,14 @@ const ROOT = path.resolve(__dirname, '..');
 const POSTS_PATH = path.join(ROOT, 'data/blog/posts.json');
 const OUT_DIR = path.join(ROOT, 'public/articles/hero');
 
-// Brand palette per topical pillar (matches the placeholder colors that were
-// loosely in use before)
+// Brand palette per topical pillar. Mirrors src/lib/constants.ts PILLARS.
+// Kept in sync manually since this is a plain Node script (no TS import).
 const PALETTE = {
-  'real-estate-marketing': { bg: '#EA580C', accent: '#FED7AA', label: 'Real Estate Marketing' },
-  'real-estate-lead-generation': { bg: '#9A3412', accent: '#FED7AA', label: 'Lead Generation' },
-  'personal-branding-authority': { bg: '#7C2D12', accent: '#FDBA74', label: 'Personal Branding' },
+  'authority-agent-operating-system': { bg: '#EA580C', accent: '#FED7AA', label: 'Authority Agent OS' },
+  'ai-content-to-client-system': { bg: '#9A3412', accent: '#FED7AA', label: 'Content to Client' },
+  'ai-run-business': { bg: '#7C2D12', accent: '#FDBA74', label: 'AI-Run Business' },
+  'community-market-leaders-ai': { bg: '#C2410C', accent: '#FED7AA', label: 'CML AI' },
+  'claude-for-dummies': { bg: '#B45309', accent: '#FDE68A', label: 'Claude for Dummies' },
   default: { bg: '#EA580C', accent: '#FED7AA', label: 'Krista Mashore' },
 };
 

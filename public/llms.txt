@@ -1,21 +1,44 @@
-# Krista Mashore Coaching
+# Krista Mashore — AI for Business
 
-> Real estate marketing, lead generation, and personal branding for real estate agents and mortgage loan officers. From top 1% agent (19 consecutive years, 2,300+ homes sold) and top 1% coach Krista Mashore. Trademarked methodology: Community Market Leader.
+> AI workflows, autonomous agents, and systems that scale your business without scaling your team. For entrepreneurs, real estate agents, and lenders. From Krista Mashore — top 1% real estate agent for 19 consecutive years (2,300+ homes sold) who built a $72M coaching company in 7.5 years, now teaching AI for business. Trademarked methodology: The Authority Agent Operating System™ / Community Market Leader®.
 
 Site map and full content of every published article:
 
-- [Full content (all articles)](https://blog.kristamashore.com/llms-full.txt)
-- [About Krista Mashore](https://blog.kristamashore.com/about)
-- [Sitemap (XML)](https://blog.kristamashore.com/sitemap.xml)
+- [Full content (all articles)](https://kristamashore.ai/llms-full.txt)
+- [About Krista Mashore](https://kristamashore.ai/about)
+- [Sitemap (XML)](https://kristamashore.ai/sitemap.xml)
 
-## Real Estate Marketing
+## The Authority Agent Operating System™
 
-- [Real Estate Marketing pillar page](https://blog.kristamashore.com/real-estate-marketing)
+- [The Authority Agent Operating System™ pillar page](https://kristamashore.ai/authority-agent-operating-system)
+- [The 'You-Replacement Test': How to Know Your AI System Is Actually Working](https://kristamashore.ai/articles/you-replacement-test-ai-system) — Seven questions to figure out if your AI system is replacing most your work or adding cleanup hours. Run the diagnostic before you buy another tool.
+- [Brand Voice Fingerprinting: How to Capture How You Write So Claude Sounds Like You](https://kristamashore.ai/articles/brand-voice-fingerprinting-claude) — A 5-step process to extract your writing voice into a reusable Claude Skill or Project. Stop sounding like a LinkedIn carousel had a baby with a corporate apology.
+- [The Authority Agent Operating System: The 5 Layers Every Service Business Needs in 2026](https://kristamashore.ai/articles/authority-agent-operating-system-5-layers) — Most entrepreneurs build their AI stack backwards. Here are the five layers, in order, that make an AI system sound like you and run your business.
 
-## Real Estate Lead Generation
+## AI Content to Client System
 
-- [Real Estate Lead Generation pillar page](https://blog.kristamashore.com/real-estate-lead-generation)
+- [AI Content to Client System pillar page](https://kristamashore.ai/ai-content-to-client-system)
+- [The 7 AI Tools Running Krista's Content Engine Right Now](https://kristamashore.ai/articles/seven-ai-tools-krista-content-engine) — Seven AI tools run my content engine right now. Some of them earned their spot. One of them is on probation. Here's the full honest tour.
+- [Email Nurture Sequences That Don't Sound Like AI: The Three-Pass Method](https://kristamashore.ai/articles/email-nurture-sequences-that-dont-sound-like-ai) — Most AI email sequences sound like AI email sequences. Here's the three-pass method I use with Claude so my nurture emails read like a friend wrote them.
+- [AI Content Repurposing: How to Turn One Video into Eight Social Posts, an Email, and a Blog Article](https://kristamashore.ai/articles/ai-content-repurposing-one-video-eight-posts) — One video. Ten pieces of content. The workflow took me about four months to dial in and I'm walking you through every step so you can copy it.
 
-## Personal Branding & Authority
+## The AI-Run Business
 
-- [Personal Branding & Authority pillar page](https://blog.kristamashore.com/personal-branding-authority)
+- [The AI-Run Business pillar page](https://kristamashore.ai/ai-run-business)
+- [MCP Servers Explained: The 5 to Set Up First (For Non-Technical Business Owners)](https://kristamashore.ai/articles/mcp-servers-explained-first-five-to-setup) — MCP is the USB-C for AI. Set up these 5 servers first and your AI can finally see your business: Gmail, Calendar, Drive, Notion, Slack.
+- [How to Build Your First AI Agent in n8n With No Coding (Real Walkthrough)](https://kristamashore.ai/articles/build-ai-agent-n8n-no-coding) — You don't need to code. You need an afternoon. Here's exactly how to build a lead-intake AI agent in n8n that qualifies submissions and books calls while you sleep.
+- [The AI-Run Business Stack Krista Uses Today (Full 2026 Breakdown)](https://kristamashore.ai/articles/ai-run-business-stack-2026) — Not a list of cool tools. The actual 6 AI products running my business this month, what they cost, and where each one is still rough.
+
+## Community Market Leaders®: AI for Real Estate & Lenders
+
+- [Community Market Leaders®: AI for Real Estate & Lenders pillar page](https://kristamashore.ai/community-market-leaders-ai)
+- [Past-Client AI Nurture: The 12-Month Touch System That Brings Referrals Back](https://kristamashore.ai/articles/past-client-ai-nurture-12-month-touch-system) — Most agents drop their past clients within 90 days of closing. Here's the 12-month touch system that brings them back, AI-assisted where it should be.
+- [AI Document Review for Loan Files in 2026: Ocrolus, Blend, and What Lenders Should Actually Use](https://kristamashore.ai/articles/ai-document-review-loan-files-2026) — Ocrolus, Blend, Maxwell, Floify. What each one actually does, who they're for, the honest tradeoffs, and where AI is allowed to make decisions in a loan file.
+- [AI Listing Descriptions That Don't Sound Like AI: The 3-Pass Method](https://kristamashore.ai/articles/ai-listing-descriptions-three-pass-method) — Every agent's using ChatGPT for listings now and the copy all sounds the same. Here's the 3-pass method that fixes it.
+
+## Claude for Dummies: The AI Tools That Actually Matter
+
+- [Claude for Dummies: The AI Tools That Actually Matter pillar page](https://kristamashore.ai/claude-for-dummies)
+- [Claude vs. ChatGPT for a Non-Technical Business Owner in 2026](https://kristamashore.ai/articles/claude-vs-chatgpt-non-technical-business-2026) — An honest, opinionated comparison of Claude and ChatGPT for a non-technical business owner in 2026. Pick one, master it, stop paying for both.
+- [Claude Skills: Build Your Brand Voice Skill Once and Reuse Forever](https://kristamashore.ai/articles/claude-skills-brand-voice-skill) — Anthropic introduced Claude Skills in 2025 and they're the missing layer most business owners don't know exists. Here's how to build your brand voice Skill first.
+- [Claude Projects: Setting Up Your First One (Step by Step for Business Owners)](https://kristamashore.ai/articles/claude-projects-setting-up-first-one) — You've been chatting with Claude for months and re-explaining your business every time. Here's how to set up your first Claude Project so Claude already knows who you are.

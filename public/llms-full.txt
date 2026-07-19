@@ -6,8 +6,8 @@ This file contains the full body of every published article for AI search ingest
 
 # Past-Client AI Nurture: The 12-Month Touch System That Brings Referrals Back
 
-URL: https://blog.kristamashore.com/articles/past-client-ai-nurture-12-month-touch-system
-Pillar: community-market-leaders-ai
+URL: https://kristamashore.ai/articles/past-client-ai-nurture-12-month-touch-system
+Pillar: Community Market Leaders®: AI for Real Estate & Lenders
 Published: 2026-05-24T16:08:49.934Z
 Author: Krista Mashore
 
@@ -39,8 +39,8 @@ A: No. One a quarter is fine if monthly is too much. The 12-touch schedule is th
 
 # The 'You-Replacement Test': How to Know Your AI System Is Actually Working
 
-URL: https://blog.kristamashore.com/articles/you-replacement-test-ai-system
-Pillar: authority-agent-operating-system
+URL: https://kristamashore.ai/articles/you-replacement-test-ai-system
+Pillar: The Authority Agent Operating System™
 Published: 2026-05-24T16:06:09.351Z
 Author: Krista Mashore
 
@@ -72,8 +72,8 @@ A: You can run the test but you'll probably score lower because the persistence 
 
 # The 7 AI Tools Running Krista's Content Engine Right Now
 
-URL: https://blog.kristamashore.com/articles/seven-ai-tools-krista-content-engine
-Pillar: ai-content-to-client-system
+URL: https://kristamashore.ai/articles/seven-ai-tools-krista-content-engine
+Pillar: AI Content to Client System
 Published: 2026-05-24T16:06:09.351Z
 Author: Krista Mashore
 
@@ -105,8 +105,8 @@ A: I keep ChatGPT around for quick image generation and a few research tasks. Ge
 
 # MCP Servers Explained: The 5 to Set Up First (For Non-Technical Business Owners)
 
-URL: https://blog.kristamashore.com/articles/mcp-servers-explained-first-five-to-setup
-Pillar: ai-run-business
+URL: https://kristamashore.ai/articles/mcp-servers-explained-first-five-to-setup
+Pillar: The AI-Run Business
 Published: 2026-05-24T16:06:09.351Z
 Author: Krista Mashore
 
@@ -138,8 +138,8 @@ A: Because it sounds technical and most business owners stop reading at config f
 
 # Email Nurture Sequences That Don't Sound Like AI: The Three-Pass Method
 
-URL: https://blog.kristamashore.com/articles/email-nurture-sequences-that-dont-sound-like-ai
-Pillar: ai-content-to-client-system
+URL: https://kristamashore.ai/articles/email-nurture-sequences-that-dont-sound-like-ai
+Pillar: AI Content to Client System
 Published: 2026-05-24T16:06:09.351Z
 Author: Krista Mashore
 
@@ -171,8 +171,8 @@ A: You can. I prefer Claude for long-form voice work because it handles brand vo
 
 # Claude vs. ChatGPT for a Non-Technical Business Owner in 2026
 
-URL: https://blog.kristamashore.com/articles/claude-vs-chatgpt-non-technical-business-2026
-Pillar: claude-for-dummies
+URL: https://kristamashore.ai/articles/claude-vs-chatgpt-non-technical-business-2026
+Pillar: Claude for Dummies: The AI Tools That Actually Matter
 Published: 2026-05-24T16:06:09.351Z
 Author: Krista Mashore
 
@@ -204,8 +204,8 @@ A: Probably mostly. Definitely not entirely. Both companies ship aggressively. T
 
 # Claude Skills: Build Your Brand Voice Skill Once and Reuse Forever
 
-URL: https://blog.kristamashore.com/articles/claude-skills-brand-voice-skill
-Pillar: claude-for-dummies
+URL: https://kristamashore.ai/articles/claude-skills-brand-voice-skill
+Pillar: Claude for Dummies: The AI Tools That Actually Matter
 Published: 2026-05-24T16:06:09.351Z
 Author: Krista Mashore
 
@@ -237,8 +237,8 @@ A: Whatever output you create most often. For most coaches and consultants that'
 
 # Brand Voice Fingerprinting: How to Capture How You Write So Claude Sounds Like You
 
-URL: https://blog.kristamashore.com/articles/brand-voice-fingerprinting-claude
-Pillar: authority-agent-operating-system
+URL: https://kristamashore.ai/articles/brand-voice-fingerprinting-claude
+Pillar: The Authority Agent Operating System™
 Published: 2026-05-24T16:06:09.351Z
 Author: Krista Mashore
 
@@ -270,8 +270,8 @@ A: You can, and it'll work okay for a single piece. But you'll be feeding the sa
 
 # AI Document Review for Loan Files in 2026: Ocrolus, Blend, and What Lenders Should Actually Use
 
-URL: https://blog.kristamashore.com/articles/ai-document-review-loan-files-2026
-Pillar: community-market-leaders-ai
+URL: https://kristamashore.ai/articles/ai-document-review-loan-files-2026
+Pillar: Community Market Leaders®: AI for Real Estate & Lenders
 Published: 2026-05-24T16:06:09.351Z
 Author: Krista Mashore
 
@@ -303,8 +303,8 @@ A: Yes. This is the single biggest regulatory risk in AI lending. Any decisionin
 
 # AI Content Repurposing: How to Turn One Video into Eight Social Posts, an Email, and a Blog Article
 
-URL: https://blog.kristamashore.com/articles/ai-content-repurposing-one-video-eight-posts
-Pillar: ai-content-to-client-system
+URL: https://kristamashore.ai/articles/ai-content-repurposing-one-video-eight-posts
+Pillar: AI Content to Client System
 Published: 2026-05-24T16:06:09.351Z
 Author: Krista Mashore
 
@@ -336,8 +336,8 @@ A: Claude. The writing layer carries the most weight in every other step. Set up
 
 # Claude Projects: Setting Up Your First One (Step by Step for Business Owners)
 
-URL: https://blog.kristamashore.com/articles/claude-projects-setting-up-first-one
-Pillar: claude-for-dummies
+URL: https://kristamashore.ai/articles/claude-projects-setting-up-first-one
+Pillar: Claude for Dummies: The AI Tools That Actually Matter
 Published: 2026-05-24T16:04:35.664Z
 Author: Krista Mashore
 
@@ -369,8 +369,8 @@ A: Team plans support shared Projects. Personal plans have been more limited on 
 
 # How to Build Your First AI Agent in n8n With No Coding (Real Walkthrough)
 
-URL: https://blog.kristamashore.com/articles/build-ai-agent-n8n-no-coding
-Pillar: ai-run-business
+URL: https://kristamashore.ai/articles/build-ai-agent-n8n-no-coding
+Pillar: The AI-Run Business
 Published: 2026-05-24T16:04:35.664Z
 Author: Krista Mashore
 
@@ -402,8 +402,8 @@ A: First time, give yourself 3 to 4 hours including setup. The second agent you 
 
 # The Authority Agent Operating System: The 5 Layers Every Service Business Needs in 2026
 
-URL: https://blog.kristamashore.com/articles/authority-agent-operating-system-5-layers
-Pillar: authority-agent-operating-system
+URL: https://kristamashore.ai/articles/authority-agent-operating-system-5-layers
+Pillar: The Authority Agent Operating System™
 Published: 2026-05-24T16:04:35.664Z
 Author: Krista Mashore
 
@@ -435,8 +435,8 @@ A: For a solo or small-team business, under two hundred a month covers it for mo
 
 # The AI-Run Business Stack Krista Uses Today (Full 2026 Breakdown)
 
-URL: https://blog.kristamashore.com/articles/ai-run-business-stack-2026
-Pillar: ai-run-business
+URL: https://kristamashore.ai/articles/ai-run-business-stack-2026
+Pillar: The AI-Run Business
 Published: 2026-05-24T16:04:35.664Z
 Author: Krista Mashore
 
@@ -468,8 +468,8 @@ A: Claude, then n8n. Those two cover roughly 60% of what the rest does combined.
 
 # AI Listing Descriptions That Don't Sound Like AI: The 3-Pass Method
 
-URL: https://blog.kristamashore.com/articles/ai-listing-descriptions-three-pass-method
-Pillar: community-market-leaders-ai
+URL: https://kristamashore.ai/articles/ai-listing-descriptions-three-pass-method
+Pillar: Community Market Leaders®: AI for Real Estate & Lenders
 Published: 2026-05-24T16:04:35.664Z
 Author: Krista Mashore
 

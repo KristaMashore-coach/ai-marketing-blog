@@ -2,13 +2,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-label="How to Build Your First AI Agent in n8n With No Coding (Real Walkthrough)">
   <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#EA580C"/>
-      <stop offset="100%" stop-color="#EA580C" stop-opacity="0.85"/>
+      <stop offset="0%" stop-color="#7C2D12"/>
+      <stop offset="100%" stop-color="#7C2D12" stop-opacity="0.85"/>
     </linearGradient>
   </defs>
   <rect width="1200" height="675" fill="url(#bg)"/>
-  <rect x="0" y="0" width="12" height="675" fill="#FED7AA"/>
-  <text x="60" y="80" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="600" fill="#FED7AA" letter-spacing="3">KRISTA MASHORE</text>
+  <rect x="0" y="0" width="12" height="675" fill="#FDBA74"/>
+  <text x="60" y="80" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="600" fill="#FDBA74" letter-spacing="3">AI-RUN BUSINESS</text>
   <text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="72" font-weight="800" fill="#FFFFFF" text-anchor="middle"><tspan x="600" y="267.3">How to Build Your</tspan><tspan x="600" y="350.1">First AI Agent in n8n</tspan><tspan x="600" y="432.9">With No Coding (Real</tspan></text>
   <text x="1140" y="645" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="20" font-weight="600" fill="#FFFFFF" text-anchor="end" opacity="0.85">KRISTA MASHORE</text>
 </svg>

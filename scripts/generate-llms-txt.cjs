@@ -13,10 +13,14 @@ const posts = JSON.parse(
   fs.readFileSync(path.join(ROOT, "data/blog/posts.json"), "utf8")
 ).filter((p) => !p.draft);
 
+// Mirrors src/lib/constants.ts PILLARS. Kept in sync manually since this is a
+// plain Node script (no TS import). Do not invent new pillar slugs here.
 const pillars = {
-  "real-estate-marketing": "Real Estate Marketing",
-  "real-estate-lead-generation": "Real Estate Lead Generation",
-  "personal-branding-authority": "Personal Branding & Authority",
+  "authority-agent-operating-system": "The Authority Agent Operating System™",
+  "ai-content-to-client-system": "AI Content to Client System",
+  "ai-run-business": "The AI-Run Business",
+  "community-market-leaders-ai": "Community Market Leaders®: AI for Real Estate & Lenders",
+  "claude-for-dummies": "Claude for Dummies: The AI Tools That Actually Matter",
 };
 
 const stripHtml = (html) =>
@@ -31,9 +35,9 @@ const stripHtml = (html) =>
 
 // llms.txt — compact index
 const indexLines = [
-  "# Krista Mashore Coaching",
+  "# Krista Mashore — AI for Business",
   "",
-  "> Real estate marketing, lead generation, and personal branding for real estate agents and mortgage loan officers. From top 1% agent (19 consecutive years, 2,300+ homes sold) and top 1% coach Krista Mashore. Trademarked methodology: Community Market Leader.",
+  "> AI workflows, autonomous agents, and systems that scale your business without scaling your team. For entrepreneurs, real estate agents, and lenders. From Krista Mashore — top 1% real estate agent for 19 consecutive years (2,300+ homes sold) who built a $72M coaching company in 7.5 years, now teaching AI for business. Trademarked methodology: The Authority Agent Operating System™ / Community Market Leader®.",
   "",
   "Site map and full content of every published article:",
   "",

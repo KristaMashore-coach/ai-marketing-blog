@@ -1,127 +1,139 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://blog.kristamashore.com/</loc>
-    <lastmod>2026-05-24</lastmod>
+    <loc>https://kristamashore.ai/</loc>
+    <lastmod>2026-07-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://blog.kristamashore.com/articles</loc>
-    <lastmod>2026-05-24</lastmod>
+    <loc>https://kristamashore.ai/articles</loc>
+    <lastmod>2026-07-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://blog.kristamashore.com/about</loc>
-    <lastmod>2026-05-24</lastmod>
+    <loc>https://kristamashore.ai/about</loc>
+    <lastmod>2026-07-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://blog.kristamashore.com/real-estate-marketing</loc>
-    <lastmod>2026-05-24</lastmod>
+    <loc>https://kristamashore.ai/authority-agent-operating-system</loc>
+    <lastmod>2026-07-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://blog.kristamashore.com/real-estate-lead-generation</loc>
-    <lastmod>2026-05-24</lastmod>
+    <loc>https://kristamashore.ai/ai-content-to-client-system</loc>
+    <lastmod>2026-07-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://blog.kristamashore.com/personal-branding-authority</loc>
-    <lastmod>2026-05-24</lastmod>
+    <loc>https://kristamashore.ai/ai-run-business</loc>
+    <lastmod>2026-07-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://blog.kristamashore.com/articles/past-client-ai-nurture-12-month-touch-system</loc>
+    <loc>https://kristamashore.ai/community-market-leaders-ai</loc>
+    <lastmod>2026-07-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://kristamashore.ai/claude-for-dummies</loc>
+    <lastmod>2026-07-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://kristamashore.ai/articles/past-client-ai-nurture-12-month-touch-system</loc>
     <lastmod>2026-05-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://blog.kristamashore.com/articles/you-replacement-test-ai-system</loc>
+    <loc>https://kristamashore.ai/articles/you-replacement-test-ai-system</loc>
     <lastmod>2026-05-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://blog.kristamashore.com/articles/seven-ai-tools-krista-content-engine</loc>
+    <loc>https://kristamashore.ai/articles/seven-ai-tools-krista-content-engine</loc>
     <lastmod>2026-05-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://blog.kristamashore.com/articles/mcp-servers-explained-first-five-to-setup</loc>
+    <loc>https://kristamashore.ai/articles/mcp-servers-explained-first-five-to-setup</loc>
     <lastmod>2026-05-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://blog.kristamashore.com/articles/email-nurture-sequences-that-dont-sound-like-ai</loc>
+    <loc>https://kristamashore.ai/articles/email-nurture-sequences-that-dont-sound-like-ai</loc>
     <lastmod>2026-05-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://blog.kristamashore.com/articles/claude-vs-chatgpt-non-technical-business-2026</loc>
+    <loc>https://kristamashore.ai/articles/claude-vs-chatgpt-non-technical-business-2026</loc>
     <lastmod>2026-05-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://blog.kristamashore.com/articles/claude-skills-brand-voice-skill</loc>
+    <loc>https://kristamashore.ai/articles/claude-skills-brand-voice-skill</loc>
     <lastmod>2026-05-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://blog.kristamashore.com/articles/brand-voice-fingerprinting-claude</loc>
+    <loc>https://kristamashore.ai/articles/brand-voice-fingerprinting-claude</loc>
     <lastmod>2026-05-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://blog.kristamashore.com/articles/ai-document-review-loan-files-2026</loc>
+    <loc>https://kristamashore.ai/articles/ai-document-review-loan-files-2026</loc>
     <lastmod>2026-05-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://blog.kristamashore.com/articles/ai-content-repurposing-one-video-eight-posts</loc>
+    <loc>https://kristamashore.ai/articles/ai-content-repurposing-one-video-eight-posts</loc>
     <lastmod>2026-05-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://blog.kristamashore.com/articles/claude-projects-setting-up-first-one</loc>
+    <loc>https://kristamashore.ai/articles/claude-projects-setting-up-first-one</loc>
     <lastmod>2026-05-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://blog.kristamashore.com/articles/build-ai-agent-n8n-no-coding</loc>
+    <loc>https://kristamashore.ai/articles/build-ai-agent-n8n-no-coding</loc>
     <lastmod>2026-05-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://blog.kristamashore.com/articles/authority-agent-operating-system-5-layers</loc>
+    <loc>https://kristamashore.ai/articles/authority-agent-operating-system-5-layers</loc>
     <lastmod>2026-05-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://blog.kristamashore.com/articles/ai-run-business-stack-2026</loc>
+    <loc>https://kristamashore.ai/articles/ai-run-business-stack-2026</loc>
     <lastmod>2026-05-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://blog.kristamashore.com/articles/ai-listing-descriptions-three-pass-method</loc>
+    <loc>https://kristamashore.ai/articles/ai-listing-descriptions-three-pass-method</loc>
     <lastmod>2026-05-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
