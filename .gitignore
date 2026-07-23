@@ -25,3 +25,4 @@ dist-ssr
 quarantine/
 data/blog/posts.*.bak.json
 krista-mashore-content-site-main/
+.codex-daily-context.json
