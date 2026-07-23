@@ -2,9 +2,8 @@
 // Auto-publish pipeline: takes new articles from today's writer output, runs
 // every quality gate, and publishes them with draft:false. No human approval.
 //
-// Krista's directive (2026-05-19): "publish 5 articles a day without approval."
-// Her other directive: "never hallucinate, every stat needs a source."
-// This script enforces directive #2 automatically so directive #1 is safe.
+// Legacy manual publisher. The scheduled production lane now uses the guarded
+// one-article Codex runner in scripts/run-codex-daily.sh.
 //
 // Quality gates (ALL must pass per article — otherwise that article is
 // quarantined to ./quarantine/ and skipped, but the other articles still ship):

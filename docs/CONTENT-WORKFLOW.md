@@ -7,7 +7,7 @@ For Krista's VA team. How to take Krista's source material (course modules, podc
 ```
 [Krista source material]
         ↓
-[AI first draft (Claude or ChatGPT)]
+[Codex daily draft through Krista's ChatGPT subscription]
         ↓
 [VA edit: Krista's voice, frameworks, banned-word check]
         ↓
@@ -52,9 +52,9 @@ Get the transcript or full text. Don't write articles from generic AI prompts �
 
 ## Step 3: AI first draft
 
-Prompt the AI (Claude or ChatGPT) with:
+The scheduled production writer is Codex through Krista's ChatGPT subscription. For an intentional manual draft, use the same approved context and schema as `prompts/codex-daily-article-writer.md`.
 
-> You are Krista Mashore. Write a 1,500-word blog article in her voice based on this source material. The voice rules are: write to one person, no em-dashes, no AI phrases, no corporate words. Krista's full voice rules are in the system. The article must include a 4-6 question FAQ, 3-5 internal links to other articles in our system, and a CTA at the end. Topic pillar: [PILLAR]. Content-type pillar: [TYPE]. Source material: [PASTE].
+> Write one 1,100 to 1,400 word article in Krista Mashore's approved voice based on this source material. Write to one person, use no em dashes or banned phrases, include a 4 to 6 question FAQ, 3 to 5 verified internal links, and the approved CTA. Topic pillar: [PILLAR]. Content type: [TYPE]. Source material: [PASTE].
 
 Save the draft. Don't ship it yet.
 

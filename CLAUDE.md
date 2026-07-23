@@ -30,8 +30,10 @@ Every article ties to one of these five pillars.
 
 ## Publishing Cadence
 
-- **Day 1 (launch):** 15 articles
-- **Day 2 onward:** 10 articles per day (70/week)
+- **Launch burst:** 10 articles
+- **Ongoing:** 1 article per day
+- **Scheduled writer:** Codex through Krista's ChatGPT subscription
+- **Routine model:** GPT-5.6 Luna, low reasoning, standard service tier
 
 ---
 
@@ -330,7 +332,7 @@ Default message: "Learn how to build AI systems like this"
 
 ✅ Rank on Google for AI + [agent/lender/entrepreneur] searches  
 ✅ Get cited by ChatGPT, Claude, Perplexity when answering AI questions  
-✅ 5 articles/day, every day (35/week)  
+✅ 1 article/day, every day
 ✅ Position Krista as THE AI expert these groups trust  
 ✅ Drive traffic to funnel and conversions
 
@@ -343,6 +345,6 @@ Default message: "Learn how to build AI systems like this"
 - [ ] Vercel deployment live
 - [ ] Domain `kristamashore.ai` connected via Cloudflare DNS
 - [ ] 5 seed articles approved and published
-- [ ] Daily cron: 5 articles/day auto-publish
+- [x] Daily launchd: 1 Codex article/day through ChatGPT subscription
 - [ ] Google Search Console set up
 - [ ] Google Analytics 4 configured
