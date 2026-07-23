@@ -7,6 +7,8 @@ import BlogIndex from "./pages/BlogIndex";
 import BlogPost from "./pages/BlogPost";
 import PillarPage from "./pages/PillarPage";
 import About from "./pages/About";
+import Privacy from "./pages/Privacy";
+import Terms from "./pages/Terms";
 import NotFound from "./pages/NotFound";
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/react";
@@ -24,6 +26,8 @@ const router = createBrowserRouter([
       { path: "/community-market-leaders-ai", element: <PillarPage /> },
       { path: "/claude-for-dummies", element: <PillarPage /> },
       { path: "/about", element: <About /> },
+      { path: "/privacy", element: <Privacy /> },
+      { path: "/terms", element: <Terms /> },
       { path: "*", element: <NotFound /> },
     ],
   },

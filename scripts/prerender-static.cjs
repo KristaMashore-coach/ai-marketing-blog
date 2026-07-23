@@ -318,6 +318,67 @@ function buildAboutBody() {
 </main>`;
 }
 
+function buildPrivacyBody() {
+  return `<main>
+<article>
+<nav aria-label="Breadcrumb"><a href="/">Home</a> / Privacy Policy</nav>
+<h1>Privacy Policy</h1>
+<p>Last updated: July 23, 2026</p>
+<p>Krista Mashore Coaching operates kristamashore.ai. This policy explains what information may be collected when you use the site, how it is used, and the choices available to you.</p>
+<h2>Information we collect</h2>
+<p>The site does not require an account. Our hosting and analytics providers may process standard technical information such as your IP address, browser type, device type, referring page, pages viewed, and approximate location. If you email us or follow a link to request training or services, we receive the information you choose to provide.</p>
+<h2>How information is used</h2>
+<ul>
+<li>To operate, secure, and improve the website.</li>
+<li>To understand which articles and resources are useful.</li>
+<li>To respond when you contact us or request information.</li>
+<li>To comply with legal obligations and prevent misuse.</li>
+</ul>
+<h2>Analytics and service providers</h2>
+<p>This site uses Vercel for hosting, analytics, and performance measurement. Those services may use cookies or similar technologies as described in Vercel's own privacy documentation. We may also use providers that support email, training registration, or requested services. We do not sell personal information.</p>
+<h2>External links</h2>
+<p>Articles may link to other websites, including kristamashore.com and third-party resources. Their privacy practices apply after you leave this site.</p>
+<h2>Data choices and security</h2>
+<p>You can limit cookies through your browser settings. You may ask to access, correct, or delete personal information you have provided to us. We use reasonable safeguards, but no internet service can guarantee absolute security.</p>
+<h2>Children</h2>
+<p>This site is not directed to children under 16, and we do not knowingly collect personal information from children.</p>
+<h2>Policy updates</h2>
+<p>We may update this policy as the site or its services change. The date above shows the latest revision.</p>
+<h2>Contact</h2>
+<p>For privacy questions or requests, email <a href="mailto:doit@kristamashore.com">doit@kristamashore.com</a>.</p>
+</article>
+</main>`;
+}
+
+function buildTermsBody() {
+  return `<main>
+<article>
+<nav aria-label="Breadcrumb"><a href="/">Home</a> / Terms of Use</nav>
+<h1>Terms of Use</h1>
+<p>Last updated: July 23, 2026</p>
+<p>These terms govern your use of kristamashore.ai, operated by Krista Mashore Coaching. By using the site, you agree to these terms. If you do not agree, please do not use the site.</p>
+<h2>Educational information</h2>
+<p>The articles, examples, tools, and resources on this site are provided for general educational and informational purposes. They are not legal, financial, tax, medical, real estate, lending, or other individualized professional advice. Consult an appropriate licensed professional before acting on information that affects your circumstances.</p>
+<h2>AI-assisted content</h2>
+<p>Some content is created with assistance from artificial intelligence and reviewed before publication. AI-assisted content can still contain errors or become outdated. We do not guarantee that every statement is complete, current, or suitable for a particular purpose.</p>
+<h2>No guaranteed results</h2>
+<p>Business, marketing, sales, technology, and AI results vary. Examples and case studies are illustrations, not promises that you will achieve the same outcome.</p>
+<h2>Intellectual property</h2>
+<p>Unless otherwise stated, the site's text, frameworks, branding, graphics, and original materials belong to Krista Mashore Coaching or its licensors. You may share links to public pages, but you may not reproduce, sell, republish, or create derivative commercial materials from the content without written permission.</p>
+<h2>Third-party services and links</h2>
+<p>The site may link to third-party websites, products, or services. We do not control their availability, content, security, or terms, and a link does not guarantee endorsement.</p>
+<h2>Acceptable use</h2>
+<p>Do not attempt to disrupt the site, gain unauthorized access, introduce harmful code, scrape the site in violation of applicable law, or use the content to mislead others.</p>
+<h2>Disclaimer and limitation</h2>
+<p>The site is provided on an "as is" and "as available" basis. To the maximum extent permitted by law, Krista Mashore Coaching disclaims implied warranties and is not responsible for indirect, incidental, consequential, or special damages arising from use of the site.</p>
+<h2>Governing law</h2>
+<p>These terms are governed by the laws of the State of California, without regard to conflict-of-law principles.</p>
+<h2>Changes and contact</h2>
+<p>We may update these terms. Continued use after an update means you accept the revised terms. Questions may be sent to <a href="mailto:doit@kristamashore.com">doit@kristamashore.com</a>.</p>
+</article>
+</main>`;
+}
+
 // ---------------------------------------------------------------------------
 // Apply each route: strip any existing og/twitter tags, inject title/desc,
 // inject ONE og/twitter set, inject real body.
@@ -363,6 +424,26 @@ applyRoute("/about", {
     "Top 1% real estate agent for 19 years. $72M coaching company in 7.5 years. Now teaching entrepreneurs, agents, and lenders how to use AI to scale without hiring.",
   ogType: "profile",
   body: buildAboutBody(),
+});
+routes++;
+
+// Privacy
+applyRoute("/privacy", {
+  title: "Privacy Policy | Krista Mashore — AI for Business",
+  description:
+    "How Krista Mashore Coaching collects, uses, and protects information associated with kristamashore.ai.",
+  ogType: "website",
+  body: buildPrivacyBody(),
+});
+routes++;
+
+// Terms
+applyRoute("/terms", {
+  title: "Terms of Use | Krista Mashore — AI for Business",
+  description:
+    "Terms governing your use of kristamashore.ai and its educational content.",
+  ogType: "website",
+  body: buildTermsBody(),
 });
 routes++;
 

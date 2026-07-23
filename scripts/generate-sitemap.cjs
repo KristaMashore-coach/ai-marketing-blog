@@ -28,6 +28,8 @@ const urls = [
   { loc: `${SITE_URL}/`, lastmod: today, priority: "1.0", changefreq: "daily" },
   { loc: `${SITE_URL}/articles`, lastmod: today, priority: "0.9", changefreq: "daily" },
   { loc: `${SITE_URL}/about`, lastmod: today, priority: "0.6", changefreq: "monthly" },
+  { loc: `${SITE_URL}/privacy`, lastmod: today, priority: "0.3", changefreq: "yearly" },
+  { loc: `${SITE_URL}/terms`, lastmod: today, priority: "0.3", changefreq: "yearly" },
   ...pillars.map((slug) => ({
     loc: `${SITE_URL}/${slug}`,
     lastmod: today,

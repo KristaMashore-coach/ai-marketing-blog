@@ -312,6 +312,38 @@ writePage(
 );
 pages++;
 
+// Privacy — head-only shell here; prerender-static.cjs fills the body.
+const privacyBreadcrumb = buildBreadcrumbJsonLd([
+  { name: "Home", path: "/" },
+  { name: "Privacy Policy", path: "/privacy" },
+]);
+writePage(
+  "/privacy",
+  injectIntoTemplate(
+    "/privacy",
+    [privacyBreadcrumb],
+    "Privacy Policy | Krista Mashore — AI for Business",
+    "How Krista Mashore Coaching collects, uses, and protects information associated with kristamashore.ai."
+  )
+);
+pages++;
+
+// Terms — head-only shell here; prerender-static.cjs fills the body.
+const termsBreadcrumb = buildBreadcrumbJsonLd([
+  { name: "Home", path: "/" },
+  { name: "Terms of Use", path: "/terms" },
+]);
+writePage(
+  "/terms",
+  injectIntoTemplate(
+    "/terms",
+    [termsBreadcrumb],
+    "Terms of Use | Krista Mashore — AI for Business",
+    "Terms governing your use of kristamashore.ai and its educational content."
+  )
+);
+pages++;
+
 // Each post — full body + OG tags injected in this one pass.
 for (const post of POSTS) {
   const pillarLabel = PILLARS[post.topicalPillar] || post.topicalPillar;

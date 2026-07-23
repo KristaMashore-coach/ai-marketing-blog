@@ -41,9 +41,11 @@ export default function Footer() {
       <div className="border-t border-slate-200">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 py-4 text-xs text-muted flex flex-wrap gap-4 justify-between">
           <p>© {year} {SITE_NAME}.</p>
-          <p>
+          <div className="flex flex-wrap gap-4">
+            <Link to="/privacy" className="hover:text-primary-700">Privacy</Link>
+            <Link to="/terms" className="hover:text-primary-700">Terms</Link>
             <a href="https://kristamashore.com" className="hover:text-primary-700">kristamashore.com</a>
-          </p>
+          </div>
         </div>
       </div>
     </footer>

@@ -36,6 +36,8 @@ const STATIC_ROUTES = [
   { route: "/", label: "homepage", minChars: MIN_HOME_BODY_CHARS },
   { route: "/articles", label: "articles index", minChars: MIN_STATIC_BODY_CHARS },
   { route: "/about", label: "about", minChars: MIN_STATIC_BODY_CHARS },
+  { route: "/privacy", label: "privacy", minChars: MIN_STATIC_BODY_CHARS },
+  { route: "/terms", label: "terms", minChars: MIN_STATIC_BODY_CHARS },
   {
     route: "/authority-agent-operating-system",
     label: "pillar: authority-agent-operating-system",
