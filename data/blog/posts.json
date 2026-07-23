@@ -1,5 +1,63 @@
 [
   {
+    "title": "How to Turn a Discovery Call Transcript Into Your Next Actions",
+    "slug": "ai-discovery-call-transcript-next-actions",
+    "metaTitle": "Turn Discovery Call Transcripts Into Next Actions",
+    "metaDescription": "Use AI to turn a discovery call transcript into a focused summary, follow-up plan, and next steps you can actually complete.",
+    "excerpt": "A discovery call transcript is only useful when it leads to a clear next step. Here is a simple AI workflow for turning a messy conversation into organized notes, follow-up, and a short task list.",
+    "author": "Krista Mashore",
+    "topicalPillar": "ai-run-business",
+    "contentTypePillar": "problem-solving",
+    "funnelStage": "attention",
+    "keywords": [
+      "AI discovery call workflow",
+      "meeting transcript follow up",
+      "AI sales call summary",
+      "client call next steps",
+      "AI for consultants"
+    ],
+    "wordCount": 1196,
+    "readingMinutes": 5,
+    "featuredImage": {
+      "src": "/articles/hero/ai-discovery-call-transcript-next-actions.svg",
+      "alt": "Notebook and laptop showing a discovery call action plan"
+    },
+    "faq": [
+      {
+        "question": "What should I give AI besides the call transcript?",
+        "answer": "Give it the purpose of the call, your definition of a qualified opportunity, and any follow-up rules you already use. Do not add information that was not discussed or verified."
+      },
+      {
+        "question": "Can AI decide whether I should take on a client?",
+        "answer": "AI can organize the evidence and point out open questions, but you should make the decision. Review the summary against the actual conversation before acting on it."
+      },
+      {
+        "question": "How long should the final action list be?",
+        "answer": "Keep the immediate list short. Three to five actions for the next few days is usually easier to review and finish than a long list of every possible task."
+      },
+      {
+        "question": "How do I keep an AI follow-up email from sounding generic?",
+        "answer": "Ask AI to use only details from the conversation, name the client's stated priority, and leave out broad promises. Then edit the draft until it sounds like something you would actually send."
+      },
+      {
+        "question": "What if my transcript contains sensitive information?",
+        "answer": "Follow your professional and company rules before placing a transcript into an AI tool. Remove information you do not need for the task and check the tool's current privacy terms yourself."
+      }
+    ],
+    "internalLinks": [
+      "email-nurture-sequences-that-dont-sound-like-ai",
+      "you-replacement-test-ai-system",
+      "authority-agent-operating-system-5-layers",
+      "ai-content-repurposing-one-video-eight-posts"
+    ],
+    "ctaUrl": "https://kristamashore.com/LevelUp",
+    "ctaLabel": "Learn the AI System",
+    "body": "<p><strong>Use AI to turn the transcript into four things: what the person wants, what you promised, what is still unknown, and the next actions with owners and dates.</strong> That gives you a useful record of the conversation instead of another block of text you may never open again.</p><p>This workflow works for a discovery call with a coaching prospect, a seller, a borrower, a consulting lead, or a potential partner. The goal is not to have AI make the relationship feel automated. The goal is to remove the clerical work between a good conversation and a thoughtful follow-up.</p><h2>Start with the outcome you need</h2><p>Before you paste a transcript into an AI tool, decide what you want back. A vague request such as “summarize this call” often produces a vague summary. Ask for a decision-support document instead.</p><p>Your request can be as simple as this:</p><p><strong>“Read this discovery call transcript and create a practical follow-up plan. Separate the prospect's stated goals, concerns, current situation, decision process, commitments I made, open questions, and next actions. Use only information in the transcript. Mark anything uncertain as unknown. Do not invent details.”</strong></p><p>That last instruction matters. A polished paragraph can still be wrong. You want a clear boundary between what was said, what you can reasonably infer, and what needs to be confirmed.</p><h2>The four-part transcript workflow</h2><h3>1. Pull out the person's actual priorities</h3><p>Ask AI to list the person's goals in their own language. Then ask it to separate a desired outcome from a surface request. Someone might ask about content, for example, while describing a larger problem with inconsistent leads or an overloaded calendar.</p><p>Do not turn every comment into a business need. Have AI label each item as a stated goal, concern, constraint, or background detail. This keeps you from treating a casual remark as a promise or a buying signal.</p><p>For a real estate conversation, the output might include a target move date, a concern about timing, and a question about preparation. For a consultant, it might include a team bottleneck, a desired result, and a limit on available hours. The exact categories matter less than keeping them visible and separate.</p><h3>2. Create a promise and question ledger</h3><p>The second pass should focus on the parts of the conversation that create responsibility. Ask AI to list every commitment you made, every item the other person agreed to send, and every question that remains unanswered.</p><ul><li>Commitments you made</li><li>Items the prospect agreed to provide</li><li>Questions you need to answer</li><li>Decisions that still belong to the prospect</li><li>Statements that require confirmation</li></ul><p>This is where many follow-ups go wrong. The email sounds warm, but it forgets the document you said you would send or quietly assumes that the other person is ready to buy. A promise ledger gives you a simple review point before you send anything.</p><h3>3. Turn the ledger into a small action plan</h3><p>Next, ask for actions, not themes. Each action should have one owner, one verb, and a suggested due date based only on the timing discussed in the call. If no timing was discussed, say “timing to confirm” rather than making one up.</p><ol><li><strong>Action:</strong> Send the preparation checklist. <strong>Owner:</strong> Me. <strong>Timing:</strong> Before the next call.</li><li><strong>Action:</strong> Confirm the decision timeline. <strong>Owner:</strong> Prospect. <strong>Timing:</strong> Unknown.</li><li><strong>Action:</strong> Answer the question about the service process. <strong>Owner:</strong> Me. <strong>Timing:</strong> In the follow-up.</li></ol><p>Keep the immediate list to three to five actions. Put longer-term ideas in a separate section called “later possibilities.” This prevents a useful call from turning into a task pile that makes the next step less likely to happen.</p><h3>4. Draft a personal follow-up, then edit it yourself</h3><p>Only after the first three passes should you ask for a follow-up draft. Give AI the specific points that need to appear: what you heard, what you are sending, what you need from the other person, and the proposed next step.</p><p>Use a prompt like this:</p><p><strong>“Write a short follow-up email based only on the approved notes below. Open by reflecting the person's main priority in plain language. Include the two commitments I made, one question I need answered, and one clear next step. Do not add enthusiasm, claims, urgency, or information that is not in the notes. Keep it conversational.”</strong></p><p>Then edit the draft. Remove anything that sounds unlike you. Replace broad phrases with the person's actual words when they fit. Check every date, name, promise, and question against the transcript. AI can give you a strong first draft, but you are still responsible for the relationship and the accuracy of the message.</p><h2>Use a consistent record after every call</h2><p>The real benefit appears when each conversation ends in the same place. Save a short record with five sections:</p><ul><li><strong>Purpose:</strong> Why the call happened.</li><li><strong>Priority:</strong> What the person most wants to solve.</li><li><strong>Evidence:</strong> Relevant facts they stated.</li><li><strong>Open loop:</strong> What needs confirmation.</li><li><strong>Next step:</strong> Who does what and when.</li></ul><p>You can store this record in the place where you already manage contacts and tasks. The tool matters less than the habit. If your notes live in one place, your task list in another, and your follow-up draft in a third, the process will still feel heavy.</p><p>Set a review rule for yourself: no call is complete until the record has been checked, the follow-up has been edited, and the next action has an owner. That rule turns the transcript into part of your operating rhythm.</p><h2>Three checks before you trust the output</h2><p>First, compare the stated priorities with the transcript. Did AI capture what mattered, or did it give extra weight to a minor detail? Second, inspect every claim and commitment. If you cannot point to the source in the conversation, label it as a question or remove it. Third, read the email aloud. If you would not say it to the person, rewrite it.</p><p>Also check your handling rules before using any transcript. A call may contain financial, health, household, or other private information. Use the least amount of information needed for the task, and follow the requirements that apply to your business.</p><h2>Make the workflow sound like you</h2><p>A transcript workflow should save time without flattening your voice. Keep a short instruction that describes how you communicate: whether you prefer brief emails, direct questions, warm openings, or clear choices. Add two examples of follow-ups you are proud to send, with private details removed.</p><p>That reference gives AI a better target than a request to “sound professional.” It also gives you a repeatable way to spot when the draft has drifted. You can read more about checking whether an AI system sounds like you in <a href=\"/articles/you-replacement-test-ai-system\">the You-Replacement Test</a>, and about follow-up writing in <a href=\"/articles/email-nurture-sequences-that-dont-sound-like-ai\">the three-pass email method</a>.</p><p>One good discovery call should produce clarity, not a second administrative job. Use AI for the sorting, labeling, and first draft. Keep the judgment, final edits, and human connection with you. When every call ends with a verified record and one clear next step, your business becomes easier to run one conversation at a time.</p><p>If you want a larger set of practical workflows for creating authority and running your business, <a href=\"https://kristamashore.com/LevelUp\">learn the AI system</a>.</p>",
+    "publishedDate": "2026-07-23T23:33:22.890Z",
+    "modifiedDate": "2026-07-23T23:33:22.890Z",
+    "draft": false
+  },
+  {
     "title": "Past-Client AI Nurture: The 12-Month Touch System That Brings Referrals Back",
     "slug": "past-client-ai-nurture-12-month-touch-system",
     "metaTitle": "Past-Client AI Nurture: 12-Month Touch System",
