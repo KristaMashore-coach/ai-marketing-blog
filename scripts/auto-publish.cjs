@@ -240,7 +240,7 @@ if (rejected.length) {
   });
   summaryBody.push('');
 }
-summaryBody.push(`Check the live site, then tell Claude what to change. To edit, open the article in Obsidian (Krista-OS / 12-Content-Library / Drafts-Review) — your edits auto-sync back to the site.`);
+summaryBody.push(`Check the live site, then tell Codex what to change. To edit, open the article in Obsidian (Krista-OS / 12-Content-Library / Drafts-Review). Your edits auto-sync back to the site.`);
 
 const bodyFile = `/tmp/auto-publish-summary-${Date.now()}.txt`;
 fs.writeFileSync(bodyFile, summaryBody.join('\n'));

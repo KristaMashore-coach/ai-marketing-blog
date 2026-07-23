@@ -88,7 +88,7 @@ function buildBody(p) {
   }
 
   sections.push(`## Editorial Notes\n`);
-  sections.push('_Add notes here. Anything in this section will not affect the JSON until you ask Claude to apply._\n');
+  sections.push('_Add notes here. Anything in this section will not affect the JSON until you ask Codex to apply it._\n');
 
   return sections.join('\n');
 }
@@ -127,7 +127,7 @@ indexLines.push('');
 indexLines.push('1. Open each draft, read top to bottom.');
 indexLines.push('2. Use the Review Checklist at the top.');
 indexLines.push('3. Add notes in the **Editorial Notes** section at the bottom.');
-indexLines.push('4. Tell Claude what to do: approve all, approve specific ones, or apply your edits.');
+indexLines.push('4. Tell Codex what to do: approve all, approve specific ones, or apply your edits.');
 indexLines.push('');
 indexLines.push('## Approval commands (run from project root)');
 indexLines.push('');

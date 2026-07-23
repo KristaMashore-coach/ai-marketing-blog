@@ -88,7 +88,7 @@ EMAIL_BODY="Good morning Krista,
 
 You have $DRAFT_COUNT AEO/GEO blog draft(s) waiting for your review and approval.
 
-Each draft has been opened in your browser. To approve any of them, just tell Claude (e.g. \"approve drafts 1, 3, and 5\" or paste the slug). To edit, open data/blog/posts.json in the project or tell Claude what to change.
+Each draft has been opened in your browser. To approve any of them, tell Codex (e.g. \"approve drafts 1, 3, and 5\" or paste the slug). To edit, open data/blog/posts.json in the project or tell Codex what to change.
 
 Drafts pending:
 "
@@ -126,6 +126,6 @@ APPLESCRIPT
 /bin/rm -f "$BODY_FILE"
 
 # Desktop notification
-/usr/bin/osascript -e "display notification \"$DRAFT_COUNT draft article(s) opened. Email sent. Tell Claude which to approve.\" with title \"AEO/GEO Draft Review\" sound name \"Glass\"" >> "$LOG_FILE" 2>&1
+/usr/bin/osascript -e "display notification \"$DRAFT_COUNT draft article(s) opened. Email sent. Tell Codex which to approve.\" with title \"AEO/GEO Draft Review\" sound name \"Glass\"" >> "$LOG_FILE" 2>&1
 
 echo "===== Daily draft reminder END $(date) =====" >> "$LOG_FILE"
