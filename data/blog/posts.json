@@ -1,5 +1,63 @@
 [
   {
+    "title": "How to Use AI for a Weekly Business Review",
+    "slug": "ai-weekly-business-review-next-week-plan",
+    "metaTitle": "AI Weekly Business Review: Plan Next Week",
+    "metaDescription": "Use AI to review your week, spot unfinished work, and create a focused next-week plan without handing over your business judgment.",
+    "excerpt": "A weekly review can become a short, repeatable AI workflow instead of another task you postpone. Here is how to give AI the right information, ask better questions, and turn the conversation into a practical plan for next week.",
+    "author": "Krista Mashore",
+    "topicalPillar": "ai-run-business",
+    "contentTypePillar": "problem-solving",
+    "funnelStage": "resonance",
+    "keywords": [
+      "AI weekly business review",
+      "AI business planning workflow",
+      "weekly review for entrepreneurs",
+      "AI productivity for small business",
+      "next week business plan"
+    ],
+    "wordCount": 1295,
+    "readingMinutes": 6,
+    "featuredImage": {
+      "src": "/articles/hero/ai-weekly-business-review-next-week-plan.svg",
+      "alt": "Notebook and calendar for an AI weekly business review"
+    },
+    "faq": [
+      {
+        "question": "What should I give AI for a weekly business review?",
+        "answer": "Give it your goals, completed work, open tasks, meaningful numbers, customer signals, and constraints for next week. Remove private information that is not needed for the planning question."
+      },
+      {
+        "question": "Can AI decide my business priorities for me?",
+        "answer": "AI can sort information, point out tradeoffs, and suggest a sequence. You should make the final decisions because you know your commitments, customers, and risk better than a general-purpose tool does."
+      },
+      {
+        "question": "How long should an AI weekly review take?",
+        "answer": "Set aside enough time to collect a useful input list and read the output carefully. The goal is a clear plan you will use, not a long report."
+      },
+      {
+        "question": "What if I missed most of my goals this week?",
+        "answer": "Ask AI to separate a genuine priority from a crowded list, identify what blocked progress, and suggest one smaller next action. A review is for learning and choosing, not for producing a perfect score."
+      },
+      {
+        "question": "Should my weekly review include personal tasks?",
+        "answer": "Include them when they affect your business capacity, schedule, or commitments. Keep the review focused on decisions and work that matter for the coming week."
+      }
+    ],
+    "internalLinks": [
+      "ai-discovery-call-transcript-next-actions",
+      "you-replacement-test-ai-system",
+      "authority-agent-operating-system-5-layers",
+      "ai-run-business-stack-2026"
+    ],
+    "ctaUrl": "https://kristamashore.com/LevelUp",
+    "ctaLabel": "Learn the AI System",
+    "body": "<p>Use AI as a thinking partner for your weekly business review. Give it a clean summary of what happened, what is unfinished, what matters next, and what limits your time. Then ask it to find patterns, expose tradeoffs, and turn your priorities into a short plan. You still make the decisions, but you no longer have to organize every thought from a blank page.</p><p>This is useful when your week contains a little bit of everything: sales conversations, content, customer work, admin, family commitments, and ideas that keep arriving before the last ones are finished. Without a review, those items can all feel equally urgent. A focused AI conversation can help you see the difference between activity and progress.</p><h2>Start with a weekly review input sheet</h2><p>Do not begin by asking, “What should I do next week?” That question is too broad. First, collect the information AI needs to reason about your actual week. You can put the notes in a document, a spreadsheet, or a conversation with the tool you already use.</p><p>Use these six headings:</p><ul><li><strong>Wins:</strong> What moved forward, even if it was small?</li><li><strong>Completed work:</strong> What did you finish or deliver?</li><li><strong>Open loops:</strong> What is waiting for you, another person, or a decision?</li><li><strong>Signals:</strong> What did prospects, customers, your audience, or your numbers tell you?</li><li><strong>Friction:</strong> What took too long, repeated itself, or kept getting postponed?</li><li><strong>Constraints:</strong> How much time, energy, and support do you actually have next week?</li></ul><p>Keep the notes plain. A few honest lines under each heading are more useful than polished paragraphs. If a number matters to the decision, include the number and the period it covers. If a customer or prospect is involved, remove identifying details unless you have a clear reason and permission to share them.</p><h2>Ask AI to separate facts from interpretation</h2><p>Your notes will contain both what happened and what you think it means. Ask AI to keep those two categories separate before it suggests a plan. This small step can prevent a guess from quietly becoming a business decision.</p><p>Try this prompt:</p><p><strong>“Review the notes below. Create two sections: confirmed observations and possible interpretations. Do not invent missing information. For each interpretation, name the evidence that supports it and what I would need to check. Then list the three decisions that would have the greatest effect on next week.”</strong></p><p>The phrase “do not invent missing information” matters. AI can produce a confident sentence when your notes are incomplete. You want it to show the gap instead. A useful review might say that several people asked about the same service, while treating the reason for that interest as a question to investigate.</p><p>Read the response like a business owner, not like a report card. Correct anything that is wrong. Add context the notes missed. If the tool gives a recommendation based on an assumption, ask it to state that assumption in simple language.</p><h2>Turn the review into a short list of priorities</h2><p>Most weekly plans fail because they contain too many priorities. Ask AI to rank possible work using criteria that fit your business. For example, you might ask it to consider customer impact, revenue relevance, time required, deadlines, and whether the work creates a reusable asset.</p><p>Use a prompt like this:</p><p><strong>“Using the confirmed observations, rank the possible tasks for next week. Score each task from one to five for customer impact, business value, urgency, and effort. Show the scores, explain where the judgment is uncertain, and recommend no more than three priorities. Treat the score as a discussion tool, not a final decision.”</strong></p><p>A score is not a fact. It is a way to make your choices visible. If AI ranks a low-effort task above an important relationship, you can change the criteria or reject the result. The benefit is not that a tool knows your perfect order. The benefit is that you can see why a crowded list is crowded.</p><h2>Build next week around outcomes</h2><p>Once you select your priorities, ask AI to rewrite them as outcomes with a clear finish line. “Work on my newsletter” is activity. “Send the Thursday newsletter to the approved list” is an outcome. “Follow up with leads” is vague. “Send a personal reply to the five people who requested a consultation” is easier to recognize as complete.</p><p>For each priority, ask for:</p><ul><li>The result you want by the end of the week.</li><li>The smallest first action.</li><li>The next two or three steps.</li><li>The time or information required.</li><li>A definition of done.</li><li>The one thing that could block it.</li></ul><p>Then ask AI to place those actions on a realistic calendar. Tell it when you are unavailable, how much time you can work, and which commitments cannot move. If you have only five focused hours for a project, the plan should not quietly assign twelve.</p><p>Ask for a “minimum version” of every priority. This is especially helpful for content, sales follow-up, and internal projects. Your minimum version might be one useful email instead of a full campaign, or one decision about a process instead of a complete rebuild. A smaller finished result gives you information and keeps the next review grounded in what actually happened.</p><h2>Use AI to find repeated friction</h2><p>One review tells you what happened this week. Several reviews can show you what keeps happening. Save the weekly summaries in one place, then ask AI to compare them after you have enough notes to make the comparison meaningful.</p><p>You could ask:</p><p><strong>“Compare these weekly reviews. Identify repeated unfinished tasks, recurring sources of delay, questions customers ask more than once, and work that appears to depend on me personally. Quote only from the notes provided. Group similar items and suggest one process change for each group.”</strong></p><p>Look for patterns you can address with a checklist, template, scheduled block, clearer offer, or delegated step. Do not create a new system for every inconvenience. Pick the repeated problem that costs you the most attention and test one change for a week.</p><p>This is also where your review can connect to a broader AI operating system. A repeated question may become a content topic. A repeated follow-up may become a saved message and a reminder. A task that depends on your exact voice may need documented examples and review criteria before anyone else handles it.</p><h2>Finish with a five-minute commitment</h2><p>End the review by writing a compact commitment for yourself. Ask AI to return:</p><ol><li>My three priorities for next week.</li><li>The first action for each priority.</li><li>The appointment or work block where each action begins.</li><li>The one task I will remove, delay, or decline.</li><li>The question I should answer in next week’s review.</li></ol><p>Copy that final version into the place where you already check your schedule or task list. A plan hidden in an AI conversation is easy to forget. Keep the final output short enough to read at the beginning of each workday.</p><p>On the next review, start by checking what you committed to and what changed. If a priority did not happen, ask what blocked it before adding it back. Sometimes the answer is a poor estimate. Sometimes the work was not important enough. Sometimes a new customer need took its place. Each answer gives you a better basis for the next plan.</p><h2>The rule that keeps this workflow useful</h2><p>AI should reduce the mental sorting around your business, not replace your judgment. Give it specific notes, require it to show uncertainty, limit the number of priorities, and make the final plan fit your real week. That is enough to turn a scattered Friday afternoon into a repeatable review.</p><p>If you want a larger system for using AI across authority, content, follow-up, and daily operations, <a href=\"https://kristamashore.ai/ai-run-business\">see the AI-run business pillar</a> and then <a href=\"https://kristamashore.com/LevelUp\">Learn the AI System</a>.</p>",
+    "publishedDate": "2026-07-24T13:56:12.101Z",
+    "modifiedDate": "2026-07-24T13:56:12.101Z",
+    "draft": false
+  },
+  {
     "title": "How to Turn a Discovery Call Transcript Into Your Next Actions",
     "slug": "ai-discovery-call-transcript-next-actions",
     "metaTitle": "Turn Discovery Call Transcripts Into Next Actions",
