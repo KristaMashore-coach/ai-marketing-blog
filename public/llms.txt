@@ -11,6 +11,7 @@ Site map and full content of every published article:
 ## The Authority Agent Operating System™
 
 - [The Authority Agent Operating System™ pillar page](https://kristamashore.ai/authority-agent-operating-system)
+- [How to Use AI to Qualify New Business Inquiries](https://kristamashore.ai/articles/ai-qualify-new-business-inquiries) — AI can help you bring order to a new inquiry before you spend time writing a response. This practical workflow shows you how to extract the facts, spot the missing information, and prepare a human follow-up that moves the conversation ahead.
 - [The 'You-Replacement Test': How to Know Your AI System Is Actually Working](https://kristamashore.ai/articles/you-replacement-test-ai-system) — Seven questions to figure out if your AI system is replacing most your work or adding cleanup hours. Run the diagnostic before you buy another tool.
 - [Brand Voice Fingerprinting: How to Capture How You Write So Claude Sounds Like You](https://kristamashore.ai/articles/brand-voice-fingerprinting-claude) — A 5-step process to extract your writing voice into a reusable Claude Skill or Project. Stop sounding like a LinkedIn carousel had a baby with a corporate apology.
 - [The Authority Agent Operating System: The 5 Layers Every Service Business Needs in 2026](https://kristamashore.ai/articles/authority-agent-operating-system-5-layers) — Most entrepreneurs build their AI stack backwards. Here are the five layers, in order, that make an AI system sound like you and run your business.

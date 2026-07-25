@@ -1,5 +1,59 @@
 [
   {
+    "title": "How to Use AI to Qualify New Business Inquiries",
+    "slug": "ai-qualify-new-business-inquiries",
+    "metaTitle": "How to Use AI to Qualify New Business Inquiries",
+    "metaDescription": "Learn a practical AI workflow for sorting new inquiries, identifying the next best question, and writing a personal follow-up without losing your voice.",
+    "excerpt": "AI can help you bring order to a new inquiry before you spend time writing a response. This practical workflow shows you how to extract the facts, spot the missing information, and prepare a human follow-up that moves the conversation ahead.",
+    "author": "Krista Mashore",
+    "topicalPillar": "authority-agent-operating-system",
+    "contentTypePillar": "process-and-differentiation",
+    "funnelStage": "capture",
+    "keywords": [
+      "AI lead qualification",
+      "qualify new business inquiries",
+      "AI follow up workflow",
+      "inquiry response system",
+      "AI for service businesses"
+    ],
+    "wordCount": 1199,
+    "readingMinutes": 5,
+    "featuredImage": {
+      "src": "/articles/hero/ai-qualify-new-business-inquiries.svg",
+      "alt": "A practical workflow for qualifying new business inquiries with AI"
+    },
+    "faq": [
+      {
+        "question": "Can AI decide whether a lead is a good fit?",
+        "answer": "AI can organize the information you have and compare it with criteria you provide. You should make the final fit decision, especially when the inquiry is incomplete or sensitive."
+      },
+      {
+        "question": "What should I give AI when a new inquiry arrives?",
+        "answer": "Give it the inquiry text, your offer, your fit criteria, your boundaries, and the next step you want a qualified person to take. Remove private details that aren't needed."
+      },
+      {
+        "question": "Should AI write the first reply?",
+        "answer": "It can prepare a draft, but review it before sending. The draft should sound like you, answer the person's actual question, and ask only for the information you still need."
+      },
+      {
+        "question": "How do I keep this from sounding automated?",
+        "answer": "Ask AI to quote or refer to the person's specific situation, keep the message short, avoid claims you can't support, and leave room for your own final edit."
+      }
+    ],
+    "internalLinks": [
+      "ai-discovery-call-transcript-next-actions",
+      "ai-weekly-business-review-next-week-plan",
+      "authority-agent-operating-system-5-layers",
+      "email-nurture-sequences-that-dont-sound-like-ai"
+    ],
+    "ctaUrl": "https://kristamashore.com/LevelUp",
+    "ctaLabel": "Learn the AI System",
+    "body": "<p>Use AI to qualify a new business inquiry by turning the message into a short fact sheet, comparing those facts with your fit criteria, identifying what is missing, and preparing one useful follow-up draft. AI should organize your thinking, not make the relationship feel like a form submission.</p><p>That distinction matters because a new inquiry is both an opportunity and a signal. The person may be ready to buy, still deciding what they need, or simply asking a question. If you answer every inquiry the same way, you'll either spend too much time on poor-fit conversations or rush people who need a clearer next step.</p><h2>Start with a simple qualification definition</h2><p>Before you ask AI to review an inquiry, write down what a qualified conversation means in your business. Keep it practical. You might care about the person's problem, the service they are asking about, their desired timing, their location or market, and whether your way of working fits what they want.</p><p>Don't start with a complicated scoring model. A short set of observable questions is easier to review and improve:</p><ul><li>What problem is this person trying to solve?</li><li>What outcome did they ask for?</li><li>What information did they volunteer?</li><li>What important information is missing?</li><li>What would make this a poor fit?</li><li>What is the most helpful next step?</li></ul><p>Write your answers in plain language. “Needs a home valuation” is more useful than “high-intent prospect.” “Wants help this quarter” is more useful than “urgent.” Your AI workflow is only as clear as the criteria you give it.</p><h2>The five-part inquiry workflow</h2><h3>1. Paste the inquiry and ask for facts first</h3><p>Give AI the original inquiry and tell it not to draft a reply yet. Ask for a neutral summary using only information that appears in the message. Separate facts from assumptions.</p><p>A useful instruction looks like this:</p><p><strong>“Read the inquiry below. Extract the person's stated problem, requested outcome, timing, relevant context, and questions. List unknowns separately. Do not guess intent, budget, urgency, or personal circumstances.”</strong></p><p>This first pass prevents a common mistake: treating a confident interpretation as if it came from the potential client. If the person says, “I need help getting more consistent leads,” that is the fact. “They are ready for a full marketing rebuild” is an assumption.</p><h3>2. Compare the facts with your fit criteria</h3><p>Next, provide the short qualification definition you created. Ask AI to compare the inquiry with it and show the result as three groups: clear fit, unclear, and possible concern.</p><p>For example, a consultant might define a clear fit as someone who has a specific business problem, wants hands-on guidance, and is willing to complete a defined next step. An inquiry that says, “I want a magic prompt that replaces my whole team today” may belong in the possible-concern group. That doesn't automatically mean you should reject the person. It tells you what to clarify.</p><p>Ask for evidence beside each conclusion. The evidence should point back to the inquiry, not to a general theory about buyers. This makes the review easier for you to approve.</p><h3>3. Create the smallest set of follow-up questions</h3><p>When an inquiry is incomplete, AI can produce a long list of questions. Don't send the list. Ask it to choose the two or three questions that will change your next decision.</p><p>Good follow-up questions are specific and easy to answer. “What are your goals?” is broad. “Which part of your current follow-up process breaks down most often?” gives the person a clear place to begin. “What would you like to have working in the next 30 days?” helps establish a practical time frame without promising a result.</p><p>Tell AI to avoid questions whose answers you already have. Repeating information makes your process feel careless, even when the rest of the message is warm.</p><h3>4. Prepare a reply with a clear next step</h3><p>Now ask for a draft. Give it the facts, the unanswered questions, your tone guidance, and the next step you actually offer. The next step might be a short call, an application, a resource, or a direct answer. Don't ask AI to invent a process you don't run.</p><p>A strong reply usually does four things:</p><ol><li>Recognizes the person's stated situation.</li><li>Answers the question you can answer now.</li><li>Asks only the most useful follow-up questions.</li><li>Explains what happens next if they want help.</li></ol><p>Ask for one draft that is concise and one that is slightly warmer. Then combine them yourself. Your final edit is where judgment and personality return to the message.</p><h3>5. Record the decision and improve the criteria</h3><p>After you respond, record a few simple fields in the place where you track inquiries: the problem, fit status, next step, owner, and follow-up date. You don't need a lengthy report. You need enough information to see whether your qualification definition is helping you make consistent decisions.</p><p>At the end of each week, review a small group of inquiries. Which questions kept appearing? Which “possible concerns” turned out to be irrelevant? Which good-fit people stalled because the next step wasn't clear? Update the criteria and prompt based on what you learn.</p><h2>How to write the operating prompt</h2><p>Put the workflow into one reusable prompt. Include five sections:</p><ul><li><strong>Role:</strong> “You are my inquiry review assistant.”</li><li><strong>Business context:</strong> what you sell, who you serve, and what you don't do.</li><li><strong>Fit criteria:</strong> the observable conditions for a useful conversation.</li><li><strong>Output format:</strong> facts, unknowns, fit notes, questions, and draft reply.</li><li><strong>Boundaries:</strong> don't guess, don't promise outcomes, don't make a final decision, and flag sensitive information.</li></ul><p>Keep the original inquiry separate from your instructions. Label it clearly. If you use a saved workspace for your business context, check that the instructions still reflect your current offer before relying on the output.</p><p>You can also ask AI to return a “needs human review” flag when the message is ambiguous, emotional, legally sensitive, or outside your normal service. A flag is valuable because it tells you when the workflow has reached its limit.</p><h2>What this system should never do</h2><p>It shouldn't reject people based on guesses about their income, personality, identity, or seriousness. It shouldn't promise a sales result, provide professional advice outside your role, or send a message without your review. It also shouldn't store more personal information than your business needs for the next step.</p><p>Think of AI as a second set of eyes for structure. You remain responsible for the standards, the relationship, and the decision. The system earns its place when it helps you respond with more care and less mental clutter.</p><h2>Make the next response easier to send</h2><p>A consistent inquiry workflow gives you a repeatable starting point without forcing every person into the same script. You know what was said, what is unknown, what matters for fit, and what action should happen next.</p><p>Start with five recent inquiries. Run the fact-extraction step only. Correct the assumptions, then add your fit criteria and follow-up questions. Once the output reflects how you actually think, add the reply draft. That order keeps the system grounded in your judgment.</p><p>If you want a larger operating system for using AI across authority, content, follow-up, and daily business decisions, <a href=&quot;https://kristamashore.com/LevelUp&quot;>learn the AI system</a>.</p>",
+    "publishedDate": "2026-07-25T13:54:42.608Z",
+    "modifiedDate": "2026-07-25T13:54:42.608Z",
+    "draft": false
+  },
+  {
     "title": "How to Use AI for a Weekly Business Review",
     "slug": "ai-weekly-business-review-next-week-plan",
     "metaTitle": "AI Weekly Business Review: Plan Next Week",
