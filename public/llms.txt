@@ -26,6 +26,7 @@ Site map and full content of every published article:
 ## The AI-Run Business
 
 - [The AI-Run Business pillar page](https://kristamashore.ai/ai-run-business)
+- [How to Use AI to Turn a Repeated Task Into an SOP](https://kristamashore.ai/articles/ai-repeated-task-standard-operating-procedure) — If you do the same business task every week, you already have the raw material for a standard operating procedure. This practical AI workflow helps you capture the steps, test the instructions, and create an SOP someone else can follow.
 - [How to Use AI for a Weekly Business Review](https://kristamashore.ai/articles/ai-weekly-business-review-next-week-plan) — A weekly review can become a short, repeatable AI workflow instead of another task you postpone. Here is how to give AI the right information, ask better questions, and turn the conversation into a practical plan for next week.
 - [How to Turn a Discovery Call Transcript Into Your Next Actions](https://kristamashore.ai/articles/ai-discovery-call-transcript-next-actions) — A discovery call transcript is only useful when it leads to a clear next step. Here is a simple AI workflow for turning a messy conversation into organized notes, follow-up, and a short task list.
 - [MCP Servers Explained: The 5 to Set Up First (For Non-Technical Business Owners)](https://kristamashore.ai/articles/mcp-servers-explained-first-five-to-setup) — MCP is the USB-C for AI. Set up these 5 servers first and your AI can finally see your business: Gmail, Calendar, Drive, Notion, Slack.
