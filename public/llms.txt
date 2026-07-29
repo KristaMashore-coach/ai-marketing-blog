@@ -19,6 +19,7 @@ Site map and full content of every published article:
 ## AI Content to Client System
 
 - [AI Content to Client System pillar page](https://kristamashore.ai/ai-content-to-client-system)
+- [How to Use AI to Turn Client Questions Into Better Content](https://kristamashore.ai/articles/ai-client-questions-content-plan) — The best content topics are often hiding in the questions people already ask you. Here is a practical AI workflow for turning those questions into clear content your audience can use.
 - [How to Use AI to Turn Notes Into a Client-Ready Proposal](https://kristamashore.ai/articles/ai-notes-client-ready-proposal) — Rough notes are enough to start a strong proposal when you give AI a clear job and your own judgment stays in charge. This workflow helps you organize the client's situation, shape the offer, and edit the final document so it sounds like you.
 - [The 7 AI Tools Running Krista's Content Engine Right Now](https://kristamashore.ai/articles/seven-ai-tools-krista-content-engine) — Seven AI tools run my content engine right now. Some of them earned their spot. One of them is on probation. Here's the full honest tour.
 - [Email Nurture Sequences That Don't Sound Like AI: The Three-Pass Method](https://kristamashore.ai/articles/email-nurture-sequences-that-dont-sound-like-ai) — Most AI email sequences sound like AI email sequences. Here's the three-pass method I use with Claude so my nurture emails read like a friend wrote them.
