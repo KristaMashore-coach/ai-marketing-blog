@@ -1,5 +1,59 @@
 [
   {
+    "title": "How to Use AI to Prepare for a Difficult Client Conversation",
+    "slug": "ai-prepare-difficult-client-conversation",
+    "metaTitle": "Prepare for a Difficult Client Conversation With AI",
+    "metaDescription": "Use AI to sort the facts, plan your tone, and rehearse a difficult client conversation without handing over your judgment.",
+    "excerpt": "A difficult client conversation gets easier when you separate facts from assumptions and decide what a useful outcome looks like before you speak. This practical AI workflow helps you prepare a clear conversation plan while keeping the relationship and your judgment at the center.",
+    "author": "Krista Mashore",
+    "topicalPillar": "ai-run-business",
+    "contentTypePillar": "problem-solving",
+    "funnelStage": "resonance",
+    "keywords": [
+      "prepare for a difficult client conversation with AI",
+      "AI client communication workflow",
+      "AI for difficult conversations",
+      "client conflict preparation",
+      "AI for consultants and coaches"
+    ],
+    "wordCount": 1228,
+    "readingMinutes": 5,
+    "featuredImage": {
+      "src": "/articles/hero/ai-prepare-difficult-client-conversation.svg",
+      "alt": "Notebook and conversation plan for a difficult client conversation"
+    },
+    "faq": [
+      {
+        "question": "Can AI decide what I should say to an unhappy client?",
+        "answer": "AI can help you organize the situation, suggest questions, and rehearse possible wording. You should decide what is true, what you can offer, and what is appropriate for the relationship."
+      },
+      {
+        "question": "What information should I give AI before a client conversation?",
+        "answer": "Give it a short, anonymized summary of the agreement, timeline, facts, open questions, and the outcome you want. Leave out sensitive personal information that the tool does not need."
+      },
+      {
+        "question": "Should I send an AI-written apology to a client?",
+        "answer": "Read and rewrite it yourself. An apology needs to match what happened and what you are willing to do next, so generic language can make the conversation feel less personal."
+      },
+      {
+        "question": "How can I use AI without sounding defensive?",
+        "answer": "Ask AI to remove blame, assumptions, and long explanations. Then keep the parts that sound like you and use the result as a conversation guide rather than a script."
+      }
+    ],
+    "internalLinks": [
+      "ai-discovery-call-transcript-next-actions",
+      "ai-repeated-task-standard-operating-procedure",
+      "ai-weekly-business-review-next-week-plan",
+      "brand-voice-fingerprinting-claude"
+    ],
+    "ctaUrl": "https://kristamashore.com/LevelUp",
+    "ctaLabel": "Learn the AI System",
+    "body": "<p>Use AI as a calm preparation partner. Give it an anonymized summary of the agreement, the timeline, what happened, what the client said, and the outcome you want. Ask it to separate facts from assumptions, identify unanswered questions, and help you rehearse a clear conversation. Then make the final decisions yourself.</p><p>A difficult conversation is rarely difficult because you lack words. It is difficult because you are carrying too many versions of the situation at once. You may feel blamed, rushed, embarrassed, or worried about losing the relationship. When you prepare with those feelings still tangled together, you can overexplain, avoid the real issue, or promise something you cannot deliver.</p><p>AI can help you sort the material before you walk into the conversation. It cannot know the full relationship, and it should not replace your judgment. Its job is to help you see the situation clearly enough to show up as the business owner your client needs.</p><h2>Start with a private, factual conversation brief</h2><p>Open a blank document and write the situation in plain language. Do not try to sound polished. Use notes such as:</p><ul><li>What the client hired me to do</li><li>What was agreed about timing, communication, or deliverables</li><li>What has happened so far</li><li>What the client is concerned about</li><li>What I am concerned about</li><li>What I can change, clarify, or complete</li><li>What I cannot promise</li></ul><p>Remove names, account numbers, addresses, health information, financial details, passwords, and anything else the tool does not need. If a detail identifies the client, replace it with a general label such as “the buyer,” “the coaching client,” or “the consulting customer.” The clearer your brief, the less likely you are to ask AI to fill gaps with guesses.</p><p>Try this prompt:</p><p><strong>“Act as a conversation-preparation coach. Review the anonymized notes below. Create four sections: confirmed facts, assumptions I may be making, questions I need to ask, and issues that need a decision. Do not invent details or assign blame. Keep the language plain. Here are the notes: [paste notes].”</strong></p><p>Read the response slowly. The most useful line may be a question you had not considered. The least useful line may be a confident interpretation based on a missing fact. Keep the first and discard the second.</p><h2>Decide what a good conversation needs to accomplish</h2><p>Do not enter the call with the vague goal of “fixing everything.” Choose one or two outcomes that are within your control. You might need to understand the concern, correct a misunderstanding, agree on a next step, reset a boundary, or decide that the engagement should end.</p><p>Ask AI to help you turn the situation into a small outcome statement:</p><p><strong>“Based on these facts, suggest three realistic outcomes for this conversation. For each one, list what I can control, what I need from the client, and what would remain unresolved. Do not recommend a promise unless the notes support it.”</strong></p><p>Then choose the outcome that fits your role and your agreement. AI can show you options, but you are the person who has to keep the promise after the call. A smaller, clear next step is usually more useful than a dramatic statement about making the entire problem disappear.</p><h2>Plan the conversation in five parts</h2><p>Once you know the outcome, create a short structure. A five-part plan works well for many client conversations:</p><ol><li><strong>Open with respect.</strong> Thank the client for raising the issue and state that you want to understand it clearly.</li><li><strong>Name the shared topic.</strong> Say what you are there to discuss without labeling the client or defending yourself.</li><li><strong>Ask and listen.</strong> Use one question at a time. Let the client finish before you explain.</li><li><strong>Reflect the facts.</strong> Summarize what you heard and correct only what is inaccurate or incomplete.</li><li><strong>Agree on the next step.</strong> State who will do what, by when, and what still needs a decision.</li></ol><p>You can ask AI to turn your notes into this structure:</p><p><strong>“Create a conversation outline using these five parts: respectful opening, shared topic, questions, factual summary, and next step. Keep it warm and direct. Avoid blame, legal conclusions, promises, and corporate language. Use placeholders where a fact is missing.”</strong></p><p>Do not copy the outline word for word. Mark the two sentences you would actually say. The rest is there to keep you oriented if the conversation becomes emotional.</p><h2>Use AI to rehearse without losing your voice</h2><p>Rehearsal is where the workflow becomes practical. Ask AI to play the client and raise one concern at a time. Start with the concern you expect, then try a version that is more emotional or less specific. Your goal is not to win a debate. Your goal is to practice staying curious, precise, and honest.</p><p>Use a prompt like this:</p><p><strong>“Role-play as a concerned client using only the facts in these notes. Ask one question at a time and wait for my response. After each response, give brief feedback on whether I was clear, defensive, vague, or specific. Do not add facts that are not in the notes.”</strong></p><p>After the rehearsal, ask for three edits:</p><ul><li>Which sentence sounded defensive?</li><li>Where did I answer a question the client did not ask?</li><li>What important question did I avoid?</li></ul><p>Keep your own words in the final version. Your client does not need a perfect speech. They need to understand what you heard, what is true, and what happens next. If AI produces language you would never use, replace it. A polished sentence that feels false can damage trust faster than a simple sentence with your natural voice.</p><h2>Turn the call into a written next step</h2><p>Before the conversation ends, repeat the agreement out loud. Afterward, write a short follow-up that includes the issue discussed, the decision made, the action owner, and the date or condition for the next check-in. You can use AI to organize your notes after removing identifying details.</p><p><strong>“Turn these anonymized meeting notes into a concise follow-up email. Include what we understood, what we agreed, who owns each action, and what remains open. Do not add commitments, dates, or explanations that are not in the notes.”</strong></p><p>Read every line before sending. Check names, dates, deliverables, and tone. If the email says something you did not agree to, delete it. If the conversation involved a safety issue, regulated advice, a legal dispute, or a material financial decision, pause and get the appropriate human guidance before relying on a generated draft.</p><h2>Build this into your business rhythm</h2><p>You do not need a complicated system. Save one conversation-preparation template with these headings:</p><ul><li>Situation</li><li>Confirmed facts</li><li>Open questions</li><li>Desired outcome</li><li>Conversation outline</li><li>Promises I can keep</li><li>Follow-up owner and next step</li></ul><p>When a concern arrives, spend a few minutes filling in the template before replying. If the same type of conversation happens repeatedly, document the human decisions that matter and create an SOP you can improve over time. If the issue came from a call, you can also connect the preparation notes to your normal transcript and next-action process.</p><p>The point is not to make every client conversation sound the same. The point is to give yourself enough structure that stress does not make the decision for you. AI can help you sort, question, and rehearse. You bring the context, the responsibility, and the final word.</p><p>If you want a larger set of practical workflows for using AI across your business, <a href=\"https://kristamashore.com/LevelUp\">learn the AI system</a>.</p>",
+    "publishedDate": "2026-07-30T13:53:12.533Z",
+    "modifiedDate": "2026-07-30T13:53:12.533Z",
+    "draft": false
+  },
+  {
     "title": "How to Use AI to Turn Client Questions Into Better Content",
     "slug": "ai-client-questions-content-plan",
     "metaTitle": "Turn Client Questions Into Content With AI",
