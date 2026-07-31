@@ -1,5 +1,63 @@
 [
   {
+    "title": "How to Use AI to Build a Client Onboarding Checklist",
+    "slug": "ai-client-onboarding-checklist",
+    "metaTitle": "AI Client Onboarding Checklist for Small Businesses",
+    "metaDescription": "Use AI to turn your client intake details into a practical onboarding checklist that keeps the first week clear, personal, and organized.",
+    "excerpt": "A new client should not have to guess what happens after they say yes. Here is a simple way to use AI to turn your intake details into a useful onboarding checklist without handing over your judgment.",
+    "author": "Krista Mashore",
+    "topicalPillar": "ai-run-business",
+    "contentTypePillar": "problem-solving",
+    "funnelStage": "resonance",
+    "keywords": [
+      "AI client onboarding checklist",
+      "client onboarding workflow",
+      "AI for client intake",
+      "small business onboarding process",
+      "new client checklist"
+    ],
+    "wordCount": 1300,
+    "readingMinutes": 6,
+    "featuredImage": {
+      "src": "/articles/hero/ai-client-onboarding-checklist.svg",
+      "alt": "How to Use AI to Build a Client Onboarding Checklist"
+    },
+    "faq": [
+      {
+        "question": "What should an AI-generated client onboarding checklist include?",
+        "answer": "It should include the client information you need, the actions your team must take, deadlines, owners, communication points, and the first meaningful milestone."
+      },
+      {
+        "question": "Can AI send the onboarding checklist to my client?",
+        "answer": "AI can help draft the checklist and the accompanying message. You should review the details and send it through the system you already use."
+      },
+      {
+        "question": "What information should I give AI for onboarding?",
+        "answer": "Give it approved intake details, the service purchased, known goals, timing, required documents, and your standard first-week steps. Remove information that should not be shared."
+      },
+      {
+        "question": "How do I keep the checklist from sounding generic?",
+        "answer": "Include the client's stated goal, use your normal language, add a few specific next steps, and ask AI to flag anything that needs your confirmation."
+      },
+      {
+        "question": "Should I create one checklist for every client?",
+        "answer": "Start with one repeatable base checklist, then let AI suggest a short client-specific section based on the approved intake information."
+      }
+    ],
+    "internalLinks": [
+      "ai-notes-client-ready-proposal",
+      "ai-repeated-task-standard-operating-procedure",
+      "ai-qualify-new-business-inquiries",
+      "ai-prepare-difficult-client-conversation"
+    ],
+    "ctaUrl": "https://kristamashore.com/LevelUp",
+    "ctaLabel": "Learn the AI System",
+    "body": "<p>Use AI to turn your approved client intake notes into a first-week checklist, then review it before it reaches the client. The goal is not to let AI decide how you serve someone. The goal is to make sure small but meaningful steps do not disappear between the sale and the start of the work.</p><p>That gap creates unnecessary uncertainty. A client says yes, you celebrate, and then the work gets mixed into email, calendar reminders, and a few notes in different places. You know what needs to happen, but your client may not. A clear onboarding checklist gives both of you a shared starting point.</p><h2>Why client onboarding gets messy</h2><p>Onboarding usually contains several kinds of work at once. You need to collect information, confirm expectations, schedule the first meeting, prepare materials, create access, and explain what the client should do next. None of those steps is especially difficult. The problem is that they are easy to handle differently every time.</p><p>That inconsistency can create avoidable questions:</p><ul><li>What should I send first?</li><li>Which details am I still waiting for?</li><li>What does the client need to complete?</li><li>Who owns the next action?</li><li>When does the actual service begin?</li></ul><p>AI is useful here because it can organize a messy set of approved notes into a structure you can inspect. It can group tasks, find missing fields, and draft plain-language instructions. You still decide what is accurate, appropriate, and aligned with your offer.</p><h2>Start with a repeatable base checklist</h2><p>Before you ask AI to create a client-specific checklist, write down the steps that should happen for nearly every client. Keep this list practical. It might include:</p><ol><li>Confirm the signed agreement and payment status in your normal records.</li><li>Send a welcome message with the next appointment or milestone.</li><li>Collect the information or files required to begin.</li><li>Share the communication channel and expected response times.</li><li>Prepare the first deliverable, meeting agenda, or review.</li><li>Confirm the client's first action and your first action.</li><li>Schedule a check-in to confirm that the work is on track.</li></ol><p>This list becomes your starting point. It does not need to cover every possible situation. A useful base checklist is short enough to follow and specific enough to prevent missed handoffs.</p><p>If the process changes often, document it as an SOP first. You can read more about turning a repeated task into an SOP in <a href=\"/articles/ai-repeated-task-standard-operating-procedure\">this AI SOP workflow</a>.</p><h2>Give AI the right context</h2><p>AI can only organize the material you provide. Before you paste anything into a tool, decide what information is approved for that tool and remove details that are not needed for the task. You usually do not need every private note, internal opinion, or sensitive identifier to create a checklist.</p><p>A useful input can contain:</p><ul><li>The service or package the client purchased.</li><li>The client's stated goal in their own words.</li><li>The agreed start date or first milestone.</li><li>Required forms, documents, links, or access.</li><li>Known preferences about meetings or communication.</li><li>Your base onboarding checklist.</li></ul><p>You can also include a short instruction such as: “Organize these approved notes into an onboarding checklist. Separate client tasks from business tasks. Add an owner, a suggested timing, and a short reason for each step. Do not invent missing details. Mark anything that needs confirmation.”</p><p>That final instruction matters. A polished sentence is not proof that the underlying detail is correct. Asking AI to mark uncertainty gives you a review list instead of hidden assumptions.</p><h2>Ask for four useful outputs</h2><p>One large paragraph is hard to use. Ask AI for outputs that match the way you actually work.</p><h3>1. An internal task list</h3><p>Ask for a table or numbered list of your tasks. Each item should have an action, an owner, a timing, and a status field. For example, “prepare the kickoff agenda,” “Krista,” “before the first call,” and “not started” are more useful than a vague note that says “get ready.”</p><h3>2. A client-facing checklist</h3><p>Ask AI to rewrite only the steps the client needs to see. Use direct language and explain what happens after each action. A client should be able to scan the list and know what to do first, what can wait, and where to ask for help.</p><h3>3. A missing-information list</h3><p>Ask AI to separate missing information from optional information. This keeps you from sending a long questionnaire when you only need two answers to begin.</p><h3>4. A welcome message</h3><p>Ask for a short message that confirms the decision, names the first milestone, and points to the checklist. Then edit it so it sounds like you. The welcome message should feel like a clear handoff, not an automated receipt.</p><p>If the checklist begins with inquiry details, your qualification process can provide a cleaner starting point. See <a href=\"/articles/ai-qualify-new-business-inquiries\">this guide to qualifying new business inquiries with AI</a> for a related workflow.</p><h2>Review the draft before it becomes a promise</h2><p>Your review is the most important part of the process. Check every date, name, deliverable, permission, and expectation. Remove steps that do not belong to this client. Add the personal detail that shows you heard what they said.</p><p>Look for four common problems:</p><ul><li><strong>Invented details:</strong> AI may fill a gap with a plausible but unapproved assumption.</li><li><strong>Wrong ownership:</strong> A task may be assigned to the client when you should handle it, or the reverse.</li><li><strong>Too much work at once:</strong> A complete list can feel heavy if every later step appears on day one.</li><li><strong>Unclear language:</strong> Terms that make sense to you may not make sense to a new client.</li></ul><p>Ask yourself one simple question: if I were the client, would I know my next action after reading this? If the answer is no, shorten the list and make the first step more visible.</p><h2>Make the first week feel calm</h2><p>A good onboarding checklist is not a dump of every task in the engagement. It is a sequence. Put the earliest decision or action at the top. Group later work under headings such as “Before we meet,” “Our first meeting,” and “After the first milestone.”</p><p>Keep the client-facing version focused on movement. Your internal version can contain more detail, including quality checks and preparation notes. This separation lets you run a careful process without asking the client to manage your entire back office.</p><p>You can use AI again after the first meeting. Give it the meeting notes and ask it to compare the agreed next steps with the original checklist. It can identify what changed and draft an updated task list for your review. For a related notes workflow, read <a href=\"/articles/ai-notes-client-ready-proposal\">how to turn notes into a client-ready proposal</a>.</p><h2>Turn the checklist into a system you can improve</h2><p>After several clients, review where the process still creates questions. Did people miss the same form? Did you explain a milestone too late? Did you spend time rewriting the same welcome message?</p><p>Update the base checklist when a repeated improvement becomes clear. Keep a short “client-specific” section for details that should not be added to the standard process. This gives you consistency without making every person feel processed.</p><p>You can also prepare a few approved prompt templates: one for the internal list, one for the client version, one for missing information, and one for the welcome message. Store them with your process so you are not rebuilding the request each time.</p><p>AI will not replace the judgment that makes onboarding good. It can help you gather the pieces, expose gaps, and produce a first draft quickly. Your job is to make the final checklist accurate, kind, and easy to act on.</p><p>When a client knows what happens next, you spend less time answering preventable questions and more time doing the work they hired you to do. If you want a larger system for using AI across your business, <a href=\"https://kristamashore.com/LevelUp\">learn the AI System</a>.</p>",
+    "publishedDate": "2026-07-31T13:56:03.269Z",
+    "modifiedDate": "2026-07-31T13:56:03.269Z",
+    "draft": false
+  },
+  {
     "title": "How to Use AI to Prepare for a Difficult Client Conversation",
     "slug": "ai-prepare-difficult-client-conversation",
     "metaTitle": "Prepare for a Difficult Client Conversation With AI",
