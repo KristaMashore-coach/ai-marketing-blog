@@ -1,5 +1,63 @@
 [
   {
+    "title": "How to Use AI to Create a Clear One-Page Offer Brief",
+    "slug": "ai-one-page-offer-brief",
+    "metaTitle": "Create a One-Page Offer Brief With AI",
+    "metaDescription": "Use AI to organize your audience, promise, process, and proof into a clear one-page offer brief you can use in sales and content.",
+    "excerpt": "A one-page offer brief gives you a clear reference point for sales conversations, content, and follow-up. Here is a practical way to use AI to build one from what you already know about your business.",
+    "author": "Krista Mashore",
+    "topicalPillar": "authority-agent-operating-system",
+    "contentTypePillar": "educational-authority",
+    "funnelStage": "attention",
+    "keywords": [
+      "AI offer brief",
+      "one-page offer document",
+      "clarify your service offer",
+      "AI for coaches and consultants",
+      "service business messaging"
+    ],
+    "wordCount": 1084,
+    "readingMinutes": 5,
+    "featuredImage": {
+      "src": "/articles/hero/ai-one-page-offer-brief.svg",
+      "alt": "A one-page offer brief for a service business"
+    },
+    "faq": [
+      {
+        "question": "What is an AI offer brief?",
+        "answer": "It is a short working document that explains who your offer serves, the problem it addresses, the outcome you provide, what the process includes, and what a qualified person should do next. AI helps organize your raw material, but you approve the final message."
+      },
+      {
+        "question": "What should I give AI before asking it to write the brief?",
+        "answer": "Give it your current offer description, notes from real conversations, common questions, deliverables, boundaries, and any proof you are allowed to share. Specific source material produces a more useful first draft."
+      },
+      {
+        "question": "Should my offer brief include pricing?",
+        "answer": "Only if pricing is already part of your public sales process. If the price depends on scope, leave it out and explain how someone can ask for the right next step."
+      },
+      {
+        "question": "Can I use one offer brief for every audience?",
+        "answer": "Use one core brief as your source of truth, then create audience-specific versions when the problem, language, or buying context changes. Keep the underlying promise consistent."
+      },
+      {
+        "question": "How often should I revise the brief?",
+        "answer": "Review it when your offer changes or when repeated conversations reveal confusion. You do not need to rewrite it on a schedule if the message still matches the work you deliver."
+      }
+    ],
+    "internalLinks": [
+      "authority-agent-operating-system-5-layers",
+      "brand-voice-fingerprinting-claude",
+      "ai-notes-client-ready-proposal",
+      "ai-client-questions-content-plan"
+    ],
+    "ctaUrl": "https://kristamashore.com/LevelUp",
+    "ctaLabel": "Learn the AI System",
+    "body": "<p>Use AI to create a one-page offer brief by giving it your real business notes, asking it to organize the offer into a fixed set of sections, and then editing every claim until the page sounds like you. The goal is not to have AI invent a clever slogan. The goal is to make your offer easier to explain, sell, and turn into useful content.</p><p>If your offer lives in scattered notes, old sales emails, voice memos, and your own head, every conversation starts from scratch. A short brief gives you a dependable reference point. It can guide a discovery call, a landing page, a follow-up email, or a post that answers a question your audience is already asking.</p><h2>What belongs in a one-page offer brief?</h2><p>Keep the document practical. A reader should understand the offer without needing a long background story. Start with these sections:</p><ul><li><strong>Best-fit person:</strong> Describe who the offer is for and what situation they are in now.</li><li><strong>Problem:</strong> State the costly, frustrating, or time-consuming problem the person wants to address.</li><li><strong>Desired outcome:</strong> Describe the change your service is designed to help create. Keep the wording specific without promising a result you cannot control.</li><li><strong>Method:</strong> Summarize the main steps, conversations, deliverables, or decisions included in the work.</li><li><strong>Boundaries:</strong> Say what the offer does not include. Clear boundaries prevent the page from becoming a list of everything you could possibly do.</li><li><strong>Proof:</strong> Add only evidence you are permitted to use, such as your own relevant experience, a process explanation, or an approved example.</li><li><strong>Next step:</strong> Tell the right person what to do next, such as booking a call, completing an application, or sending a question.</li></ul><p>This structure works for a coach, consultant, real estate agent, lender, or creator because it connects the offer to a real business conversation. It also gives AI enough shape to help without handing over your judgment.</p><h2>Gather source material before you prompt</h2><p>AI can arrange information, but it cannot know the details of your service unless you provide them. Collect the material you already have. You might include your current website copy, a service description, a list of deliverables, questions prospects ask, notes from recent calls, and a short explanation of who should not buy the offer.</p><p>Do not paste private information that the brief does not need. Remove names, contact details, financial records, and anything confidential. A useful source packet can be general and still be concrete. For example, instead of sharing a client identity, write, “The buyer had many inquiries but no consistent follow-up process.”</p><p>Also separate facts from hopes. “I send a weekly review and provide three planning calls” is a description of your process. “Every client doubles revenue” is a result claim that would need support. Leave unsupported claims out.</p><h2>Use a prompt that asks for structure</h2><p>Ask AI to act as an editor and organizer, not as the owner of your business. You can start with a prompt like this:</p><p><strong>“Create a one-page offer brief from the source material below. Use these headings: Best-fit person, problem, desired outcome, method, boundaries, proof, and next step. Keep the language plain and specific. Do not invent facts, results, testimonials, credentials, or features. Mark any missing information with [NEEDS MY INPUT]. Give me a draft and then a short list of claims I should verify.”</strong></p><p>Paste your source material below the prompt. If you use Claude, you can place the approved source material and writing preferences in a Project, then ask for a fresh draft when the offer changes. The important part is the instruction: AI should work from your material and identify gaps instead of filling them with guesses.</p><h2>Edit the draft in three passes</h2><p>The first draft is a sorting exercise. Your editing is what makes the brief useful.</p><ol><li><strong>Check accuracy.</strong> Read each sentence and ask whether it describes what you actually do. Remove invented details, broad promises, and language that makes the service sound larger than it is.</li><li><strong>Check clarity.</strong> Replace abstract words with observable actions. “Improve your business” is vague. “Create a weekly follow-up routine for new inquiries” gives the reader something they can picture.</li><li><strong>Check fit.</strong> Read the page as one specific person. Would they recognize their current problem? Would they understand whether the offer is for them? Would the next step feel clear?</li></ol><p>Read the page out loud. If you would never say a sentence in a real conversation, rewrite it. Your brief should sound like a strong explanation you could give on a call, not like a brochure assembled from general business language.</p><h2>Turn one brief into daily business assets</h2><p>Once the brief is approved, keep it as a source document. Ask AI to create related assets while preserving the same audience, promise, boundaries, and next step. You can request a discovery-call opening, five educational posts, a short FAQ email, a follow-up message, or a page of objections and responses.</p><p>Review each asset against the brief. This prevents a common problem: your website says one thing, your sales conversation says another, and your follow-up introduces a third version of the offer. Consistent language makes it easier for a potential client to understand what you do and decide whether to continue.</p><p>You can also feed recurring questions back into the brief. If people repeatedly ask whether the service includes a certain task, add that answer to the boundaries or method section. If prospects use a phrase that describes the problem better than your original wording, consider adding their plain-language phrase to the document.</p><h2>Keep the brief alive, but keep it short</h2><p>A one-page brief is not meant to become your entire operations manual. It is a decision tool. It should help you answer four questions quickly: Who is this for? What problem does it address? How do I help? What should the right person do next?</p><p>Store the approved version where you can find it, and name it clearly. When you change the offer, update the brief before asking AI to create new sales or content materials. That small habit gives every new draft a better starting point.</p><p>AI is most useful here when it reduces the friction between what you know and what you need to communicate. You supply the experience, boundaries, and judgment. AI helps you sort the material into a clear working document. That is enough to make your next conversation, email, and piece of content more focused.</p><p>If you want a broader system for turning your expertise into repeatable business workflows, <a href=\"https://kristamashore.com/LevelUp\">learn the AI System</a>.</p>",
+    "publishedDate": "2026-08-05T13:52:37.495Z",
+    "modifiedDate": "2026-08-05T13:52:37.495Z",
+    "draft": false
+  },
+  {
     "title": "How to Use AI to Build a 30-Day Prospect Follow-Up Plan",
     "slug": "ai-30-day-prospect-follow-up-plan",
     "metaTitle": "AI 30-Day Prospect Follow-Up Plan",

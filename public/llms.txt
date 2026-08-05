@@ -11,6 +11,7 @@ Site map and full content of every published article:
 ## The Authority Agent Operating System™
 
 - [The Authority Agent Operating System™ pillar page](https://kristamashore.ai/authority-agent-operating-system)
+- [How to Use AI to Create a Clear One-Page Offer Brief](https://kristamashore.ai/articles/ai-one-page-offer-brief) — A one-page offer brief gives you a clear reference point for sales conversations, content, and follow-up. Here is a practical way to use AI to build one from what you already know about your business.
 - [How to Use AI to Qualify New Business Inquiries](https://kristamashore.ai/articles/ai-qualify-new-business-inquiries) — AI can help you bring order to a new inquiry before you spend time writing a response. This practical workflow shows you how to extract the facts, spot the missing information, and prepare a human follow-up that moves the conversation ahead.
 - [The 'You-Replacement Test': How to Know Your AI System Is Actually Working](https://kristamashore.ai/articles/you-replacement-test-ai-system) — Seven questions to figure out if your AI system is replacing most your work or adding cleanup hours. Run the diagnostic before you buy another tool.
 - [Brand Voice Fingerprinting: How to Capture How You Write So Claude Sounds Like You](https://kristamashore.ai/articles/brand-voice-fingerprinting-claude) — A 5-step process to extract your writing voice into a reusable Claude Skill or Project. Stop sounding like a LinkedIn carousel had a baby with a corporate apology.
