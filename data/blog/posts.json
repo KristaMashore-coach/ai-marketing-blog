@@ -1,5 +1,63 @@
 [
   {
+    "title": "How to Use AI to Turn a Service Promise Into a Delivery Checklist",
+    "slug": "ai-service-promise-delivery-checklist",
+    "metaTitle": "AI Service Promise to Delivery Checklist",
+    "metaDescription": "Turn your service promise into a clear delivery checklist with AI so every client knows what happens next and you know what to do.",
+    "excerpt": "A service promise is easy to write and easy to forget once the work begins. This practical AI workflow turns the promise into a delivery checklist your clients can understand and your business can follow.",
+    "author": "Krista Mashore",
+    "topicalPillar": "ai-run-business",
+    "contentTypePillar": "problem-solving",
+    "funnelStage": "resonance",
+    "keywords": [
+      "AI service delivery checklist",
+      "turn service offer into a checklist",
+      "client delivery workflow",
+      "AI workflow for consultants",
+      "small business service process"
+    ],
+    "wordCount": 1106,
+    "readingMinutes": 5,
+    "featuredImage": {
+      "src": "/articles/hero/ai-service-promise-delivery-checklist.svg",
+      "alt": "A service promise being organized into a client delivery checklist"
+    },
+    "faq": [
+      {
+        "question": "What should I give AI before asking for a delivery checklist?",
+        "answer": "Give it your service promise, the client outcome, the stages of the work, your boundaries, and the decisions the client must make. Specific input produces a more useful first draft."
+      },
+      {
+        "question": "Can AI create the final process for my business?",
+        "answer": "AI can organize and question your process, but you should review the draft. You decide what your business actually promises, who owns each task, and what requires professional judgment."
+      },
+      {
+        "question": "How detailed should a client-facing checklist be?",
+        "answer": "Show the stages, client responsibilities, expected handoffs, and next step. Keep private notes, internal estimates, and sensitive information in your internal version."
+      },
+      {
+        "question": "What if my service changes for every client?",
+        "answer": "Create a repeatable core checklist with optional branches. The core protects consistency, while the branches let you adapt without rebuilding the whole process each time."
+      },
+      {
+        "question": "Where should I keep the finished checklist?",
+        "answer": "Put it where you already manage client work, such as your project workspace or shared document system. The best location is one you and your team will actually check."
+      }
+    ],
+    "internalLinks": [
+      "ai-repeated-task-standard-operating-procedure",
+      "ai-one-page-offer-brief",
+      "ai-client-onboarding-checklist",
+      "ai-weekly-business-review-next-week-plan"
+    ],
+    "ctaUrl": "https://kristamashore.com/LevelUp",
+    "ctaLabel": "Learn the AI System",
+    "body": "<p>Yes, you can use AI to turn a service promise into a delivery checklist. Give AI the promise you make, the result the client expects, and the way the work usually unfolds. Then ask it to separate your process into stages, tasks, owners, handoffs, and client decisions. You still approve the result, but you no longer have to build the first draft from a blank page.</p><p>This matters because a vague promise creates a vague delivery experience. A client may hear \"we will improve your marketing,\" while you are thinking about a review, a strategy session, three drafts, and a follow-up call. A checklist makes the invisible work visible. It also gives you a simple way to spot missing steps before they become delays.</p><h2>Start with the promise, not the task list</h2><p>Before you open an AI chat, write one sentence that describes what the client is buying. Avoid a list of activities. Describe the change, decision, or finished item the client should have when the work is complete.</p><p>For example, a consultant might start with: \"I help a local business create a practical 30-day lead follow-up plan.\" A real estate agent might write: \"I help a seller prepare a clear plan for presenting and promoting a home.\" A coach might write: \"I help a business owner leave each session with a focused next-step plan.\" These sentences are starting points, not claims about a guaranteed result.</p><p>Next, add five kinds of context:</p><ul><li>The client and the situation they bring.</li><li>The beginning and end of the engagement.</li><li>The major stages between those points.</li><li>What you need from the client at each stage.</li><li>What is outside the service boundary.</li></ul><p>That last item is easy to skip. If you don't state what isn't included, AI may quietly add work that sounds reasonable but doesn't belong in your offer. A good checklist protects your time as much as it supports the client.</p><h2>Use AI to map the work in five passes</h2><h3>1. Ask for a plain-language process map</h3><p>Paste your service promise and context into AI and ask for a process map written for a person who has never seen the work before. Ask for five to seven stages at most. Each stage should have a name, a purpose, and a clear finish line.</p><p>Use a prompt like this: \"Here is my service promise and the way I currently deliver it. Organize the work into clear stages. For each stage, list the purpose, the task I complete, the information I need from the client, and the sign that the stage is complete. Do not add services I did not describe. Mark any assumption as a question.\"</p><p>The instruction to mark assumptions is useful. It prevents a polished guess from being mistaken for your actual process. Read the draft and answer every question before you keep going.</p><h3>2. Turn stages into observable tasks</h3><p>Ask AI to break each stage into tasks that someone could recognize as done or not done. \"Review strategy\" is too broad. \"Review the current offer, identify the primary audience, and record three unanswered questions\" is easier to check.</p><p>Keep the list short enough to use. If a task contains several verbs, ask whether it should become two tasks. If a task has no visible finish, add an output such as a note, draft, decision, appointment, or approval. Outputs help you keep momentum when the work is busy.</p><h3>3. Add ownership and handoffs</h3><p>Have AI add an owner to every task: you, the client, a team member, or a shared responsibility. Then ask it to flag every point where work changes hands.</p><p>Handoffs cause many avoidable delays. The client may need to approve a draft. You may need access to a document. A team member may need to prepare an asset before you can review it. Put those moments directly into the checklist, including the information that must be present before the next person starts.</p><h3>4. Create internal and client-facing versions</h3><p>Your internal checklist can include private notes, quality checks, time estimates, and reminders about risk. Your client-facing checklist should answer four questions: What happens next? What do you need from me? What will I receive? How will we know this stage is complete?</p><p>Ask AI to create the client version using calm, plain language. Remove internal shorthand. Replace phrases like \"waiting on asset\" with \"Please send the approved logo before the content draft can be finalized.\" The client doesn't need every detail of your work. They do need a reliable view of their part in it.</p><h3>5. Test the checklist with exceptions</h3><p>A process that only works in the perfect case isn't ready. Give AI three common exceptions: the client responds late, the client changes direction, or required information is missing. Ask it to show where the checklist should pause, what decision is needed, and how the next step should be recorded.</p><p>Don't ask AI to invent a policy for sensitive matters. Use it to expose gaps in the process, then decide your own response. Your judgment belongs in the final checklist.</p><h2>Make the checklist easy to run</h2><p>Organize the finished version in the same place where the work happens. Use one row or card per task. Include the task name, owner, status, due point, required input, and finished output. If the service has optional paths, label them clearly instead of mixing them into the main flow.</p><p>Use language that describes action. \"Send the draft for review\" is stronger than \"Draft review.\" Add a definition of done to tasks that often create confusion. For a content review, that might mean the client has either approved the draft or listed specific changes in one place.</p><p>At the end of an engagement, ask AI to compare the checklist with your notes. Which steps repeated? Which step created a question? Where did you do work that the original promise didn't mention? Update the process only after you decide whether the change belongs in the service, in your boundary, or in a separate offer.</p><h2>Your next step</h2><p>Choose one service you deliver often and write its promise in one sentence. Collect the steps you already follow, even if they live in scattered notes. Ask AI to map the stages, mark assumptions, and create internal and client-facing checklists. Review every line, test one real engagement, and revise what made the work clearer.</p><p>AI is most useful here as a thinking partner and organizing assistant. You bring the promise, the standards, and the judgment. The checklist gives those decisions a form you can repeat.</p><p>If you want a larger system for turning your expertise into repeatable business workflows, <a href=\"https://kristamashore.com/LevelUp\">learn the AI system</a>.</p>",
+    "publishedDate": "2026-08-09T14:04:16.041Z",
+    "modifiedDate": "2026-08-09T14:04:16.041Z",
+    "draft": false
+  },
+  {
     "title": "How to Use AI to Build a Better Pre-Call Question Sheet",
     "slug": "ai-pre-call-question-sheet",
     "metaTitle": "AI Pre-Call Question Sheet for Better Client Calls",

@@ -33,6 +33,7 @@ Site map and full content of every published article:
 ## The AI-Run Business
 
 - [The AI-Run Business pillar page](https://kristamashore.ai/ai-run-business)
+- [How to Use AI to Turn a Service Promise Into a Delivery Checklist](https://kristamashore.ai/articles/ai-service-promise-delivery-checklist) — A service promise is easy to write and easy to forget once the work begins. This practical AI workflow turns the promise into a delivery checklist your clients can understand and your business can follow.
 - [How to Use AI to Build a Better Pre-Call Question Sheet](https://kristamashore.ai/articles/ai-pre-call-question-sheet) — A good pre-call question sheet helps a client arrive with useful context instead of making you spend the first part of the conversation collecting basics. Here’s a practical way to use AI to draft one, review it, and make it sound like you.
 - [How to Use AI to Turn Meeting Notes Into a Decision Log](https://kristamashore.ai/articles/ai-meeting-notes-decision-log) — Meeting notes are only useful when they help you remember what was decided and what happens next. This practical AI workflow turns rough notes into a decision log your business can actually use.
 - [How to Use AI to Turn a Voice Note Into a Client Update](https://kristamashore.ai/articles/ai-voice-note-client-update) — A rough voice note can become a useful client update in minutes when you give AI the right job and review the result yourself. This workflow helps you capture the facts, choose the next step, and send a message that still sounds like you.
