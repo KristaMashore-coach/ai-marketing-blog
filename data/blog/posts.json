@@ -1,5 +1,63 @@
 [
   {
+    "title": "How to Use AI to Create a Clear Client Handoff Brief",
+    "slug": "ai-client-handoff-brief",
+    "metaTitle": "AI Client Handoff Brief: A Simple Workflow",
+    "metaDescription": "Learn how to use AI to turn scattered project details into a clear client handoff brief your team or next provider can use.",
+    "excerpt": "A client handoff gets easier when the next person can see what was promised, what is finished, and what happens next. This practical AI workflow helps you turn notes, messages, and files into one useful brief without asking AI to guess.",
+    "author": "Krista Mashore",
+    "topicalPillar": "ai-run-business",
+    "contentTypePillar": "problem-solving",
+    "funnelStage": "resonance",
+    "keywords": [
+      "AI client handoff brief",
+      "client handoff process",
+      "project handoff checklist",
+      "AI workflow for small business",
+      "service business handoff"
+    ],
+    "wordCount": 1039,
+    "readingMinutes": 5,
+    "featuredImage": {
+      "src": "/articles/hero/ai-client-handoff-brief.svg",
+      "alt": "How to use AI to create a clear client handoff brief"
+    },
+    "faq": [
+      {
+        "question": "What should a client handoff brief include?",
+        "answer": "Include the client goal, agreed scope, completed work, open items, important context, decisions, risks, files, contacts, and the next action. Keep facts separate from questions or suggestions."
+      },
+      {
+        "question": "Can AI create a handoff brief from meeting notes?",
+        "answer": "Yes, you can give AI notes and ask it to organize only the details provided. Review every section against the original notes before sharing the brief."
+      },
+      {
+        "question": "How do I stop AI from inventing missing details?",
+        "answer": "Tell it not to infer, fill gaps, or create dates and names. Ask it to mark missing information as a question for review."
+      },
+      {
+        "question": "Who should receive the handoff brief?",
+        "answer": "Send it to the person responsible for the next step and, when appropriate, the client. Share only the information each recipient needs for the work."
+      },
+      {
+        "question": "How often should I create a handoff brief?",
+        "answer": "Create one whenever responsibility changes, a project pauses, or a client needs a clean summary before the next phase begins."
+      }
+    ],
+    "internalLinks": [
+      "ai-meeting-notes-decision-log",
+      "ai-repeated-task-standard-operating-procedure",
+      "ai-client-onboarding-checklist",
+      "ai-service-promise-delivery-checklist"
+    ],
+    "ctaUrl": "https://kristamashore.com/LevelUp",
+    "ctaLabel": "Learn the AI System",
+    "body": "<p><strong>Use AI to create a client handoff brief by giving it approved project notes, asking it to sort facts into a fixed structure, and checking the result against the source material before anyone acts on it.</strong> The goal is not a polished summary for its own sake. The goal is to make the next responsibility clear.</p><p>A handoff can happen when a client moves from sales to delivery, when one contractor takes over from another, or when you pause a project and return to it later. Without a shared brief, people search through inboxes, repeat questions, and make decisions from incomplete context. A short, accurate document gives the work a home.</p><h2>Start with the handoff outcome</h2><p>Before you open an AI tool, answer one question: what should the next person be able to do after reading this brief? That answer keeps the document practical.</p><p>For example, the outcome might be: “The project manager can schedule the next client call,” or “The new copywriter can finish the approved service page.” Those are clearer than “summarize the project.” Tell AI the outcome, the reader, and the point at which responsibility changes.</p><p>Do not begin with a large pile of unrelated information. Gather the material that someone needs for the next decision:</p><ul><li>The client’s stated goal and the problem being addressed</li><li>The work that was agreed to</li><li>What has been completed and approved</li><li>What remains open</li><li>Decisions already made and who made them</li><li>Relevant deadlines, preferences, files, and contact details</li><li>The next action, owner, and question that still needs an answer</li></ul><p>If a detail is not needed for the next step, leave it out. A handoff brief should reduce searching, not become another archive.</p><h2>Use a fixed brief structure</h2><p>AI produces a more useful draft when you give it headings. Use a structure that matches the way you run projects:</p><ol><li><strong>Handoff purpose:</strong> Explain why responsibility is changing and what the reader needs to do.</li><li><strong>Client goal:</strong> Record the client’s goal in plain language. Use the client’s wording when it is available.</li><li><strong>Agreed scope:</strong> List what is included and identify anything that was discussed but not agreed.</li><li><strong>Status:</strong> Separate completed, in progress, waiting, and not started.</li><li><strong>Decisions:</strong> Record the decision, date if provided, and decision maker. If the date is missing, say so.</li><li><strong>Open questions:</strong> Turn gaps into questions instead of guesses.</li><li><strong>Files and links:</strong> Add only the files and links supplied for this handoff.</li><li><strong>Next action:</strong> Name one owner and one next step. Add a due date only when one is confirmed.</li></ol><p>This structure also helps you spot a weak handoff. If you cannot name the next action, the project may need a decision before it needs a new document.</p><h2>Give AI a careful instruction</h2><p>Your instruction should set boundaries. Here is a reusable starting point:</p><p><strong>“Create a client handoff brief for [reader] using only the notes below. Organize the information under these headings: Handoff purpose, Client goal, Agreed scope, Status, Decisions, Open questions, Files and links, and Next action. Do not infer missing facts. Do not create names, dates, prices, commitments, or deliverables. If information is missing or contradictory, label it for review. Separate confirmed facts from questions. Keep the language plain and concise. End with a five-line review list of details I should confirm before sharing.”</strong></p><p>Then paste the source notes below the instruction. If the material contains sensitive information, remove anything the reader does not need. You can also replace a person’s name with a role while you draft, then add the correct name during your own review.</p><h3>Ask for a source check</h3><p>After the first draft, ask AI to make a second pass: “Compare this brief with the source notes. List every statement that is not directly supported, every contradiction, and every open item that lacks an owner.” This turns the tool into a checking assistant rather than the final authority.</p><p>Review the list yourself. AI can organize supplied material, but you remain responsible for whether the brief is accurate, appropriate, and ready to share.</p><h2>Review the brief in three passes</h2><p>A quick review catches more than a long prompt. Read the draft three different ways.</p><p><strong>Pass one: factual accuracy.</strong> Compare names, commitments, status labels, files, and dates with the original material. Delete anything that cannot be supported. If two notes conflict, preserve the conflict as an open question instead of choosing a side.</p><p><strong>Pass two: responsibility.</strong> Look at every open item. Does it have one owner? Is the next action a real action, such as “send the revised outline,” rather than a vague phrase such as “continue the project”? If an item belongs to the client, say that clearly.</p><p><strong>Pass three: reader clarity.</strong> Imagine you are seeing the project for the first time. Can you understand why the handoff is happening, what has already been approved, and what to do next? Cut background that does not help the reader act.</p><h2>Turn the brief into a repeatable business habit</h2><p>Save the approved structure as a template. Keep the headings stable so each handoff feels familiar, even when the work changes. You can pair this with a decision log for project choices and an SOP for repeated delivery tasks.</p><p>Set a simple trigger: create the brief when a project changes owner, enters a new phase, pauses for more than a short period, or requires a specialist. The trigger matters more than the software. A document that exists at the right moment is more useful than a perfect document created too late.</p><p>Finally, share the brief with a clear note: “Please review the open questions and confirm the next action.” That invites correction while the context is still fresh. Once the recipient confirms it, store the final version with the project files and use it as the starting point for the next update.</p><h2>Your next step</h2><p>Choose one active project and collect the notes that currently live in different places. Give AI the fixed instruction, ask it to mark gaps, and complete the three review passes before sharing anything. You will quickly see whether the problem is missing information, unclear ownership, or a process that needs a better home.</p><p>When you’re ready to build this kind of workflow into the way you run your business, <a href=\"https://kristamashore.com/LevelUp\">Learn the AI System</a>.</p>",
+    "publishedDate": "2026-08-11T13:53:25.945Z",
+    "modifiedDate": "2026-08-11T13:53:25.945Z",
+    "draft": false
+  },
+  {
     "title": "How to Use AI to Build a Pre-Sale Answer Guide",
     "slug": "ai-pre-sale-answer-guide",
     "metaTitle": "Build a Pre-Sale Answer Guide With AI",
