@@ -34,6 +34,7 @@ Site map and full content of every published article:
 ## The AI-Run Business
 
 - [The AI-Run Business pillar page](https://kristamashore.ai/ai-run-business)
+- [How to Use AI to Turn a Vague Request Into Clear Scope](https://kristamashore.ai/articles/ai-vague-request-clear-scope) — A vague inquiry does not need a vague response. Here is a practical AI workflow for turning a prospect's rough request into clear scope, useful questions, and a confident next step.
 - [How to Use AI to Ask for a Better Client Testimonial](https://kristamashore.ai/articles/ai-client-testimonial-request) — A vague request usually produces a vague testimonial. Here is a simple way to use AI to organize the client context, write a personal request, and make the next step easy without putting words in your client's mouth.
 - [How to Use AI to Create a Clear Client Handoff Brief](https://kristamashore.ai/articles/ai-client-handoff-brief) — A client handoff gets easier when the next person can see what was promised, what is finished, and what happens next. This practical AI workflow helps you turn notes, messages, and files into one useful brief without asking AI to guess.
 - [How to Use AI to Turn a Service Promise Into a Delivery Checklist](https://kristamashore.ai/articles/ai-service-promise-delivery-checklist) — A service promise is easy to write and easy to forget once the work begins. This practical AI workflow turns the promise into a delivery checklist your clients can understand and your business can follow.
