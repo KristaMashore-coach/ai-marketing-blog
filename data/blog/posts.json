@@ -1,5 +1,63 @@
 [
   {
+    "title": "How to Use AI to Plan a Realistic Business Day",
+    "slug": "ai-realistic-business-day-plan",
+    "metaTitle": "How to Use AI to Plan a Realistic Business Day",
+    "metaDescription": "Use AI to turn your appointments, priorities, and open tasks into a practical business-day plan you can actually follow.",
+    "excerpt": "A full task list can make your workday feel impossible before it starts. Learn how to give AI the right context so it can help you build a focused plan around your real commitments.",
+    "author": "Krista Mashore",
+    "topicalPillar": "ai-run-business",
+    "contentTypePillar": "problem-solving",
+    "funnelStage": "resonance",
+    "keywords": [
+      "AI business day planning",
+      "plan your workday with AI",
+      "AI task planning for entrepreneurs",
+      "realistic daily schedule",
+      "AI productivity workflow"
+    ],
+    "wordCount": 989,
+    "readingMinutes": 4,
+    "featuredImage": {
+      "src": "/articles/hero/ai-realistic-business-day-plan.svg",
+      "alt": "How to Use AI to Plan a Realistic Business Day"
+    },
+    "faq": [
+      {
+        "question": "What should I give AI before asking it to plan my day?",
+        "answer": "Give it your fixed appointments, must-finish work, important follow-ups, available work blocks, and any limits such as school pickup or a hard stop."
+      },
+      {
+        "question": "Can AI decide what I should work on first?",
+        "answer": "AI can suggest an order based on the priorities and deadlines you provide. You should review the suggestion because you know the business context and consequences."
+      },
+      {
+        "question": "How many tasks should go on one workday plan?",
+        "answer": "There isn’t one correct number. A useful plan leaves room for appointments, communication, transitions, and unexpected work instead of filling every minute."
+      },
+      {
+        "question": "Should I ask AI to schedule every minute?",
+        "answer": "Usually, no. Ask for focused work blocks and a short list of next actions. A little space makes the plan easier to adjust when the day changes."
+      },
+      {
+        "question": "What do I do when I don’t finish the plan?",
+        "answer": "Ask AI to help you sort the unfinished items into do today, schedule later, delegate, or remove. Then create tomorrow’s plan from the new list."
+      }
+    ],
+    "internalLinks": [
+      "ai-weekly-business-review-next-week-plan",
+      "ai-messy-inbox-daily-action-list",
+      "ai-repeated-task-standard-operating-procedure",
+      "ai-vague-request-clear-scope"
+    ],
+    "ctaUrl": "https://kristamashore.com/LevelUp",
+    "ctaLabel": "Learn the AI System",
+    "body": "<p>Yes, you can use AI to plan your business day, but the best plan starts with your real constraints. Give AI your fixed appointments, your most important outcome, the tasks competing for attention, and the time you truly have. Then ask it to create a short schedule with work blocks, transition space, and a clear stopping point.</p><p>That last part matters. A plan that assumes every minute is available isn’t a plan you can use. It’s a wish list with times attached.</p><h2>Start with the day you actually have</h2><p>Before you ask for a schedule, gather five pieces of information:</p><ul><li><strong>Fixed commitments:</strong> appointments, calls, travel, family responsibilities, and other events you can’t move.</li><li><strong>The day’s main outcome:</strong> the one result that would make the day feel worthwhile.</li><li><strong>Important tasks:</strong> the work that supports that outcome and any deadlines that affect the order.</li><li><strong>Available work time:</strong> the blocks when you can think, write, call, or handle administration.</li><li><strong>Your energy pattern:</strong> when you prefer focused work, conversations, errands, or simple tasks.</li></ul><p>You don’t need a perfect list. A rough note is enough to begin. The value comes from putting the information in one place so the plan reflects your day instead of an imaginary version of it.</p><h2>A simple prompt for a useful first draft</h2><p>Paste your information into your AI tool and use a prompt like this:</p><p><strong>Help me plan a realistic business day. My fixed commitments are: [list them]. My most important outcome is: [outcome]. The tasks I’m considering are: [list]. I have these work blocks available: [times]. My hard stop is: [time]. Put the most important work first, group similar tasks, include transition space, and leave room for unexpected work. If the list is too large, tell me what to move, delegate, or remove. Return the plan as a time-blocked schedule followed by three must-do actions.</strong></p><p>Notice what this prompt does not ask for. It doesn’t ask AI to make you more productive, cram in more work, or fill every gap. It gives the tool a job: help you make decisions about limited time.</p><h2>Use a priority test before you accept the schedule</h2><p>AI can organize the information you provide, but it can’t automatically know which task carries the greatest business consequence. Review the proposed order with three questions:</p><ol><li><strong>What creates the most meaningful progress?</strong> This might be a client deliverable, a sales conversation, a decision you’ve postponed, or work that makes tomorrow easier.</li><li><strong>What has a real deadline?</strong> Separate a true deadline from a task that simply feels urgent because it’s visible.</li><li><strong>What depends on something else?</strong> If one task creates the information needed for another, do the first task earlier.</li></ol><p>Then tell AI what you changed and ask it to revise the schedule. For example, move the proposal review ahead of the content draft because the review affects what you need to write. Keep your lunch break and preserve a 30-minute buffer before the afternoon call. The second draft will usually be more useful because you added business judgment.</p><h2>Turn large tasks into visible next actions</h2><p>Work on marketing is too broad for a day plan. So is handle clients. Ask AI to break each priority into actions that have a clear finish line.</p><p>For a coach, that could mean reviewing a discovery-call note, choosing the client’s next recommendation, and drafting a follow-up message. For a real estate agent, it might mean checking the day’s appointments, preparing questions for a seller conversation, and sending one specific update. For a consultant, it could mean opening the project brief, listing missing inputs, and writing the first section.</p><p>The point isn’t to create a long checklist. It’s to make the next physical or digital action obvious. If a task still sounds vague, ask what you would be able to point to when it is done.</p><h2>Build a plan that can survive interruptions</h2><p>Small business owners rarely get a completely quiet day. A client calls. A transaction changes. A team member needs a decision. Your own estimate takes longer than expected.</p><p>Ask AI to create a primary plan and a reduced plan. The primary plan contains the ideal set of commitments. The reduced plan contains the one outcome and the two or three actions that matter if the day gets interrupted.</p><p>You can also define a recovery rule: if you lose one work block, protect the main outcome, move low-priority tasks to tomorrow, and don’t shorten your fixed appointments. This gives you a decision process before you’re stressed. When the day changes, you don’t have to rebuild everything from scratch.</p><h2>Use a five-minute closeout</h2><p>At the end of the workday, give AI a quick update:</p><ul><li>What I finished: [list].</li><li>What changed: [list].</li><li>What is still open: [list].</li><li>What I learned about my available time: [note].</li></ul><p>Ask it to sort the open items into four groups: do tomorrow, schedule for later, ask someone else to handle, or remove. Then ask for tomorrow’s first draft using the commitments you already know.</p><p>This closeout keeps unfinished work from becoming a pile of vague guilt. It also gives you a record of what actually happened, which helps you make better plans over time.</p><h2>Keep the human decision in the loop</h2><p>AI should help you see choices clearly. It shouldn’t become the boss of your calendar. Protect time for work that needs your judgment, your relationships, and your direct voice. Don’t hand over private or sensitive information unless you understand how the tool handles it and your business policies allow it.</p><p>Start with tomorrow. Give AI the commitments you already know, choose one meaningful outcome, and ask for a schedule that leaves breathing room. After you use it once, adjust the prompt based on what worked and what didn’t. A small daily planning habit can become a practical part of how you run the business.</p><p>If you want a larger system for using AI across your content, follow-up, and operations, <a href=\"https://kristamashore.com/LevelUp\">learn the AI system</a>.</p>",
+    "publishedDate": "2026-08-14T14:00:55.656Z",
+    "modifiedDate": "2026-08-14T14:00:55.656Z",
+    "draft": false
+  },
+  {
     "title": "How to Use AI to Turn a Vague Request Into Clear Scope",
     "slug": "ai-vague-request-clear-scope",
     "metaTitle": "Turn a Vague Client Request Into Clear Scope With AI",
