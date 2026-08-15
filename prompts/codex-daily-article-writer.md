@@ -16,14 +16,33 @@ Do not read full published article bodies, private intake files, memory files, t
 
 Keep the run to at most 6 tool calls: read the context, read the empty queue, write the queue, parse it, inspect repository status, and use at most one correction call.
 
-## Topic
+## Topic assignment (you do NOT choose the topic)
 
-- Answer one specific practical question an entrepreneur, coach, consultant, real estate agent, lender, solopreneur, or creator could ask about using AI in a business.
-- Choose one approved topical pillar, one approved content type, and one approved funnel stage from the context.
-- Inspect the complete compact article inventory. Do not duplicate or lightly rephrase an existing title, slug, keyword target, or search intent.
+The context's `assignedTopics` array holds your assignment. It is ordered by priority, highest first.
+
+Write the article for the first entry in that array. If it holds more than one, take the first and ignore the rest; they are the next days' work, not yours.
+
+Do not invent a topic, do not substitute one, do not reorder, and do not write about anything that is not in `assignedTopics`.
+
+This replaced free topic selection on 2026-08-15. The site's first 39 articles were written with the writer picking its own topics against pillar names only, with no search-question data in the loop — the same failure blog.kristamashore.com fixed on 2026-08-01. The backlog is built from research into what people actually type. Trust it.
+
+For the assigned topic, these fields are given to you and are NOT yours to change:
+
+- `title` — use it exactly (it is pre-checked against the 70-character limit)
+- `slug` — use it exactly
+- `primaryKeyword` — must appear in the metaTitle, naturally, toward the front
+- `secondaryKeywords` — work them into headings and body where they fit naturally
+- `topicalPillar` — use it exactly
+- `angle` — the editorial direction; follow it
+
+You still choose: `contentTypePillar` and `funnelStage` if the topic does not specify them, the metaTitle wording (with the primaryKeyword in it), the metaDescription, the article structure, and every sentence of the body.
+
+**If `assignedTopics` is empty or missing, stop without changing anything and say the backlog needs refilling. Never fall back to inventing a topic.**
+
 - It is valid to write about Claude when the article belongs in the `claude-for-dummies` pillar. Claude is the subject of that content, not the publishing engine.
-- Prefer a useful evergreen workflow. Do not invent a product feature, version, price, law, statistic, release, quote, testimonial, or result.
-- Do not search for private material. If current research is unavailable, choose a topic that can be written accurately without it.
+- Do not invent a product feature, version, price, law, statistic, release, quote, testimonial, or result. When the topic's angle cites a statistic (adoption rates, cost ranges), state it as reported research with its source in the same paragraph, or soften to unquantified language.
+- Do not search for private material.
+- **Fairness rule for comparison and roundup articles.** Some assigned topics compare tools or answer "will AI replace me" fears. Give every option its real strengths and describe honestly who it fits. A page that trashes the alternative reads as an ad, and no search engine or AI assistant will cite it.
 
 ## Exact JSON schema
 

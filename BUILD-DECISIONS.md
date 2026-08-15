@@ -43,6 +43,15 @@ The `claude-for-dummies` pillar is intentional editorial subject matter. Moving 
 - New article slugs must be unique.
 - The queue must be empty before generation and after a successful run.
 
+## Topic selection (locked 2026-08-15, Krista-directed)
+
+- The writer NEVER chooses or invents a topic. Topics come only from `data/blog/topic-backlog.json`, a question-intent-researched backlog built from what business owners, agents, and lenders actually type into search and AI assistants.
+- `scripts/build-codex-daily-context.cjs` assigns the next N ready topics (priority order, published-state derived from `posts.json`, never from a status field).
+- `scripts/check-topic-backlog.cjs` preflights every run: unsatisfiable entries (title over 70 chars, duplicate slugs) abort before generation.
+- **Empty backlog fails closed.** The run aborts with `BACKLOG EMPTY` before any Codex attempt is spent. Publishing halts until the backlog is refilled with real research. Halting beats inventing: the site's entire purpose is answering real searched questions (AEO/GEO).
+- The vault's `daily-health-check.sh` check [24] monitors runway and flags when fewer than 3 days of topics remain.
+- History: the first 39 articles (through 2026-08-15) were written under free topic selection with no search data in the loop. This section exists so that never happens again.
+
 ## Production cadence
 
 | Decision | Locked value |

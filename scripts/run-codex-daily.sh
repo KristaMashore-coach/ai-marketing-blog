@@ -87,6 +87,14 @@ NODE
   fi
 fi
 
+# PREFLIGHT (ported from krista-mashore-content-codex 2026-08-15): refuse a
+# backlog whose entries can never pass the article validator — the deadlock
+# class where the same doomed topic gets reassigned every morning forever.
+node scripts/check-topic-backlog.cjs || {
+  print -u2 "[codex-daily] ABORTED: topic backlog contains entries no article can satisfy (see above). Fix data/blog/topic-backlog.json."
+  exit 1
+}
+
 trap 'rm -f "$CONTEXT_PATH"' EXIT
 node scripts/build-codex-daily-context.cjs "$CONTEXT_PATH"
 node - "$CONTEXT_PATH" "$QUEUE_PATH" <<'NODE'
@@ -96,7 +104,13 @@ const queue = JSON.parse(fs.readFileSync(process.argv[3], "utf8"));
 if (context?.cadence?.ongoingPerDay !== 1) throw new Error("ongoing cadence must equal 1");
 if (!Array.isArray(queue) || queue.length !== 0) throw new Error("queue must be empty before generation");
 if (!Array.isArray(context.existingArticles) || context.existingArticles.length < 10) throw new Error("published inventory is incomplete");
-console.log(`[codex-daily] compact context ready: ${context.existingArticles.length} articles, cadence=1`);
+// FAIL CLOSED (2026-08-15): an empty backlog must stop the run before any
+// Codex generation attempt is spent. The old design free-generated topics with
+// no search-question grounding — the writer must NEVER invent a topic. The
+// distinct message below is what daily-health-check.sh greps for.
+if (!Array.isArray(context.assignedTopics) || context.assignedTopics.length === 0)
+  throw new Error("BACKLOG EMPTY: no assigned topics — refill data/blog/topic-backlog.json with question-intent research. The writer never invents topics.");
+console.log(`[codex-daily] compact context ready: ${context.existingArticles.length} articles, cadence=1, assigned=${context.assignedTopics.length}`);
 NODE
 
 if [[ "$MODE" == "--preflight" ]]; then
