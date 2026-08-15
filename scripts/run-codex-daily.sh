@@ -268,4 +268,10 @@ if [[ "$DEPLOY_OK" != "1" ]]; then
   exit 1
 fi
 
+# Daily review email (Krista-directed 2026-08-15; auto-send exception (j) in
+# the vault's CLAUDE.md). Bonus channel — never fails the run.
+print -r -- "$NEW_SLUG" | "$ROOT/scripts/send-publish-email.zsh" \
+  "kristamashore.ai" "$LIVE_URL" \
+  "socialmedia@kristamashore.com doit@kristamashore.com" || true
+
 print "[codex-daily] LIVE RUN PASSED. Existing articles remained unchanged and the new article is crawlable."
