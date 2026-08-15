@@ -11,7 +11,7 @@ export default function About() {
         title="About Krista Mashore"
         description={PERSON.description}
         metaTitle="About Krista Mashore | AI Authority for Entrepreneurs, Agents, and Lenders"
-        metaDescription="Top 1% real estate agent for 19 years. $72M coaching company in 7.5 years. Now teaching entrepreneurs, agents, and lenders how to use AI to scale without hiring."
+        metaDescription="Top 1% real estate agent for 19 years. $74M coaching company in 8 years. Now teaching entrepreneurs, agents, and lenders how to use AI to scale without hiring."
         canonicalPath="/about"
       />
       <BreadcrumbSchema
@@ -33,7 +33,7 @@ export default function About() {
 
       <section className="max-w-3xl mx-auto px-4 sm:px-6 py-12 prose-slate">
         <p className="text-lg leading-relaxed text-ink/90">
-          Krista Mashore personally sold over 2,300 homes. She averaged 133 a year. Then she built a coaching company from zero to $72M in online sales in 7.5 years. Eleven Two Comma Club Awards from ClickFunnels. Two $10M+ funnel awards. Two $25M+ funnel awards.
+          Krista Mashore personally sold 2,350+ homes. She averaged 133 a year. Then she built a coaching company from zero to $74M in online sales in 8 years. Eleven Two Comma Club Awards from ClickFunnels. Two $10M+ funnel awards. Two $25M+ funnel awards.
         </p>
         <p className="mt-6 text-lg leading-relaxed text-ink/90">
           But this site isn't about real estate. This site is about what came next. AI changed everything for her business. The content her team used to take a week to produce now ships in an afternoon. Workflows that needed three people now run on their own. She's been on a tear figuring out which AI tools actually move the needle and which ones are noise.

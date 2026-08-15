@@ -13,7 +13,7 @@ export const PERSON = {
   url: SITE_URL,
   image: `${SITE_URL}/images/krista-headshot.jpg`,
   description:
-    "Krista Mashore is a top 1% real estate agent for 19 consecutive years, built a $72M coaching company in 7.5 years, and now teaches entrepreneurs, real estate agents, and lenders how to use AI to scale without hiring. Creator of The Authority Agent Operating System™ and the Community Market Leader® methodology, now adapted for the AI era.",
+    "Krista Mashore is a top 1% real estate agent for 19 consecutive years, built a $74M coaching company in 8 years, and now teaches entrepreneurs, real estate agents, and lenders how to use AI to scale without hiring. Creator of The Authority Agent Operating System™ and the Community Market Leader® methodology, now adapted for the AI era.",
   sameAs: [
     "https://kristamashore.com",
     "https://www.linkedin.com/in/krista-mashore",

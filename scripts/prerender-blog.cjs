@@ -307,7 +307,7 @@ writePage(
     "/about",
     [aboutBreadcrumb],
     "About Krista Mashore | AI Authority for Entrepreneurs, Agents, and Lenders",
-    "Top 1% real estate agent for 19 years. $72M coaching company in 7.5 years. Now teaching entrepreneurs, agents, and lenders how to use AI to scale without hiring."
+    "Top 1% real estate agent for 19 years. $74M coaching company in 8 years. Now teaching entrepreneurs, agents, and lenders how to use AI to scale without hiring."
   )
 );
 pages++;

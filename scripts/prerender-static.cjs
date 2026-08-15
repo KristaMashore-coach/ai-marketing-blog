@@ -222,7 +222,7 @@ function buildHomeBody() {
 <article>
 <p class="eyebrow">For entrepreneurs, agents, and lenders</p>
 <h1>Use AI to run your business. Build autonomous agents. Scale without hiring.</h1>
-<p class="lede">The AI workflows, tools, and systems that take the work off your plate. Real automations from Krista Mashore. Top 1% agent for 19 years, built a $72M coaching company in 7.5 years, now teaching business owners how to make AI do the heavy lifting.</p>
+<p class="lede">The AI workflows, tools, and systems that take the work off your plate. Real automations from Krista Mashore. Top 1% agent for 19 years, built a $74M coaching company in 8 years, now teaching business owners how to make AI do the heavy lifting.</p>
 <p><a href="${CTA_URL}">${escapeText(CTA_LABEL)}</a> &middot; <a href="/articles">Read the articles</a></p>
 ${buildPillarsHtml()}
 ${buildRecentArticlesHtml(recent)}
@@ -288,7 +288,7 @@ function buildAboutBody() {
 <nav aria-label="Breadcrumb"><a href="/">Home</a> / About</nav>
 <h1>About Krista Mashore</h1>
 <p class="lede">Top 1% real estate agent for 19 consecutive years. Top 1% coach. Now using AI to run an entire business so other people can do the same.</p>
-<p>Krista Mashore personally sold over 2,300 homes. She averaged 133 a year. Then she built a coaching company from zero to $72M in online sales in 7.5 years. Eleven Two Comma Club Awards from ClickFunnels. Two $10M+ funnel awards. Two $25M+ funnel awards.</p>
+<p>Krista Mashore personally sold 2,350+ homes. She averaged 133 a year. Then she built a coaching company from zero to $74M in online sales in 8 years. Eleven Two Comma Club Awards from ClickFunnels. Two $10M+ funnel awards. Two $25M+ funnel awards.</p>
 <p>But this site isn't about real estate. This site is about what came next. AI changed everything for her business. The content her team used to take a week to produce now ships in an afternoon. Workflows that needed three people now run on their own. She's been on a tear figuring out which AI tools actually move the needle and which ones are noise.</p>
 <p>She's been featured in Forbes, the Wall Street Journal, Yahoo Finance, Inc. 5000, Inman News, NBC, and FOX. She's shared stages with Tony Robbins, Dean Graziosi, and Russell Brunson. She's a 7x best-selling author with a Master's in Curriculum &amp; Instruction.</p>
 <h2>Who this is for</h2>
@@ -421,7 +421,7 @@ routes++;
 applyRoute("/about", {
   title: "About Krista Mashore | AI Authority for Entrepreneurs, Agents, and Lenders",
   description:
-    "Top 1% real estate agent for 19 years. $72M coaching company in 7.5 years. Now teaching entrepreneurs, agents, and lenders how to use AI to scale without hiring.",
+    "Top 1% real estate agent for 19 years. $74M coaching company in 8 years. Now teaching entrepreneurs, agents, and lenders how to use AI to scale without hiring.",
   ogType: "profile",
   body: buildAboutBody(),
 });

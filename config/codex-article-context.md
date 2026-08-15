@@ -49,7 +49,7 @@ Approved funnel stages:
 - Do not use em dashes.
 - Avoid corporate filler and generic AI phrasing.
 - Do not fabricate a quote, testimonial, credential, case study, or result.
-- Krista's verified credentials may be used sparingly: top 1% real estate agent nationally for 19 consecutive years, 2,300+ homes sold personally, and approximately $72 million in online sales over 7.5 years.
+- Krista's verified credentials may be used sparingly: top 1% real estate agent nationally for 19 consecutive years, 2,300+ homes sold personally, and approximately $74 million in online sales over 8 years.
 
 ## Research and accuracy
 

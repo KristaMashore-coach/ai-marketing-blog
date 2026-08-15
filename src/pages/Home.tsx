@@ -32,7 +32,7 @@ export default function Home() {
           <p className="mt-6 text-lg text-ink/80 max-w-2xl">
             The AI workflows, tools, and systems that take the work off your plate.
             Real automations from Krista Mashore. Top 1% agent for 19 years, built
-            a $72M coaching company in 7.5 years, now teaching business owners
+            a $74M coaching company in 8 years, now teaching business owners
             how to make AI do the heavy lifting.
           </p>
           <div className="mt-8 flex flex-wrap gap-4">
