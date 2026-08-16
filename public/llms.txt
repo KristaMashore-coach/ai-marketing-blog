@@ -11,6 +11,8 @@ Site map and full content of every published article:
 ## The Authority Agent Operating System™
 
 - [The Authority Agent Operating System™ pillar page](https://kristamashore.ai/authority-agent-operating-system)
+- [What Is Answer Engine Optimization? AEO Explained Simply](https://kristamashore.ai/articles/what-is-answer-engine-optimization-aeo) — Answer engine optimization, or AEO, is the practice of making useful information easier for answer systems to understand and reference. This guide explains the idea without turning it into a technical mystery.
+- [How to Get ChatGPT to Recommend Your Business](https://kristamashore.ai/articles/how-to-get-chatgpt-to-recommend-your-business) — You cannot force ChatGPT to recommend your business. You can make your business easier to understand, verify, and cite when a buyer asks a relevant question.
 - [How to Use AI to Create a Clear One-Page Offer Brief](https://kristamashore.ai/articles/ai-one-page-offer-brief) — A one-page offer brief gives you a clear reference point for sales conversations, content, and follow-up. Here is a practical way to use AI to build one from what you already know about your business.
 - [How to Use AI to Qualify New Business Inquiries](https://kristamashore.ai/articles/ai-qualify-new-business-inquiries) — AI can help you bring order to a new inquiry before you spend time writing a response. This practical workflow shows you how to extract the facts, spot the missing information, and prepare a human follow-up that moves the conversation ahead.
 - [The 'You-Replacement Test': How to Know Your AI System Is Actually Working](https://kristamashore.ai/articles/you-replacement-test-ai-system) — Seven questions to figure out if your AI system is replacing most your work or adding cleanup hours. Run the diagnostic before you buy another tool.
@@ -35,6 +37,8 @@ Site map and full content of every published article:
 ## The AI-Run Business
 
 - [The AI-Run Business pillar page](https://kristamashore.ai/ai-run-business)
+- [How Much Does an AI Agent Cost for a Small Business?](https://kristamashore.ai/articles/how-much-does-an-ai-agent-cost-small-business) — The cost of an AI agent depends less on the label and more on the workflow, tools, and review it requires. Use this practical budget framework before you pay for a system.
+- [What Is an AI Agent? A Plain-English Guide for Business Owners](https://kristamashore.ai/articles/what-is-an-ai-agent-business-owners) — An AI agent is software that works toward a goal by choosing and completing a series of steps. Here is how to tell an agent from a chatbot or a simple automation and where a small business can start.
 - [How to Use AI to Plan a Realistic Business Day](https://kristamashore.ai/articles/ai-realistic-business-day-plan) — A full task list can make your workday feel impossible before it starts. Learn how to give AI the right context so it can help you build a focused plan around your real commitments.
 - [How to Use AI to Turn a Vague Request Into Clear Scope](https://kristamashore.ai/articles/ai-vague-request-clear-scope) — A vague inquiry does not need a vague response. Here is a practical AI workflow for turning a prospect's rough request into clear scope, useful questions, and a confident next step.
 - [How to Use AI to Ask for a Better Client Testimonial](https://kristamashore.ai/articles/ai-client-testimonial-request) — A vague request usually produces a vague testimonial. Here is a simple way to use AI to organize the client context, write a personal request, and make the next step easy without putting words in your client's mouth.
@@ -63,6 +67,7 @@ Site map and full content of every published article:
 ## Claude for Dummies: The AI Tools That Actually Matter
 
 - [Claude for Dummies: The AI Tools That Actually Matter pillar page](https://kristamashore.ai/claude-for-dummies)
+- [Is Claude Worth Paying For? Free vs. Pro for Business Owners](https://kristamashore.ai/articles/is-claude-worth-paying-for-business) — Claude can be useful on a free plan, but a paid plan only makes sense when its added access supports work you already do. Use this break-even test before subscribing.
 - [Claude vs. ChatGPT for a Non-Technical Business Owner in 2026](https://kristamashore.ai/articles/claude-vs-chatgpt-non-technical-business-2026) — An honest, opinionated comparison of Claude and ChatGPT for a non-technical business owner in 2026. Pick one, master it, stop paying for both.
 - [Claude Skills: Build Your Brand Voice Skill Once and Reuse Forever](https://kristamashore.ai/articles/claude-skills-brand-voice-skill) — Anthropic introduced Claude Skills in 2025 and they're the missing layer most business owners don't know exists. Here's how to build your brand voice Skill first.
 - [Claude Projects: Setting Up Your First One (Step by Step for Business Owners)](https://kristamashore.ai/articles/claude-projects-setting-up-first-one) — You've been chatting with Claude for months and re-explaining your business every time. Here's how to set up your first Claude Project so Claude already knows who you are.
