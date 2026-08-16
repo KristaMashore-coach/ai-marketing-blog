@@ -231,7 +231,11 @@ if [[ "$GENERATION_OK" != "1" ]]; then
   exit 1
 fi
 
-node scripts/publish-batch.cjs --no-git "--count=$ARTICLE_COUNT"
+# HOLD FOR APPROVAL (2026-08-16, Krista-directed): articles land as draft:true
+# and stay invisible (no page rendered, absent from sitemap.xml and llms.txt)
+# until she approves. kristamashore.ai ONLY - she said explicitly she does NOT
+# want to approve blog.kristamashore.com articles, only these.
+node scripts/publish-batch.cjs --no-git --hold-for-approval "--count=$ARTICLE_COUNT"
 node scripts/check-codex-daily-article.cjs --posts-head "$ARTICLE_COUNT"
 node "$PRESERVATION_SCRIPT" verify "$SNAPSHOT" "$ARTICLE_COUNT"
 if [[ "$(node -e 'const q=require(process.argv[1]); console.log(q.length)' "$QUEUE_PATH")" != "0" ]]; then
@@ -268,12 +272,20 @@ for attempt in $(seq 1 "$LIVE_VERIFY_ATTEMPTS"); do
     && grep -qi '<h1' "$RUN_DIR/live-home.html" \
     && curl -fsSL -A "GPTBot/1.0" "$LIVE_URL/articles/$OLD_SLUG" > "$RUN_DIR/live-old.html" \
     && grep -qi '<article' "$RUN_DIR/live-old.html"; then
-    # Every new article in the batch must be live and crawlable.
+    # INVERTED FOR THE APPROVAL GATE (2026-08-16). This loop used to require
+    # every new slug to be LIVE and crawlable. Under hold-for-approval that is
+    # exactly backwards: the articles are deliberately withheld, so demanding
+    # they be live would fail the run every single day while the gate worked
+    # perfectly. The real correctness condition for a held article is the
+    # opposite - it must NOT be reachable. A held article that IS live means
+    # the draft flag did not take and the gate has silently failed open, which
+    # is worse than a missed publish because Krista would never know.
     ALL_NEW_OK=1
     while IFS= read -r slug; do
       [[ -z "$slug" ]] && continue
-      if ! curl -fsSL -A "GPTBot/1.0" "$LIVE_URL/articles/$slug" > "$RUN_DIR/live-$slug.html" \
-        || ! grep -qi '<article' "$RUN_DIR/live-$slug.html"; then
+      if curl -fsSL -A "GPTBot/1.0" "$LIVE_URL/articles/$slug" > "$RUN_DIR/live-$slug.html" 2>/dev/null \
+        && grep -qi '<article' "$RUN_DIR/live-$slug.html"; then
+        print -u2 "[codex-daily] GATE FAILED OPEN: $slug is LIVE but was held for approval"
         ALL_NEW_OK=0
         break
       fi
@@ -292,8 +304,9 @@ fi
 
 # Daily review email (Krista-directed 2026-08-15; auto-send exception (j) in
 # the vault's CLAUDE.md). Bonus channel — never fails the run.
+# APPROVAL REQUEST, not a review copy. These articles are NOT live yet.
 print -r -- "$NEW_SLUGS" | "$ROOT/scripts/send-publish-email.zsh" \
-  "kristamashore.ai" "$LIVE_URL" \
-  "socialmedia@kristamashore.com doit@kristamashore.com" || true
+  "kristamashore.ai [APPROVAL NEEDED]" "$LIVE_URL" \
+  "doit@kristamashore.com" || true
 
-print "[codex-daily] LIVE RUN PASSED. Existing articles remained unchanged and the new article is crawlable."
+print "[codex-daily] RUN PASSED. Articles are HELD as drafts pending Krista's approval, confirmed not publicly reachable. Existing articles unchanged. To publish: node scripts/approve-drafts.cjs [slug], then npm run build, commit, push."
