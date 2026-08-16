@@ -1,7 +1,7 @@
 {
   "researchedAt": "2026-08-15",
   "method": "Question-intent research: live web search of what business owners, agents, and lenders actually type about AI (People Also Ask patterns, competitor title sets, published demand signals). Every entry traces to an observed query or competing-content cluster, never an invented topic. Same mechanism as blog.kristamashore.com's backlog (built 2026-08-01).",
-  "notes": "Consumed oldest-priority-first by scripts/build-codex-daily-context.cjs at 1/day. Refill BEFORE it runs dry; the runner fails closed on an empty backlog and will NOT invent topics. Titles must stay <= 70 chars (check-topic-backlog.cjs preflight enforces).",
+  "notes": "Consumed priority-first by scripts/build-codex-daily-context.cjs at 5/day (Krista-directed 2026-08-16; was 1/day). Refill BEFORE it runs dry: the runner FAILS CLOSED on an empty backlog and will never invent topics. Weekly top-up arrives via aeo-article-strategy-refresh every Thursday 8 AM. Titles must stay <=70 chars (check-topic-backlog.cjs enforces). Health check [24] flags under 3 days of runway.",
   "topics": [
     {
       "id": "ai-w1-01",
@@ -10,7 +10,11 @@
       "title": "What Is an AI Agent? A Plain-English Guide for Business Owners",
       "slug": "what-is-an-ai-agent-business-owners",
       "primaryKeyword": "what is an AI agent",
-      "secondaryKeywords": ["AI agent meaning business", "AI agent vs chatbot", "what does an AI agent do"],
+      "secondaryKeywords": [
+        "AI agent meaning business",
+        "AI agent vs chatbot",
+        "what does an AI agent do"
+      ],
       "topicalPillar": "ai-run-business",
       "contentTypePillar": "educational-authority",
       "funnelStage": "attention",
@@ -25,7 +29,11 @@
       "title": "How Much Does an AI Agent Cost for a Small Business?",
       "slug": "how-much-does-an-ai-agent-cost-small-business",
       "primaryKeyword": "how much does an AI agent cost",
-      "secondaryKeywords": ["AI agent pricing small business", "cost of AI tools for business", "AI stack monthly cost"],
+      "secondaryKeywords": [
+        "AI agent pricing small business",
+        "cost of AI tools for business",
+        "AI stack monthly cost"
+      ],
       "topicalPillar": "ai-run-business",
       "contentTypePillar": "problem-solving",
       "funnelStage": "capture",
@@ -40,7 +48,11 @@
       "title": "How to Get ChatGPT to Recommend Your Business",
       "slug": "how-to-get-chatgpt-to-recommend-your-business",
       "primaryKeyword": "how to get ChatGPT to recommend your business",
-      "secondaryKeywords": ["get recommended by AI", "AI recommends my business", "show up in AI answers"],
+      "secondaryKeywords": [
+        "get recommended by AI",
+        "AI recommends my business",
+        "show up in AI answers"
+      ],
       "topicalPillar": "authority-agent-operating-system",
       "contentTypePillar": "educational-authority",
       "funnelStage": "authority",
@@ -55,7 +67,11 @@
       "title": "What Is Answer Engine Optimization? AEO Explained Simply",
       "slug": "what-is-answer-engine-optimization-aeo",
       "primaryKeyword": "what is answer engine optimization",
-      "secondaryKeywords": ["AEO meaning", "AEO vs SEO", "answer engine optimization guide"],
+      "secondaryKeywords": [
+        "AEO meaning",
+        "AEO vs SEO",
+        "answer engine optimization guide"
+      ],
       "topicalPillar": "authority-agent-operating-system",
       "contentTypePillar": "educational-authority",
       "funnelStage": "attention",
@@ -70,7 +86,11 @@
       "title": "Is Claude Worth Paying For? Free vs. Pro for Business Owners",
       "slug": "is-claude-worth-paying-for-business",
       "primaryKeyword": "is Claude worth paying for",
-      "secondaryKeywords": ["Claude free vs pro", "Claude Pro worth it business", "Claude subscription cost"],
+      "secondaryKeywords": [
+        "Claude free vs pro",
+        "Claude Pro worth it business",
+        "Claude subscription cost"
+      ],
       "topicalPillar": "claude-for-dummies",
       "contentTypePillar": "problem-solving",
       "funnelStage": "capture",
@@ -85,7 +105,11 @@
       "title": "Best AI Tools for Real Estate Agents in 2026",
       "slug": "best-ai-tools-for-real-estate-agents",
       "primaryKeyword": "best AI tools for real estate agents",
-      "secondaryKeywords": ["AI tools for realtors 2026", "real estate AI software", "AI for real estate agents"],
+      "secondaryKeywords": [
+        "AI tools for realtors 2026",
+        "real estate AI software",
+        "AI for real estate agents"
+      ],
       "topicalPillar": "community-market-leaders-ai",
       "contentTypePillar": "educational-authority",
       "funnelStage": "attention",
@@ -100,7 +124,11 @@
       "title": "Will AI Replace Real Estate Agents? What's Real in 2026",
       "slug": "will-ai-replace-real-estate-agents",
       "primaryKeyword": "will AI replace real estate agents",
-      "secondaryKeywords": ["AI replacing realtors", "future of real estate agents AI", "is real estate a dying career AI"],
+      "secondaryKeywords": [
+        "AI replacing realtors",
+        "future of real estate agents AI",
+        "is real estate a dying career AI"
+      ],
       "topicalPillar": "community-market-leaders-ai",
       "contentTypePillar": "problem-solving",
       "funnelStage": "resonance",
@@ -115,7 +143,11 @@
       "title": "Will AI Replace Loan Officers? The 2026 Answer",
       "slug": "will-ai-replace-loan-officers",
       "primaryKeyword": "will AI replace loan officers",
-      "secondaryKeywords": ["AI replacing mortgage loan officers", "future of loan officers", "AI in mortgage 2026"],
+      "secondaryKeywords": [
+        "AI replacing mortgage loan officers",
+        "future of loan officers",
+        "AI in mortgage 2026"
+      ],
       "topicalPillar": "community-market-leaders-ai",
       "contentTypePillar": "problem-solving",
       "funnelStage": "resonance",
@@ -130,7 +162,11 @@
       "title": "How to Scale a Business Without Hiring: The AI Employee Model",
       "slug": "scale-business-without-hiring-ai",
       "primaryKeyword": "scale business without hiring",
-      "secondaryKeywords": ["grow business without employees", "AI employee", "scale without adding payroll"],
+      "secondaryKeywords": [
+        "grow business without employees",
+        "AI employee",
+        "scale without adding payroll"
+      ],
       "topicalPillar": "ai-run-business",
       "contentTypePillar": "process-and-differentiation",
       "funnelStage": "resonance",
@@ -145,7 +181,11 @@
       "title": "Is My Business Data Safe With AI? What to Check First",
       "slug": "is-my-business-data-safe-with-ai",
       "primaryKeyword": "is my data safe with AI",
-      "secondaryKeywords": ["AI data privacy business", "is ChatGPT safe for business data", "AI security small business"],
+      "secondaryKeywords": [
+        "AI data privacy business",
+        "is ChatGPT safe for business data",
+        "AI security small business"
+      ],
       "topicalPillar": "ai-run-business",
       "contentTypePillar": "problem-solving",
       "funnelStage": "nurture",
@@ -160,7 +200,11 @@
       "title": "How to Start Using AI in Your Business (Without Overwhelm)",
       "slug": "how-to-start-using-ai-in-your-business",
       "primaryKeyword": "how to start using AI in my business",
-      "secondaryKeywords": ["getting started with AI small business", "first AI tool to try", "AI for beginners business"],
+      "secondaryKeywords": [
+        "getting started with AI small business",
+        "first AI tool to try",
+        "AI for beginners business"
+      ],
       "topicalPillar": "ai-run-business",
       "contentTypePillar": "educational-authority",
       "funnelStage": "attention",
@@ -175,7 +219,11 @@
       "title": "Why AI Content Sounds Like AI (and How to Fix Yours)",
       "slug": "why-ai-content-sounds-like-ai",
       "primaryKeyword": "AI content sounds like AI",
-      "secondaryKeywords": ["make AI writing sound human", "AI writing sounds robotic", "AI content without sounding like a robot"],
+      "secondaryKeywords": [
+        "make AI writing sound human",
+        "AI writing sounds robotic",
+        "AI content without sounding like a robot"
+      ],
       "topicalPillar": "ai-content-to-client-system",
       "contentTypePillar": "problem-solving",
       "funnelStage": "resonance",
@@ -190,7 +238,11 @@
       "title": "How to Use AI for Social Media Content That Gets Clients",
       "slug": "ai-social-media-content-for-clients",
       "primaryKeyword": "how to use AI for social media content",
-      "secondaryKeywords": ["AI social media posts business", "AI content creation small business", "AI captions that convert"],
+      "secondaryKeywords": [
+        "AI social media posts business",
+        "AI content creation small business",
+        "AI captions that convert"
+      ],
       "topicalPillar": "ai-content-to-client-system",
       "contentTypePillar": "educational-authority",
       "funnelStage": "attention",
@@ -205,7 +257,11 @@
       "title": "Should Your Business Use an AI Chatbot? A Straight Answer",
       "slug": "should-your-business-use-ai-chatbot",
       "primaryKeyword": "AI chatbot for small business",
-      "secondaryKeywords": ["do I need a chatbot", "AI chatbot worth it", "website chatbot small business"],
+      "secondaryKeywords": [
+        "do I need a chatbot",
+        "AI chatbot worth it",
+        "website chatbot small business"
+      ],
       "topicalPillar": "ai-run-business",
       "contentTypePillar": "problem-solving",
       "funnelStage": "capture",
@@ -220,7 +276,11 @@
       "title": "AI Voice Agents: Should AI Answer Your Business Phone?",
       "slug": "ai-voice-agents-answer-business-phone",
       "primaryKeyword": "AI voice agent",
-      "secondaryKeywords": ["AI answering service business", "AI phone agent", "AI receptionist"],
+      "secondaryKeywords": [
+        "AI answering service business",
+        "AI phone agent",
+        "AI receptionist"
+      ],
       "topicalPillar": "ai-run-business",
       "contentTypePillar": "problem-solving",
       "funnelStage": "capture",
@@ -235,7 +295,11 @@
       "title": "Speed to Lead: Using AI to Answer Every Lead in Minutes",
       "slug": "speed-to-lead-ai-follow-up",
       "primaryKeyword": "speed to lead",
-      "secondaryKeywords": ["AI lead follow up", "respond to leads faster", "AI lead response"],
+      "secondaryKeywords": [
+        "AI lead follow up",
+        "respond to leads faster",
+        "AI lead response"
+      ],
       "topicalPillar": "community-market-leaders-ai",
       "contentTypePillar": "process-and-differentiation",
       "funnelStage": "capture",
@@ -250,7 +314,11 @@
       "title": "Claude Code for Non-Programmers: What It Actually Does",
       "slug": "claude-code-for-non-programmers",
       "primaryKeyword": "Claude Code for non-programmers",
-      "secondaryKeywords": ["what is Claude Code", "Claude Code business owner", "Claude Code without coding"],
+      "secondaryKeywords": [
+        "what is Claude Code",
+        "Claude Code business owner",
+        "Claude Code without coding"
+      ],
       "topicalPillar": "claude-for-dummies",
       "contentTypePillar": "educational-authority",
       "funnelStage": "authority",
@@ -265,7 +333,11 @@
       "title": "One-Person Business, Run by AI: What's Possible in 2026",
       "slug": "one-person-business-run-by-ai",
       "primaryKeyword": "one person business AI",
-      "secondaryKeywords": ["solopreneur AI tools", "run a business alone with AI", "AI for solopreneurs"],
+      "secondaryKeywords": [
+        "solopreneur AI tools",
+        "run a business alone with AI",
+        "AI for solopreneurs"
+      ],
       "topicalPillar": "ai-run-business",
       "contentTypePillar": "proof-and-validation",
       "funnelStage": "resonance",
@@ -280,7 +352,11 @@
       "title": "How to Show Up in ChatGPT and Perplexity Search Results",
       "slug": "show-up-in-chatgpt-perplexity-results",
       "primaryKeyword": "how to show up in ChatGPT results",
-      "secondaryKeywords": ["get cited by AI search", "Perplexity SEO", "generative engine optimization"],
+      "secondaryKeywords": [
+        "get cited by AI search",
+        "Perplexity SEO",
+        "generative engine optimization"
+      ],
       "topicalPillar": "authority-agent-operating-system",
       "contentTypePillar": "educational-authority",
       "funnelStage": "authority",
@@ -295,7 +371,11 @@
       "title": "Which AI Should Your Business Use? ChatGPT, Claude, Gemini",
       "slug": "which-ai-should-your-business-use",
       "primaryKeyword": "which AI is best for business",
-      "secondaryKeywords": ["ChatGPT vs Claude vs Gemini business", "best AI assistant for business", "which AI should I use"],
+      "secondaryKeywords": [
+        "ChatGPT vs Claude vs Gemini business",
+        "best AI assistant for business",
+        "which AI should I use"
+      ],
       "topicalPillar": "claude-for-dummies",
       "contentTypePillar": "educational-authority",
       "funnelStage": "capture",
@@ -310,7 +390,11 @@
       "title": "How to Automate Client Onboarding With AI",
       "slug": "automate-client-onboarding-with-ai",
       "primaryKeyword": "automate client onboarding",
-      "secondaryKeywords": ["AI onboarding workflow", "client onboarding automation", "onboarding without manual work"],
+      "secondaryKeywords": [
+        "AI onboarding workflow",
+        "client onboarding automation",
+        "onboarding without manual work"
+      ],
       "topicalPillar": "ai-run-business",
       "contentTypePillar": "process-and-differentiation",
       "funnelStage": "nurture",
@@ -325,7 +409,11 @@
       "title": "AI Appointment Scheduling: End the Booking Back-and-Forth",
       "slug": "ai-appointment-scheduling-business",
       "primaryKeyword": "AI appointment scheduling",
-      "secondaryKeywords": ["AI booking assistant", "automated scheduling small business", "AI calendar scheduling"],
+      "secondaryKeywords": [
+        "AI booking assistant",
+        "automated scheduling small business",
+        "AI calendar scheduling"
+      ],
       "topicalPillar": "ai-run-business",
       "contentTypePillar": "problem-solving",
       "funnelStage": "capture",
@@ -340,13 +428,777 @@
       "title": "The AI Adoption Numbers Business Owners Should Know (2026)",
       "slug": "ai-adoption-statistics-business-2026",
       "primaryKeyword": "AI statistics small business",
-      "secondaryKeywords": ["AI adoption rate 2026", "how many businesses use AI", "small business AI data"],
+      "secondaryKeywords": [
+        "AI adoption rate 2026",
+        "how many businesses use AI",
+        "small business AI data"
+      ],
       "topicalPillar": "ai-run-business",
       "contentTypePillar": "proof-and-validation",
       "funnelStage": "authority",
       "intent": "informational",
       "angle": "Stats roundups are what answer engines cite. Compile the 2026 numbers with sources: ~74% of SMBs using or testing AI, top use cases (research 51%, content 44%), the 82% barrier rate, security concern growth. Every figure sourced in-paragraph; no invented data.",
       "status": "ready"
+    },
+    {
+      "id": "w7-01",
+      "priority": 101,
+      "wave": "7 - broad AI, day 1 (Krista-approved 2026-08-16)",
+      "title": "Why AI Assistants Recommend Your Competitor Instead of You",
+      "slug": "why-ai-recommends-your-competitor",
+      "primaryKeyword": "why does AI recommend my competitor",
+      "secondaryKeywords": [
+        "AI recommends competitor",
+        "not showing up in AI search"
+      ],
+      "topicalPillar": "authority-agent-operating-system",
+      "contentTypePillar": "problem-solving",
+      "funnelStage": "resonance",
+      "intent": "informational",
+      "angle": "Open on the gut-punch: a buyer asked an assistant for someone like you and got a competitor. Then the mechanics: entity clarity, review signals, crawlable answers. No jargon before the reader understands the stakes.",
+      "status": "ready"
+    },
+    {
+      "id": "w7-02",
+      "priority": 102,
+      "wave": "7 - broad AI, day 1 (Krista-approved 2026-08-16)",
+      "title": "What Is Generative Engine Optimization (GEO)?",
+      "slug": "what-is-generative-engine-optimization-geo",
+      "primaryKeyword": "what is generative engine optimization",
+      "secondaryKeywords": [
+        "GEO meaning",
+        "GEO vs SEO",
+        "generative engine optimization explained"
+      ],
+      "topicalPillar": "authority-agent-operating-system",
+      "contentTypePillar": "educational-authority",
+      "funnelStage": "attention",
+      "intent": "informational",
+      "angle": "Definitional. Krista's note: most people do NOT know the term GEO, so define it in the first line in plain words and immediately tie it to the thing they DO recognize, getting recommended by AI. Never assume the acronym.",
+      "status": "ready"
+    },
+    {
+      "id": "w7-03",
+      "priority": 103,
+      "wave": "7 - broad AI, day 1 (Krista-approved 2026-08-16)",
+      "title": "How AI Decides Which Local Business to Recommend",
+      "slug": "how-ai-decides-which-business-to-recommend",
+      "primaryKeyword": "how does AI choose businesses to recommend",
+      "secondaryKeywords": [
+        "how ChatGPT picks businesses",
+        "AI recommendation factors"
+      ],
+      "topicalPillar": "authority-agent-operating-system",
+      "contentTypePillar": "educational-authority",
+      "funnelStage": "attention",
+      "intent": "informational",
+      "angle": "The mechanism piece: assistants cross-reference site content, business profile, and third-party reputation for consistency. Explain what that means practically for a one-location service business.",
+      "status": "ready"
+    },
+    {
+      "id": "w7-04",
+      "priority": 104,
+      "wave": "7 - broad AI, day 1 (Krista-approved 2026-08-16)",
+      "title": "Schema Markup for Local Business: The AI-Era Basics",
+      "slug": "schema-markup-local-business-ai-era",
+      "primaryKeyword": "schema markup for local business",
+      "secondaryKeywords": [
+        "LocalBusiness schema",
+        "structured data for AI search"
+      ],
+      "topicalPillar": "authority-agent-operating-system",
+      "contentTypePillar": "educational-authority",
+      "funnelStage": "authority",
+      "intent": "informational",
+      "angle": "The most technical piece in the wave. Explain structured data as 'labeling your facts so a machine cannot misread them'. Show what to add and what it changes. No code dump.",
+      "status": "ready"
+    },
+    {
+      "id": "w7-05",
+      "priority": 105,
+      "wave": "7 - broad AI, day 1 (Krista-approved 2026-08-16)",
+      "title": "Is SEO Dead in 2026? What Replaced It",
+      "slug": "is-seo-dead-2026-what-replaced-it",
+      "primaryKeyword": "is SEO dead 2026",
+      "secondaryKeywords": [
+        "SEO vs AEO",
+        "does SEO still matter",
+        "future of SEO"
+      ],
+      "topicalPillar": "authority-agent-operating-system",
+      "contentTypePillar": "problem-solving",
+      "funnelStage": "resonance",
+      "intent": "informational",
+      "angle": "Fair answer: not dead, but the winning surface moved from ten blue links to being the cited answer. What still works, what stopped working, what is new.",
+      "status": "ready"
+    },
+    {
+      "id": "w7-06",
+      "priority": 106,
+      "wave": "7 - broad AI, day 1 (Krista-approved 2026-08-16)",
+      "title": "How to Be the Person AI Recommends When Someone Asks",
+      "slug": "be-the-person-ai-recommends",
+      "primaryKeyword": "how to get AI to recommend you",
+      "secondaryKeywords": [
+        "be recommended by AI",
+        "AEO for experts",
+        "answer engine optimization"
+      ],
+      "topicalPillar": "authority-agent-operating-system",
+      "contentTypePillar": "process-and-differentiation",
+      "funnelStage": "authority",
+      "intent": "commercial",
+      "angle": "Krista's own framing, verbatim from her direction. The plain-language AEO article for people who will never search the acronym. One clear sequence: be findable, be consistent, be the best answer to a real question, be verifiable.",
+      "status": "ready"
+    },
+    {
+      "id": "w7-07",
+      "priority": 107,
+      "wave": "7 - broad AI, day 2 (Krista-approved 2026-08-16)",
+      "title": "How Many Reviews Do You Need for AI to Recommend You?",
+      "slug": "how-many-reviews-for-ai-to-recommend-you",
+      "primaryKeyword": "how many reviews do I need",
+      "secondaryKeywords": [
+        "review count for AI search",
+        "reviews and AI recommendations"
+      ],
+      "topicalPillar": "authority-agent-operating-system",
+      "contentTypePillar": "proof-and-validation",
+      "funnelStage": "capture",
+      "intent": "commercial",
+      "angle": "Concrete numbers most owners have never been given: reported 2026 benchmarks near 150+ reviews and a 4.2 to 4.7 average, with recency and response rate weighted heavily. Cite the research in-paragraph, never as bare assertion.",
+      "status": "ready"
+    },
+    {
+      "id": "w7-08",
+      "priority": 108,
+      "wave": "7 - broad AI, day 2 (Krista-approved 2026-08-16)",
+      "title": "How to Ask for Reviews Without Being Awkward",
+      "slug": "how-to-ask-for-reviews-without-being-awkward",
+      "primaryKeyword": "how to ask for reviews",
+      "secondaryKeywords": [
+        "asking clients for reviews",
+        "review request script"
+      ],
+      "topicalPillar": "ai-content-to-client-system",
+      "contentTypePillar": "problem-solving",
+      "funnelStage": "nurture",
+      "intent": "informational",
+      "angle": "The blocker is social discomfort, not process. Give the exact moment to ask, the exact words, and the follow-up that is not nagging.",
+      "status": "ready"
+    },
+    {
+      "id": "w7-09",
+      "priority": 109,
+      "wave": "7 - broad AI, day 2 (Krista-approved 2026-08-16)",
+      "title": "Should You Use AI to Reply to Your Reviews?",
+      "slug": "should-you-use-ai-to-reply-to-reviews",
+      "primaryKeyword": "AI reply to reviews",
+      "secondaryKeywords": [
+        "responding to reviews with AI",
+        "automate review responses"
+      ],
+      "topicalPillar": "ai-run-business",
+      "contentTypePillar": "problem-solving",
+      "funnelStage": "nurture",
+      "intent": "commercial",
+      "angle": "Response rate is a measurable input to AI recommendations, so replying matters. Where AI drafting helps and where it reads canned and damages trust. The review that must always be human.",
+      "status": "ready"
+    },
+    {
+      "id": "w7-10",
+      "priority": 110,
+      "wave": "7 - broad AI, day 2 (Krista-approved 2026-08-16)",
+      "title": "How to Handle a Bad Review in the AI Era",
+      "slug": "how-to-handle-a-bad-review",
+      "primaryKeyword": "how to respond to a bad review",
+      "secondaryKeywords": [
+        "negative review response",
+        "bad review reputation"
+      ],
+      "topicalPillar": "ai-run-business",
+      "contentTypePillar": "problem-solving",
+      "funnelStage": "resonance",
+      "intent": "informational",
+      "angle": "Higher stakes now: assistants read review text, not just stars. A well-handled negative review can help you. The response structure, and what never to do.",
+      "status": "ready"
+    },
+    {
+      "id": "w7-11",
+      "priority": 111,
+      "wave": "7 - broad AI, day 2 (Krista-approved 2026-08-16)",
+      "title": "Google Business Profile in 2026: The AI Checklist",
+      "slug": "google-business-profile-2026-ai-checklist",
+      "primaryKeyword": "Google Business Profile 2026",
+      "secondaryKeywords": [
+        "GBP optimization",
+        "google business profile checklist"
+      ],
+      "topicalPillar": "authority-agent-operating-system",
+      "contentTypePillar": "educational-authority",
+      "funnelStage": "capture",
+      "intent": "informational",
+      "angle": "Profile completeness and consistency feed AI recommendations directly. A working checklist, ordered by impact, with the fields most owners leave blank.",
+      "status": "ready"
+    },
+    {
+      "id": "w7-12",
+      "priority": 112,
+      "wave": "7 - broad AI, day 2 (Krista-approved 2026-08-16)",
+      "title": "Reviews Are Why AI Recommends Them and Not You",
+      "slug": "reviews-are-why-ai-recommends-them",
+      "primaryKeyword": "why AI recommends competitors reviews",
+      "secondaryKeywords": [
+        "reviews AI search ranking",
+        "AEO reviews"
+      ],
+      "topicalPillar": "authority-agent-operating-system",
+      "contentTypePillar": "proof-and-validation",
+      "funnelStage": "resonance",
+      "intent": "commercial",
+      "angle": "The AEO angle on the reviews cluster, in Krista's plain framing. Ties the day's tactical pieces to the outcome the reader cares about: being the one named.",
+      "status": "ready"
+    },
+    {
+      "id": "w7-13",
+      "priority": 113,
+      "wave": "7 - broad AI, day 3 (Krista-approved 2026-08-16)",
+      "title": "What a Missed Call Actually Costs Your Business",
+      "slug": "what-a-missed-call-costs-your-business",
+      "primaryKeyword": "cost of missed calls",
+      "secondaryKeywords": [
+        "missed call revenue loss",
+        "missed calls small business"
+      ],
+      "topicalPillar": "ai-run-business",
+      "contentTypePillar": "problem-solving",
+      "funnelStage": "resonance",
+      "intent": "informational",
+      "angle": "Put a number on the invisible leak. Walk the arithmetic with the reader's own numbers rather than a generic stat, so the conclusion is theirs.",
+      "status": "ready"
+    },
+    {
+      "id": "w7-14",
+      "priority": 114,
+      "wave": "7 - broad AI, day 3 (Krista-approved 2026-08-16)",
+      "title": "AI Receptionist vs Answering Service: Which Is Right?",
+      "slug": "ai-receptionist-vs-answering-service",
+      "primaryKeyword": "AI receptionist vs answering service",
+      "secondaryKeywords": [
+        "AI phone answering",
+        "virtual receptionist comparison"
+      ],
+      "topicalPillar": "ai-run-business",
+      "contentTypePillar": "educational-authority",
+      "funnelStage": "capture",
+      "intent": "commercial",
+      "angle": "Fair comparison with real costs and the failure modes of each. Who each genuinely fits. Include the disclosure rule: introduce the AI by name on the first message.",
+      "status": "ready"
+    },
+    {
+      "id": "w7-15",
+      "priority": 115,
+      "wave": "7 - broad AI, day 3 (Krista-approved 2026-08-16)",
+      "title": "How to Follow Up With Every Lead Without Hiring Anyone",
+      "slug": "follow-up-every-lead-without-hiring",
+      "primaryKeyword": "follow up with leads automatically",
+      "secondaryKeywords": [
+        "automated lead follow up",
+        "lead nurture without staff"
+      ],
+      "topicalPillar": "ai-content-to-client-system",
+      "contentTypePillar": "process-and-differentiation",
+      "funnelStage": "capture",
+      "intent": "commercial",
+      "angle": "The full sequence: instant acknowledgment, qualifying questions, routing the hot ones to a human. What stays automated and what must not be.",
+      "status": "ready"
+    },
+    {
+      "id": "w7-16",
+      "priority": 116,
+      "wave": "7 - broad AI, day 3 (Krista-approved 2026-08-16)",
+      "title": "Should AI Text Your Customers Back? What Works in 2026",
+      "slug": "should-ai-text-your-customers-back",
+      "primaryKeyword": "AI text customers",
+      "secondaryKeywords": [
+        "automated SMS follow up",
+        "AI texting business"
+      ],
+      "topicalPillar": "ai-run-business",
+      "contentTypePillar": "problem-solving",
+      "funnelStage": "nurture",
+      "intent": "commercial",
+      "angle": "Texting is intimate, so the bar is higher. What works, what gets you blocked, and the compliance basics without giving legal advice.",
+      "status": "ready"
+    },
+    {
+      "id": "w7-17",
+      "priority": 117,
+      "wave": "7 - broad AI, day 3 (Krista-approved 2026-08-16)",
+      "title": "After-Hours Leads: How AI Covers the Hours You Don't",
+      "slug": "after-hours-leads-ai-coverage",
+      "primaryKeyword": "after hours leads",
+      "secondaryKeywords": [
+        "24/7 lead capture",
+        "after hours answering"
+      ],
+      "topicalPillar": "ai-run-business",
+      "contentTypePillar": "educational-authority",
+      "funnelStage": "capture",
+      "intent": "commercial",
+      "angle": "Most inquiries arrive when the business is closed. What 24/7 coverage should and should not attempt overnight, and the morning handoff that makes it useful.",
+      "status": "ready"
+    },
+    {
+      "id": "w7-18",
+      "priority": 118,
+      "wave": "7 - broad AI, day 3 (Krista-approved 2026-08-16)",
+      "title": "AI Recommended You. Then You Missed the Call.",
+      "slug": "ai-recommended-you-then-you-missed-the-call",
+      "primaryKeyword": "AI referral missed call",
+      "secondaryKeywords": [
+        "getting found by AI",
+        "AEO and lead response"
+      ],
+      "topicalPillar": "authority-agent-operating-system",
+      "contentTypePillar": "problem-solving",
+      "funnelStage": "resonance",
+      "intent": "commercial",
+      "angle": "The AEO angle for this cluster: winning the recommendation is wasted if the follow-through fails. Ties visibility to operations in one story.",
+      "status": "ready"
+    },
+    {
+      "id": "w7-19",
+      "priority": 119,
+      "wave": "7 - broad AI, day 4 (Krista-approved 2026-08-16)",
+      "title": "Will AI Replace Accountants? What the 2026 Data Shows",
+      "slug": "will-ai-replace-accountants",
+      "primaryKeyword": "will AI replace accountants",
+      "secondaryKeywords": [
+        "AI accounting jobs",
+        "future of accountants"
+      ],
+      "topicalPillar": "ai-run-business",
+      "contentTypePillar": "educational-authority",
+      "funnelStage": "resonance",
+      "intent": "informational",
+      "angle": "Answer with sourced data: employment projections still growing for accountants while clerical roles decline. Tasks get replaced, judgment does not. Cite in-paragraph.",
+      "status": "ready"
+    },
+    {
+      "id": "w7-20",
+      "priority": 120,
+      "wave": "7 - broad AI, day 4 (Krista-approved 2026-08-16)",
+      "title": "Will AI Replace Consultants? What Changes in 2026",
+      "slug": "will-ai-replace-consultants",
+      "primaryKeyword": "will AI replace consultants",
+      "secondaryKeywords": [
+        "AI consulting industry",
+        "future of consulting"
+      ],
+      "topicalPillar": "ai-run-business",
+      "contentTypePillar": "educational-authority",
+      "funnelStage": "resonance",
+      "intent": "informational",
+      "angle": "Which consulting deliverables AI now produces in minutes, and what clients still pay a person for. Fair, specific, no reassurance theater.",
+      "status": "ready"
+    },
+    {
+      "id": "w7-21",
+      "priority": 121,
+      "wave": "7 - broad AI, day 4 (Krista-approved 2026-08-16)",
+      "title": "Will AI Replace Coaches? What Clients Still Pay Humans For",
+      "slug": "will-ai-replace-coaches",
+      "primaryKeyword": "will AI replace coaches",
+      "secondaryKeywords": [
+        "AI coaching vs human coach",
+        "future of coaching"
+      ],
+      "topicalPillar": "ai-content-to-client-system",
+      "contentTypePillar": "educational-authority",
+      "funnelStage": "resonance",
+      "intent": "informational",
+      "angle": "AI coaching tools are real and improving. Name honestly what they do well, then what only a human relationship delivers: accountability, judgment, being known.",
+      "status": "ready"
+    },
+    {
+      "id": "w7-22",
+      "priority": 122,
+      "wave": "7 - broad AI, day 4 (Krista-approved 2026-08-16)",
+      "title": "Which Parts of Your Job Will AI Actually Take?",
+      "slug": "which-parts-of-your-job-will-ai-take",
+      "primaryKeyword": "what jobs will AI replace",
+      "secondaryKeywords": [
+        "AI job displacement",
+        "which tasks AI replaces"
+      ],
+      "topicalPillar": "ai-run-business",
+      "contentTypePillar": "problem-solving",
+      "funnelStage": "attention",
+      "intent": "informational",
+      "angle": "Reframe from job to task. Give the reader a way to audit their own week and see which hours are genuinely exposed.",
+      "status": "ready"
+    },
+    {
+      "id": "w7-23",
+      "priority": 123,
+      "wave": "7 - broad AI, day 4 (Krista-approved 2026-08-16)",
+      "title": "How to Prove You're a Human Expert in an AI World",
+      "slug": "prove-you-are-a-human-expert",
+      "primaryKeyword": "prove you are human expert",
+      "secondaryKeywords": [
+        "human vs AI content",
+        "authentic expertise AI era"
+      ],
+      "topicalPillar": "ai-content-to-client-system",
+      "contentTypePillar": "personal-brand-relatability",
+      "funnelStage": "authority",
+      "intent": "informational",
+      "angle": "Concrete proof markers: specific named cases with consent, methods you built, failures you worked through, long-form thinking over time. Things a model cannot fabricate about you.",
+      "status": "ready"
+    },
+    {
+      "id": "w7-24",
+      "priority": 124,
+      "wave": "7 - broad AI, day 4 (Krista-approved 2026-08-16)",
+      "title": "How to Be the Expert AI Recommends, Not the One It Replaces",
+      "slug": "be-the-expert-ai-recommends",
+      "primaryKeyword": "expert AI recommends",
+      "secondaryKeywords": [
+        "AEO for professionals",
+        "get recommended not replaced"
+      ],
+      "topicalPillar": "authority-agent-operating-system",
+      "contentTypePillar": "process-and-differentiation",
+      "funnelStage": "authority",
+      "intent": "commercial",
+      "angle": "The AEO turn on the fear cluster, and the strongest piece in the wave. The same visibility work that gets you cited is what makes you irreplaceable.",
+      "status": "ready"
+    },
+    {
+      "id": "w7-25",
+      "priority": 125,
+      "wave": "7 - broad AI, day 5 (Krista-approved 2026-08-16)",
+      "title": "How Coaches Use AI Without Losing the Human Part",
+      "slug": "coaches-use-ai-without-losing-human-part",
+      "primaryKeyword": "AI for coaches",
+      "secondaryKeywords": [
+        "coaching with AI",
+        "AI coaching tools"
+      ],
+      "topicalPillar": "ai-content-to-client-system",
+      "contentTypePillar": "problem-solving",
+      "funnelStage": "resonance",
+      "intent": "informational",
+      "angle": "The working split reported in practice: roughly 20 percent of operational load to AI, the 80 percent that creates value stays human. Where the line sits and what happens when it moves.",
+      "status": "ready"
+    },
+    {
+      "id": "w7-26",
+      "priority": 126,
+      "wave": "7 - broad AI, day 5 (Krista-approved 2026-08-16)",
+      "title": "Turn Your Expertise Into a Course Faster With AI",
+      "slug": "expertise-into-course-with-ai",
+      "primaryKeyword": "create a course with AI",
+      "secondaryKeywords": [
+        "AI course creation",
+        "build an online course faster"
+      ],
+      "topicalPillar": "ai-content-to-client-system",
+      "contentTypePillar": "process-and-differentiation",
+      "funnelStage": "conversion",
+      "intent": "commercial",
+      "angle": "AI compresses structure, outline and draft work substantially. What it accelerates, what it cannot supply, and the order of operations that avoids a generic course.",
+      "status": "ready"
+    },
+    {
+      "id": "w7-27",
+      "priority": 127,
+      "wave": "7 - broad AI, day 5 (Krista-approved 2026-08-16)",
+      "title": "AI That Answers Your Clients' Repeat Questions",
+      "slug": "ai-answers-client-repeat-questions",
+      "primaryKeyword": "answer client questions automatically",
+      "secondaryKeywords": [
+        "client FAQ automation",
+        "AI client support"
+      ],
+      "topicalPillar": "ai-run-business",
+      "contentTypePillar": "process-and-differentiation",
+      "funnelStage": "nurture",
+      "intent": "commercial",
+      "angle": "The rule that keeps it safe: templated answers to repeat logistics are fine, AI-drafted answers to a personal situation are not. Build the first, never the second.",
+      "status": "ready"
+    },
+    {
+      "id": "w7-28",
+      "priority": 128,
+      "wave": "7 - broad AI, day 5 (Krista-approved 2026-08-16)",
+      "title": "How to Capture Your Own Thinking So AI Can Use It",
+      "slug": "capture-your-thinking-for-ai",
+      "primaryKeyword": "train AI on my own knowledge",
+      "secondaryKeywords": [
+        "capture expertise for AI",
+        "AI brand voice"
+      ],
+      "topicalPillar": "ai-content-to-client-system",
+      "contentTypePillar": "process-and-differentiation",
+      "funnelStage": "authority",
+      "intent": "informational",
+      "angle": "The interview method: have AI ask you hard questions about your work, then draft from your answers. Your raw material, its structure. This is how output stops sounding generic.",
+      "status": "ready"
+    },
+    {
+      "id": "w7-29",
+      "priority": 129,
+      "wave": "7 - broad AI, day 5 (Krista-approved 2026-08-16)",
+      "title": "Should Your Coaching Business Have an AI Assistant?",
+      "slug": "should-coaching-business-have-ai-assistant",
+      "primaryKeyword": "AI assistant for coaching business",
+      "secondaryKeywords": [
+        "coaching business automation",
+        "AI assistant consultants"
+      ],
+      "topicalPillar": "ai-run-business",
+      "contentTypePillar": "problem-solving",
+      "funnelStage": "capture",
+      "intent": "commercial",
+      "angle": "Decision criteria by client volume and question repetition. When it is premature, and the version that helps a solo coach without feeling like a wall.",
+      "status": "ready"
+    },
+    {
+      "id": "w7-30",
+      "priority": 130,
+      "wave": "7 - broad AI, day 5 (Krista-approved 2026-08-16)",
+      "title": "How Coaches and Consultants Get Recommended by AI",
+      "slug": "coaches-consultants-recommended-by-ai",
+      "primaryKeyword": "how coaches get recommended by AI",
+      "secondaryKeywords": [
+        "AEO for coaches",
+        "AI recommends consultants"
+      ],
+      "topicalPillar": "authority-agent-operating-system",
+      "contentTypePillar": "process-and-differentiation",
+      "funnelStage": "authority",
+      "intent": "commercial",
+      "angle": "The AEO angle for expert businesses, which have no storefront and no local listing. What substitutes for those signals when your business is your name.",
+      "status": "ready"
+    },
+    {
+      "id": "w7-31",
+      "priority": 131,
+      "wave": "7 - broad AI, day 6 (Krista-approved 2026-08-16)",
+      "title": "What Should a Small Business Spend on AI in 2026?",
+      "slug": "what-should-small-business-spend-on-ai",
+      "primaryKeyword": "how much should I spend on AI",
+      "secondaryKeywords": [
+        "AI budget small business",
+        "AI spending 2026"
+      ],
+      "topicalPillar": "ai-run-business",
+      "contentTypePillar": "educational-authority",
+      "funnelStage": "capture",
+      "intent": "commercial",
+      "angle": "Budget guidance by business size and use case, with the honest floor: many owners need one subscription, not a stack. Where spend actually converts.",
+      "status": "ready"
+    },
+    {
+      "id": "w7-32",
+      "priority": 132,
+      "wave": "7 - broad AI, day 6 (Krista-approved 2026-08-16)",
+      "title": "Free vs Paid AI Tools: What You Actually Give Up",
+      "slug": "free-vs-paid-ai-tools",
+      "primaryKeyword": "free vs paid AI tools",
+      "secondaryKeywords": [
+        "is paid AI worth it",
+        "AI free tier limits"
+      ],
+      "topicalPillar": "claude-for-dummies",
+      "contentTypePillar": "educational-authority",
+      "funnelStage": "capture",
+      "intent": "commercial",
+      "angle": "What free tiers genuinely cover, and the specific walls you hit: usage caps, context limits, data handling. The break-even in hours saved per week.",
+      "status": "ready"
+    },
+    {
+      "id": "w7-33",
+      "priority": 133,
+      "wave": "7 - broad AI, day 6 (Krista-approved 2026-08-16)",
+      "title": "The 5-Tool AI Stack for a Service Business",
+      "slug": "five-tool-ai-stack-service-business",
+      "primaryKeyword": "AI stack for service business",
+      "secondaryKeywords": [
+        "AI tools service business",
+        "small business AI stack"
+      ],
+      "topicalPillar": "ai-run-business",
+      "contentTypePillar": "process-and-differentiation",
+      "funnelStage": "capture",
+      "intent": "commercial",
+      "angle": "A deliberately small stack by job, not by brand hype, with real monthly costs. Argue for fewer tools used properly over more tools used once.",
+      "status": "ready"
+    },
+    {
+      "id": "w7-34",
+      "priority": 134,
+      "wave": "7 - broad AI, day 6 (Krista-approved 2026-08-16)",
+      "title": "How to Tell If an AI Tool Is Worth Keeping",
+      "slug": "is-an-ai-tool-worth-keeping",
+      "primaryKeyword": "is this AI tool worth it",
+      "secondaryKeywords": [
+        "evaluate AI tools",
+        "AI tool ROI"
+      ],
+      "topicalPillar": "ai-run-business",
+      "contentTypePillar": "problem-solving",
+      "funnelStage": "nurture",
+      "intent": "commercial",
+      "angle": "The discipline most owners skip: baseline the metric before switching the tool on, run 60 to 90 days, decide on your own numbers instead of vendor case studies.",
+      "status": "ready"
+    },
+    {
+      "id": "w7-35",
+      "priority": 135,
+      "wave": "7 - broad AI, day 6 (Krista-approved 2026-08-16)",
+      "title": "AI Tools You Can Cancel Right Now",
+      "slug": "ai-tools-you-can-cancel",
+      "primaryKeyword": "cancel AI subscriptions",
+      "secondaryKeywords": [
+        "unused AI tools",
+        "AI subscription audit"
+      ],
+      "topicalPillar": "ai-run-business",
+      "contentTypePillar": "problem-solving",
+      "funnelStage": "resonance",
+      "intent": "commercial",
+      "angle": "The subscription audit. Categories of tool that duplicate what a general assistant already does, and how to tell before renewal.",
+      "status": "ready"
+    },
+    {
+      "id": "w7-36",
+      "priority": 136,
+      "wave": "7 - broad AI, day 6 (Krista-approved 2026-08-16)",
+      "title": "What Does It Cost to Get Recommended by AI?",
+      "slug": "what-does-it-cost-to-get-recommended-by-ai",
+      "primaryKeyword": "cost of AEO",
+      "secondaryKeywords": [
+        "AEO pricing",
+        "getting cited by AI cost"
+      ],
+      "topicalPillar": "authority-agent-operating-system",
+      "contentTypePillar": "educational-authority",
+      "funnelStage": "capture",
+      "intent": "commercial",
+      "angle": "The AEO angle on cost, and an important correction: you cannot pay to be recommended, there is no ad slot. What the real investment is, in time and content rather than spend.",
+      "status": "ready"
+    },
+    {
+      "id": "w7-37",
+      "priority": 137,
+      "wave": "7 - broad AI, day 7 (Krista-approved 2026-08-16)",
+      "title": "Your First AI Workflow: Pick the Task That Repeats Most",
+      "slug": "your-first-ai-workflow",
+      "primaryKeyword": "first AI workflow",
+      "secondaryKeywords": [
+        "where to start with AI",
+        "first AI automation"
+      ],
+      "topicalPillar": "ai-run-business",
+      "contentTypePillar": "process-and-differentiation",
+      "funnelStage": "attention",
+      "intent": "informational",
+      "angle": "Most owners stall because they try to automate everything. One task, two weeks, measured. The exact selection criteria for which task goes first.",
+      "status": "ready"
+    },
+    {
+      "id": "w7-38",
+      "priority": 138,
+      "wave": "7 - broad AI, day 7 (Krista-approved 2026-08-16)",
+      "title": "How to Write a Prompt That Gets Usable Work",
+      "slug": "write-a-prompt-that-gets-usable-work",
+      "primaryKeyword": "how to write AI prompts",
+      "secondaryKeywords": [
+        "prompt writing business",
+        "better AI prompts"
+      ],
+      "topicalPillar": "claude-for-dummies",
+      "contentTypePillar": "educational-authority",
+      "funnelStage": "attention",
+      "intent": "informational",
+      "angle": "Prompting for business output rather than tricks: context, role, constraints, examples, and the correction loop. Show a weak prompt beside a strong one.",
+      "status": "ready"
+    },
+    {
+      "id": "w7-39",
+      "priority": 139,
+      "wave": "7 - broad AI, day 7 (Krista-approved 2026-08-16)",
+      "title": "Where AI Should Never Touch Your Business",
+      "slug": "where-ai-should-never-touch-your-business",
+      "primaryKeyword": "where not to use AI",
+      "secondaryKeywords": [
+        "AI risks business",
+        "when not to use AI"
+      ],
+      "topicalPillar": "ai-run-business",
+      "contentTypePillar": "problem-solving",
+      "funnelStage": "authority",
+      "intent": "informational",
+      "angle": "The restraint article, and a trust-builder. Client crises, pricing judgment, anything regulated, anything requiring a promise. Includes the healthcare-style rule about agreements before data flows to a vendor.",
+      "status": "ready"
+    },
+    {
+      "id": "w7-40",
+      "priority": 140,
+      "wave": "7 - broad AI, day 7 (Krista-approved 2026-08-16)",
+      "title": "How to Train AI on Your Own Business Knowledge",
+      "slug": "train-ai-on-your-business-knowledge",
+      "primaryKeyword": "train AI on my business",
+      "secondaryKeywords": [
+        "custom AI knowledge base",
+        "AI with my documents"
+      ],
+      "topicalPillar": "ai-run-business",
+      "contentTypePillar": "process-and-differentiation",
+      "funnelStage": "nurture",
+      "intent": "commercial",
+      "angle": "Practical knowledge-base building: what to feed it, how to structure it, how to keep it current. The difference between a model that knows your business and one that guesses.",
+      "status": "ready"
+    },
+    {
+      "id": "w7-41",
+      "priority": 141,
+      "wave": "7 - broad AI, day 7 (Krista-approved 2026-08-16)",
+      "title": "What to Measure to Know If AI Is Actually Working",
+      "slug": "measure-if-ai-is-working",
+      "primaryKeyword": "measure AI ROI",
+      "secondaryKeywords": [
+        "AI results tracking",
+        "is AI working for my business"
+      ],
+      "topicalPillar": "ai-run-business",
+      "contentTypePillar": "proof-and-validation",
+      "funnelStage": "nurture",
+      "intent": "commercial",
+      "angle": "Measure hours returned and revenue touched, not outputs produced. The three numbers worth tracking and the vanity metrics to ignore.",
+      "status": "ready"
+    },
+    {
+      "id": "w7-42",
+      "priority": 142,
+      "wave": "7 - broad AI, day 7 (Krista-approved 2026-08-16)",
+      "title": "The Weekly Habit That Gets You Recommended by AI",
+      "slug": "weekly-habit-recommended-by-ai",
+      "primaryKeyword": "AEO routine",
+      "secondaryKeywords": [
+        "weekly AEO habit",
+        "stay visible in AI search"
+      ],
+      "topicalPillar": "authority-agent-operating-system",
+      "contentTypePillar": "process-and-differentiation",
+      "funnelStage": "authority",
+      "intent": "commercial",
+      "angle": "Closes the wave: visibility is a routine, not a project. A repeatable weekly loop of answering one real customer question in public.",
+      "status": "ready"
     }
-  ]
+  ],
+  "wave7_approved": "2026-08-16 by Krista (APPROVED + 7 AEO additions at her direction)"
 }
