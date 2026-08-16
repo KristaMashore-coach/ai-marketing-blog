@@ -57,7 +57,7 @@ The `claude-for-dummies` pillar is intentional editorial subject matter. Moving 
 | Decision | Locked value |
 |---|---|
 | Launch burst | 10 articles |
-| Ongoing cadence | 1 article per day |
+| Ongoing cadence | 5 articles per day (Krista-directed 2026-08-16; was 1/day from the Codex migration through 2026-08-15) |
 | Scheduled writer | Codex through Krista's ChatGPT subscription |
 | Routine model | GPT-5.6 Luna |
 | Reasoning | Low |

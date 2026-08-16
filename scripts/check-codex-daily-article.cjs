@@ -60,24 +60,34 @@ function wordCount(html) {
   return text ? text.split(/\s+/).length : 0;
 }
 
+// Multi-article (2026-08-16, Krista-directed 5/day cadence). Expected count is
+// argv[3]; a missing arg falls back to the runner's env, then 1 so ad-hoc
+// single-article invocations keep working. Rejecting expected<1 up front keeps
+// the blog runner's 2026-08-16 expected=0 usage-crash class out of this repo.
 const mode = process.argv[2] || "--queue";
-if (!["--queue", "--posts-head"].includes(mode)) {
-  fail(["usage: check-codex-daily-article.cjs [--queue|--posts-head]"]);
+const expectedCount = Number(process.argv[3] || process.env.CODEX_DAILY_ARTICLE_COUNT || 1);
+if (!["--queue", "--posts-head"].includes(mode) || !Number.isInteger(expectedCount) || expectedCount < 1) {
+  fail(["usage: check-codex-daily-article.cjs [--queue|--posts-head] [expected-count>=1]"]);
 }
 
 const posts = readJson(POSTS_PATH);
-const candidates = mode === "--queue" ? readJson(QUEUE_PATH) : posts.slice(0, 1);
-const baseline = mode === "--queue" ? posts : posts.slice(1);
-if (!Array.isArray(candidates) || candidates.length !== 1) {
-  fail([`expected exactly 1 candidate article; found ${Array.isArray(candidates) ? candidates.length : "non-array"}`]);
+const candidates = mode === "--queue" ? readJson(QUEUE_PATH) : posts.slice(0, expectedCount);
+const baseline = mode === "--queue" ? posts : posts.slice(expectedCount);
+if (!Array.isArray(candidates) || candidates.length !== expectedCount) {
+  fail([`expected exactly ${expectedCount} candidate article(s); found ${Array.isArray(candidates) ? candidates.length : "non-array"}`]);
 }
 
-const article = candidates[0];
 const errors = [];
-const label = `article${article?.slug ? ` (${article.slug})` : ""}`;
 const baselineSlugs = new Set(baseline.map((item) => item.slug));
+const inRunSlugs = new Set();
 
-if (!article || typeof article !== "object" || Array.isArray(article)) fail([`${label}: must be an object`]);
+for (const article of candidates) {
+const label = `article${article?.slug ? ` (${article.slug})` : ""}`;
+const errorsBefore = errors.length;
+
+if (!article || typeof article !== "object" || Array.isArray(article)) { errors.push(`${label}: must be an object`); continue; }
+if (inRunSlugs.has(article.slug)) errors.push(`${label}: duplicate slug within this queue`);
+inRunSlugs.add(article.slug);
 for (const key of REQUIRED_KEYS) if (!(key in article)) errors.push(`${label}: missing required key ${key}`);
 for (const key of Object.keys(article)) {
   if (![...REQUIRED_KEYS, ...OPTIONAL_PUBLISHER_KEYS].includes(key)) errors.push(`${label}: unexpected key ${key}`);
@@ -124,19 +134,28 @@ if (!Array.isArray(article.internalLinks) || article.internalLinks.length < 3 ||
 } else {
   for (const link of article.internalLinks) {
     const slug = String(link).replace(/^\/articles\//, "");
-    if (!baselineSlugs.has(slug)) errors.push(`${label}: internal link does not exist: ${link}`);
+    // --queue: strict — links must target already-published articles (the
+    // writer is handed the published inventory). --posts-head: the batch is
+    // published by now, so same-batch siblings are legitimate targets; without
+    // this the post-publish re-check false-fails any batch whose articles
+    // reference each other (surfaced in the 2026-08-16 multi-article port).
+    const linkOk = baselineSlugs.has(slug) ||
+      (mode === "--posts-head" && slug !== article.slug && candidates.some((c) => c && c.slug === slug));
+    if (!linkOk) errors.push(`${label}: internal link does not exist: ${link}`);
   }
 }
 if (article.ctaUrl !== "https://kristamashore.com/LevelUp") errors.push(`${label}: CTA URL is incorrect`);
 if (article.ctaLabel !== "Learn the AI System") errors.push(`${label}: CTA label is incorrect`);
 
-if (!errors.length) {
-  const tmp = path.join(os.tmpdir(), `kristamashore-ai-citation-${process.pid}.json`);
+if (errors.length === errorsBefore) {
+  // Citation guard only when this article passed everything cheaper first.
+  const tmp = path.join(os.tmpdir(), `kristamashore-ai-citation-${process.pid}-${article.slug}.json`);
   fs.writeFileSync(tmp, JSON.stringify(article));
   const result = spawnSync(process.execPath, [path.join(ROOT, "scripts", "citation-guard.cjs"), tmp], { encoding: "utf8" });
   fs.rmSync(tmp, { force: true });
   if (result.status !== 0) errors.push(`${label}: citation guard failed: ${(result.stdout || result.stderr || "").trim()}`);
 }
+} // end per-article loop
 
 if (errors.length) fail(errors);
-console.log("[codex-daily-check] verified 1 article, schema, links, voice, citations, images, and word count");
+console.log(`[codex-daily-check] verified ${candidates.length} article(s), schema, links, voice, citations, images, and word count`);

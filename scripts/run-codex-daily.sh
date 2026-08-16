@@ -17,7 +17,12 @@ CONTEXT_PATH="$ROOT/.codex-daily-context.json"
 LOG_DIR="${CODEX_LOG_DIR:-$HOME/Library/Logs/KristaMashoreAICodex}"
 STAMP="$(date -u +%Y%m%dT%H%M%SZ)"
 RUN_DIR="$LOG_DIR/$STAMP"
-ARTICLE_COUNT=1
+# 5/day cadence (Krista-directed 2026-08-16; was 1/day since the Codex
+# migration). DAILY_TARGET is the full daily cadence; ARTICLE_COUNT is what
+# THIS run generates (reduced by anything already published today, so a
+# mid-day re-run only produces the remainder).
+DAILY_TARGET="${CODEX_DAILY_ARTICLE_COUNT:-5}"
+ARTICLE_COUNT="$DAILY_TARGET"
 MAX_GENERATION_ATTEMPTS="${CODEX_GENERATION_ATTEMPTS:-3}"
 LIVE_VERIFY_ATTEMPTS="${CODEX_LIVE_VERIFY_ATTEMPTS:-90}"
 
@@ -74,17 +79,19 @@ fi
 if [[ "$MODE" == "--live" ]]; then
   git pull --ff-only origin main
   TODAY_UTC="$(date -u +%Y-%m-%d)"
-  ALREADY_PUBLISHED="$(node - "$ROOT/data/blog/posts.json" "$TODAY_UTC" <<'NODE'
+  PUBLISHED_TODAY="$(node - "$ROOT/data/blog/posts.json" "$TODAY_UTC" <<'NODE'
 const fs = require("fs");
 const posts = JSON.parse(fs.readFileSync(process.argv[2], "utf8"));
 const today = process.argv[3];
-console.log(posts.some((article) => String(article.publishedDate || "").slice(0, 10) === today) ? "yes" : "no");
+console.log(posts.filter((article) => String(article.publishedDate || "").slice(0, 10) === today).length);
 NODE
 )"
-  if [[ "$ALREADY_PUBLISHED" == "yes" ]]; then
-    print "[codex-daily] an article is already published for $TODAY_UTC UTC; exiting"
+  if (( PUBLISHED_TODAY >= DAILY_TARGET )); then
+    print "[codex-daily] $PUBLISHED_TODAY/$DAILY_TARGET already published for $TODAY_UTC UTC; exiting"
     exit 0
   fi
+  ARTICLE_COUNT=$(( DAILY_TARGET - PUBLISHED_TODAY ))
+  print "[codex-daily] $PUBLISHED_TODAY/$DAILY_TARGET published for $TODAY_UTC UTC; generating the remaining $ARTICLE_COUNT article(s)"
 fi
 
 # PREFLIGHT (ported from krista-mashore-content-codex 2026-08-15): refuse a
@@ -97,11 +104,12 @@ node scripts/check-topic-backlog.cjs || {
 
 trap 'rm -f "$CONTEXT_PATH"' EXIT
 node scripts/build-codex-daily-context.cjs "$CONTEXT_PATH"
-node - "$CONTEXT_PATH" "$QUEUE_PATH" <<'NODE'
+node - "$CONTEXT_PATH" "$QUEUE_PATH" "$DAILY_TARGET" <<'NODE'
 const fs = require("fs");
 const context = JSON.parse(fs.readFileSync(process.argv[2], "utf8"));
 const queue = JSON.parse(fs.readFileSync(process.argv[3], "utf8"));
-if (context?.cadence?.ongoingPerDay !== 1) throw new Error("ongoing cadence must equal 1");
+const expectedCadence = Number(process.argv[4]);
+if (context?.cadence?.ongoingPerDay !== expectedCadence) throw new Error(`ongoing cadence must equal ${expectedCadence}`);
 if (!Array.isArray(queue) || queue.length !== 0) throw new Error("queue must be empty before generation");
 if (!Array.isArray(context.existingArticles) || context.existingArticles.length < 10) throw new Error("published inventory is incomplete");
 // FAIL CLOSED (2026-08-15): an empty backlog must stop the run before any
@@ -110,11 +118,11 @@ if (!Array.isArray(context.existingArticles) || context.existingArticles.length 
 // distinct message below is what daily-health-check.sh greps for.
 if (!Array.isArray(context.assignedTopics) || context.assignedTopics.length === 0)
   throw new Error("BACKLOG EMPTY: no assigned topics — refill data/blog/topic-backlog.json with question-intent research. The writer never invents topics.");
-console.log(`[codex-daily] compact context ready: ${context.existingArticles.length} articles, cadence=1, assigned=${context.assignedTopics.length}`);
+console.log(`[codex-daily] compact context ready: ${context.existingArticles.length} articles, cadence=${expectedCadence}, assigned=${context.assignedTopics.length}`);
 NODE
 
 if [[ "$MODE" == "--preflight" ]]; then
-  print "[codex-daily] PREFLIGHT PASSED. ChatGPT subscription, one-per-day cadence, context, and empty queue are ready."
+  print "[codex-daily] PREFLIGHT PASSED. ChatGPT subscription, $DAILY_TARGET-per-day cadence, context, and empty queue are ready."
   exit 0
 fi
 
@@ -132,15 +140,15 @@ validate_candidate() {
   local queue_count
   queue_count="$(node -e 'const q=require(process.argv[1]); console.log(Array.isArray(q) ? q.length : -1)' "$QUEUE_PATH")"
   if [[ "$queue_count" != "$ARTICLE_COUNT" ]]; then
-    print -u2 "[codex-daily] expected 1 queued article; found $queue_count"
+    print -u2 "[codex-daily] expected $ARTICLE_COUNT queued article(s); found $queue_count"
     return 1
   fi
   if git diff --quiet -- data/blog/queue.json; then
     print -u2 "[codex-daily] Codex did not change queue.json"
     return 1
   fi
-  node scripts/check-codex-daily-article.cjs --queue || return 1
-  node scripts/publish-batch.cjs --validate-only || return 1
+  node scripts/check-codex-daily-article.cjs --queue "$ARTICLE_COUNT" || return 1
+  node scripts/publish-batch.cjs --validate-only "--count=$ARTICLE_COUNT" || return 1
   node "$PRESERVATION_SCRIPT" verify "$SNAPSHOT" 0 || return 1
 }
 
@@ -156,8 +164,8 @@ for attempt in $(seq 1 "$MAX_GENERATION_ATTEMPTS"); do
     print ""
     print "## Run context"
     print ""
-    print "Generate exactly one article."
-    print "Model budget: GPT-5.6 Luna, low reasoning, standard service tier, at most 6 tool calls."
+    print "Generate exactly $ARTICLE_COUNT new article(s) in this run."
+    print "Model budget: GPT-5.6 Luna, low reasoning, standard service tier, at most 8 tool calls."
     if [[ -n "$ATTEMPT_FEEDBACK" ]]; then
       print ""
       print "## Correction required from the prior attempt"
@@ -223,18 +231,19 @@ if [[ "$GENERATION_OK" != "1" ]]; then
   exit 1
 fi
 
-node scripts/publish-batch.cjs --no-git
-node scripts/check-codex-daily-article.cjs --posts-head
-node "$PRESERVATION_SCRIPT" verify "$SNAPSHOT" 1
+node scripts/publish-batch.cjs --no-git "--count=$ARTICLE_COUNT"
+node scripts/check-codex-daily-article.cjs --posts-head "$ARTICLE_COUNT"
+node "$PRESERVATION_SCRIPT" verify "$SNAPSHOT" "$ARTICLE_COUNT"
 if [[ "$(node -e 'const q=require(process.argv[1]); console.log(q.length)' "$QUEUE_PATH")" != "0" ]]; then
   print -u2 "[codex-daily] queue is not empty after publish"
   exit 1
 fi
 
 npm run build
-node "$PRESERVATION_SCRIPT" verify "$SNAPSHOT" 1
-NEW_SLUG="$(node "$PRESERVATION_SCRIPT" new-slugs "$SNAPSHOT")"
-print "[codex-daily] new slug: $NEW_SLUG"
+node "$PRESERVATION_SCRIPT" verify "$SNAPSHOT" "$ARTICLE_COUNT"
+NEW_SLUGS="$(node "$PRESERVATION_SCRIPT" new-slugs "$SNAPSHOT")"
+print "[codex-daily] new slugs:"
+print -r -- "$NEW_SLUGS"
 
 if [[ "$MODE" == "--canary" ]]; then
   print "[codex-daily] CANARY PASSED. Nothing was committed, pushed, deployed, or published live."
@@ -258,11 +267,21 @@ for attempt in $(seq 1 "$LIVE_VERIFY_ATTEMPTS"); do
   if curl -fsSL -A "GPTBot/1.0" "$LIVE_URL/" > "$RUN_DIR/live-home.html" \
     && grep -qi '<h1' "$RUN_DIR/live-home.html" \
     && curl -fsSL -A "GPTBot/1.0" "$LIVE_URL/articles/$OLD_SLUG" > "$RUN_DIR/live-old.html" \
-    && grep -qi '<article' "$RUN_DIR/live-old.html" \
-    && curl -fsSL -A "GPTBot/1.0" "$LIVE_URL/articles/$NEW_SLUG" > "$RUN_DIR/live-new.html" \
-    && grep -qi '<article' "$RUN_DIR/live-new.html"; then
-    DEPLOY_OK=1
-    break
+    && grep -qi '<article' "$RUN_DIR/live-old.html"; then
+    # Every new article in the batch must be live and crawlable.
+    ALL_NEW_OK=1
+    while IFS= read -r slug; do
+      [[ -z "$slug" ]] && continue
+      if ! curl -fsSL -A "GPTBot/1.0" "$LIVE_URL/articles/$slug" > "$RUN_DIR/live-$slug.html" \
+        || ! grep -qi '<article' "$RUN_DIR/live-$slug.html"; then
+        ALL_NEW_OK=0
+        break
+      fi
+    done <<< "$NEW_SLUGS"
+    if [[ "$ALL_NEW_OK" == "1" ]]; then
+      DEPLOY_OK=1
+      break
+    fi
   fi
   sleep 10
 done
@@ -273,7 +292,7 @@ fi
 
 # Daily review email (Krista-directed 2026-08-15; auto-send exception (j) in
 # the vault's CLAUDE.md). Bonus channel — never fails the run.
-print -r -- "$NEW_SLUG" | "$ROOT/scripts/send-publish-email.zsh" \
+print -r -- "$NEW_SLUGS" | "$ROOT/scripts/send-publish-email.zsh" \
   "kristamashore.ai" "$LIVE_URL" \
   "socialmedia@kristamashore.com doit@kristamashore.com" || true
 

@@ -36,8 +36,8 @@ const existingArticles = posts.map((article) => ({
 // run, never from a status field in the backlog. See
 // .claude/rules/authoritative-state.md (in the Krista-OS vault).
 const TOPIC_BACKLOG_PATH = path.join(ROOT, "data", "blog", "topic-backlog.json");
-// Same env var the runner/wrapper use (run-kristamashore-ai-codex.sh sets 1).
-const DAILY_CADENCE = Number(process.env.CODEX_DAILY_ARTICLE_COUNT) || 1;
+// Same env var the runner/wrapper use (the wrapper sets 5).
+const DAILY_CADENCE = Number(process.env.CODEX_DAILY_ARTICLE_COUNT) || 5; // 5/day, Krista-directed 2026-08-16
 
 let assignedTopics = [];
 let backlogStats = { total: 0, ready: 0, published: 0, onHold: 0, remaining: 0 };
@@ -83,7 +83,7 @@ const context = {
   },
   cadence: {
     launchBurstCount: 10,
-    ongoingPerDay: 1,
+    ongoingPerDay: DAILY_CADENCE,
   },
   author: "Krista Mashore",
   cta: {

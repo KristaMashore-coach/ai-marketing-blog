@@ -4,7 +4,7 @@ This is an unattended production writing task. Do not ask questions. If a fact i
 
 ## Objective
 
-Create exactly one new article for kristamashore.ai and write the complete JSON array to `data/blog/queue.json`.
+Create exactly the number of new articles stated in the Run context section appended below and write the complete JSON array to `data/blog/queue.json`.
 
 You may modify only `data/blog/queue.json`. Do not publish, commit, push, deploy, or modify any other file.
 
@@ -14,13 +14,13 @@ Read `.codex-daily-context.json` once. It contains the approved profile, five to
 
 Do not read full published article bodies, private intake files, memory files, the OS vault, publisher code, or validator code. If the compact context is missing or invalid, stop without changing anything.
 
-Keep the run to at most 6 tool calls: read the context, read the empty queue, write the queue, parse it, inspect repository status, and use at most one correction call.
+Keep the run to at most 8 tool calls: read the context, read the empty queue, write the queue, parse it, inspect repository status, and use the remainder for corrections.
 
 ## Topic assignment (you do NOT choose the topic)
 
 The context's `assignedTopics` array holds your assignment. It is ordered by priority, highest first.
 
-Write the article for the first entry in that array. If it holds more than one, take the first and ignore the rest; they are the next days' work, not yours.
+Write articles for the **first N entries in that array, in order**, where N is the number stated in the Run context section appended below ("Generate exactly N new article(s)"). If it holds more than N, take the first N and ignore the rest; they are the next days' work, not yours. If it holds fewer than N, write what is there and say the backlog is short.
 
 Do not invent a topic, do not substitute one, do not reorder, and do not write about anything that is not in `assignedTopics`.
 
@@ -46,7 +46,7 @@ You still choose: `contentTypePillar` and `funnelStage` if the topic does not sp
 
 ## Exact JSON schema
 
-The array must contain exactly one object with these keys:
+The array must contain one object per assigned article, each with these keys:
 
 1. `title`: 70 characters or fewer.
 2. `slug`: new lowercase hyphenated slug.
@@ -91,5 +91,5 @@ Every disputed factual claim must have a real source URL in the same paragraph, 
 - The queue must start as an empty JSON array.
 - Write valid UTF-8 JSON with two-space indentation and a trailing newline.
 - Reparse it after writing.
-- Confirm there is exactly one article, its slug is new, every enum is approved, all internal link slugs exist, and only `data/blog/queue.json` changed.
+- Confirm the article count matches the Run context, every slug is new and unique, every enum is approved, all internal link slugs exist, and only `data/blog/queue.json` changed.
 - Do not run repository scripts. Finish with a short validation summary.
