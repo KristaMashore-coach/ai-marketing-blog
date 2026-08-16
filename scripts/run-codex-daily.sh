@@ -247,6 +247,9 @@ if git diff --cached --quiet; then
   exit 1
 fi
 git commit -m "content: publish kristamashore.ai Codex daily article"
+# Rebase onto anything pushed during generation (see the blog runner's
+# 2026-08-16 push-rejection incident); conflicts fail loudly, never force.
+GIT_TERMINAL_PROMPT=0 git pull --rebase origin main
 git push origin main
 
 OLD_SLUG="$(node "$PRESERVATION_SCRIPT" first-slug "$SNAPSHOT")"
