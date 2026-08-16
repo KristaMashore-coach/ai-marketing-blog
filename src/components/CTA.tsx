@@ -19,7 +19,7 @@ export default function CTA({
     return (
       <a
         href={url}
-        className="inline-flex items-center gap-2 bg-primary-600 hover:bg-primary-700 text-white font-semibold rounded-md px-5 py-3 transition-colors"
+        className="inline-flex items-center gap-2 bg-accent hover:bg-primary-700 text-ink hover:text-bg font-semibold rounded-md px-5 py-3 transition-colors"
         rel="noopener"
       >
         {label}
@@ -34,7 +34,7 @@ export default function CTA({
       <div className="mt-5">
         <a
           href={url}
-          className="inline-flex items-center gap-2 bg-primary-600 hover:bg-primary-700 text-white font-semibold rounded-md px-5 py-3 transition-colors"
+          className="inline-flex items-center gap-2 bg-accent hover:bg-primary-700 text-ink hover:text-bg font-semibold rounded-md px-5 py-3 transition-colors"
           rel="noopener"
         >
           {label}

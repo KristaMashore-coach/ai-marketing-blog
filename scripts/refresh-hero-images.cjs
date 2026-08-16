@@ -18,15 +18,23 @@ const ROOT = path.resolve(__dirname, '..');
 const POSTS_PATH = path.join(ROOT, 'data/blog/posts.json');
 const OUT_DIR = path.join(ROOT, 'public/articles/hero');
 
-// Brand palette per topical pillar. Mirrors src/lib/constants.ts PILLARS.
-// Kept in sync manually since this is a plain Node script (no TS import).
+// ONYX EDITORIAL hero palette (2026-08-16, Krista-directed). Replaces five
+// different orange hues that used color to DISTINGUISH pillars. Onyx Editorial
+// uses color to establish ONE institutional look, so grounds alternate between
+// only two (Onyx / Deep Emerald) and the pillar is carried by the label, not
+// the hue. Canonical palette:
+// Krista-OS/12-Content-Library/Brand-System/11-Onyx-Editorial-Visual-Identity-System.md
+//
+// Accents are dark-ground only by design: Paraiba #2FCFC0 reads 7.43:1 on Onyx
+// but only 1.74:1 on the light Moonstone ground, which the brand doc lists as a
+// prohibited pair. These SVGs are always dark-ground, so it is correct here.
 const PALETTE = {
-  'authority-agent-operating-system': { bg: '#EA580C', accent: '#FED7AA', label: 'Authority Agent OS' },
-  'ai-content-to-client-system': { bg: '#9A3412', accent: '#FED7AA', label: 'Content to Client' },
-  'ai-run-business': { bg: '#7C2D12', accent: '#FDBA74', label: 'AI-Run Business' },
-  'community-market-leaders-ai': { bg: '#C2410C', accent: '#FED7AA', label: 'CML AI' },
-  'claude-for-dummies': { bg: '#B45309', accent: '#FDE68A', label: 'Claude for Dummies' },
-  default: { bg: '#EA580C', accent: '#FED7AA', label: 'Krista Mashore' },
+  'authority-agent-operating-system': { bg: '#0A2E35', accent: '#2FCFC0', label: 'Authority Agent OS' },
+  'ai-content-to-client-system': { bg: '#164F50', accent: '#2FCFC0', label: 'Content to Client' },
+  'ai-run-business': { bg: '#0A2E35', accent: '#D9E6EA', label: 'AI-Run Business' },
+  'community-market-leaders-ai': { bg: '#164F50', accent: '#2FCFC0', label: 'CML AI' },
+  'claude-for-dummies': { bg: '#0A2E35', accent: '#2FCFC0', label: 'Claude for Dummies' },
+  default: { bg: '#0A2E35', accent: '#2FCFC0', label: 'Krista Mashore' },
 };
 
 function escapeXml(s) {
@@ -86,8 +94,8 @@ function buildSvg(post) {
   <rect width="1200" height="675" fill="url(#bg)"/>
   <rect x="0" y="0" width="12" height="675" fill="${pal.accent}"/>
   <text x="60" y="80" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="600" fill="${pal.accent}" letter-spacing="3">${escapeXml(pal.label.toUpperCase())}</text>
-  <text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="${fontSize}" font-weight="800" fill="#FFFFFF" text-anchor="middle">${tspans}</text>
-  <text x="1140" y="645" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="20" font-weight="600" fill="#FFFFFF" text-anchor="end" opacity="0.85">KRISTA MASHORE</text>
+  <text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="${fontSize}" font-weight="800" fill="#F5F2EB" text-anchor="middle">${tspans}</text>
+  <text x="1140" y="645" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="20" font-weight="600" fill="#F5F2EB" text-anchor="end" opacity="0.85">KRISTA MASHORE</text>
 </svg>
 `;
 }
