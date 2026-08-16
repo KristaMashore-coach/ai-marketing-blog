@@ -44,6 +44,12 @@ You still choose: `contentTypePillar` and `funnelStage` if the topic does not sp
 - Do not search for private material.
 - **Fairness rule for comparison and roundup articles.** Some assigned topics compare tools or answer "will AI replace me" fears. Give every option its real strengths and describe honestly who it fits. A page that trashes the alternative reads as an ad, and no search engine or AI assistant will cite it.
 
+## Cluster requirement (added 2026-08-16 after a real defect)
+
+The articles in one batch are normally one topic cluster. On 2026-08-16 a five-article cluster published with 31 internal links between the articles and ZERO pointing at each other. That is five orphans wearing a cluster's name, and it throws away the strongest ranking signal the batch has. Krista flagged it independently: "there aren't any real backlinks in these articles."
+
+So: **every article must link to at least 2 of its siblings in this batch**, inside the prose, where the link genuinely helps the reader. Treat the broadest article in the batch as the hub — it links to every sibling, and every sibling links back to it. Sibling slugs are valid targets even though they are not published yet; the batch publishes atomically, so the links resolve the moment it goes live.
+
 ## Exact JSON schema
 
 The array must contain one object per assigned article, each with these keys:
@@ -62,7 +68,7 @@ The array must contain one object per assigned article, each with these keys:
 12. `readingMinutes`: best estimate. The runner recalculates it.
 13. `featuredImage`: object with `src` and `alt`. Use `https://placehold.co/1200x675/111827/FFFFFF/png?text=<URL-encoded-title>` unless you have a verified safe image.
 14. `faq`: 4 to 6 objects with `question` and `answer`.
-15. `internalLinks`: 3 to 5 existing article slugs from the context. Use bare slugs, not invented links.
+15. `internalLinks`: 3 to 5 slugs, each either an article in the context's `existingArticles` OR **another article in THIS batch**. Use bare slugs, never invented ones. See the cluster requirement below.
 16. `ctaUrl`: exactly `https://kristamashore.com/LevelUp`.
 17. `ctaLabel`: exactly `Learn the AI System`.
 18. `body`: one JSON string containing semantic HTML.

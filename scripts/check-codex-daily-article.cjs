@@ -134,13 +134,13 @@ if (!Array.isArray(article.internalLinks) || article.internalLinks.length < 3 ||
 } else {
   for (const link of article.internalLinks) {
     const slug = String(link).replace(/^\/articles\//, "");
-    // --queue: strict — links must target already-published articles (the
-    // writer is handed the published inventory). --posts-head: the batch is
-    // published by now, so same-batch siblings are legitimate targets; without
-    // this the post-publish re-check false-fails any batch whose articles
-    // reference each other (surfaced in the 2026-08-16 multi-article port).
+    // Same-batch siblings are valid link targets in BOTH modes (2026-08-16).
+    // At --queue time they are not published yet, but they publish atomically
+    // with this article, so the link resolves the moment the batch goes live.
+    // Forbidding them here is what produced the zero-cross-link cluster defect;
+    // the whole point of a cluster is that its articles reference each other.
     const linkOk = baselineSlugs.has(slug) ||
-      (mode === "--posts-head" && slug !== article.slug && candidates.some((c) => c && c.slug === slug));
+      (slug !== article.slug && candidates.some((c) => c && c.slug === slug));
     if (!linkOk) errors.push(`${label}: internal link does not exist: ${link}`);
   }
 }
