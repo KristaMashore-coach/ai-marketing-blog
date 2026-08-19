@@ -290,10 +290,14 @@ if [[ "$DEPLOY_OK" != "1" ]]; then
   exit 1
 fi
 
-# Daily review email (Krista-directed 2026-08-15; auto-send exception (j) in
-# the vault's CLAUDE.md). Bonus channel — never fails the run.
+# Daily review email (auto-send exception (j) in the vault's CLAUDE.md).
+# Krista removed HERSELF 2026-08-19 ("I do not need these emails"). Her
+# approval point for this site is the weekly Monday title-wave proposal
+# (exception (k)), not per-article emails. Hailey (socialmedia@) gets the
+# daily review copy. Do NOT re-add doit@ without her explicit direction.
+# Bonus channel — never fails the run.
 print -r -- "$NEW_SLUGS" | "$ROOT/scripts/send-publish-email.zsh" \
   "kristamashore.ai" "$LIVE_URL" \
-  "socialmedia@kristamashore.com doit@kristamashore.com" || true
+  "socialmedia@kristamashore.com" || true
 
 print "[codex-daily] LIVE RUN PASSED. Existing articles remained unchanged and the new article is crawlable."
