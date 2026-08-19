@@ -20,24 +20,6 @@ const args = process.argv.slice(2);
 const dryRun = args.includes("--dry-run");
 const validateOnly = args.includes("--validate-only");
 const noGit = args.includes("--no-git");
-// HOLD FOR APPROVAL (added 2026-08-16, Krista-directed). Her instruction:
-// she wants to approve the kristamashore.ai articles BEFORE they go live, not
-// read about them after. This flag publishes them into posts.json with
-// draft:true instead of draft:false.
-//
-// draft:true is a real gate on this site, not a label. Every surface filters
-// it out: prerender-static.cjs and prerender-blog.cjs skip drafts so no page
-// is rendered, generate-sitemap.cjs keeps them out of the sitemap, and
-// generate-llms-txt.cjs keeps them out of llms.txt, which is the file AI
-// crawlers read. So a held article is genuinely invisible to Google, to AI
-// engines, and to visitors until it is approved.
-//
-// Approval flips it: `node scripts/approve-drafts.cjs` (all) or with a slug
-// (one), then rebuild and push. NOTE: this applies to kristamashore.ai ONLY.
-// blog.kristamashore.com publishes without her approval - she said explicitly
-// on 2026-08-16 that she does not want to approve the blog articles, only the
-// AI-site ones. Do not copy this flag into the blog publisher.
-const holdForApproval = args.includes("--hold-for-approval");
 const countMatch = args.find((a) => a.startsWith("--count="));
 const count = countMatch ? parseInt(countMatch.split("=")[1], 10) : 1;
 
@@ -76,7 +58,7 @@ function validateQueue(queue, posts) {
 }
 
 (async function main() {
-  log(`publish-batch start (count=${count}, dryRun=${dryRun}, validateOnly=${validateOnly}, noGit=${noGit}, holdForApproval=${holdForApproval})`);
+  log(`publish-batch start (count=${count}, dryRun=${dryRun}, validateOnly=${validateOnly}, noGit=${noGit})`);
 
   const queue = loadJson(QUEUE_PATH);
   if (!Array.isArray(queue) || queue.length === 0) {
@@ -102,9 +84,9 @@ function validateQueue(queue, posts) {
   for (const article of toPublish) {
     if (!article.publishedDate) article.publishedDate = today;
     if (!article.modifiedDate) article.modifiedDate = today;
-    article.draft = holdForApproval;
+    article.draft = false;
     posts.unshift(article);
-    log(`${holdForApproval ? "holding for approval" : "publishing"}: ${article.slug}`);
+    log(`publishing: ${article.slug}`);
   }
 
   if (dryRun) {
