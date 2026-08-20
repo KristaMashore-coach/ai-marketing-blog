@@ -1,0 +1,362 @@
+[
+  {
+    "id": "w8-1",
+    "priority": 143,
+    "wave": "8 - AI adoption: cost, privacy, ownership, replacing staff (proposed 2026-08-17)",
+    "title": "Will AI Replace My Employees? What Actually Happens in 2026",
+    "slug": "will-ai-replace-my-employees-what-actually-happens-in-2026",
+    "primaryKeyword": "will AI replace my employees",
+    "secondaryKeywords": [
+      "AI replacing small business staff",
+      "will AI take my team's jobs"
+    ],
+    "topicalPillar": "ai-run-business",
+    "contentTypePillar": "problem-solving",
+    "funnelStage": "attention",
+    "intent": "informational",
+    "angle": "Separate the professions-specific versions of this question already covered from the plain owner-with-a-team version. Give a direct, task-by-task answer instead of a vague reassurance.",
+    "status": "ready"
+  },
+  {
+    "id": "w8-2",
+    "priority": 144,
+    "wave": "8 - AI adoption: cost, privacy, ownership, replacing staff (proposed 2026-08-17)",
+    "title": "What AI Platform Lock-In Costs a Small Business Later",
+    "slug": "what-ai-platform-lock-in-costs-a-small-business-later",
+    "primaryKeyword": "AI platform lock-in small business",
+    "secondaryKeywords": [
+      "avoid AI vendor lock-in",
+      "owning your AI system vs renting one"
+    ],
+    "topicalPillar": "ai-run-business",
+    "contentTypePillar": "educational-authority",
+    "funnelStage": "resonance",
+    "intent": "informational",
+    "angle": "Name the specific cost of building a workflow entirely inside one vendor's AI tool: what happens to the work, the data, and the process if that vendor changes terms or shuts down.",
+    "status": "ready"
+  },
+  {
+    "id": "w8-3",
+    "priority": 145,
+    "wave": "8 - AI adoption: cost, privacy, ownership, replacing staff (proposed 2026-08-17)",
+    "title": "Questions to Ask Before You Buy an AI Tool for Your Business",
+    "slug": "questions-to-ask-before-you-buy-an-ai-tool-for-your-business",
+    "primaryKeyword": "questions to ask before buying an AI tool",
+    "secondaryKeywords": [
+      "AI tool purchase checklist small business",
+      "evaluate an AI vendor before signing up"
+    ],
+    "topicalPillar": "ai-run-business",
+    "contentTypePillar": "process-and-differentiation",
+    "funnelStage": "attention",
+    "intent": "informational",
+    "angle": "A short, concrete checklist to run before paying for any AI tool: what happens to your data, can you export your work, and what does cancellation actually look like.",
+    "status": "ready"
+  },
+  {
+    "id": "w8-4",
+    "priority": 146,
+    "wave": "8 - AI adoption: cost, privacy, ownership, replacing staff (proposed 2026-08-17)",
+    "title": "What Happens to Your Data After You Cancel an AI Tool",
+    "slug": "what-happens-to-your-data-after-you-cancel-an-ai-tool",
+    "primaryKeyword": "what happens to data after cancelling AI tool",
+    "secondaryKeywords": [
+      "AI tool cancellation data deletion",
+      "data after ending an AI subscription"
+    ],
+    "topicalPillar": "ai-run-business",
+    "contentTypePillar": "educational-authority",
+    "funnelStage": "resonance",
+    "intent": "informational",
+    "angle": "Most small business owners never ask this before signing up. Explain what to check in a vendor's terms about data deletion, export, and retention after you leave.",
+    "status": "ready"
+  },
+  {
+    "id": "w8-5",
+    "priority": 147,
+    "wave": "8 - AI adoption: cost, privacy, ownership, replacing staff (proposed 2026-08-17)",
+    "title": "SOC 2 and Data Retention: What AI Privacy Terms Actually Mean",
+    "slug": "soc-2-and-data-retention-what-ai-privacy-terms-actually-mean",
+    "primaryKeyword": "SOC 2 AI tool small business",
+    "secondaryKeywords": [
+      "what does SOC 2 mean for AI tools",
+      "AI data retention policy explained"
+    ],
+    "topicalPillar": "ai-run-business",
+    "contentTypePillar": "educational-authority",
+    "funnelStage": "attention",
+    "intent": "informational",
+    "angle": "Translate the compliance language small business owners see on AI vendor pricing pages into plain terms, so a privacy claim can actually be checked instead of taken on faith.",
+    "status": "ready"
+  },
+  {
+    "id": "w8-6",
+    "priority": 148,
+    "wave": "8 - AI adoption: cost, privacy, ownership, replacing staff (proposed 2026-08-17)",
+    "title": "ChatGPT Enterprise vs Free: What Changes for Your Data",
+    "slug": "chatgpt-enterprise-vs-free-what-changes-for-your-data",
+    "primaryKeyword": "ChatGPT Enterprise vs free plan business data",
+    "secondaryKeywords": [
+      "is ChatGPT free plan safe for business data",
+      "ChatGPT paid plan data privacy"
+    ],
+    "topicalPillar": "ai-run-business",
+    "contentTypePillar": "problem-solving",
+    "funnelStage": "attention",
+    "intent": "informational",
+    "angle": "Business owners on a free AI plan may be training the model with their own client information without knowing it. Explain what actually changes on a paid or enterprise tier.",
+    "status": "ready"
+  },
+  {
+    "id": "w8-7",
+    "priority": 149,
+    "wave": "8 - AI adoption: cost, privacy, ownership, replacing staff (proposed 2026-08-17)",
+    "title": "The Hidden Costs of AI Nobody Puts on the Pricing Page",
+    "slug": "the-hidden-costs-of-ai-nobody-puts-on-the-pricing-page",
+    "primaryKeyword": "hidden costs of AI small business",
+    "secondaryKeywords": [
+      "AI total cost of ownership small business",
+      "real cost of AI beyond subscription"
+    ],
+    "topicalPillar": "ai-run-business",
+    "contentTypePillar": "problem-solving",
+    "funnelStage": "attention",
+    "intent": "informational",
+    "angle": "The subscription price is rarely the real cost. Cover setup time, training, integration, and the cost of picking the wrong tool and switching later.",
+    "status": "ready"
+  },
+  {
+    "id": "w8-8",
+    "priority": 150,
+    "wave": "8 - AI adoption: cost, privacy, ownership, replacing staff (proposed 2026-08-17)",
+    "title": "A 30-Day Plan for a Small Business Trying AI for the First Time",
+    "slug": "a-30-day-plan-for-a-small-business-trying-ai-for-the-first-time",
+    "primaryKeyword": "30 day AI plan for small business",
+    "secondaryKeywords": [
+      "first month using AI in business",
+      "AI onboarding plan small business owner"
+    ],
+    "topicalPillar": "ai-run-business",
+    "contentTypePillar": "process-and-differentiation",
+    "funnelStage": "attention",
+    "intent": "informational",
+    "angle": "A concrete week-by-week plan for an owner who has never used AI in the business: pick one task, one tool, measure it, then decide whether to expand.",
+    "status": "ready"
+  },
+  {
+    "id": "w8-9",
+    "priority": 151,
+    "wave": "8 - AI adoption: cost, privacy, ownership, replacing staff (proposed 2026-08-17)",
+    "title": "How to Get Your Team Comfortable With AI Without a Big Rollout",
+    "slug": "how-to-get-your-team-comfortable-with-ai-without-a-big-rollout",
+    "primaryKeyword": "get team comfortable with AI small business",
+    "secondaryKeywords": [
+      "employee AI adoption small business",
+      "introducing AI to staff without resistance"
+    ],
+    "topicalPillar": "ai-run-business",
+    "contentTypePillar": "problem-solving",
+    "funnelStage": "resonance",
+    "intent": "informational",
+    "angle": "Most AI rollouts fail on people, not technology. Cover a low-drama way to introduce a new tool to a small team without a mandate that breeds resistance.",
+    "status": "ready"
+  },
+  {
+    "id": "w8-10",
+    "priority": 152,
+    "wave": "8 - AI adoption: cost, privacy, ownership, replacing staff (proposed 2026-08-17)",
+    "title": "Should a Small Business Build Its Own AI Tool or Rent One?",
+    "slug": "should-a-small-business-build-its-own-ai-tool-or-rent-one",
+    "primaryKeyword": "build vs rent AI tool small business",
+    "secondaryKeywords": [
+      "custom AI vs off the shelf tool business",
+      "should I build my own AI system"
+    ],
+    "topicalPillar": "ai-run-business",
+    "contentTypePillar": "educational-authority",
+    "funnelStage": "resonance",
+    "intent": "informational",
+    "angle": "Most small businesses assume renting a tool is the only option. Lay out when a simple owned system actually beats a subscription, and when it doesn't.",
+    "status": "ready"
+  },
+  {
+    "id": "w8-11",
+    "priority": 153,
+    "wave": "8 - AI adoption: cost, privacy, ownership, replacing staff (proposed 2026-08-17)",
+    "title": "The AI Mistake of Automating the Wrong Task First",
+    "slug": "the-ai-mistake-of-automating-the-wrong-task-first",
+    "primaryKeyword": "automating the wrong task first small business",
+    "secondaryKeywords": [
+      "AI automation priority mistakes",
+      "which task to automate first small business"
+    ],
+    "topicalPillar": "ai-run-business",
+    "contentTypePillar": "problem-solving",
+    "funnelStage": "attention",
+    "intent": "informational",
+    "angle": "Owners often automate the task that's easiest to automate, not the one that costs them the most time. Walk through how to pick correctly the first time.",
+    "status": "ready"
+  },
+  {
+    "id": "w8-12",
+    "priority": 154,
+    "wave": "8 - AI adoption: cost, privacy, ownership, replacing staff (proposed 2026-08-17)",
+    "title": "What a Fair AI Vendor Contract Looks Like for a Small Business",
+    "slug": "what-a-fair-ai-vendor-contract-looks-like-for-a-small-business",
+    "primaryKeyword": "AI vendor contract small business",
+    "secondaryKeywords": [
+      "AI tool contract terms to check",
+      "fair AI vendor agreement small business"
+    ],
+    "topicalPillar": "ai-run-business",
+    "contentTypePillar": "educational-authority",
+    "funnelStage": "attention",
+    "intent": "informational",
+    "angle": "Most small business owners never read the contract on an AI subscription. Name the specific terms worth reading: term length, price increases, and data ownership.",
+    "status": "ready"
+  },
+  {
+    "id": "w8-13",
+    "priority": 155,
+    "wave": "8 - AI adoption: cost, privacy, ownership, replacing staff (proposed 2026-08-17)",
+    "title": "How Many AI Tools Does a Small Business Actually Need?",
+    "slug": "how-many-ai-tools-does-a-small-business-actually-need",
+    "primaryKeyword": "how many AI tools does a business need",
+    "secondaryKeywords": [
+      "too many AI subscriptions small business",
+      "right number of AI tools for a small team"
+    ],
+    "topicalPillar": "ai-run-business",
+    "contentTypePillar": "problem-solving",
+    "funnelStage": "attention",
+    "intent": "informational",
+    "angle": "Tool sprawl quietly becomes its own cost. Give a simple rule for how many AI tools a small business should be running at once, and when to consolidate.",
+    "status": "ready"
+  },
+  {
+    "id": "w8-14",
+    "priority": 156,
+    "wave": "8 - AI adoption: cost, privacy, ownership, replacing staff (proposed 2026-08-17)",
+    "title": "AI for Businesses That Handle Sensitive Client Information",
+    "slug": "ai-for-businesses-that-handle-sensitive-client-information",
+    "primaryKeyword": "AI for businesses with sensitive client data",
+    "secondaryKeywords": [
+      "AI privacy for legal financial medical adjacent business",
+      "sensitive client data and AI tools"
+    ],
+    "topicalPillar": "ai-run-business",
+    "contentTypePillar": "problem-solving",
+    "funnelStage": "attention",
+    "intent": "informational",
+    "angle": "Owners handling financial, legal-adjacent, or health-adjacent client information carry more privacy risk than a typical small business. Cover what extra checks that requires.",
+    "status": "ready"
+  },
+  {
+    "id": "w8-15",
+    "priority": 157,
+    "wave": "8 - AI adoption: cost, privacy, ownership, replacing staff (proposed 2026-08-17)",
+    "title": "Signs Your Business Waited Too Long to Start Using AI",
+    "slug": "signs-your-business-waited-too-long-to-start-using-ai",
+    "primaryKeyword": "signs you waited too long to use AI",
+    "secondaryKeywords": [
+      "falling behind competitors on AI adoption",
+      "AI adoption gap small business"
+    ],
+    "topicalPillar": "ai-run-business",
+    "contentTypePillar": "educational-authority",
+    "funnelStage": "attention",
+    "intent": "informational",
+    "angle": "Not a scare piece: name the concrete, checkable signals that a business has fallen behind, like a competitor answering questions AI already recommends them for.",
+    "status": "ready"
+  },
+  {
+    "id": "w8-16",
+    "priority": 158,
+    "wave": "8 - AI adoption: cost, privacy, ownership, replacing staff (proposed 2026-08-17)",
+    "title": "What Owning Your AI System Actually Means for a Small Business",
+    "slug": "what-owning-your-ai-system-actually-means-for-a-small-business",
+    "primaryKeyword": "own your AI system small business",
+    "secondaryKeywords": [
+      "AI ownership vs subscription small business",
+      "what it means to own an AI workflow"
+    ],
+    "topicalPillar": "ai-run-business",
+    "contentTypePillar": "educational-authority",
+    "funnelStage": "resonance",
+    "intent": "informational",
+    "angle": "Go deeper on ownership than the platform lock-in piece: what it practically looks like to own the prompts, the data, and the workflow instead of renting access to someone else's.",
+    "status": "ready"
+  },
+  {
+    "id": "w8-17",
+    "priority": 159,
+    "wave": "8 - AI adoption: cost, privacy, ownership, replacing staff (proposed 2026-08-17)",
+    "title": "How to Tell if an AI Vendor Will Still Exist in Two Years",
+    "slug": "how-to-tell-if-an-ai-vendor-will-still-exist-in-two-years",
+    "primaryKeyword": "AI vendor longevity small business",
+    "secondaryKeywords": [
+      "will this AI tool still be around",
+      "AI vendor stability check small business"
+    ],
+    "topicalPillar": "ai-run-business",
+    "contentTypePillar": "problem-solving",
+    "funnelStage": "attention",
+    "intent": "informational",
+    "angle": "The AI tools market moves fast and some vendors won't survive it. Give owners a few concrete signals to check before building a workflow around a new tool.",
+    "status": "ready"
+  },
+  {
+    "id": "w8-18",
+    "priority": 160,
+    "wave": "8 - AI adoption: cost, privacy, ownership, replacing staff (proposed 2026-08-17)",
+    "title": "AI for a Business With a Full Team, Not Just a Solo Owner",
+    "slug": "ai-for-a-business-with-a-full-team-not-just-a-solo-owner",
+    "primaryKeyword": "AI for businesses with employees not solo",
+    "secondaryKeywords": [
+      "AI adoption for businesses with staff",
+      "team based AI rollout vs solo owner"
+    ],
+    "topicalPillar": "ai-run-business",
+    "contentTypePillar": "educational-authority",
+    "funnelStage": "resonance",
+    "intent": "informational",
+    "angle": "Most AI-for-small-business content assumes a solo operator. Address the different rollout, training, and ownership questions that come up once there's a team involved.",
+    "status": "ready"
+  },
+  {
+    "id": "w8-19",
+    "priority": 161,
+    "wave": "8 - AI adoption: cost, privacy, ownership, replacing staff (proposed 2026-08-17)",
+    "title": "What Small Business Owners Get Wrong About AI Pricing",
+    "slug": "what-small-business-owners-get-wrong-about-ai-pricing",
+    "primaryKeyword": "small business owners wrong about AI pricing",
+    "secondaryKeywords": [
+      "AI pricing misconceptions small business",
+      "common AI cost mistakes small business"
+    ],
+    "topicalPillar": "ai-run-business",
+    "contentTypePillar": "problem-solving",
+    "funnelStage": "attention",
+    "intent": "informational",
+    "angle": "Cover the two most common pricing mistakes: judging a tool only by its monthly price, and assuming the cheapest tool is the lowest total cost.",
+    "status": "ready"
+  },
+  {
+    "id": "w8-20",
+    "priority": 162,
+    "wave": "8 - AI adoption: cost, privacy, ownership, replacing staff (proposed 2026-08-17)",
+    "title": "How to Know When It's Time to Upgrade From a Free AI Tool",
+    "slug": "how-to-know-when-its-time-to-upgrade-from-a-free-ai-tool",
+    "primaryKeyword": "when to upgrade from free AI tool",
+    "secondaryKeywords": [
+      "free vs paid AI tool decision point",
+      "signs you need a paid AI plan"
+    ],
+    "topicalPillar": "ai-run-business",
+    "contentTypePillar": "problem-solving",
+    "funnelStage": "attention",
+    "intent": "informational",
+    "angle": "Give a concrete trigger list for moving off a free AI tier: a customer-facing use case, a privacy concern, or hitting a usage limit that's now costing real time.",
+    "status": "ready"
+  }
+]
