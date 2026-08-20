@@ -97,6 +97,14 @@ fi
 # PREFLIGHT (ported from krista-mashore-content-codex 2026-08-15): refuse a
 # backlog whose entries can never pass the article validator — the deadlock
 # class where the same doomed topic gets reassigned every morning forever.
+# FAIL-OPEN TOP-UP (added 2026-08-20, Krista-directed in chat: "even if they
+# don't get back to you in time, it never inhibits the articles from being
+# written"). Promotes topics out of data/blog/pending-wave.json into the
+# backlog when runway drops below 2 days, so approval latency can no longer
+# halt publishing the way it did on 2026-08-09 and 2026-08-15. It never
+# invents a topic and never promotes one that would fail the validator below.
+node scripts/ensure-backlog.cjs --target "$DAILY_TARGET" || true
+
 node scripts/check-topic-backlog.cjs || {
   print -u2 "[codex-daily] ABORTED: topic backlog contains entries no article can satisfy (see above). Fix data/blog/topic-backlog.json."
   exit 1
@@ -298,6 +306,6 @@ fi
 # Bonus channel — never fails the run.
 print -r -- "$NEW_SLUGS" | "$ROOT/scripts/send-publish-email.zsh" \
   "kristamashore.ai" "$LIVE_URL" \
-  "socialmedia@kristamashore.com" || true
+  "socialmedia@kristamashore.com tc@kristahomes.com" || true
 
 print "[codex-daily] LIVE RUN PASSED. Existing articles remained unchanged and the new article is crawlable."

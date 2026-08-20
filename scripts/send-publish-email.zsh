@@ -7,8 +7,16 @@
 # first; this email is the review copy.
 #
 # Recipients are fixed per site (Krista's words, 2026-08-15):
-#   kristamashore.ai        -> socialmedia@kristamashore.com, doit@kristamashore.com
-#   blog.kristamashore.com  -> doit@, jaynlin@kristahomes.com, tc@kristahomes.com
+# Recipients (current as of 2026-08-20, Krista-directed in chat that day —
+# Hailey reported she was getting no article emails at all, and she was right:
+# blog.kristamashore.com had never included her and 925move.com emailed nobody):
+#   blog.kristamashore.com  -> socialmedia@ (Hailey), tc@kristahomes.com (Sheril),
+#                              jaynlin@kristahomes.com (Jaynlin)
+#   kristamashore.ai        -> socialmedia@ (Hailey), tc@kristahomes.com (Sheril)
+#   925move.com             -> socialmedia@ (Hailey), tc@kristahomes.com (Sheril)
+# Krista is deliberately NOT on any of these. She removed herself 2026-08-19 and
+# reconfirmed 2026-08-20; she takes the weekly Thursday approval email, which
+# carries a delivery receipt proving these daily sends actually landed.
 #
 # Sends via ~/Scripts/kaia-send-email.sh (hardened: requires successful:true,
 # logs proof to ~/Library/Logs/kaia-sent-emails.log). One send per recipient so
