@@ -84,8 +84,19 @@ function isAllowedNumericContext(sentence) {
     /\bversion\s+\d+/i,
     /\b\d{4}\b/, // years
     /\bzip\s*code/i,
-    // Personal credentials, not stats: "top 1% agent", "top 5% producer"
-    /\btop\s+\d+(?:\.\d+)?\s*%\s+(?:agent|producer|broker|realtor|coach|lender)/i,
+    // Personal credentials / percentile-ranking claims, not external stats:
+    // "top 1% real estate agent", "less than 1% of agents nationwide hold",
+    // "fewer than 1% of licensed real estate agents". Wording varies (verb
+    // before or after, "of" optional, "real estate"/"licensed" optional
+    // infixes) so this matches the shape rather than one exact phrase.
+    /\b(?:top|less\s+than|fewer\s+than)\s+\d+(?:\.\d+)?\s*%\s+(?:of\s+)?(?:licensed\s+)?(?:real\s+estate\s+)?(?:agents?|producers?|brokers?|realtors?|coaches?|lenders?)\b/i,
+    // Krista's own autobiographical figures (her production/sales), not an
+    // external stat needing a citation: "$70 million in production",
+    // "to over $74M in online sales".
+    /\$\d[\d.,]*\s*(?:million|billion|m|k)?\+?\s+(?:in\s+)?(?:production|sales|online\s+sales|revenue|volume)/i,
+    /to\s+(?:over\s+)?\$\d[\d.,]*\s*(?:million|billion|m|k)\b/i,
+    // Krista's own investment figure: "invested more than $1.9 million..."
+    /\binvested\s+more\s+than\s+\$\d[\d.,]*\s*(?:million|billion|m|k)?\b/i,
     // Common phrases that use % as a label not a measurement
     /\b100%\s+(?:committed|focused|sure|guarantee|behind)/i,
   ];

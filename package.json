@@ -5,9 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "node scripts/check-post-bodies.cjs && node scripts/check-image-tags.cjs && tsc -b && node scripts/refresh-hero-images.cjs && vite build && node scripts/generate-sitemap.cjs && node scripts/generate-llms-txt.cjs && node scripts/prerender-blog.cjs && node scripts/prerender-static.cjs && node scripts/verify-prerender.cjs",
-    "build:fast": "node scripts/check-post-bodies.cjs && node scripts/check-image-tags.cjs && node scripts/refresh-hero-images.cjs && vite build && node scripts/generate-sitemap.cjs && node scripts/generate-llms-txt.cjs && node scripts/prerender-blog.cjs && node scripts/prerender-static.cjs && node scripts/verify-prerender.cjs",
+    "build": "node scripts/check-post-bodies.cjs && node scripts/check-image-tags.cjs && node scripts/check-internal-links.cjs && tsc -b && node scripts/refresh-hero-images.cjs && vite build && node scripts/generate-sitemap.cjs && node scripts/generate-llms-txt.cjs && node scripts/prerender-blog.cjs && node scripts/prerender-static.cjs && node scripts/verify-prerender.cjs",
+    "build:fast": "node scripts/check-post-bodies.cjs && node scripts/check-image-tags.cjs && node scripts/check-internal-links.cjs && node scripts/refresh-hero-images.cjs && vite build && node scripts/generate-sitemap.cjs && node scripts/generate-llms-txt.cjs && node scripts/prerender-blog.cjs && node scripts/prerender-static.cjs && node scripts/verify-prerender.cjs",
     "check:bodies": "node scripts/check-post-bodies.cjs",
+    "check:links": "node scripts/check-internal-links.cjs",
     "lint": "eslint .",
     "preview": "vite preview",
     "publish:batch": "node scripts/publish-batch.cjs",
