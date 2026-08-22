@@ -11,6 +11,7 @@ Site map and full content of every published article:
 ## The Authority Agent Operating System™
 
 - [The Authority Agent Operating System™ pillar page](https://kristamashore.ai/authority-agent-operating-system)
+- [How to Show Up in ChatGPT and Perplexity Search Results](https://kristamashore.ai/articles/show-up-in-chatgpt-perplexity-results) — You cannot force an AI assistant to recommend your business. You can make your expertise easier to understand, verify, and connect to the questions your next customer asks.
 - [What Is Answer Engine Optimization? AEO Explained Simply](https://kristamashore.ai/articles/what-is-answer-engine-optimization-aeo) — Answer engine optimization, or AEO, is the practice of making useful information easier for answer systems to understand and reference. This guide explains the idea without turning it into a technical mystery.
 - [How to Get ChatGPT to Recommend Your Business](https://kristamashore.ai/articles/how-to-get-chatgpt-to-recommend-your-business) — You cannot force ChatGPT to recommend your business. You can make your business easier to understand, verify, and cite when a buyer asks a relevant question.
 - [How to Use AI to Create a Clear One-Page Offer Brief](https://kristamashore.ai/articles/ai-one-page-offer-brief) — A one-page offer brief gives you a clear reference point for sales conversations, content, and follow-up. Here is a practical way to use AI to build one from what you already know about your business.
@@ -39,6 +40,7 @@ Site map and full content of every published article:
 ## The AI-Run Business
 
 - [The AI-Run Business pillar page](https://kristamashore.ai/ai-run-business)
+- [One-Person Business, Run by AI: What's Possible in 2026](https://kristamashore.ai/articles/one-person-business-run-by-ai) — A one-person business can use AI to carry repeatable work, but it cannot outsource trust. The practical model assigns preparation and follow-through to systems while the owner keeps judgment, conversations, and relationships.
 - [AI Voice Agents: Should AI Answer Your Business Phone?](https://kristamashore.ai/articles/ai-voice-agents-answer-business-phone) — An AI voice agent can help when missed calls and after-hours inquiries cost your business real opportunities. It can damage trust when callers don't know who is speaking or can't reach a person.
 - [How to Start Using AI in Your Business (Without Overwhelm)](https://kristamashore.ai/articles/how-to-start-using-ai-in-your-business) — The best way to start using AI in your business is to choose one repetitive task and test one simple workflow for two weeks. This guide gives you a practical starting sequence without a long tool list.
 - [Is My Business Data Safe With AI? What to Check First](https://kristamashore.ai/articles/is-my-business-data-safe-with-ai) — is my data safe with AI has a practical answer: assign repeatable work to AI and keep judgment human-led. This guide gives you a clear process you can review and repeat.
@@ -66,6 +68,7 @@ Site map and full content of every published article:
 ## Community Market Leaders®: AI for Real Estate & Lenders
 
 - [Community Market Leaders®: AI for Real Estate & Lenders pillar page](https://kristamashore.ai/community-market-leaders-ai)
+- [Speed to Lead: Using AI to Answer Every Lead in Minutes](https://kristamashore.ai/articles/speed-to-lead-ai-follow-up) — The best speed to lead system does not try to replace your sales conversation. It acknowledges interest, gathers the facts you need, and gets a qualified opportunity in front of you quickly.
 - [Will AI Replace Loan Officers? The 2026 Answer](https://kristamashore.ai/articles/will-ai-replace-loan-officers) — will AI replace loan officers has a practical answer: assign repeatable work to AI and keep judgment human-led. This guide gives you a clear process you can review and repeat.
 - [Will AI Replace Real Estate Agents? What's Real in 2026](https://kristamashore.ai/articles/will-ai-replace-real-estate-agents) — will AI replace real estate agents has a practical answer: assign repeatable work to AI and keep judgment human-led. This guide gives you a clear process you can review and repeat.
 - [Best AI Tools for Real Estate Agents in 2026](https://kristamashore.ai/articles/best-ai-tools-for-real-estate-agents) — best AI tools for real estate agents has a practical answer: assign repeatable work to AI and keep judgment human-led. This guide gives you a clear process you can review and repeat.
@@ -76,6 +79,8 @@ Site map and full content of every published article:
 ## Claude for Dummies: The AI Tools That Actually Matter
 
 - [Claude for Dummies: The AI Tools That Actually Matter pillar page](https://kristamashore.ai/claude-for-dummies)
+- [Which AI Should Your Business Use? ChatGPT, Claude, Gemini](https://kristamashore.ai/articles/which-ai-should-your-business-use) — The best AI assistant for your business is the one that fits the work you repeat. Compare ChatGPT, Claude, and Gemini by job, then keep the tools that help you finish better work.
+- [Claude Code for Non-Programmers: What It Actually Does](https://kristamashore.ai/articles/claude-code-for-non-programmers) — Claude Code can feel intimidating because it often opens in a terminal. For a business owner, the useful idea is simpler: it can inspect files, follow instructions, and help complete repeatable work with your review.
 - [Is Claude Worth Paying For? Free vs. Pro for Business Owners](https://kristamashore.ai/articles/is-claude-worth-paying-for-business) — Claude can be useful on a free plan, but a paid plan only makes sense when its added access supports work you already do. Use this break-even test before subscribing.
 - [Claude vs. ChatGPT for a Non-Technical Business Owner in 2026](https://kristamashore.ai/articles/claude-vs-chatgpt-non-technical-business-2026) — An honest, opinionated comparison of Claude and ChatGPT for a non-technical business owner in 2026. Pick one, master it, stop paying for both.
 - [Claude Skills: Build Your Brand Voice Skill Once and Reuse Forever](https://kristamashore.ai/articles/claude-skills-brand-voice-skill) — Anthropic introduced Claude Skills in 2025 and they're the missing layer most business owners don't know exists. Here's how to build your brand voice Skill first.
