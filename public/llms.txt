@@ -11,6 +11,8 @@ Site map and full content of every published article:
 ## The Authority Agent Operating System™
 
 - [The Authority Agent Operating System™ pillar page](https://kristamashore.ai/authority-agent-operating-system)
+- [What Is Generative Engine Optimization (GEO)?](https://kristamashore.ai/articles/what-is-generative-engine-optimization-geo) — A practical guide for one business owner. Start with a small workflow, review the output, and connect the next step to a real business goal.
+- [Why AI Assistants Recommend Your Competitor Instead of You](https://kristamashore.ai/articles/why-ai-recommends-your-competitor) — A practical guide for one business owner. Start with a small workflow, review the output, and connect the next step to a real business goal.
 - [How to Show Up in ChatGPT and Perplexity Search Results](https://kristamashore.ai/articles/show-up-in-chatgpt-perplexity-results) — You cannot force an AI assistant to recommend your business. You can make your expertise easier to understand, verify, and connect to the questions your next customer asks.
 - [What Is Answer Engine Optimization? AEO Explained Simply](https://kristamashore.ai/articles/what-is-answer-engine-optimization-aeo) — Answer engine optimization, or AEO, is the practice of making useful information easier for answer systems to understand and reference. This guide explains the idea without turning it into a technical mystery.
 - [How to Get ChatGPT to Recommend Your Business](https://kristamashore.ai/articles/how-to-get-chatgpt-to-recommend-your-business) — You cannot force ChatGPT to recommend your business. You can make your business easier to understand, verify, and cite when a buyer asks a relevant question.
@@ -40,6 +42,9 @@ Site map and full content of every published article:
 ## The AI-Run Business
 
 - [The AI-Run Business pillar page](https://kristamashore.ai/ai-run-business)
+- [The AI Adoption Numbers Business Owners Should Know (2026)](https://kristamashore.ai/articles/ai-adoption-statistics-business-2026) — A practical guide for one business owner. Start with a small workflow, review the output, and connect the next step to a real business goal.
+- [AI Appointment Scheduling: End the Booking Back-and-Forth](https://kristamashore.ai/articles/ai-appointment-scheduling-business) — A practical guide for one business owner. Start with a small workflow, review the output, and connect the next step to a real business goal.
+- [How to Automate Client Onboarding With AI](https://kristamashore.ai/articles/automate-client-onboarding-with-ai) — A practical guide for one business owner. Start with a small workflow, review the output, and connect the next step to a real business goal.
 - [One-Person Business, Run by AI: What's Possible in 2026](https://kristamashore.ai/articles/one-person-business-run-by-ai) — A one-person business can use AI to carry repeatable work, but it cannot outsource trust. The practical model assigns preparation and follow-through to systems while the owner keeps judgment, conversations, and relationships.
 - [AI Voice Agents: Should AI Answer Your Business Phone?](https://kristamashore.ai/articles/ai-voice-agents-answer-business-phone) — An AI voice agent can help when missed calls and after-hours inquiries cost your business real opportunities. It can damage trust when callers don't know who is speaking or can't reach a person.
 - [How to Start Using AI in Your Business (Without Overwhelm)](https://kristamashore.ai/articles/how-to-start-using-ai-in-your-business) — The best way to start using AI in your business is to choose one repetitive task and test one simple workflow for two weeks. This guide gives you a practical starting sequence without a long tool list.
