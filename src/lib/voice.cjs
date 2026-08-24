@@ -4,7 +4,6 @@
 const BANNED_PHRASES = [
   "leverage",
   "utilize",
-  "optimize",
   "transformative",
   "cutting-edge",
   "seamless",
