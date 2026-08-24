@@ -6,6 +6,14 @@
 //   "I want to make sure that even if they don't get back to you in time, it
 //    never inhibits the articles from being written and they get written anyway."
 //
+// REAFFIRMED 2026-08-24, in chat, verbatim (this is the line the auto-load
+// notice email below quotes):
+//   "no matter what, even if I don't approve, still make sure that the
+//    articles are created and posted on my blogs."
+// The floor moved 2 days -> 3 days (10 -> 15 topics at 5/day) the same day,
+// and a one-line notice email was added so an unattended auto-load is never
+// silent — see the EMAIL NOTICE block below.
+//
 // WHAT IT REPLACES. Until today the chain was fail-CLOSED: aeo-article-strategy-
 // refresh emailed a wave proposal, nothing entered the backlog until Krista
 // replied APPROVED, and run-codex-daily.sh threw "BACKLOG EMPTY" the morning the
@@ -17,7 +25,9 @@
 // data/blog/pending-wave.json whether or not anyone has replied. This script
 // runs at the top of every daily run and promotes topics out of the pending wave
 // into topic-backlog.json when the backlog can no longer cover the next batch.
-// Approval becomes a chance to EDIT the wave, not a gate that halts it.
+// Approval becomes an AMEND WINDOW — a chance to EDIT the wave (retroactively
+// pulling a topic she doesn't want, including one already auto-loaded) — never
+// a gate that halts it.
 //
 // WHAT IT DELIBERATELY DOES NOT DO. It never invents a topic. If there is no
 // pending wave to draw from it promotes nothing and exits 0, letting the
@@ -38,6 +48,8 @@
 
 const fs = require("fs");
 const path = require("path");
+const os = require("os");
+const { execFileSync } = require("child_process");
 
 const TITLE_MAX = 70;       // must match check-topic-backlog.cjs
 const META_TITLE_MAX = 60;  // must match check-topic-backlog.cjs
@@ -48,9 +60,10 @@ const argOf = (flag, dflt) => {
   return i >= 0 && argv[i + 1] ? Number(argv[i + 1]) : dflt;
 };
 const DAILY_TARGET = argOf("--target", Number(process.env.CODEX_DAILY_ARTICLE_COUNT) || 5);
-// Keep this many days of runway. 2 days means a promotion happens the run
-// BEFORE the backlog would have gone dry, never on the dry morning itself.
-const MIN_DAYS = argOf("--min-days", 2);
+// Keep this many days of runway. 3 days (raised from 2, Krista-directed
+// 2026-08-24) means a promotion happens with a full day of slack before the
+// backlog would have gone dry, never on the dry morning itself.
+const MIN_DAYS = argOf("--min-days", 3);
 
 const DATA = path.join(__dirname, "..", "data", "blog");
 const BACKLOG_PATH = path.join(DATA, "topic-backlog.json");
@@ -133,7 +146,7 @@ for (const t of pending) {
     status: "ready",
     autoLoaded: true,
     autoLoadedAt: new Date().toISOString(),
-    autoLoadedReason: `backlog runway fell to ${remaining.length} (floor ${floor}); promoted without waiting on approval per Krista 2026-08-20`,
+    autoLoadedReason: `backlog runway fell to ${remaining.length} (floor ${floor}); promoted without waiting on approval per Krista 2026-08-20, reaffirmed 2026-08-24`,
   });
 }
 
@@ -156,4 +169,74 @@ console.log(
 );
 for (const p of promoted) console.log(`[ensure-backlog]   + ${p.title}`);
 console.log(`[ensure-backlog] ${nextPending.length} topic(s) remain in the pending wave`);
+
+// EMAIL NOTICE (added 2026-08-24, Krista-directed in chat, verbatim quoted
+// below). An unattended auto-load must never be silent — this is the "one-line
+// notice" half of the amend-window model: the wave publishes without waiting
+// for a reply, but Krista still hears that it happened and can still amend it.
+// Pure code, no AI, matching the existing pure-code auto-send pattern used by
+// bethelocalpro-status and btlp-submission-notify (CLAUDE.md Core Preference 1).
+// At most one notice per calendar day per site, via a dated sentinel file, so a
+// site whose daily job runs more than once never double-emails.
+(() => {
+  const SENDER = path.join(os.homedir(), "Scripts", "kaia-send-email.sh");
+  if (!fs.existsSync(SENDER)) {
+    console.log("[ensure-backlog] notice skipped: kaia-send-email.sh not found");
+    return;
+  }
+  const today = new Date().toISOString().slice(0, 10);
+  const sentinelPath = path.join(DATA, ".last-autoload-notice");
+  const already = readJson(sentinelPath, null);
+  if (already && already.date === today) {
+    console.log(`[ensure-backlog] notice already sent today (${today}); skipping`);
+    return;
+  }
+  let siteName = path.basename(path.join(__dirname, ".."));
+  try {
+    siteName = require(path.join(__dirname, "..", "package.json")).name || siteName;
+  } catch { /* keep folder-name fallback */ }
+
+  const lines = [
+    `Backlog runway on ${siteName} dropped below the floor, so ${promoted.length} topic(s) ` +
+      `auto-loaded from the pending wave without waiting for a reply.`,
+    "",
+    `Per what you said in chat 2026-08-24: "no matter what, even if I don't approve, still ` +
+      `make sure that the articles are created and posted on my blogs."`,
+    "",
+    `Loaded (${promoted.length}):`,
+    ...promoted.map((p, i) => `${i + 1}. ${p.title}`),
+    "",
+    `Backlog is now ${remaining.length + promoted.length} ready/unpublished (floor was ${floor}).`,
+    nextPending.length
+      ? `${nextPending.length} topic(s) still sit in the pending wave, unloaded.`
+      : "Pending wave is now empty.",
+    "",
+    "Reply with any number to pull, change, or reword it, including one already loaded.",
+    "",
+    "- Kaia",
+  ];
+  const bodyPath = path.join(os.tmpdir(), `ensure-backlog-notice-${Date.now()}.txt`);
+  fs.writeFileSync(bodyPath, lines.join("\n") + "\n");
+  const subject = `${siteName}: ${promoted.length} topic(s) auto-loaded, backlog runway restored`;
+
+  let anySent = false;
+  for (const recip of ["doit@kristamashore.com", "socialmedia@kristamashore.com"]) {
+    try {
+      const out = execFileSync(SENDER, [recip, subject, bodyPath], { encoding: "utf8" });
+      if (/SENT_OK/.test(out)) {
+        anySent = true;
+        console.log(`[ensure-backlog] notice sent to ${recip}`);
+      } else {
+        console.log(`[ensure-backlog] notice send to ${recip} did not confirm SENT_OK: ${out.trim()}`);
+      }
+    } catch (e) {
+      console.log(`[ensure-backlog] notice send to ${recip} failed: ${e.message}`);
+    }
+  }
+  try { fs.unlinkSync(bodyPath); } catch { /* best effort cleanup */ }
+  if (anySent) {
+    fs.writeFileSync(sentinelPath, JSON.stringify({ date: today, promotedCount: promoted.length }, null, 2) + "\n");
+  }
+})();
+
 process.exit(0);

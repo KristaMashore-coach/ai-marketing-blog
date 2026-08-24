@@ -26,3 +26,4 @@ quarantine/
 data/blog/posts.*.bak.json
 krista-mashore-content-site-main/
 .codex-daily-context.json
+data/blog/.last-autoload-notice
