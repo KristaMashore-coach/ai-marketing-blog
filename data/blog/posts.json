@@ -1,5 +1,265 @@
 [
   {
+    "title": "How Many Reviews Do You Need for AI to Recommend You?",
+    "slug": "how-many-reviews-for-ai-to-recommend-you",
+    "metaTitle": "How Many Reviews Do You Need for AI Recommendations?",
+    "metaDescription": "Learn how many reviews you may need for AI recommendations, why recency and detail matter, and how to request honest feedback from customers.",
+    "excerpt": "There is no universal review count that guarantees an AI recommendation. A useful target is a steady, credible body of recent feedback that describes your actual work.",
+    "author": "Krista Mashore",
+    "topicalPillar": "authority-agent-operating-system",
+    "contentTypePillar": "proof-and-validation",
+    "funnelStage": "capture",
+    "keywords": [
+      "how many reviews do I need",
+      "review count for AI search",
+      "reviews and AI recommendations"
+    ],
+    "wordCount": 1014,
+    "readingMinutes": 5,
+    "featuredImage": {
+      "src": "/articles/hero/how-many-reviews-for-ai-to-recommend-you.svg",
+      "alt": "How many reviews a business needs for AI recommendations"
+    },
+    "faq": [
+      {
+        "question": "How many reviews do I need for AI to recommend me?",
+        "answer": "There is no guaranteed number. Public discussion of 2026 benchmarks often mentions roughly 150 or more reviews and averages around 4.2 to 4.7, but context, recency, detail, and consistency also matter."
+      },
+      {
+        "question": "Do older reviews still help?",
+        "answer": "They can provide history, but recent feedback helps show that the business is active and the experience is still relevant."
+      },
+      {
+        "question": "Should I ask customers for five-star reviews?",
+        "answer": "Ask for honest feedback about the completed experience rather than requesting a particular rating or scripted wording."
+      },
+      {
+        "question": "Can reviews alone make AI recommend a business?",
+        "answer": "No. Reviews support reputation, while service fit, location, clear pages, and consistent business facts complete the picture."
+      }
+    ],
+    "internalLinks": [
+      "how-ai-decides-which-business-to-recommend",
+      "be-the-person-ai-recommends",
+      "schema-markup-local-business-ai-era"
+    ],
+    "ctaUrl": "https://kristamashore.com/LevelUp",
+    "ctaLabel": "Learn the AI System",
+    "body": "<p><strong>There is no review count that guarantees an AI assistant will recommend your business.</strong> A reported 2026 benchmark conversation has placed rough attention around 150 or more reviews and an average in the 4.2 to 4.7 range, but those figures are not a rule. Treat them as reported research, not a promise, and remember that recency, detail, response quality, service fit, and location all shape the picture.</p><p>The better question is whether your reviews help a stranger understand the experience you create. Ten comments that name the problem, process, and outcome may tell a clearer story than a larger collection of one-line praise.</p><h2>Why review count is only one signal</h2><p>An assistant trying to answer a local recommendation question needs more than a number. It needs to know what you do and whether the person asking is a fit. Reviews can support that match by describing the actual service, the type of customer, and the location or situation involved.</p><p>That is why <a href=\"/articles/how-ai-decides-which-business-to-recommend\">the mechanism behind AI recommendations</a> matters. Reputation works alongside a clear website, a consistent business profile, and useful answers. A high count cannot repair a vague service description or contradictory location details.</p><h3>Volume suggests a pattern</h3><p>A body of reviews can show that customers have repeatedly chosen the business. More observations may make the reputation easier to interpret, but volume without context is limited. A long list of identical sentences does not explain what people trusted you to do.</p><h3>Recency suggests relevance</h3><p>Recent feedback helps a reader see that the business is active. If all your reviews are from years ago, a prospect may wonder whether the service, team, or process has changed. Keep inviting feedback as work is completed instead of treating reviews as a one-time campaign.</p><h3>Detail suggests usefulness</h3><p>Specific comments answer questions future customers already have. What was the customer trying to solve? What did you help with? What did the experience feel like? Encourage people to describe their own experience, but never write the words for them or promise a particular result.</p><h2>How to build a healthy review habit</h2><ol><li>Choose a natural moment after a project, appointment, or milestone is complete.</li><li>Ask whether the customer is willing to share honest feedback.</li><li>Give a direct link to the appropriate public review page.</li><li>Invite details about the problem solved and the experience received.</li><li>Thank the person whether the feedback is glowing, mixed, or critical.</li><li>Respond calmly and address legitimate concerns.</li></ol><p>Keep the request short. \"Would you share an honest review of your experience, including what you came in needing and what stood out?\" gives a customer room to answer in a real voice. Do not say that a five-star rating is required. Honest feedback protects your reputation better than a manufactured score.</p><h2>How to respond to reviews</h2><p>A response is another public signal about how you operate. Thank the person, mention a relevant detail when appropriate, and avoid exposing private information. For criticism, acknowledge the concern and offer a private route for resolving details. Do not argue with a customer in public or paste the same reply under every review.</p><p>Responses also help you notice patterns. If several people ask for the same explanation, turn that question into a helpful page. If customers repeatedly praise a clear part of your process, describe that process on your site without turning praise into an unsupported guarantee.</p><h2>What the benchmark numbers should and should not do</h2><p>Numbers can provide a sense of direction, but they should not become a race. The reported 150-plus figure does not mean a business with fewer reviews is invisible, and an average in a particular range does not mean every customer experience will be identical. Different industries, locations, platforms, and questions create different contexts.</p><p>Use any benchmark as a prompt to inspect your evidence. Do you have recent feedback? Does it explain your service? Is the business name and location consistent? Are you responding? The answers are more actionable than chasing a universal threshold.</p><p>The practical details of <a href=\"/articles/be-the-person-ai-recommends\">becoming the person AI recommends</a> include findability, consistency, usefulness, and verification. Reviews mainly support the last part, while your content and profiles support the first three.</p><h2>A review audit for a one-location business</h2><p>Make a simple table with the platform, review count, most recent review date, average rating, common services mentioned, and unanswered concerns. You do not need a complicated dashboard. The table helps you see whether your public reputation reflects the business you want to be known for.</p><p>Then compare those themes with your service pages. If reviews repeatedly mention help with a particular problem and your site never names that problem, you have a clarity gap. If your site promises a service no review or profile ever connects to your business, add useful explanation rather than inventing proof.</p><p>Technical clarity can support this work too. <a href=\"/articles/schema-markup-local-business-ai-era\">Local business schema basics</a> explains how to label accurate business facts. It will not create a rating or substitute for honest customer experience.</p><p>Build reviews as part of serving customers well. A consistent, specific, recent body of feedback gives people better information and gives assistants more context. It is a stronger goal than trying to hit one number and hoping the recommendation follows.</p><p>Keep this work connected to the customer experience. Review the page with a real question in mind, then ask whether the answer is direct, accurate, and easy to act on. Check the public facts whenever your service, location, hours, or contact path changes. Remove details that no longer fit. Add a short explanation when customers repeatedly ask for the same clarification. These small reviews keep your public information useful for people and readable for systems. They also give you a steady way to notice gaps before a prospect notices them first.</p><p>Use the same standard in every format. A post, profile, article, and conversation should point to the same real offer. When the wording changes, keep the meaning intact. Clear repetition is helpful when it confirms a fact; it is not helpful when it adds filler. Let each page answer one useful question and lead naturally to the next step.</p>",
+    "publishedDate": "2026-08-24T15:12:55.764Z",
+    "modifiedDate": "2026-08-24T15:12:55.764Z",
+    "draft": false
+  },
+  {
+    "title": "How to Be the Person AI Recommends When Someone Asks",
+    "slug": "be-the-person-ai-recommends",
+    "metaTitle": "How to Get AI to Recommend You to Prospects",
+    "metaDescription": "Learn how to get AI to recommend you by becoming findable, consistent, useful, and verifiable when prospects ask for expert help.",
+    "excerpt": "You cannot command an assistant to recommend you. You can make your expertise easier to find, understand, match to a question, and verify.",
+    "author": "Krista Mashore",
+    "topicalPillar": "authority-agent-operating-system",
+    "contentTypePillar": "process-and-differentiation",
+    "funnelStage": "authority",
+    "keywords": [
+      "how to get AI to recommend you",
+      "be recommended by AI",
+      "AEO for experts",
+      "answer engine optimization"
+    ],
+    "wordCount": 960,
+    "readingMinutes": 4,
+    "featuredImage": {
+      "src": "/articles/hero/be-the-person-ai-recommends.svg",
+      "alt": "How to be the person AI recommends"
+    },
+    "faq": [
+      {
+        "question": "How do I get AI to recommend me?",
+        "answer": "Make your expertise clear on public pages, keep business facts consistent, answer real questions well, and build honest evidence of your work."
+      },
+      {
+        "question": "What does AEO mean for an expert?",
+        "answer": "It means organizing useful answers so an assistant can understand the question, your point of view, and the evidence behind it."
+      },
+      {
+        "question": "Can I guarantee an AI recommendation?",
+        "answer": "No. Recommendations depend on the question, context, available sources, and the assistant's own process."
+      },
+      {
+        "question": "Do I need to publish every day?",
+        "answer": "No. A steady set of focused, genuinely useful answers is more valuable than a daily stream with no clear purpose."
+      }
+    ],
+    "internalLinks": [
+      "how-ai-decides-which-business-to-recommend",
+      "schema-markup-local-business-ai-era",
+      "is-seo-dead-2026-what-replaced-it",
+      "how-many-reviews-for-ai-to-recommend-you"
+    ],
+    "ctaUrl": "https://kristamashore.com/LevelUp",
+    "ctaLabel": "Learn the AI System",
+    "body": "<p><strong>To become the person AI recommends, make four things easy to see: what you do, who you help, which question you answer best, and what supports your claim.</strong> You cannot force a recommendation. You can build a public record that gives an assistant a clear and honest reason to connect you with the right person.</p><p>That is answer engine optimization in plain language. It is not a secret phrase or a special badge. It is the discipline of explaining your expertise so a human can use it and a machine can interpret it.</p><h2>Be findable</h2><p>Use the words your customer uses. If you help independent agents build follow-up systems, say that. If you coach local service owners, say which owners and what problem you solve. Your homepage, service pages, profile, and articles should make the basic answer visible without a scavenger hunt.</p><p>Create pages around real questions. A prospect may wonder how to follow up with a lead, how to choose an AI tool, or how to create content that brings a conversation. Answer the question in the first paragraph, then explain your approach and the limits of the answer.</p><p>The article <a href=\"/articles/how-ai-decides-which-business-to-recommend\">how AI decides which business to recommend</a> gives the mechanism behind this step. The assistant needs a recognizable match before it can make a useful suggestion.</p><h2>Be consistent</h2><p>Review every public place where your business appears. Does the name match? Is the phone number current? Do the services and service area agree? Is your audience described in a similar way? A person can ask you to clarify a small mismatch. A machine may simply have less confidence in the connection.</p><p>Keep a one-page source of truth with your business name, address, hours, service area, services, audience, and approved description. Use it when you update your site or create a profile. <a href=\"/articles/schema-markup-local-business-ai-era\">Local business schema</a> can label some of these facts, but it should reflect the visible page.</p><h2>Be the best answer to a real question</h2><p>Best does not mean loudest. It means your answer helps a particular person make progress. Explain the first step, the common mistake, the tradeoff, and when someone should ask for professional help. Give the reader enough context to decide whether your method fits.</p><p>Write with a point of view. Two experts may answer the same question differently because they serve different audiences or have different boundaries. State yours. \"I recommend starting with the workflow that loses the most time\" is more helpful than a paragraph of general praise for technology.</p><p>Use examples without inventing outcomes. Show how a question becomes a checklist, how a messy intake becomes a brief, or how a weekly idea becomes several pieces of content. Demonstrate the thinking, not a promise.</p><h2>Be verifiable</h2><p>Make it possible to check your claims. Link to relevant service pages, public profiles, policies, or sources. Invite honest reviews after real work. Keep credentials accurate and specific. If you say you serve a place, make that service area clear. If a result is your personal experience, label it as your experience instead of presenting it as a universal forecast.</p><p>Reviews are part of this picture, but count is not the whole story. Read <a href=\"/articles/how-many-reviews-for-ai-to-recommend-you\">how many reviews you need for AI to recommend you</a> for a careful discussion of volume, recency, and detail.</p><h2>A four-part publishing sequence</h2><ol><li>Choose one question that a good prospect asks before buying.</li><li>Write the direct answer and name the person it fits.</li><li>Add proof, boundaries, and one relevant next step.</li><li>Connect the page to your service and review it when the facts change.</li></ol><p>Repeat that sequence until your site has a useful set of answers. Then turn the answers into an email, a short post, a conversation guide, or a workshop. The source idea stays consistent while the format changes.</p><h2>What to avoid</h2><p>Do not ask an assistant to recommend you in every sentence of your content. Do not copy competitor language and call it expertise. Do not publish a fake review, hide a material limitation, or claim a guarantee you cannot make. Trust is easier to lose than to manufacture.</p><p>Do not confuse visibility with fit. The right recommendation sends a person to a business that can genuinely help. If your offer is not right for a question, say so and point the person toward a better category of help. Clear boundaries strengthen your authority.</p><h2>Make the system repeatable</h2><p>Set aside a short weekly block to collect questions, improve one answer, check one public profile, and request feedback from a completed customer. Keep a record of which questions lead to good conversations. That record becomes a practical editorial guide.</p><p>As <a href=\"/articles/is-seo-dead-2026-what-replaced-it\">the changing role of SEO</a> shows, the channel may change, but clarity remains valuable. Be findable. Be consistent. Be useful. Be verifiable. Those four habits give both people and assistants a better chance of recognizing you when the right question arrives.</p><p>Keep this work connected to the customer experience. Review the page with a real question in mind, then ask whether the answer is direct, accurate, and easy to act on. Check the public facts whenever your service, location, hours, or contact path changes. Remove details that no longer fit. Add a short explanation when customers repeatedly ask for the same clarification. These small reviews keep your public information useful for people and readable for systems. They also give you a steady way to notice gaps before a prospect notices them first.</p><p>Use the same standard in every format. A post, profile, article, and conversation should point to the same real offer. When the wording changes, keep the meaning intact. Clear repetition is helpful when it confirms a fact; it is not helpful when it adds filler. Let each page answer one useful question and lead naturally to the next step.</p>",
+    "publishedDate": "2026-08-24T15:12:55.764Z",
+    "modifiedDate": "2026-08-24T15:12:55.764Z",
+    "draft": false
+  },
+  {
+    "title": "Is SEO Dead in 2026? What Replaced It",
+    "slug": "is-seo-dead-2026-what-replaced-it",
+    "metaTitle": "Is SEO Dead in 2026? What Changed",
+    "metaDescription": "Is SEO dead in 2026? Get a fair answer, see what still works, and learn how cited AI answers add a new layer to your visibility plan.",
+    "excerpt": "SEO is not dead, but the place where people discover answers is changing. Your plan now needs helpful pages that can earn attention in search results and cited assistant answers.",
+    "author": "Krista Mashore",
+    "topicalPillar": "authority-agent-operating-system",
+    "contentTypePillar": "problem-solving",
+    "funnelStage": "resonance",
+    "keywords": [
+      "is SEO dead 2026",
+      "SEO vs AEO",
+      "does SEO still matter",
+      "future of SEO"
+    ],
+    "wordCount": 910,
+    "readingMinutes": 4,
+    "featuredImage": {
+      "src": "/articles/hero/is-seo-dead-2026-what-replaced-it.svg",
+      "alt": "Is SEO dead in 2026"
+    },
+    "faq": [
+      {
+        "question": "Is SEO dead in 2026?",
+        "answer": "No. Search visibility still depends on clear, useful, accessible pages, while AI answer surfaces add another way people discover businesses."
+      },
+      {
+        "question": "What is SEO vs AEO?",
+        "answer": "SEO helps pages be found in search systems; AEO focuses on making direct answers clear enough to be selected or cited in answer experiences."
+      },
+      {
+        "question": "What stopped working as well?",
+        "answer": "Thin pages, vague claims, keyword repetition, and content made only to attract clicks are poor foundations for either readers or assistants."
+      },
+      {
+        "question": "What should a small business do first?",
+        "answer": "Answer one real customer question clearly, connect it to a service, and keep your public business facts consistent."
+      }
+    ],
+    "internalLinks": [
+      "how-ai-decides-which-business-to-recommend",
+      "schema-markup-local-business-ai-era",
+      "be-the-person-ai-recommends",
+      "how-many-reviews-for-ai-to-recommend-you"
+    ],
+    "ctaUrl": "https://kristamashore.com/LevelUp",
+    "ctaLabel": "Learn the AI System",
+    "body": "<p><strong>No, SEO is not dead in 2026. The work has expanded from helping a page appear in a list of links to helping a business become a clear, trusted answer across search and conversational experiences.</strong> The fundamentals still matter: useful information, a crawlable page, clear language, and a real match between the content and the question.</p><p>What changed is the moment after discovery. A person may read several results, or may ask an assistant to summarize options. That makes answer quality and supporting evidence more important. It does not make the underlying web page irrelevant. An answer needs material to interpret and, when it cites sources, pages worth citing.</p><h2>What still works</h2><p>Start with customer questions that are close to a decision. \"How do I choose a real estate agent in my area?\" is more useful than a page repeating \"best real estate agent\" dozens of times. Answer the question directly, explain the tradeoffs, and say who your guidance fits.</p><p>Make each page about one clear job. A service page should explain the service, the problem, the process, and the next step. A question page should answer the question before asking the reader to buy. Readers can tell when a page is written for them and when it is written only to capture a phrase.</p><p>Your public facts matter as well. Your name, location, services, contact details, and audience should agree across your website and profiles. <a href=\"/articles/schema-markup-local-business-ai-era\">Schema markup for local business</a> can label those facts, but labeling cannot replace accurate content.</p><h2>What stopped being a good foundation</h2><h3>Keyword repetition</h3><p>Using a phrase naturally helps a reader understand the topic. Repeating it in every heading makes the page tiring and can blur the actual answer. Use related language people use in real conversations, then focus on completing the reader's task.</p><h3>Thin location pages</h3><p>Changing a city name on the same paragraph does not create local expertise. A useful local page includes relevant service boundaries, customer questions, examples of the type of work, and accurate contact details. If you do not serve an area, do not imply that you do.</p><h3>Generic AI writing</h3><p>AI can help you outline, edit, and repurpose ideas. It still needs your judgment. Add the distinctions you have learned from serving your audience, remove claims you cannot support, and make the next step clear. The goal is not more text. It is more useful text.</p><h2>Where AEO fits</h2><p>Answer engine optimization, or AEO, is a useful name for writing and organizing information so an answer system can understand it. It starts with a direct answer, then gives context, boundaries, and evidence. Use descriptive headings and short sections. Define terms before using them. Link to the page that supports an important claim.</p><p>In <a href=\"/articles/how-ai-decides-which-business-to-recommend\">how AI decides which local business to recommend</a>, I describe the practical signals assistants need: service fit, location fit, consistent facts, and reputation. AEO does not replace SEO. It gives those fundamentals a conversational use case.</p><h2>A practical visibility plan for one person</h2><ol><li>List five questions your best prospects ask before they contact you.</li><li>Choose one question and write a direct, complete answer.</li><li>Connect that answer to one relevant service page.</li><li>Check your name, location, hours, services, and contact information across profiles.</li><li>Invite honest customer feedback about completed work.</li><li>Review the page every few months and update it when the facts change.</li></ol><p>This plan works because it creates assets that serve more than one channel. A useful article can appear in search, help a person decide, give your sales conversation a starting point, and provide source material for a short video or email. One clear idea can do several jobs without becoming a pile of disconnected posts.</p><h2>How to measure progress without guessing</h2><p>Do not judge the whole plan by one ranking or one assistant response. Look for better questions from prospects, more qualified visits to service pages, direct mentions of your useful answers, and fewer explanations you have to repeat. Keep notes on what people ask and update your content around those patterns.</p><p>Also give the work time to become a body of evidence. A single page rarely explains an entire business. Several focused pages can show what you know, who you help, and where your boundaries are. That is why <a href=\"/articles/be-the-person-ai-recommends\">being the person AI recommends</a> is a process of clarity and proof, not a one-time trick.</p><p>SEO is still the base layer. AEO is an added way to think about the same responsibility: publish the clearest answer you can, make the facts verifiable, and help the right person decide what to do next.</p><p>Keep this work connected to the customer experience. Review the page with a real question in mind, then ask whether the answer is direct, accurate, and easy to act on. Check the public facts whenever your service, location, hours, or contact path changes. Remove details that no longer fit. Add a short explanation when customers repeatedly ask for the same clarification. These small reviews keep your public information useful for people and readable for systems. They also give you a steady way to notice gaps before a prospect notices them first.</p><p>Use the same standard in every format. A post, profile, article, and conversation should point to the same real offer. When the wording changes, keep the meaning intact. Clear repetition is helpful when it confirms a fact; it is not helpful when it adds filler. Let each page answer one useful question and lead naturally to the next step.</p>",
+    "publishedDate": "2026-08-24T15:12:55.764Z",
+    "modifiedDate": "2026-08-24T15:12:55.764Z",
+    "draft": false
+  },
+  {
+    "title": "Schema Markup for Local Business: The AI-Era Basics",
+    "slug": "schema-markup-local-business-ai-era",
+    "metaTitle": "Schema Markup for Local Business: Simple Basics",
+    "metaDescription": "Understand schema markup for local business and learn which facts to label so search engines and AI assistants can read your company clearly.",
+    "excerpt": "Schema markup is a way to label the facts already on your site. Learn what local businesses should clarify, what markup cannot do, and where to begin.",
+    "author": "Krista Mashore",
+    "topicalPillar": "authority-agent-operating-system",
+    "contentTypePillar": "educational-authority",
+    "funnelStage": "authority",
+    "keywords": [
+      "schema markup for local business",
+      "LocalBusiness schema",
+      "structured data for AI search"
+    ],
+    "wordCount": 957,
+    "readingMinutes": 4,
+    "featuredImage": {
+      "src": "/articles/hero/schema-markup-local-business-ai-era.svg",
+      "alt": "Schema markup for local business"
+    },
+    "faq": [
+      {
+        "question": "What is schema markup for local business?",
+        "answer": "It is structured data that labels visible business facts such as name, address, hours, services, and contact details."
+      },
+      {
+        "question": "Does schema markup guarantee an AI recommendation?",
+        "answer": "No. It can clarify facts, but it cannot replace useful content, accurate profiles, or genuine reputation evidence."
+      },
+      {
+        "question": "What is LocalBusiness schema?",
+        "answer": "LocalBusiness is a structured data type used to describe a local organization and relevant details when those details are accurate and visible."
+      },
+      {
+        "question": "Should every business add every schema field?",
+        "answer": "No. Add only accurate details that match the page and your real business."
+      }
+    ],
+    "internalLinks": [
+      "how-ai-decides-which-business-to-recommend",
+      "is-seo-dead-2026-what-replaced-it",
+      "be-the-person-ai-recommends"
+    ],
+    "ctaUrl": "https://kristamashore.com/LevelUp",
+    "ctaLabel": "Learn the AI System",
+    "body": "<p><strong>Schema markup for local business is a method for labeling facts so a machine can read them with less guesswork.</strong> It does not make a weak business look credible, and it does not guarantee a search result or AI recommendation. It gives your accurate, visible information a clearer structure.</p><p>Imagine handing a new employee a folder of business information. A paragraph might mention your name, address, hours, services, and phone number in different places. Labels on each item would make the folder easier to use. Schema markup supplies those labels for software that reads web pages.</p><h2>What local business schema can clarify</h2><p>The most useful starting point is the identity of your business. Your site can identify the organization name, public URL, logo, phone number, physical address, and service area when those details are true and displayed on the page. It can also describe opening hours and links to profiles that genuinely represent the same business.</p><p>Service information matters too. If you provide coaching, lending, photography, or home services, the page should first explain that service in plain language. A label cannot repair an unclear offer. The markup should describe what the reader can already see, not introduce a hidden claim.</p><p>For the wider mechanism, read <a href=\"/articles/how-ai-decides-which-business-to-recommend\">how AI decides which local business to recommend</a>. The key lesson is that structured data is one clarity signal among several.</p><h2>What markup changes, and what it does not</h2><h3>It can reduce ambiguity</h3><p>A labeled address is easier to distinguish from an address mentioned in a customer story. A labeled phone number is easier to associate with the business than a number in an unrelated footer. Clear relationships give a system better material to interpret.</p><h3>It cannot create proof</h3><p>Schema does not create reviews, expertise, or a good customer experience. It cannot make an unsupported award true. It cannot make a service available in a location you do not serve. The facts need to exist first, and they need to match across your public presence.</p><h3>It cannot force a result</h3><p>Search engines and assistants decide how to use information. A markup implementation may be valid and still not produce a special display. Treat it as clear labeling, not a promise of traffic.</p><h2>The facts worth checking before you add it</h2><ol><li>Write down your exact business name and public website.</li><li>Confirm your real address, service area, phone number, and hours.</li><li>List the core services you actually offer.</li><li>Choose one accurate description of your audience.</li><li>Check that the same facts appear consistently on your site and profiles.</li></ol><p>For a one-location business, consistency is especially practical. If your profile says you serve one city but your pages list many unrelated areas, decide what is accurate. If your hours changed, update the source page first. Markup should follow the truth.</p><h2>Common schema mistakes</h2><p>The first mistake is adding fields because they sound impressive. Do not add a rating, price range, review, or credential unless it is accurate, allowed for the context, and supported by visible information. More fields do not automatically create a better description.</p><p>The second mistake is copying a template without changing its details. A copied address, phone number, or service type can create a worse signal than having no structured data. Review every field as if a customer were about to use it.</p><p>The third mistake is treating code as the whole local search plan. Your pages still need direct answers, descriptive headings, useful service explanations, and an easy next step. The article <a href=\"/articles/is-seo-dead-2026-what-replaced-it\">is SEO dead in 2026?</a> explains why those fundamentals still matter when people receive answers through new surfaces.</p><h2>How to make the technical work manageable</h2><p>You do not need to memorize every property to make a sensible first pass. Ask whoever manages your site to use the official vocabulary for your business type, connect it to the correct page, and test that the data describes visible facts. Keep a copy of the facts in a simple business reference document so future pages use the same wording.</p><p>After a site change, inspect the page as a customer would. Is the location clear? Is the service clear? Does the phone number work? Does the page say who should contact you? Technical labels work best when the human page is already useful.</p><h2>Use markup as part of a larger authority system</h2><p>Clear labeling supports the larger task of becoming easy to understand and verify. <a href=\"/articles/be-the-person-ai-recommends\">Being the person AI recommends</a> also requires a consistent public identity and strong answers to real questions. Reviews, profiles, and service pages should tell the same story because they are parts of one public record.</p><p>Start with one important page and a short list of true facts. Improve the page, label those facts carefully, and review it when the business changes. That steady practice is more valuable than adding a complicated block of code you cannot maintain.</p><p>Keep this work connected to the customer experience. Review the page with a real question in mind, then ask whether the answer is direct, accurate, and easy to act on. Check the public facts whenever your service, location, hours, or contact path changes. Remove details that no longer fit. Add a short explanation when customers repeatedly ask for the same clarification. These small reviews keep your public information useful for people and readable for systems. They also give you a steady way to notice gaps before a prospect notices them first.</p><p>Use the same standard in every format. A post, profile, article, and conversation should point to the same real offer. When the wording changes, keep the meaning intact. Clear repetition is helpful when it confirms a fact; it is not helpful when it adds filler. Let each page answer one useful question and lead naturally to the next step.</p>",
+    "publishedDate": "2026-08-24T15:12:55.764Z",
+    "modifiedDate": "2026-08-24T15:12:55.764Z",
+    "draft": false
+  },
+  {
+    "title": "How AI Decides Which Local Business to Recommend",
+    "slug": "how-ai-decides-which-business-to-recommend",
+    "metaTitle": "How Does AI Choose Businesses to Recommend?",
+    "metaDescription": "Learn how AI assistants choose local businesses by comparing your website, business profile, reviews, and clear evidence across the web.",
+    "excerpt": "AI recommendations usually come from a pattern of consistent, useful evidence rather than one magic ranking switch. Here is what a one-location business can make easier for an assistant to understand.",
+    "author": "Krista Mashore",
+    "topicalPillar": "authority-agent-operating-system",
+    "contentTypePillar": "educational-authority",
+    "funnelStage": "attention",
+    "keywords": [
+      "how does AI choose businesses to recommend",
+      "how ChatGPT picks businesses",
+      "AI recommendation factors"
+    ],
+    "wordCount": 1096,
+    "readingMinutes": 5,
+    "featuredImage": {
+      "src": "/articles/hero/how-ai-decides-which-business-to-recommend.svg",
+      "alt": "How AI decides which local business to recommend"
+    },
+    "faq": [
+      {
+        "question": "How does AI choose businesses to recommend?",
+        "answer": "It compares the question with information it can find about a business, including its services, location, reputation, and evidence of fit."
+      },
+      {
+        "question": "Does a website alone make AI recommend a business?",
+        "answer": "No. A clear website helps, but consistency across the business profile, reviews, and other credible references makes the picture easier to trust."
+      },
+      {
+        "question": "What should a one-location business do first?",
+        "answer": "Write clear service pages, keep business details consistent, and answer the real questions customers ask before they call."
+      },
+      {
+        "question": "Can a business guarantee an AI recommendation?",
+        "answer": "No. You can make your facts and proof easier to find and understand, but no assistant should be promised to recommend you every time."
+      }
+    ],
+    "internalLinks": [
+      "schema-markup-local-business-ai-era",
+      "is-seo-dead-2026-what-replaced-it",
+      "be-the-person-ai-recommends",
+      "how-many-reviews-for-ai-to-recommend-you"
+    ],
+    "ctaUrl": "https://kristamashore.com/LevelUp",
+    "ctaLabel": "Learn the AI System",
+    "body": "<p><strong>AI assistants choose a local business by matching a person's question with consistent facts, services, location signals, and reputation evidence.</strong> There is no single sentence you can add to your homepage that forces a recommendation. The practical job is to make your business the clearest answer to a specific need.</p><p>Think of an assistant as trying to assemble a useful answer quickly. Someone asks for a local photographer, lender, coach, or contractor. The assistant has to understand what each business does, where it works, who it serves, and whether public evidence supports the description. If your information is vague or contradictory, the assistant has less confidence in the match.</p><h2>The four signals an assistant needs to understand</h2><h3>1. A clear service match</h3><p>Your site should say what you do in ordinary language. Business growth solutions leaves too much room for interpretation. AI follow-up systems for independent real estate agents gives a reader and a machine a much stronger starting point. Create a page for each meaningful service, explain the problem it addresses, and state who it is for.</p><p>Answer the question behind the search. A prospective client may not ask for your named program. They may ask how to respond to leads after business hours, how to create a weekly content plan, or how to follow up without sounding pushy. Useful answers show the connection between the question and your offer.</p><h3>2. A local and audience match</h3><p>State your service area plainly. Include the city, region, or market you actually serve, along with any boundaries that matter. If you work remotely, explain that too. A business profile that says one location while the website suggests a dozen unrelated service areas creates needless uncertainty.</p><p>Be equally specific about the customer. For small businesses is broad. For solo coaches who need a repeatable lead follow-up process helps the right person recognize the fit. Specificity does not shrink your authority. It gives your authority a shape that can be matched to a question.</p><h3>3. Consistent facts</h3><p>Compare your website, business profile, social profiles, directory listings, and review pages. The business name, phone number, address, hours, service description, and links should agree. Small differences are common, but major conflicts make your public identity harder to assemble.</p><p>This is where <a href=\"/articles/schema-markup-local-business-ai-era\">schema markup for local business</a> can help label important facts in a machine-readable way. Structured data does not replace good writing or customer service. It supports the plain-language information already on the page.</p><h3>4. Evidence from other people</h3><p>Reputation gives context to your claims. Reviews can show the type of problem you solve, the experience customers had, and the places or services connected to that experience. Ask for honest feedback after a completed engagement, and make it easy for a customer to describe the outcome in their own words.</p><p>Do not manufacture reviews or ask people to repeat a script. A smaller set of specific, genuine comments is more useful than a pile of identical praise. For a practical discussion of review volume and recency, read <a href=\"/articles/how-many-reviews-for-ai-to-recommend-you\">how many reviews you need for AI recommendations</a>.</p><h2>What this means for your weekly marketing</h2><p>Start with one customer question each week. Write a direct answer, add a short example, explain who the answer fits, and link to the service that helps. Then review the answer for clarity. Could a stranger tell what you do, where you do it, and why the answer is credible?</p><p>Next, check the same topic across your public profiles. If your website calls you an AI business coach but your profile only says consultant, decide which description is accurate and use it consistently. Keep a simple list of your core services, service area, audience, and proof so every new page starts from the same facts.</p><p>This approach also explains why <a href=\"/articles/is-seo-dead-2026-what-replaced-it\">SEO still matters even as answer surfaces change</a>. Search visibility, readable pages, and trustworthy references remain useful because assistants need material to interpret. The surface may be a conversational answer instead of a results page, but clear information still does the heavy lifting.</p><h2>What AI cannot know from a vague website</h2><p>An assistant cannot reliably infer your ideal customer from a polished logo. It cannot turn a list of broad promises into a precise service match. It should not assume that a testimonial proves every claim you make. If the important detail lives only in your head, a private conversation, or a buried image, it is difficult for a public answer to represent you accurately.</p><p>Make the important facts visible. Use descriptive headings. Put the service area near the service explanation. Explain your process without pretending it guarantees a result. Add an author page and contact details that match the rest of your presence. These are small acts of clarity, but they compound across every question you hope to answer.</p><h2>A simple recommendation-readiness check</h2><ol><li>Choose three questions your best customers ask before contacting you.</li><li>Confirm that one page answers each question directly.</li><li>Check that your business name, location, services, and contact details agree everywhere you control.</li><li>Collect honest feedback that describes real work and real customer needs.</li><li>Refresh old pages when your offer or service area changes.</li></ol><p>Then ask a colleague to describe your business after reading only your homepage and profile. If their description differs from yours, that gap is the work. You are not trying to sound bigger. You are making the truth easier to recognize.</p><p>That is the heart of <a href=\"/articles/be-the-person-ai-recommends\">being the person AI recommends</a>: be findable, be consistent, answer a real question well, and support the claim with evidence. No tactic guarantees a mention. A clear, useful public record gives an assistant a fair chance to connect the right customer with your business.</p><p>Keep this work connected to the customer experience. Review the page with a real question in mind, then ask whether the answer is direct, accurate, and easy to act on. Check the public facts whenever your service, location, hours, or contact path changes. Remove details that no longer fit. Add a short explanation when customers repeatedly ask for the same clarification. These small reviews keep your public information useful for people and readable for systems. They also give you a steady way to notice gaps before a prospect notices them first.</p><p>Use the same standard in every format. A post, profile, article, and conversation should point to the same real offer. When the wording changes, keep the meaning intact. Clear repetition is helpful when it confirms a fact; it is not helpful when it adds filler. Let each page answer one useful question and lead naturally to the next step.</p>",
+    "publishedDate": "2026-08-24T15:12:55.764Z",
+    "modifiedDate": "2026-08-24T15:12:55.764Z",
+    "draft": false
+  },
+  {
     "title": "What Is Generative Engine Optimization (GEO)?",
     "slug": "what-is-generative-engine-optimization-geo",
     "metaTitle": "What Is Generative Engine Optimization (GEO)?",
