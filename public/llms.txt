@@ -11,6 +11,8 @@ Site map and full content of every published article:
 ## The Authority Agent Operating System™
 
 - [The Authority Agent Operating System™ pillar page](https://kristamashore.ai/authority-agent-operating-system)
+- [Reviews Are Why AI Recommends Them and Not You](https://kristamashore.ai/articles/reviews-are-why-ai-recommends-them) — If AI keeps naming competitors, the problem may be less about visibility and more about evidence. Reviews show what customers experienced and how your business solves a real problem.
+- [Google Business Profile in 2026: The AI Checklist](https://kristamashore.ai/articles/google-business-profile-2026-ai-checklist) — Your Google Business Profile is a public explanation of who you help, where you work, and what customers can expect. Review the basics before chasing advanced tactics.
 - [How Many Reviews Do You Need for AI to Recommend You?](https://kristamashore.ai/articles/how-many-reviews-for-ai-to-recommend-you) — There is no universal review count that guarantees an AI recommendation. A useful target is a steady, credible body of recent feedback that describes your actual work.
 - [How to Be the Person AI Recommends When Someone Asks](https://kristamashore.ai/articles/be-the-person-ai-recommends) — You cannot command an assistant to recommend you. You can make your expertise easier to find, understand, match to a question, and verify.
 - [Is SEO Dead in 2026? What Replaced It](https://kristamashore.ai/articles/is-seo-dead-2026-what-replaced-it) — SEO is not dead, but the place where people discover answers is changing. Your plan now needs helpful pages that can earn attention in search results and cited assistant answers.
@@ -30,6 +32,7 @@ Site map and full content of every published article:
 ## AI Content to Client System
 
 - [AI Content to Client System pillar page](https://kristamashore.ai/ai-content-to-client-system)
+- [How to Ask for Reviews Without Being Awkward](https://kristamashore.ai/articles/how-to-ask-for-reviews-without-being-awkward) — The easiest way to ask for a review is to connect the request to a moment when your client already feels helped. Use simple words, make the next step clear, and give people room to say no.
 - [How to Use AI for Social Media Content That Gets Clients](https://kristamashore.ai/articles/ai-social-media-content-for-clients) — AI can help you create social media content faster, but volume alone won't create demand. Build each post around one audience, one problem, and one next step.
 - [Why AI Content Sounds Like AI (and How to Fix Yours)](https://kristamashore.ai/articles/why-ai-content-sounds-like-ai) — AI writing often feels robotic because the request gives the tool a topic but not a point of view. Fix the input, then edit for specificity, stakes, and the way you actually speak.
 - [How to Use AI to Plan a Client Renewal Conversation](https://kristamashore.ai/articles/ai-client-renewal-conversation-plan) — A completed project should not be the last useful conversation you have with a client. Learn how to use AI to review the work, find the next logical need, and prepare a renewal message that still sounds like you.
@@ -47,6 +50,8 @@ Site map and full content of every published article:
 ## The AI-Run Business
 
 - [The AI-Run Business pillar page](https://kristamashore.ai/ai-run-business)
+- [How to Handle a Bad Review in the AI Era](https://kristamashore.ai/articles/how-to-handle-a-bad-review) — A bad review feels personal, but your reply is for two audiences: the customer who is upset and the people deciding whether to trust you. Respond with facts, care, and a clear next step.
+- [Should You Use AI to Reply to Your Reviews?](https://kristamashore.ai/articles/should-you-use-ai-to-reply-to-reviews) — AI can help you draft review responses, but it should not replace judgment or your voice. Use it for speed, then edit every reply so the customer feels seen.
 - [The AI Adoption Numbers Business Owners Should Know (2026)](https://kristamashore.ai/articles/ai-adoption-statistics-business-2026) — A practical guide for one business owner. Start with a small workflow, review the output, and connect the next step to a real business goal.
 - [AI Appointment Scheduling: End the Booking Back-and-Forth](https://kristamashore.ai/articles/ai-appointment-scheduling-business) — A practical guide for one business owner. Start with a small workflow, review the output, and connect the next step to a real business goal.
 - [How to Automate Client Onboarding With AI](https://kristamashore.ai/articles/automate-client-onboarding-with-ai) — A practical guide for one business owner. Start with a small workflow, review the output, and connect the next step to a real business goal.
