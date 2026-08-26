@@ -179,6 +179,61 @@ for (const t of items) {
   }
 }
 
+// --- Wave diversity gate (added 2026-08-24, Krista-directed) --------------
+// Her words, in chat: "I never want you to do a whole 40 articles on one
+// topic. You should always mix everything up."
+//
+// Wave 8 was 32 of 40 (80%) in a single pillar, real-estate-coaching, on a
+// blog whose backlog was already 52% that pillar. Concentrating a whole wave
+// on one cluster is also WHY the invented titles happened: once a cluster's
+// real head queries are published, the only way to keep filling a 40-slot
+// wave from it is to make things up. Diversity is not a style preference
+// here, it is the structural defence against the same failure returning.
+//
+// Composition is measured across EVERY topic in the wave, regardless of
+// status or whether it has published, so a wave does not drift into
+// violation just because its non-dominant topics happened to publish first.
+//
+// NON-FATAL ON PURPOSE. This reports as a loud note, never an error. A wave
+// is already LOADED by the time this file sees it, and hard-failing loaded
+// content is precisely the deadlock this whole script exists to prevent:
+// nothing publishes, the backlog never advances, and the same wave fails
+// again tomorrow. Enforcement belongs at COMPOSITION time, in
+// aeo-article-strategy-refresh Step 5/6, where rebalancing is free. Same
+// reasoning as the banned-phrase branch above, which is an error only for
+// assignable topics and a note otherwise.
+const MAX_PILLAR_SHARE = 0.4;   // no single pillar past 40% of a wave
+const MIN_PILLARS = 3;          // a wave spans at least three clusters
+const MIN_WAVE_FOR_DIVERSITY = 10;  // too small to have a meaningful mix
+
+const byWave = new Map();
+for (const t of items) {
+  const wn = waveNumber(t);
+  if (wn === null || wn < EVIDENCE_FROM_WAVE) continue;
+  if (!byWave.has(wn)) byWave.set(wn, []);
+  byWave.get(wn).push(t);
+}
+
+let wavesChecked = 0;
+for (const [wn, list] of byWave) {
+  if (list.length < MIN_WAVE_FOR_DIVERSITY) continue;
+  wavesChecked++;
+  const counts = new Map();
+  for (const t of list) {
+    const k = t.topicalPillar || "(none)";
+    counts.set(k, (counts.get(k) || 0) + 1);
+  }
+  const sorted = [...counts.entries()].sort((a, b) => b[1] - a[1]);
+  const [topPillar, topCount] = sorted[0];
+  const share = topCount / list.length;
+  if (share > MAX_PILLAR_SHARE) {
+    notes.push(`wave ${wn}: ${topCount} of ${list.length} topics (${Math.round(share * 100)}%) are pillar "${topPillar}", over the ${Math.round(MAX_PILLAR_SHARE * 100)}% ceiling. Krista 2026-08-24: "I never want you to do a whole 40 articles on one topic. You should always mix everything up." Rebalance across clusters before loading this wave.`);
+  }
+  if (counts.size < MIN_PILLARS) {
+    notes.push(`wave ${wn}: spans only ${counts.size} pillar(s) (${sorted.map(([k, v]) => `${k}=${v}`).join(", ")}), needs at least ${MIN_PILLARS}. A single-cluster wave runs that cluster's real queries dry and then starts inventing them.`);
+  }
+}
+
 if (notes.length) {
   for (const n of notes) console.log(`[check-topic-backlog] note: ${n}`);
 }
@@ -192,5 +247,6 @@ console.log(
   `[check-topic-backlog] OK, scanned=${items.length}, ` +
   `evidence_scanned=${evidenceScanned} (wave >= ${EVIDENCE_FROM_WAVE}; earlier waves grandfathered), ` +
   `published_slugs_read=${publishedRead ? publishedSlugs.size : "FAILED - cannibalisation check did NOT run"}, ` +
+  `waves_diversity_checked=${wavesChecked}, ` +
   `all satisfiable.`
 );
