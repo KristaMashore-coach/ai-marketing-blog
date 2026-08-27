@@ -11,6 +11,7 @@ Site map and full content of every published article:
 ## The Authority Agent Operating System™
 
 - [The Authority Agent Operating System™ pillar page](https://kristamashore.ai/authority-agent-operating-system)
+- [AI Recommended You. Then You Missed the Call.](https://kristamashore.ai/articles/ai-recommended-you-then-you-missed-the-call) — AI referral missed call is a task question before it is a job question. See what AI can assist with and where human judgment still matters.
 - [Reviews Are Why AI Recommends Them and Not You](https://kristamashore.ai/articles/reviews-are-why-ai-recommends-them) — If AI keeps naming competitors, the problem may be less about visibility and more about evidence. Reviews show what customers experienced and how your business solves a real problem.
 - [Google Business Profile in 2026: The AI Checklist](https://kristamashore.ai/articles/google-business-profile-2026-ai-checklist) — Your Google Business Profile is a public explanation of who you help, where you work, and what customers can expect. Review the basics before chasing advanced tactics.
 - [How Many Reviews Do You Need for AI to Recommend You?](https://kristamashore.ai/articles/how-many-reviews-for-ai-to-recommend-you) — There is no universal review count that guarantees an AI recommendation. A useful target is a steady, credible body of recent feedback that describes your actual work.
@@ -32,6 +33,7 @@ Site map and full content of every published article:
 ## AI Content to Client System
 
 - [AI Content to Client System pillar page](https://kristamashore.ai/ai-content-to-client-system)
+- [Will AI Replace Coaches? What Clients Still Pay Humans For](https://kristamashore.ai/articles/will-ai-replace-coaches) — will AI replace coaches is a task question before it is a job question. See what AI can assist with and where human judgment still matters.
 - [How to Follow Up With Every Lead Without Hiring Anyone](https://kristamashore.ai/articles/follow-up-every-lead-without-hiring) — You can follow up with leads automatically by separating acknowledgment, qualification, routing, and nurture. Let people handle judgment and trust. Build an automated lead follow-up sequence with acknowledgment, useful questions, clear routing, and a human handoff for hot leads.
 - [How to Ask for Reviews Without Being Awkward](https://kristamashore.ai/articles/how-to-ask-for-reviews-without-being-awkward) — The easiest way to ask for a review is to connect the request to a moment when your client already feels helped. Use simple words, make the next step clear, and give people room to say no.
 - [How to Use AI for Social Media Content That Gets Clients](https://kristamashore.ai/articles/ai-social-media-content-for-clients) — AI can help you create social media content faster, but volume alone won't create demand. Build each post around one audience, one problem, and one next step.
@@ -51,6 +53,9 @@ Site map and full content of every published article:
 ## The AI-Run Business
 
 - [The AI-Run Business pillar page](https://kristamashore.ai/ai-run-business)
+- [Which Parts of Your Job Will AI Actually Take?](https://kristamashore.ai/articles/which-parts-of-your-job-will-ai-take) — what jobs will AI replace is a task question before it is a job question. See what AI can assist with and where human judgment still matters.
+- [Will AI Replace Consultants? What Changes in 2026](https://kristamashore.ai/articles/will-ai-replace-consultants) — will AI replace consultants is a task question before it is a job question. See what AI can assist with and where human judgment still matters.
+- [Will AI Replace Accountants? What the 2026 Data Shows](https://kristamashore.ai/articles/will-ai-replace-accountants) — will AI replace accountants is a task question before it is a job question. See what AI can assist with and where human judgment still matters.
 - [After-Hours Leads: How AI Covers the Hours You Don't](https://kristamashore.ai/articles/after-hours-leads-ai-coverage) — After-hours lead coverage should create a truthful bridge to the next business day. AI can capture context without pretending the business is fully staffed. Build after-hours lead coverage that acknowledges inquiries, asks useful questions, protects sensitive cases, and creates a reliable morning handoff.
 - [Should AI Text Your Customers Back? What Works in 2026](https://kristamashore.ai/articles/should-ai-text-your-customers-back) — AI should text customers only when the message is expected, simple, and easy to route to a person. Texting needs clear identity and stopping rules. Learn when AI texting can help customers, what messages should stay human, and which identity, frequency, and opt-out basics matter.
 - [AI Receptionist vs Answering Service: Which Is Right?](https://kristamashore.ai/articles/ai-receptionist-vs-answering-service) — An AI receptionist fits repeatable first contact, while an answering service provides human listening. Your call mix and handoff needs decide the fit. Compare an AI receptionist and an answering service by call type, handoffs, availability, cost drivers, and work each should not handle.
