@@ -11,6 +11,7 @@ Site map and full content of every published article:
 ## The Authority Agent Operating System™
 
 - [The Authority Agent Operating System™ pillar page](https://kristamashore.ai/authority-agent-operating-system)
+- [How to Be the Expert AI Recommends, Not the One It Replaces](https://kristamashore.ai/articles/be-the-expert-ai-recommends) — AI recommendations favor information that is clear, specific, and supported by a consistent body of work. Build that body of work around the questions your best clients ask.
 - [AI Recommended You. Then You Missed the Call.](https://kristamashore.ai/articles/ai-recommended-you-then-you-missed-the-call) — AI referral missed call is a task question before it is a job question. See what AI can assist with and where human judgment still matters.
 - [Reviews Are Why AI Recommends Them and Not You](https://kristamashore.ai/articles/reviews-are-why-ai-recommends-them) — If AI keeps naming competitors, the problem may be less about visibility and more about evidence. Reviews show what customers experienced and how your business solves a real problem.
 - [Google Business Profile in 2026: The AI Checklist](https://kristamashore.ai/articles/google-business-profile-2026-ai-checklist) — Your Google Business Profile is a public explanation of who you help, where you work, and what customers can expect. Review the basics before chasing advanced tactics.
@@ -33,6 +34,9 @@ Site map and full content of every published article:
 ## AI Content to Client System
 
 - [AI Content to Client System pillar page](https://kristamashore.ai/ai-content-to-client-system)
+- [Turn Your Expertise Into a Course Faster With AI](https://kristamashore.ai/articles/expertise-into-course-with-ai) — AI can speed up course structure and drafting, but it cannot supply the expertise that makes a course worth completing. Start with your method and proof.
+- [How Coaches Use AI Without Losing the Human Part](https://kristamashore.ai/articles/coaches-use-ai-without-losing-human-part) — AI can reduce repetitive work in a coaching business, but the relationship should remain personal. Use a clear line between logistics and care.
+- [How to Prove You're a Human Expert in an AI World](https://kristamashore.ai/articles/prove-you-are-a-human-expert) — People trust expertise they can see in the details. Here are practical proof markers that make your experience clear when generic AI content is everywhere.
 - [Will AI Replace Coaches? What Clients Still Pay Humans For](https://kristamashore.ai/articles/will-ai-replace-coaches) — will AI replace coaches is a task question before it is a job question. See what AI can assist with and where human judgment still matters.
 - [How to Follow Up With Every Lead Without Hiring Anyone](https://kristamashore.ai/articles/follow-up-every-lead-without-hiring) — You can follow up with leads automatically by separating acknowledgment, qualification, routing, and nurture. Let people handle judgment and trust. Build an automated lead follow-up sequence with acknowledgment, useful questions, clear routing, and a human handoff for hot leads.
 - [How to Ask for Reviews Without Being Awkward](https://kristamashore.ai/articles/how-to-ask-for-reviews-without-being-awkward) — The easiest way to ask for a review is to connect the request to a moment when your client already feels helped. Use simple words, make the next step clear, and give people room to say no.
@@ -53,6 +57,7 @@ Site map and full content of every published article:
 ## The AI-Run Business
 
 - [The AI-Run Business pillar page](https://kristamashore.ai/ai-run-business)
+- [AI That Answers Your Clients' Repeat Questions](https://kristamashore.ai/articles/ai-answers-client-repeat-questions) — The safest client FAQ system handles stable logistics and keeps personal guidance human. Use clear boundaries, approved answers, and a visible handoff.
 - [Which Parts of Your Job Will AI Actually Take?](https://kristamashore.ai/articles/which-parts-of-your-job-will-ai-take) — what jobs will AI replace is a task question before it is a job question. See what AI can assist with and where human judgment still matters.
 - [Will AI Replace Consultants? What Changes in 2026](https://kristamashore.ai/articles/will-ai-replace-consultants) — will AI replace consultants is a task question before it is a job question. See what AI can assist with and where human judgment still matters.
 - [Will AI Replace Accountants? What the 2026 Data Shows](https://kristamashore.ai/articles/will-ai-replace-accountants) — will AI replace accountants is a task question before it is a job question. See what AI can assist with and where human judgment still matters.
