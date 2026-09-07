@@ -1,27 +1,277 @@
 [
   {
-    "id": "w9-1",
+    "id": "w8-6",
     "priority": 148,
-    "wave": "9 - AI adoption in practice: one workflow, voice, limits, AI search visibility (proposed 2026-09-07)",
-    "title": "Pick One Workflow: How to Start With AI Without a Big Plan",
-    "slug": "pick-one-workflow-how-to-start-with-ai-without-a-big-plan",
-    "metaTitle": "Pick One Workflow: How to Start With AI Without a Big Plan",
-    "primaryKeyword": "how to start using AI in a small business",
+    "wave": "8 - AI adoption: cost, privacy, ownership, replacing staff (proposed 2026-08-17)",
+    "title": "ChatGPT Enterprise vs Free: What Changes for Your Data",
+    "slug": "chatgpt-enterprise-vs-free-what-changes-for-your-data",
+    "primaryKeyword": "ChatGPT Enterprise vs free plan business data",
     "secondaryKeywords": [
-      "first AI workflow for a business",
-      "where to start with AI at work"
+      "is ChatGPT free plan safe for business data",
+      "ChatGPT paid plan data privacy"
+    ],
+    "topicalPillar": "ai-run-business",
+    "contentTypePillar": "problem-solving",
+    "funnelStage": "attention",
+    "intent": "informational",
+    "angle": "Business owners on a free AI plan may be training the model with their own client information without knowing it. Explain what actually changes on a paid or enterprise tier.",
+    "status": "ready"
+  },
+  {
+    "id": "w8-7",
+    "priority": 149,
+    "wave": "8 - AI adoption: cost, privacy, ownership, replacing staff (proposed 2026-08-17)",
+    "title": "The Hidden Costs of AI Nobody Puts on the Pricing Page",
+    "slug": "the-hidden-costs-of-ai-nobody-puts-on-the-pricing-page",
+    "primaryKeyword": "hidden costs of AI small business",
+    "secondaryKeywords": [
+      "AI total cost of ownership small business",
+      "real cost of AI beyond subscription"
+    ],
+    "topicalPillar": "ai-run-business",
+    "contentTypePillar": "problem-solving",
+    "funnelStage": "attention",
+    "intent": "informational",
+    "angle": "The subscription price is rarely the real cost. Cover setup time, training, integration, and the cost of picking the wrong tool and switching later.",
+    "status": "ready"
+  },
+  {
+    "id": "w8-8",
+    "priority": 150,
+    "wave": "8 - AI adoption: cost, privacy, ownership, replacing staff (proposed 2026-08-17)",
+    "title": "A 30-Day Plan for a Small Business Trying AI for the First Time",
+    "slug": "a-30-day-plan-for-a-small-business-trying-ai-for-the-first-time",
+    "primaryKeyword": "30 day AI plan for small business",
+    "secondaryKeywords": [
+      "first month using AI in business",
+      "AI onboarding plan small business owner"
     ],
     "topicalPillar": "ai-run-business",
     "contentTypePillar": "process-and-differentiation",
     "funnelStage": "attention",
     "intent": "informational",
-    "angle": "Pick the one task that already eats hours a week and do only that with AI for two weeks. Breadth is what makes adoption fail; depth on one task is what makes it stick.",
-    "evidence": "SERP for 'how to use ChatGPT for small business 2026' returns a cluster (aigrowthub, aigatecrashers, sawankr, foraithings, softhubtools) and every one leads with pick-one-workflow. Confirmed competing-title cluster.",
+    "angle": "A concrete week-by-week plan for an owner who has never used AI in the business: pick one task, one tool, measure it, then decide whether to expand.",
     "status": "ready"
   },
   {
-    "id": "w9-2",
-    "priority": 149,
+    "id": "w8-9",
+    "priority": 151,
+    "wave": "8 - AI adoption: cost, privacy, ownership, replacing staff (proposed 2026-08-17)",
+    "title": "How to Get Your Team Comfortable With AI Without a Big Rollout",
+    "slug": "how-to-get-your-team-comfortable-with-ai-without-a-big-rollout",
+    "primaryKeyword": "get team comfortable with AI small business",
+    "secondaryKeywords": [
+      "employee AI adoption small business",
+      "introducing AI to staff without resistance"
+    ],
+    "topicalPillar": "ai-run-business",
+    "contentTypePillar": "problem-solving",
+    "funnelStage": "resonance",
+    "intent": "informational",
+    "angle": "Most AI rollouts fail on people, not technology. Cover a low-drama way to introduce a new tool to a small team without a mandate that breeds resistance.",
+    "status": "ready"
+  },
+  {
+    "id": "w8-10",
+    "priority": 152,
+    "wave": "8 - AI adoption: cost, privacy, ownership, replacing staff (proposed 2026-08-17)",
+    "title": "Should a Small Business Build Its Own AI Tool or Rent One?",
+    "slug": "should-a-small-business-build-its-own-ai-tool-or-rent-one",
+    "primaryKeyword": "build vs rent AI tool small business",
+    "secondaryKeywords": [
+      "custom AI vs off the shelf tool business",
+      "should I build my own AI system"
+    ],
+    "topicalPillar": "ai-run-business",
+    "contentTypePillar": "educational-authority",
+    "funnelStage": "resonance",
+    "intent": "informational",
+    "angle": "Most small businesses assume renting a tool is the only option. Lay out when a simple owned system actually beats a subscription, and when it doesn't.",
+    "status": "ready"
+  },
+  {
+    "id": "w8-11",
+    "priority": 153,
+    "wave": "8 - AI adoption: cost, privacy, ownership, replacing staff (proposed 2026-08-17)",
+    "title": "The AI Mistake of Automating the Wrong Task First",
+    "slug": "the-ai-mistake-of-automating-the-wrong-task-first",
+    "primaryKeyword": "automating the wrong task first small business",
+    "secondaryKeywords": [
+      "AI automation priority mistakes",
+      "which task to automate first small business"
+    ],
+    "topicalPillar": "ai-run-business",
+    "contentTypePillar": "problem-solving",
+    "funnelStage": "attention",
+    "intent": "informational",
+    "angle": "Owners often automate the task that's easiest to automate, not the one that costs them the most time. Walk through how to pick correctly the first time.",
+    "status": "ready"
+  },
+  {
+    "id": "w8-12",
+    "priority": 154,
+    "wave": "8 - AI adoption: cost, privacy, ownership, replacing staff (proposed 2026-08-17)",
+    "title": "What a Fair AI Vendor Contract Looks Like for a Small Business",
+    "slug": "what-a-fair-ai-vendor-contract-looks-like-for-a-small-business",
+    "primaryKeyword": "AI vendor contract small business",
+    "secondaryKeywords": [
+      "AI tool contract terms to check",
+      "fair AI vendor agreement small business"
+    ],
+    "topicalPillar": "ai-run-business",
+    "contentTypePillar": "educational-authority",
+    "funnelStage": "attention",
+    "intent": "informational",
+    "angle": "Most small business owners never read the contract on an AI subscription. Name the specific terms worth reading: term length, price increases, and data ownership.",
+    "status": "ready"
+  },
+  {
+    "id": "w8-13",
+    "priority": 155,
+    "wave": "8 - AI adoption: cost, privacy, ownership, replacing staff (proposed 2026-08-17)",
+    "title": "How Many AI Tools Does a Small Business Actually Need?",
+    "slug": "how-many-ai-tools-does-a-small-business-actually-need",
+    "primaryKeyword": "how many AI tools does a business need",
+    "secondaryKeywords": [
+      "too many AI subscriptions small business",
+      "right number of AI tools for a small team"
+    ],
+    "topicalPillar": "ai-run-business",
+    "contentTypePillar": "problem-solving",
+    "funnelStage": "attention",
+    "intent": "informational",
+    "angle": "Tool sprawl quietly becomes its own cost. Give a simple rule for how many AI tools a small business should be running at once, and when to consolidate.",
+    "status": "ready"
+  },
+  {
+    "id": "w8-14",
+    "priority": 156,
+    "wave": "8 - AI adoption: cost, privacy, ownership, replacing staff (proposed 2026-08-17)",
+    "title": "AI for Businesses That Handle Sensitive Client Information",
+    "slug": "ai-for-businesses-that-handle-sensitive-client-information",
+    "primaryKeyword": "AI for businesses with sensitive client data",
+    "secondaryKeywords": [
+      "AI privacy for legal financial medical adjacent business",
+      "sensitive client data and AI tools"
+    ],
+    "topicalPillar": "ai-run-business",
+    "contentTypePillar": "problem-solving",
+    "funnelStage": "attention",
+    "intent": "informational",
+    "angle": "Owners handling financial, legal-adjacent, or health-adjacent client information carry more privacy risk than a typical small business. Cover what extra checks that requires.",
+    "status": "ready"
+  },
+  {
+    "id": "w8-15",
+    "priority": 157,
+    "wave": "8 - AI adoption: cost, privacy, ownership, replacing staff (proposed 2026-08-17)",
+    "title": "Signs Your Business Waited Too Long to Start Using AI",
+    "slug": "signs-your-business-waited-too-long-to-start-using-ai",
+    "primaryKeyword": "signs you waited too long to use AI",
+    "secondaryKeywords": [
+      "falling behind competitors on AI adoption",
+      "AI adoption gap small business"
+    ],
+    "topicalPillar": "ai-run-business",
+    "contentTypePillar": "educational-authority",
+    "funnelStage": "attention",
+    "intent": "informational",
+    "angle": "Not a scare piece: name the concrete, checkable signals that a business has fallen behind, like a competitor answering questions AI already recommends them for.",
+    "status": "ready"
+  },
+  {
+    "id": "w8-16",
+    "priority": 158,
+    "wave": "8 - AI adoption: cost, privacy, ownership, replacing staff (proposed 2026-08-17)",
+    "title": "What Owning Your AI System Actually Means for a Small Business",
+    "slug": "what-owning-your-ai-system-actually-means-for-a-small-business",
+    "primaryKeyword": "own your AI system small business",
+    "secondaryKeywords": [
+      "AI ownership vs subscription small business",
+      "what it means to own an AI workflow"
+    ],
+    "topicalPillar": "ai-run-business",
+    "contentTypePillar": "educational-authority",
+    "funnelStage": "resonance",
+    "intent": "informational",
+    "angle": "Go deeper on ownership than the platform lock-in piece: what it practically looks like to own the prompts, the data, and the workflow instead of renting access to someone else's.",
+    "status": "ready"
+  },
+  {
+    "id": "w8-17",
+    "priority": 159,
+    "wave": "8 - AI adoption: cost, privacy, ownership, replacing staff (proposed 2026-08-17)",
+    "title": "How to Tell if an AI Vendor Will Still Exist in Two Years",
+    "slug": "how-to-tell-if-an-ai-vendor-will-still-exist-in-two-years",
+    "primaryKeyword": "AI vendor longevity small business",
+    "secondaryKeywords": [
+      "will this AI tool still be around",
+      "AI vendor stability check small business"
+    ],
+    "topicalPillar": "ai-run-business",
+    "contentTypePillar": "problem-solving",
+    "funnelStage": "attention",
+    "intent": "informational",
+    "angle": "The AI tools market moves fast and some vendors won't survive it. Give owners a few concrete signals to check before building a workflow around a new tool.",
+    "status": "ready"
+  },
+  {
+    "id": "w8-18",
+    "priority": 160,
+    "wave": "8 - AI adoption: cost, privacy, ownership, replacing staff (proposed 2026-08-17)",
+    "title": "AI for a Business With a Full Team, Not Just a Solo Owner",
+    "slug": "ai-for-a-business-with-a-full-team-not-just-a-solo-owner",
+    "primaryKeyword": "AI for businesses with employees not solo",
+    "secondaryKeywords": [
+      "AI adoption for businesses with staff",
+      "team based AI rollout vs solo owner"
+    ],
+    "topicalPillar": "ai-run-business",
+    "contentTypePillar": "educational-authority",
+    "funnelStage": "resonance",
+    "intent": "informational",
+    "angle": "Most AI-for-small-business content assumes a solo operator. Address the different rollout, training, and ownership questions that come up once there's a team involved.",
+    "status": "ready"
+  },
+  {
+    "id": "w8-19",
+    "priority": 161,
+    "wave": "8 - AI adoption: cost, privacy, ownership, replacing staff (proposed 2026-08-17)",
+    "title": "What Small Business Owners Get Wrong About AI Pricing",
+    "slug": "what-small-business-owners-get-wrong-about-ai-pricing",
+    "primaryKeyword": "small business owners wrong about AI pricing",
+    "secondaryKeywords": [
+      "AI pricing misconceptions small business",
+      "common AI cost mistakes small business"
+    ],
+    "topicalPillar": "ai-run-business",
+    "contentTypePillar": "problem-solving",
+    "funnelStage": "attention",
+    "intent": "informational",
+    "angle": "Cover the two most common pricing mistakes: judging a tool only by its monthly price, and assuming the cheapest tool is the lowest total cost.",
+    "status": "ready"
+  },
+  {
+    "id": "w8-20",
+    "priority": 162,
+    "wave": "8 - AI adoption: cost, privacy, ownership, replacing staff (proposed 2026-08-17)",
+    "title": "How to Know When It's Time to Upgrade From a Free AI Tool",
+    "slug": "how-to-know-when-its-time-to-upgrade-from-a-free-ai-tool",
+    "primaryKeyword": "when to upgrade from free AI tool",
+    "secondaryKeywords": [
+      "free vs paid AI tool decision point",
+      "signs you need a paid AI plan"
+    ],
+    "topicalPillar": "ai-run-business",
+    "contentTypePillar": "problem-solving",
+    "funnelStage": "attention",
+    "intent": "informational",
+    "angle": "Give a concrete trigger list for moving off a free AI tier: a customer-facing use case, a privacy concern, or hitting a usage limit that's now costing real time.",
+    "status": "ready"
+  },
+  {
+    "id": "w9-1",
+    "priority": 148,
     "wave": "9 - AI adoption in practice: one workflow, voice, limits, AI search visibility (proposed 2026-09-07)",
     "title": "What AI Agents Can and Cannot Do for a Small Business",
     "slug": "what-ai-agents-can-and-cannot-do-for-a-small-business",
@@ -40,28 +290,8 @@
     "status": "ready"
   },
   {
-    "id": "w9-3",
-    "priority": 150,
-    "wave": "9 - AI adoption in practice: one workflow, voice, limits, AI search visibility (proposed 2026-09-07)",
-    "title": "How Much Should a Small Business Spend on AI Tools?",
-    "slug": "how-much-should-a-small-business-spend-on-ai-tools",
-    "metaTitle": "How Much Should a Small Business Spend on AI Tools?",
-    "primaryKeyword": "how much should a small business spend on AI",
-    "secondaryKeywords": [
-      "AI tool budget small business",
-      "are paid AI plans worth it"
-    ],
-    "topicalPillar": "ai-run-business",
-    "contentTypePillar": "educational-authority",
-    "funnelStage": "resonance",
-    "intent": "commercial",
-    "angle": "Start on free tiers long enough to find the one workflow that pays. Upgrade the seat that touches revenue, not the seat that touches curiosity.",
-    "evidence": "The ChatGPT-for-business cluster repeatedly answers the free-vs-paid question (aestheticwebstudio, bestaitoolsuk, aigrowthub all address tier choice); pricing intent is confirmed across the cluster.",
-    "status": "ready"
-  },
-  {
-    "id": "w9-4",
-    "priority": 151,
+    "id": "w9-2",
+    "priority": 149,
     "wave": "9 - AI adoption in practice: one workflow, voice, limits, AI search visibility (proposed 2026-09-07)",
     "title": "Why Your AI Output Gets Worse the Longer You Use It",
     "slug": "why-your-ai-output-gets-worse-the-longer-you-use-it",
@@ -80,8 +310,8 @@
     "status": "ready"
   },
   {
-    "id": "w9-5",
-    "priority": 152,
+    "id": "w9-3",
+    "priority": 150,
     "wave": "9 - AI adoption in practice: one workflow, voice, limits, AI search visibility (proposed 2026-09-07)",
     "title": "How to Tell If an AI Tool Is Trained on Your Data",
     "slug": "how-to-tell-if-an-ai-tool-is-trained-on-your-data",
@@ -100,8 +330,8 @@
     "status": "ready"
   },
   {
-    "id": "w9-6",
-    "priority": 153,
+    "id": "w9-4",
+    "priority": 151,
     "wave": "9 - AI adoption in practice: one workflow, voice, limits, AI search visibility (proposed 2026-09-07)",
     "title": "What to Do When AI Gets a Fact Wrong in Front of a Client",
     "slug": "what-to-do-when-ai-gets-a-fact-wrong-in-front-of-a-client",
@@ -120,8 +350,8 @@
     "status": "ready"
   },
   {
-    "id": "w9-7",
-    "priority": 154,
+    "id": "w9-5",
+    "priority": 152,
     "wave": "9 - AI adoption in practice: one workflow, voice, limits, AI search visibility (proposed 2026-09-07)",
     "title": "Can AI Replace an Assistant? What It Handles and What It Does Not",
     "slug": "can-ai-replace-an-assistant-what-it-handles-and-what-it-does-not",
@@ -140,8 +370,8 @@
     "status": "ready"
   },
   {
-    "id": "w9-8",
-    "priority": 155,
+    "id": "w9-6",
+    "priority": 153,
     "wave": "9 - AI adoption in practice: one workflow, voice, limits, AI search visibility (proposed 2026-09-07)",
     "title": "How to Write a Prompt You Can Reuse Every Week",
     "slug": "how-to-write-a-prompt-you-can-reuse-every-week",
@@ -160,8 +390,8 @@
     "status": "ready"
   },
   {
-    "id": "w9-9",
-    "priority": 156,
+    "id": "w9-7",
+    "priority": 154,
     "wave": "9 - AI adoption in practice: one workflow, voice, limits, AI search visibility (proposed 2026-09-07)",
     "title": "The Weekly AI Review That Keeps a Small Business Honest",
     "slug": "the-weekly-ai-review-that-keeps-a-small-business-honest",
@@ -180,8 +410,8 @@
     "status": "ready"
   },
   {
-    "id": "w9-10",
-    "priority": 157,
+    "id": "w9-8",
+    "priority": 155,
     "wave": "9 - AI adoption in practice: one workflow, voice, limits, AI search visibility (proposed 2026-09-07)",
     "title": "How to Get AI to Write in Your Voice Using Your Own Posts",
     "slug": "how-to-get-ai-to-write-in-your-voice-using-your-own-posts",
@@ -200,8 +430,8 @@
     "status": "ready"
   },
   {
-    "id": "w9-11",
-    "priority": 158,
+    "id": "w9-9",
+    "priority": 156,
     "wave": "9 - AI adoption in practice: one workflow, voice, limits, AI search visibility (proposed 2026-09-07)",
     "title": "The Words That Give Away AI Writing",
     "slug": "the-words-that-give-away-ai-writing",
@@ -220,8 +450,8 @@
     "status": "ready"
   },
   {
-    "id": "w9-12",
-    "priority": 159,
+    "id": "w9-10",
+    "priority": 157,
     "wave": "9 - AI adoption in practice: one workflow, voice, limits, AI search visibility (proposed 2026-09-07)",
     "title": "Should You Say Your Content Was Written With AI?",
     "slug": "should-you-say-your-content-was-written-with-ai",
@@ -240,8 +470,8 @@
     "status": "ready"
   },
   {
-    "id": "w9-13",
-    "priority": 160,
+    "id": "w9-11",
+    "priority": 158,
     "wave": "9 - AI adoption in practice: one workflow, voice, limits, AI search visibility (proposed 2026-09-07)",
     "title": "How to Turn a Recorded Call Into Everything You Publish",
     "slug": "how-to-turn-a-recorded-call-into-everything-you-publish",
@@ -260,8 +490,8 @@
     "status": "ready"
   },
   {
-    "id": "w9-14",
-    "priority": 161,
+    "id": "w9-12",
+    "priority": 159,
     "wave": "9 - AI adoption in practice: one workflow, voice, limits, AI search visibility (proposed 2026-09-07)",
     "title": "Why AI Writes Great First Drafts and Bad Final Ones",
     "slug": "why-ai-writes-great-first-drafts-and-bad-final-ones",
@@ -280,8 +510,8 @@
     "status": "ready"
   },
   {
-    "id": "w9-15",
-    "priority": 162,
+    "id": "w9-13",
+    "priority": 160,
     "wave": "9 - AI adoption in practice: one workflow, voice, limits, AI search visibility (proposed 2026-09-07)",
     "title": "How to Build a Content Calendar You Will Actually Follow",
     "slug": "how-to-build-a-content-calendar-you-will-actually-follow",
@@ -300,8 +530,8 @@
     "status": "ready"
   },
   {
-    "id": "w9-16",
-    "priority": 163,
+    "id": "w9-14",
+    "priority": 161,
     "wave": "9 - AI adoption in practice: one workflow, voice, limits, AI search visibility (proposed 2026-09-07)",
     "title": "What Belongs in an AI Brand Brain Before You Write Anything",
     "slug": "what-belongs-in-an-ai-brand-brain-before-you-write-anything",
@@ -320,28 +550,8 @@
     "status": "ready"
   },
   {
-    "id": "w9-17",
-    "priority": 164,
-    "wave": "9 - AI adoption in practice: one workflow, voice, limits, AI search visibility (proposed 2026-09-07)",
-    "title": "How to Hand an AI System to Someone Else on Your Team",
-    "slug": "how-to-hand-an-ai-system-to-someone-else-on-your-team",
-    "metaTitle": "How to Hand an AI System to Someone Else on Your Team",
-    "primaryKeyword": "share AI workflows with your team",
-    "secondaryKeywords": [
-      "team prompt library setup",
-      "onboard staff to AI tools"
-    ],
-    "topicalPillar": "authority-agent-operating-system",
-    "contentTypePillar": "process-and-differentiation",
-    "funnelStage": "nurture",
-    "intent": "informational",
-    "angle": "If it only works when you run it, it is a habit, not a system. What has to be written down before it survives a handoff.",
-    "evidence": "Week two of the published 30-day adoption sequence is a shared prompt library; 'roll out AI to my team' has dedicated pages across consulting and enablement blogs.",
-    "status": "ready"
-  },
-  {
-    "id": "w9-18",
-    "priority": 165,
+    "id": "w9-15",
+    "priority": 162,
     "wave": "9 - AI adoption in practice: one workflow, voice, limits, AI search visibility (proposed 2026-09-07)",
     "title": "Why Most AI Setups Fall Apart in Week Three",
     "slug": "why-most-ai-setups-fall-apart-in-week-three",
@@ -360,8 +570,8 @@
     "status": "ready"
   },
   {
-    "id": "w9-19",
-    "priority": 166,
+    "id": "w9-16",
+    "priority": 163,
     "wave": "9 - AI adoption in practice: one workflow, voice, limits, AI search visibility (proposed 2026-09-07)",
     "title": "Do You Need Custom AI or Just Better Instructions?",
     "slug": "do-you-need-custom-ai-or-just-better-instructions",
@@ -380,8 +590,8 @@
     "status": "ready"
   },
   {
-    "id": "w9-20",
-    "priority": 167,
+    "id": "w9-17",
+    "priority": 164,
     "wave": "9 - AI adoption in practice: one workflow, voice, limits, AI search visibility (proposed 2026-09-07)",
     "title": "Claude vs ChatGPT: Which One for Writing in Your Own Voice?",
     "slug": "claude-vs-chatgpt-which-one-for-writing-in-your-own-voice",
@@ -400,8 +610,8 @@
     "status": "ready"
   },
   {
-    "id": "w9-21",
-    "priority": 168,
+    "id": "w9-18",
+    "priority": 165,
     "wave": "9 - AI adoption in practice: one workflow, voice, limits, AI search visibility (proposed 2026-09-07)",
     "title": "What to Do on Your First Day With Claude",
     "slug": "what-to-do-on-your-first-day-with-claude",
@@ -420,28 +630,8 @@
     "status": "ready"
   },
   {
-    "id": "w9-22",
-    "priority": 169,
-    "wave": "9 - AI adoption in practice: one workflow, voice, limits, AI search visibility (proposed 2026-09-07)",
-    "title": "Free or Paid AI: How to Tell When You Have Outgrown Free",
-    "slug": "free-or-paid-ai-how-to-tell-when-you-have-outgrown-free",
-    "metaTitle": "Free or Paid AI: How to Tell When You Have Outgrown Free",
-    "primaryKeyword": "free vs paid AI plan worth it",
-    "secondaryKeywords": [
-      "when to upgrade ChatGPT plus",
-      "is the paid AI plan worth it small business"
-    ],
-    "topicalPillar": "claude-for-dummies",
-    "contentTypePillar": "problem-solving",
-    "funnelStage": "conversion",
-    "intent": "commercial",
-    "angle": "Three signals: you hit limits mid-task, you are pasting the same context daily, or a real deliverable now depends on it. Any one of them is the upgrade.",
-    "evidence": "The ChatGPT business cluster explicitly says the free tier is enough to evaluate before committing (aestheticwebstudio, bestaitoolsuk); the upgrade-trigger question has PAA presence and no dedicated page.",
-    "status": "ready"
-  },
-  {
-    "id": "w9-23",
-    "priority": 170,
+    "id": "w9-19",
+    "priority": 166,
     "wave": "9 - AI adoption in practice: one workflow, voice, limits, AI search visibility (proposed 2026-09-07)",
     "title": "How to Ask AI a Question and Get a Useful Answer Back",
     "slug": "how-to-ask-ai-a-question-and-get-a-useful-answer-back",
@@ -460,8 +650,8 @@
     "status": "ready"
   },
   {
-    "id": "w9-24",
-    "priority": 171,
+    "id": "w9-20",
+    "priority": 167,
     "wave": "9 - AI adoption in practice: one workflow, voice, limits, AI search visibility (proposed 2026-09-07)",
     "title": "How a Local Business Shows Up When Someone Asks AI for a Referral",
     "slug": "how-a-local-business-shows-up-when-someone-asks-ai-for-a-referral",
@@ -480,8 +670,8 @@
     "status": "ready"
   },
   {
-    "id": "w9-25",
-    "priority": 172,
+    "id": "w9-21",
+    "priority": 168,
     "wave": "9 - AI adoption in practice: one workflow, voice, limits, AI search visibility (proposed 2026-09-07)",
     "title": "What Small Businesses Get Wrong About Being Found by AI",
     "slug": "what-small-businesses-get-wrong-about-being-found-by-ai",
