@@ -57,6 +57,24 @@ if [[ ! -r "$CODEX_AUTOMATION_HOME/auth.json" ]]; then
   print -u2 "[codex-daily] automation profile is missing ChatGPT subscription auth"
   exit 1
 fi
+# SELF-HEAL a leftover scratch queue (added 2026-09-07).
+#
+# A run that dies after Codex writes data/blog/queue.json but before publish
+# leaves exactly that one file modified. The clean precondition below then aborts
+# every FUTURE run, so one bad morning becomes a permanent outage. queue.json is
+# scratch: it is only ever committed together with posts.json at publish time,
+# the assigned topics stay `status: ready` in topic-backlog.json until they are
+# actually published, and this run is about to overwrite the file anyway. So
+# restoring the committed copy costs nothing durable and buys back the next run.
+#
+# Narrow on purpose: it fires ONLY when queue.json is the sole dirty path. Any
+# other dirty file still stops the run, because that could be real work.
+DIRTY_PATHS="$(git status --porcelain --untracked-files=all | awk '{ print substr($0,4) }')"
+if [[ "$DIRTY_PATHS" == "data/blog/queue.json" ]]; then
+  print "[codex-daily] SELF-HEAL: discarding a leftover scratch queue left by a run that died before publish"
+  git show HEAD:data/blog/queue.json > "$QUEUE_PATH"
+fi
+
 if [[ -n "$(git status --porcelain --untracked-files=all)" ]]; then
   print -u2 "[codex-daily] repository must be clean before a run"
   git status --short
@@ -109,6 +127,15 @@ node scripts/check-topic-backlog.cjs || {
   print -u2 "[codex-daily] ABORTED: topic backlog contains entries no article can satisfy (see above). Fix data/blog/topic-backlog.json."
   exit 1
 }
+
+# Snapshot what is dirty BEFORE Codex runs, so the post-Codex guard can tell
+# "Codex wrote somewhere it should not have" apart from "the runner's own earlier
+# steps wrote the files they own". ensure-backlog.cjs above writes
+# data/blog/topic-backlog.json and data/blog/pending-wave.json; nothing told the
+# guard that, and on 2026-08-31 it killed the run and the six that followed.
+mkdir -p "$RUN_DIR"
+PRE_CODEX_DIRTY="$RUN_DIR/pre-codex-dirty.txt"
+git status --porcelain --untracked-files=all | awk '{ print substr($0,4) }' | sort > "$PRE_CODEX_DIRTY"
 
 trap 'rm -f "$CONTEXT_PATH"' EXIT
 node scripts/build-codex-daily-context.cjs "$CONTEXT_PATH"
@@ -211,7 +238,25 @@ for attempt in $(seq 1 "$MAX_GENERATION_ATTEMPTS"); do
     --output-last-message "$ATTEMPT_DIR/last-message.txt" \
     - < "$ATTEMPT_PROMPT" > "$ATTEMPT_DIR/codex-events.jsonl" || CODEX_EXIT=$?
 
-  UNEXPECTED="$(git status --porcelain --untracked-files=all | awk 'substr($0,4) != "data/blog/queue.json" { print }')"
+  # Compare against what was already dirty when this run started generating, not
+  # against one hardcoded filename. Fixed 2026-09-07.
+  #
+  # This guard exists to catch CODEX writing outside the queue, and it was written
+  # before scripts/ensure-backlog.cjs existed, so its allow-set was the literal
+  # string "data/blog/queue.json". ensure-backlog.cjs (shipped 2026-08-24) writes
+  # topic-backlog.json and pending-wave.json well before Codex ever runs. The first
+  # time it actually auto-loaded — 2026-08-31, "[ensure-backlog] AUTO-LOADED 5
+  # topic(s)" — this guard saw the runner's OWN two files, reported them as
+  # "Codex changed files outside queue.json", and exit 1'd. That left the tree
+  # dirty, and the clean precondition at the top then aborted every run for the
+  # next seven days. One missing arrival edit, seven days of a dead publisher.
+  # See .claude/rules/nothing-ships-alone.md, kind 3.
+  #
+  # Deriving the baseline rather than lengthening the literal is the point: the
+  # next script that legitimately writes before Codex must not have to remember to
+  # come back and edit this line, which is precisely the failure that cost a week.
+  UNEXPECTED="$(git status --porcelain --untracked-files=all | awk '{ print substr($0,4) }' \
+    | sort | comm -23 - "$PRE_CODEX_DIRTY" | grep -v '^data/blog/queue.json$' || true)"
   if [[ -n "$UNEXPECTED" ]]; then
     print -u2 "[codex-daily] Codex changed files outside queue.json:"
     print -r -- "$UNEXPECTED"
@@ -258,7 +303,11 @@ if [[ "$MODE" == "--canary" ]]; then
   exit 0
 fi
 
-git add data/blog/posts.json data/blog/queue.json public
+# topic-backlog.json and pending-wave.json are the second half of the same
+# 2026-08-24 arrival edit that the guard above was missing: ensure-backlog.cjs
+# writes them, and without them here they stay uncommitted after every auto-load
+# and re-block the next morning's clean precondition. Added 2026-09-07.
+git add data/blog/posts.json data/blog/queue.json data/blog/topic-backlog.json data/blog/pending-wave.json public
 if git diff --cached --quiet; then
   print -u2 "[codex-daily] no production changes were staged"
   exit 1
