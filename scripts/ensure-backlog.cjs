@@ -48,8 +48,6 @@
 
 const fs = require("fs");
 const path = require("path");
-const os = require("os");
-const { execFileSync } = require("child_process");
 
 const TITLE_MAX = 70;       // must match check-topic-backlog.cjs
 const META_TITLE_MAX = 60;  // must match check-topic-backlog.cjs
@@ -126,8 +124,10 @@ const need = floor - remaining.length;
 const promoted = [];
 const skipped = [];
 
+// PASS 1: validity only. Every check that was here before, unchanged. A topic
+// that fails any of these can never be written, so it is never a candidate.
+const eligible = [];
 for (const t of pending) {
-  if (promoted.length >= need) break;
   const id = t.slug || t.title || "(unnamed)";
   if (!t.slug || !t.title) { skipped.push(`${id}: missing slug or title`); continue; }
   if (backlogSlugs.has(t.slug)) { skipped.push(`${id}: already in backlog`); continue; }
@@ -140,13 +140,65 @@ for (const t of pending) {
     skipped.push(`${id}: metaTitle ${t.metaTitle.length} chars > ${META_TITLE_MAX}`);
     continue;
   }
-  backlogSlugs.add(t.slug);
+  eligible.push(t);
+}
+
+// PASS 2: pillar-balanced ORDER (added 2026-09-08, Krista-directed: "rebalance
+// wave 9").
+//
+// WHY THIS EXISTS. Promotion used to take the first `need` eligible topics in
+// list order. A pending wave is written cluster by cluster, so list order IS
+// cluster order, and every auto-load pulled a run of one pillar. Wave 9 reached
+// 60% real-estate-lead-generation across only two pillars that way, which is
+// what check-topic-backlog's diversity gate is there to catch. Rebalancing the
+// wave by hand fixes one day; without this, the very next auto-load undoes it.
+//
+// Krista, 2026-08-24: "I never want you to do a whole 40 articles on one topic.
+// You should always mix everything up." Her reason is not aesthetic. Once a
+// cluster's real head queries are published, the only way to keep filling from
+// it is to invent titles nobody searches, which is exactly how wave 8 produced
+// ten retired topics.
+//
+// HOW. Greedy: repeatedly take the eligible topic whose pillar is currently
+// least represented across its own wave (every status, matching how the gate
+// counts), breaking ties by the original list order so a deliberate priority
+// still wins inside a pillar.
+//
+// THIS NEVER BLOCKS A PROMOTION. It only reorders. If the pending wave is a
+// single pillar, all of it is still promoted, in order, and the gate downstream
+// says so as a note. Publishing never stops for diversity: that is the
+// fail-open contract from 2026-08-20 and 2026-08-24 and it is not weakened here.
+const pillarOf = (t) => t.topicalPillar || "(unpillared)";
+const waveOf = (t) => String(t.wave || "");
+const pillarCount = new Map();
+const bumpPillar = (t, n) => {
+  const k = `${waveOf(t)}||${pillarOf(t)}`;
+  pillarCount.set(k, (pillarCount.get(k) || 0) + n);
+};
+const countPillar = (t) => pillarCount.get(`${waveOf(t)}||${pillarOf(t)}`) || 0;
+
+// Seed from the existing backlog, counting the whole wave regardless of status,
+// because published topics still count toward the gate's percentage.
+for (const t of backlog) bumpPillar(t, 1);
+
+const order = new Map(eligible.map((t, i) => [t, i]));
+const pool = eligible.slice();
+while (promoted.length < need && pool.length) {
+  let best = 0;
+  for (let i = 1; i < pool.length; i++) {
+    const a = pool[i], b = pool[best];
+    const ca = countPillar(a), cb = countPillar(b);
+    if (ca < cb || (ca === cb && order.get(a) < order.get(b))) best = i;
+  }
+  const pick = pool.splice(best, 1)[0];
+  bumpPillar(pick, 1);
+  backlogSlugs.add(pick.slug);
   promoted.push({
-    ...t,
+    ...pick,
     status: "ready",
     autoLoaded: true,
     autoLoadedAt: new Date().toISOString(),
-    autoLoadedReason: `backlog runway fell to ${remaining.length} (floor ${floor}); promoted without waiting on approval per Krista 2026-08-20, reaffirmed 2026-08-24`,
+    autoLoadedReason: `backlog runway fell to ${remaining.length} (floor ${floor}); promoted without waiting on approval per Krista 2026-08-20, reaffirmed 2026-08-24; pillar-balanced per Krista 2026-08-24`,
   });
 }
 
@@ -170,73 +222,34 @@ console.log(
 for (const p of promoted) console.log(`[ensure-backlog]   + ${p.title}`);
 console.log(`[ensure-backlog] ${nextPending.length} topic(s) remain in the pending wave`);
 
-// EMAIL NOTICE (added 2026-08-24, Krista-directed in chat, verbatim quoted
-// below). An unattended auto-load must never be silent — this is the "one-line
-// notice" half of the amend-window model: the wave publishes without waiting
-// for a reply, but Krista still hears that it happened and can still amend it.
-// Pure code, no AI, matching the existing pure-code auto-send pattern used by
-// bethelocalpro-status and btlp-submission-notify (CLAUDE.md Core Preference 1).
-// At most one notice per calendar day per site, via a dated sentinel file, so a
-// site whose daily job runs more than once never double-emails.
+// AUTO-LOAD RECORD, no email (notice retired 2026-09-08, Krista-directed in
+// chat: "kill the notice entirely").
+//
+// The notice was added 2026-08-24 as the "one-line notice" half of an amend
+// window: publishing never waits for approval, but she still hears that a wave
+// auto-loaded and can still pull or reword a topic. She has now said three
+// times that she approves every article, most recently 2026-09-08 ("I approve
+// all these. I've approved every article so far."), so the amend window was
+// buying nothing and costing an inbox item. Per CLAUDE.md's global principle:
+// silence on success, speak on exception.
+//
+// The auto-load ITSELF is unchanged and still fail-open. Only the send is gone.
+// The dated record below stays so the event is still machine-readable for the
+// Thursday weekly overview and any future check, and so the run log always
+// names what loaded. Nothing watched this sentinel when the email was removed;
+// it is kept deliberately, not by accident.
 (() => {
-  const SENDER = path.join(os.homedir(), "Scripts", "kaia-send-email.sh");
-  if (!fs.existsSync(SENDER)) {
-    console.log("[ensure-backlog] notice skipped: kaia-send-email.sh not found");
-    return;
-  }
   const today = new Date().toISOString().slice(0, 10);
   const sentinelPath = path.join(DATA, ".last-autoload-notice");
-  const already = readJson(sentinelPath, null);
-  if (already && already.date === today) {
-    console.log(`[ensure-backlog] notice already sent today (${today}); skipping`);
-    return;
-  }
-  let siteName = path.basename(path.join(__dirname, ".."));
-  try {
-    siteName = require(path.join(__dirname, "..", "package.json")).name || siteName;
-  } catch { /* keep folder-name fallback */ }
-
-  const lines = [
-    `Backlog runway on ${siteName} dropped below the floor, so ${promoted.length} topic(s) ` +
-      `auto-loaded from the pending wave without waiting for a reply.`,
-    "",
-    `Per what you said in chat 2026-08-24: "no matter what, even if I don't approve, still ` +
-      `make sure that the articles are created and posted on my blogs."`,
-    "",
-    `Loaded (${promoted.length}):`,
-    ...promoted.map((p, i) => `${i + 1}. ${p.title}`),
-    "",
-    `Backlog is now ${remaining.length + promoted.length} ready/unpublished (floor was ${floor}).`,
-    nextPending.length
-      ? `${nextPending.length} topic(s) still sit in the pending wave, unloaded.`
-      : "Pending wave is now empty.",
-    "",
-    "Reply with any number to pull, change, or reword it, including one already loaded.",
-    "",
-    "- Kaia",
-  ];
-  const bodyPath = path.join(os.tmpdir(), `ensure-backlog-notice-${Date.now()}.txt`);
-  fs.writeFileSync(bodyPath, lines.join("\n") + "\n");
-  const subject = `${siteName}: ${promoted.length} topic(s) auto-loaded, backlog runway restored`;
-
-  let anySent = false;
-  for (const recip of ["doit@kristamashore.com", "socialmedia@kristamashore.com"]) {
-    try {
-      const out = execFileSync(SENDER, [recip, subject, bodyPath], { encoding: "utf8" });
-      if (/SENT_OK/.test(out)) {
-        anySent = true;
-        console.log(`[ensure-backlog] notice sent to ${recip}`);
-      } else {
-        console.log(`[ensure-backlog] notice send to ${recip} did not confirm SENT_OK: ${out.trim()}`);
-      }
-    } catch (e) {
-      console.log(`[ensure-backlog] notice send to ${recip} failed: ${e.message}`);
-    }
-  }
-  try { fs.unlinkSync(bodyPath); } catch { /* best effort cleanup */ }
-  if (anySent) {
-    fs.writeFileSync(sentinelPath, JSON.stringify({ date: today, promotedCount: promoted.length }, null, 2) + "\n");
-  }
+  fs.writeFileSync(
+    sentinelPath,
+    JSON.stringify(
+      { date: today, promotedCount: promoted.length, titles: promoted.map((p) => p.title), emailed: false },
+      null,
+      2
+    ) + "\n"
+  );
+  console.log(`[ensure-backlog] auto-load recorded (no email; notice retired 2026-09-08 at Krista's direction)`);
 })();
 
 process.exit(0);
