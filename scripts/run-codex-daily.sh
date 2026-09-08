@@ -123,6 +123,13 @@ fi
 # invents a topic and never promotes one that would fail the validator below.
 node scripts/ensure-backlog.cjs --target "$DAILY_TARGET" || true
 
+# Close out topics that have actually published, before the cannibalisation gate
+# reads them. Ported from the blog runner 2026-09-08 after that repo's gate
+# aborted on four topics it had published itself the same day. This repo had the
+# identical gate and the identical missing housekeeping; it had simply not
+# published a wave-9+ topic yet.
+node scripts/reconcile-published-topics.cjs || true
+
 node scripts/check-topic-backlog.cjs || {
   print -u2 "[codex-daily] ABORTED: topic backlog contains entries no article can satisfy (see above). Fix data/blog/topic-backlog.json."
   exit 1

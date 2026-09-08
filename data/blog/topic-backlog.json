@@ -20,7 +20,8 @@
       "funnelStage": "attention",
       "intent": "informational",
       "angle": "The definitional query AI assistants cite most. Define it the way a business owner needs it: takes a goal, breaks it into steps, uses tools, carries the task through. Distinguish agent vs chatbot vs automation with one concrete example of each from a service business.",
-      "status": "ready"
+      "status": "published",
+      "publishedAt": "2026-08-16T14:12:21.376Z"
     },
     {
       "id": "ai-w1-02",
@@ -39,7 +40,8 @@
       "funnelStage": "capture",
       "intent": "commercial",
       "angle": "Straight cost breakdown: off-the-shelf stacks run roughly $100-400/month for a solo operator in 2026; itemize what that buys (chat, voice, scheduling, CRM sync) vs when a subscription model like Claude/ChatGPT covers it. Honest about when the answer is 'you don't need one yet.'",
-      "status": "ready"
+      "status": "published",
+      "publishedAt": "2026-08-16T14:12:21.376Z"
     },
     {
       "id": "ai-w1-03",
@@ -58,7 +60,8 @@
       "funnelStage": "authority",
       "intent": "commercial",
       "angle": "The anchor-pillar money topic and Krista's actual specialty. What AI assistants look for before naming a business: crawlable authority content, consistent entity signals, being the cited answer to buyer questions. Practical steps, not theory.",
-      "status": "ready"
+      "status": "published",
+      "publishedAt": "2026-08-16T14:12:21.376Z"
     },
     {
       "id": "ai-w1-04",
@@ -77,7 +80,8 @@
       "funnelStage": "attention",
       "intent": "informational",
       "angle": "Definitional AEO play on AEO itself. How answer engines pick what to cite, how that differs from ranking, and the three changes that matter most for a service business. Krista runs this playbook on her own properties; write from practice.",
-      "status": "ready"
+      "status": "published",
+      "publishedAt": "2026-08-16T14:12:21.376Z"
     },
     {
       "id": "ai-w1-05",
@@ -96,7 +100,8 @@
       "funnelStage": "capture",
       "intent": "commercial",
       "angle": "Commercial-intent decision page. What the free tier genuinely handles, where the paid tiers earn their price for a business owner (usage limits, Projects, Claude Code), and the honest break-even: hours saved per week vs subscription cost.",
-      "status": "ready"
+      "status": "published",
+      "publishedAt": "2026-08-16T14:12:21.376Z"
     },
     {
       "id": "ai-w1-06",
@@ -115,7 +120,8 @@
       "funnelStage": "attention",
       "intent": "commercial",
       "angle": "Heavily searched 'best' query with a crowded field. Win on credibility: tools organized by the job (listing marketing, follow-up, transaction, content), what Krista actually uses vs what's noise, and real monthly costs. No pay-to-play listicle padding.",
-      "status": "ready"
+      "status": "published",
+      "publishedAt": "2026-08-18T00:52:08.754Z"
     },
     {
       "id": "ai-w2-01",
@@ -134,7 +140,8 @@
       "funnelStage": "resonance",
       "intent": "informational",
       "angle": "The fear query every agent types. Answer it straight: which parts of the job AI already does, where human agents still win (trust, negotiation, local judgment), and how the agents who adopt AI displace the ones who don't. No rah-rah, no doom.",
-      "status": "ready"
+      "status": "published",
+      "publishedAt": "2026-08-18T00:52:08.754Z"
     },
     {
       "id": "ai-w2-02",
@@ -153,7 +160,8 @@
       "funnelStage": "resonance",
       "intent": "informational",
       "angle": "Same fear query, lender edition. AI now handles document review, borrower Q&A, and follow-up; the LO's surviving value is judgment, relationships, and being the trusted local authority. Position AI as the thing that removes everything that isn't that.",
-      "status": "ready"
+      "status": "published",
+      "publishedAt": "2026-08-18T00:52:08.754Z"
     },
     {
       "id": "ai-w2-03",
@@ -172,7 +180,8 @@
       "funnelStage": "resonance",
       "intent": "commercial",
       "angle": "Exact searched phrase with a competitive title set. Krista's edge: she actually did it. Which roles AI absorbs first (follow-up, scheduling, reporting, content), the real cost comparison vs a hire, and the judgment work that stays human.",
-      "status": "ready"
+      "status": "published",
+      "publishedAt": "2026-08-18T00:52:08.754Z"
     },
     {
       "id": "ai-w2-04",
@@ -191,7 +200,8 @@
       "funnelStage": "nurture",
       "intent": "informational",
       "angle": "A third of small businesses name data security as their top AI concern and most never get a plain answer. What actually happens to pasted data, training-opt-out settings by tool, what never to paste, and the two-minute settings check for each major assistant.",
-      "status": "ready"
+      "status": "published",
+      "publishedAt": "2026-08-18T00:52:08.754Z"
     },
     {
       "id": "ai-w2-05",
@@ -210,7 +220,8 @@
       "funnelStage": "attention",
       "intent": "informational",
       "angle": "Most owners testing AI report hitting a barrier going deeper. The fix is scope: pick the single most repetitive task, run one tool against it for two weeks, measure hours saved, then expand. Give the exact starting sequence, not a tool list.",
-      "status": "ready"
+      "status": "published",
+      "publishedAt": "2026-08-19T15:10:14.169Z"
     },
     {
       "id": "ai-w3-01",
@@ -229,7 +240,8 @@
       "funnelStage": "resonance",
       "intent": "informational",
       "angle": "'Without sounding like a robot' recurs across the whole competitor set. Name the actual tells (hedging, symmetry, stock phrases, no stakes), then the fix: feed the model your voice and your real opinions instead of asking it to have some.",
-      "status": "ready"
+      "status": "published",
+      "publishedAt": "2026-08-19T15:10:14.169Z"
     },
     {
       "id": "ai-w3-02",
@@ -248,7 +260,8 @@
       "funnelStage": "attention",
       "intent": "informational",
       "angle": "Documented top AI use case for small business (content creation, 44%). The gap in existing coverage: volume without strategy converts nobody. Tie output to one audience, one pillar, one call to action; show the working prompt structure.",
-      "status": "ready"
+      "status": "published",
+      "publishedAt": "2026-08-19T15:10:14.169Z"
     },
     {
       "id": "ai-w3-03",
@@ -267,7 +280,8 @@
       "funnelStage": "capture",
       "intent": "commercial",
       "angle": "24/7 coverage for routine questions with human escalation is the proven pattern; the decision hinges on inquiry volume and after-hours loss. Give the yes/no criteria, then what a good setup routes to a human and why full automation backfires.",
-      "status": "ready"
+      "status": "published",
+      "publishedAt": "2026-08-19T15:10:14.169Z"
     },
     {
       "id": "ai-w3-04",
@@ -286,7 +300,8 @@
       "funnelStage": "capture",
       "intent": "commercial",
       "angle": "Voice agents now answer inbound calls, qualify, and book. When that wins (missed-call loss, after hours), when it damages trust, and the disclosure rule: introduce the AI by name from the first message. Costs and a realistic setup path.",
-      "status": "ready"
+      "status": "published",
+      "publishedAt": "2026-08-19T15:10:14.169Z"
     },
     {
       "id": "ai-w3-05",
@@ -305,7 +320,8 @@
       "funnelStage": "capture",
       "intent": "commercial",
       "angle": "Established high-intent term in real estate and lending. The AI version: instant acknowledgment, smart qualifying questions (budget, timeline, financing), and routing hot leads to the human, so revenue stops leaking while the agent is at a showing.",
-      "status": "ready"
+      "status": "published",
+      "publishedAt": "2026-08-22T17:37:00.211Z"
     },
     {
       "id": "ai-w3-06",
@@ -324,7 +340,8 @@
       "funnelStage": "authority",
       "intent": "informational",
       "angle": "Rising query with almost no non-developer coverage. Explain it as an AI that works in your files and runs real tasks, not a coding tool: organizing a business vault, building skills, automating reports. What the terminal moment feels like and why it's worth pushing past.",
-      "status": "ready"
+      "status": "published",
+      "publishedAt": "2026-08-22T17:37:00.211Z"
     },
     {
       "id": "ai-w3-07",
@@ -343,7 +360,8 @@
       "funnelStage": "resonance",
       "intent": "informational",
       "angle": "Major-outlet coverage proves the demand. Map a real one-person operation: what AI runs (content, follow-up, scheduling, reporting), what stays human (sales conversations, judgment, relationships), and where the model breaks so the reader trusts the rest.",
-      "status": "ready"
+      "status": "published",
+      "publishedAt": "2026-08-22T17:37:00.211Z"
     },
     {
       "id": "ai-w3-08",
@@ -362,7 +380,8 @@
       "funnelStage": "authority",
       "intent": "commercial",
       "angle": "The tactical companion to the AEO explainer: crawlable answers to real buyer questions, entity consistency, llms.txt, and why definitional content gets cited. Written from Krista's own working playbook, with observable results, not speculation.",
-      "status": "ready"
+      "status": "published",
+      "publishedAt": "2026-08-22T17:37:00.211Z"
     },
     {
       "id": "ai-w3-09",
@@ -381,7 +400,8 @@
       "funnelStage": "capture",
       "intent": "commercial",
       "angle": "The three-way 'which one' decision query (distinct from the existing head-to-head article). Route by job, not fandom: writing and long documents, images and brainstorming, Google-ecosystem work. Most serious operators run two; say which two and why.",
-      "status": "ready"
+      "status": "published",
+      "publishedAt": "2026-08-22T17:37:00.211Z"
     },
     {
       "id": "ai-w3-10",
@@ -400,7 +420,8 @@
       "funnelStage": "nurture",
       "intent": "commercial",
       "angle": "Onboarding is consistently cited among the fastest-ROI automations. The full flow: intake form to AI-drafted welcome, document collection, kickoff scheduling, and the CRM record building itself, with the human approving rather than assembling.",
-      "status": "ready"
+      "status": "published",
+      "publishedAt": "2026-08-23T15:07:55.928Z"
     },
     {
       "id": "ai-w3-11",
@@ -419,7 +440,8 @@
       "funnelStage": "capture",
       "intent": "commercial",
       "angle": "Named repeatedly in adoption research as a first-win automation. Compare the levels: booking link, AI assistant that negotiates times in email, and full agent scheduling off inbound calls, with the honest 'good enough' answer for most solo operators.",
-      "status": "ready"
+      "status": "published",
+      "publishedAt": "2026-08-23T15:07:55.928Z"
     },
     {
       "id": "ai-w3-12",
@@ -438,7 +460,8 @@
       "funnelStage": "authority",
       "intent": "informational",
       "angle": "Stats roundups are what answer engines cite. Compile the 2026 numbers with sources: ~74% of SMBs using or testing AI, top use cases (research 51%, content 44%), the 82% barrier rate, security concern growth. Every figure sourced in-paragraph; no invented data.",
-      "status": "ready"
+      "status": "published",
+      "publishedAt": "2026-08-23T15:07:55.928Z"
     },
     {
       "id": "w7-01",
@@ -456,7 +479,8 @@
       "funnelStage": "resonance",
       "intent": "informational",
       "angle": "Open on the gut-punch: a buyer asked an assistant for someone like you and got a competitor. Then the mechanics: entity clarity, review signals, crawlable answers. No jargon before the reader understands the stakes.",
-      "status": "ready"
+      "status": "published",
+      "publishedAt": "2026-08-23T15:07:55.928Z"
     },
     {
       "id": "w7-02",
@@ -475,7 +499,8 @@
       "funnelStage": "attention",
       "intent": "informational",
       "angle": "Definitional. Krista's note: most people do NOT know the term GEO, so define it in the first line in plain words and immediately tie it to the thing they DO recognize, getting recommended by AI. Never assume the acronym.",
-      "status": "ready"
+      "status": "published",
+      "publishedAt": "2026-08-23T15:07:55.928Z"
     },
     {
       "id": "w7-03",
@@ -493,7 +518,8 @@
       "funnelStage": "attention",
       "intent": "informational",
       "angle": "The mechanism piece: assistants cross-reference site content, business profile, and third-party reputation for consistency. Explain what that means practically for a one-location service business.",
-      "status": "ready"
+      "status": "published",
+      "publishedAt": "2026-08-24T15:12:55.764Z"
     },
     {
       "id": "w7-04",
@@ -511,7 +537,8 @@
       "funnelStage": "authority",
       "intent": "informational",
       "angle": "The most technical piece in the wave. Explain structured data as 'labeling your facts so a machine cannot misread them'. Show what to add and what it changes. No code dump.",
-      "status": "ready"
+      "status": "published",
+      "publishedAt": "2026-08-24T15:12:55.764Z"
     },
     {
       "id": "w7-05",
@@ -530,7 +557,8 @@
       "funnelStage": "resonance",
       "intent": "informational",
       "angle": "Fair answer: not dead, but the winning surface moved from ten blue links to being the cited answer. What still works, what stopped working, what is new.",
-      "status": "ready"
+      "status": "published",
+      "publishedAt": "2026-08-24T15:12:55.764Z"
     },
     {
       "id": "w7-06",
@@ -549,7 +577,8 @@
       "funnelStage": "authority",
       "intent": "commercial",
       "angle": "Krista's own framing, verbatim from her direction. The plain-language AEO article for people who will never search the acronym. One clear sequence: be findable, be consistent, be the best answer to a real question, be verifiable.",
-      "status": "ready"
+      "status": "published",
+      "publishedAt": "2026-08-24T15:12:55.764Z"
     },
     {
       "id": "w7-07",
@@ -567,7 +596,8 @@
       "funnelStage": "capture",
       "intent": "commercial",
       "angle": "Concrete numbers most owners have never been given: reported 2026 benchmarks near 150+ reviews and a 4.2 to 4.7 average, with recency and response rate weighted heavily. Cite the research in-paragraph, never as bare assertion.",
-      "status": "ready"
+      "status": "published",
+      "publishedAt": "2026-08-24T15:12:55.764Z"
     },
     {
       "id": "w7-08",
@@ -585,7 +615,8 @@
       "funnelStage": "nurture",
       "intent": "informational",
       "angle": "The blocker is social discomfort, not process. Give the exact moment to ask, the exact words, and the follow-up that is not nagging.",
-      "status": "ready"
+      "status": "published",
+      "publishedAt": "2026-08-25T14:10:05.016Z"
     },
     {
       "id": "w7-09",
@@ -603,7 +634,8 @@
       "funnelStage": "nurture",
       "intent": "commercial",
       "angle": "Response rate is a measurable input to AI recommendations, so replying matters. Where AI drafting helps and where it reads canned and damages trust. The review that must always be human.",
-      "status": "ready"
+      "status": "published",
+      "publishedAt": "2026-08-25T14:10:05.016Z"
     },
     {
       "id": "w7-10",
@@ -621,7 +653,8 @@
       "funnelStage": "resonance",
       "intent": "informational",
       "angle": "Higher stakes now: assistants read review text, not just stars. A well-handled negative review can help you. The response structure, and what never to do.",
-      "status": "ready"
+      "status": "published",
+      "publishedAt": "2026-08-25T14:10:05.016Z"
     },
     {
       "id": "w7-11",
@@ -639,7 +672,8 @@
       "funnelStage": "capture",
       "intent": "informational",
       "angle": "Profile completeness and consistency feed AI recommendations directly. A working checklist, ordered by impact, with the fields most owners leave blank.",
-      "status": "ready"
+      "status": "published",
+      "publishedAt": "2026-08-25T14:10:05.016Z"
     },
     {
       "id": "w7-12",
@@ -657,7 +691,8 @@
       "funnelStage": "resonance",
       "intent": "commercial",
       "angle": "The AEO angle on the reviews cluster, in Krista's plain framing. Ties the day's tactical pieces to the outcome the reader cares about: being the one named.",
-      "status": "ready"
+      "status": "published",
+      "publishedAt": "2026-08-25T14:10:05.016Z"
     },
     {
       "id": "w7-13",
@@ -675,7 +710,8 @@
       "funnelStage": "resonance",
       "intent": "informational",
       "angle": "Put a number on the invisible leak. Walk the arithmetic with the reader's own numbers rather than a generic stat, so the conclusion is theirs.",
-      "status": "ready"
+      "status": "published",
+      "publishedAt": "2026-08-26T15:22:04.882Z"
     },
     {
       "id": "w7-14",
@@ -693,7 +729,8 @@
       "funnelStage": "capture",
       "intent": "commercial",
       "angle": "Fair comparison with real costs and the failure modes of each. Who each genuinely fits. Include the disclosure rule: introduce the AI by name on the first message.",
-      "status": "ready"
+      "status": "published",
+      "publishedAt": "2026-08-26T15:22:04.882Z"
     },
     {
       "id": "w7-15",
@@ -711,7 +748,8 @@
       "funnelStage": "capture",
       "intent": "commercial",
       "angle": "The full sequence: instant acknowledgment, qualifying questions, routing the hot ones to a human. What stays automated and what must not be.",
-      "status": "ready"
+      "status": "published",
+      "publishedAt": "2026-08-26T15:22:04.882Z"
     },
     {
       "id": "w7-16",
@@ -729,7 +767,8 @@
       "funnelStage": "nurture",
       "intent": "commercial",
       "angle": "Texting is intimate, so the bar is higher. What works, what gets you blocked, and the compliance basics without giving legal advice.",
-      "status": "ready"
+      "status": "published",
+      "publishedAt": "2026-08-26T15:22:04.882Z"
     },
     {
       "id": "w7-17",
@@ -747,7 +786,8 @@
       "funnelStage": "capture",
       "intent": "commercial",
       "angle": "Most inquiries arrive when the business is closed. What 24/7 coverage should and should not attempt overnight, and the morning handoff that makes it useful.",
-      "status": "ready"
+      "status": "published",
+      "publishedAt": "2026-08-26T15:22:04.882Z"
     },
     {
       "id": "w7-18",
@@ -765,7 +805,8 @@
       "funnelStage": "resonance",
       "intent": "commercial",
       "angle": "The AEO angle for this cluster: winning the recommendation is wasted if the follow-through fails. Ties visibility to operations in one story.",
-      "status": "ready"
+      "status": "published",
+      "publishedAt": "2026-08-27T15:08:47.022Z"
     },
     {
       "id": "w7-19",
@@ -783,7 +824,8 @@
       "funnelStage": "resonance",
       "intent": "informational",
       "angle": "Answer with sourced data: employment projections still growing for accountants while clerical roles decline. Tasks get replaced, judgment does not. Cite in-paragraph.",
-      "status": "ready"
+      "status": "published",
+      "publishedAt": "2026-08-27T15:08:47.022Z"
     },
     {
       "id": "w7-20",
@@ -801,7 +843,8 @@
       "funnelStage": "resonance",
       "intent": "informational",
       "angle": "Which consulting deliverables AI now produces in minutes, and what clients still pay a person for. Fair, specific, no reassurance theater.",
-      "status": "ready"
+      "status": "published",
+      "publishedAt": "2026-08-27T15:08:47.022Z"
     },
     {
       "id": "w7-21",
@@ -819,7 +862,8 @@
       "funnelStage": "resonance",
       "intent": "informational",
       "angle": "AI coaching tools are real and improving. Name honestly what they do well, then what only a human relationship delivers: accountability, judgment, being known.",
-      "status": "ready"
+      "status": "published",
+      "publishedAt": "2026-08-27T15:08:47.022Z"
     },
     {
       "id": "w7-22",
@@ -837,7 +881,8 @@
       "funnelStage": "attention",
       "intent": "informational",
       "angle": "Reframe from job to task. Give the reader a way to audit their own week and see which hours are genuinely exposed.",
-      "status": "ready"
+      "status": "published",
+      "publishedAt": "2026-08-27T15:08:47.022Z"
     },
     {
       "id": "w7-23",
@@ -855,7 +900,8 @@
       "funnelStage": "authority",
       "intent": "informational",
       "angle": "Concrete proof markers: specific named cases with consent, methods you built, failures you worked through, long-form thinking over time. Things a model cannot fabricate about you.",
-      "status": "ready"
+      "status": "published",
+      "publishedAt": "2026-08-28T14:13:37.796Z"
     },
     {
       "id": "w7-24",
@@ -873,7 +919,8 @@
       "funnelStage": "authority",
       "intent": "commercial",
       "angle": "The AEO turn on the fear cluster, and the strongest piece in the wave. The same visibility work that gets you cited is what makes you irreplaceable.",
-      "status": "ready"
+      "status": "published",
+      "publishedAt": "2026-08-28T14:13:37.796Z"
     },
     {
       "id": "w7-25",
@@ -891,7 +938,8 @@
       "funnelStage": "resonance",
       "intent": "informational",
       "angle": "The working split reported in practice: roughly 20 percent of operational load to AI, the 80 percent that creates value stays human. Where the line sits and what happens when it moves.",
-      "status": "ready"
+      "status": "published",
+      "publishedAt": "2026-08-28T14:13:37.796Z"
     },
     {
       "id": "w7-26",
@@ -909,7 +957,8 @@
       "funnelStage": "conversion",
       "intent": "commercial",
       "angle": "AI compresses structure, outline and draft work substantially. What it accelerates, what it cannot supply, and the order of operations that avoids a generic course.",
-      "status": "ready"
+      "status": "published",
+      "publishedAt": "2026-08-28T14:13:37.796Z"
     },
     {
       "id": "w7-27",
@@ -927,7 +976,8 @@
       "funnelStage": "nurture",
       "intent": "commercial",
       "angle": "The rule that keeps it safe: templated answers to repeat logistics are fine, AI-drafted answers to a personal situation are not. Build the first, never the second.",
-      "status": "ready"
+      "status": "published",
+      "publishedAt": "2026-08-28T14:13:37.796Z"
     },
     {
       "id": "w7-28",
@@ -945,7 +995,8 @@
       "funnelStage": "authority",
       "intent": "informational",
       "angle": "The interview method: have AI ask you hard questions about your work, then draft from your answers. Your raw material, its structure. This is how output stops sounding generic.",
-      "status": "ready"
+      "status": "published",
+      "publishedAt": "2026-08-30T14:12:35.001Z"
     },
     {
       "id": "w7-29",
@@ -963,7 +1014,8 @@
       "funnelStage": "capture",
       "intent": "commercial",
       "angle": "Decision criteria by client volume and question repetition. When it is premature, and the version that helps a solo coach without feeling like a wall.",
-      "status": "ready"
+      "status": "published",
+      "publishedAt": "2026-08-30T14:12:35.001Z"
     },
     {
       "id": "w7-30",
@@ -981,7 +1033,8 @@
       "funnelStage": "authority",
       "intent": "commercial",
       "angle": "The AEO angle for expert businesses, which have no storefront and no local listing. What substitutes for those signals when your business is your name.",
-      "status": "ready"
+      "status": "published",
+      "publishedAt": "2026-08-30T14:12:35.001Z"
     },
     {
       "id": "w7-31",
@@ -999,7 +1052,8 @@
       "funnelStage": "capture",
       "intent": "commercial",
       "angle": "Budget guidance by business size and use case, with the honest floor: many owners need one subscription, not a stack. Where spend actually converts.",
-      "status": "ready"
+      "status": "published",
+      "publishedAt": "2026-08-30T14:12:35.001Z"
     },
     {
       "id": "w7-32",
@@ -1017,7 +1071,8 @@
       "funnelStage": "capture",
       "intent": "commercial",
       "angle": "What free tiers genuinely cover, and the specific walls you hit: usage caps, context limits, data handling. The break-even in hours saved per week.",
-      "status": "ready"
+      "status": "published",
+      "publishedAt": "2026-08-30T14:12:35.001Z"
     },
     {
       "id": "w7-33",
