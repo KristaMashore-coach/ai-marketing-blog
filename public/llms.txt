@@ -11,6 +11,7 @@ Site map and full content of every published article:
 ## The Authority Agent Operating System™
 
 - [The Authority Agent Operating System™ pillar page](https://kristamashore.ai/authority-agent-operating-system)
+- [What Does It Cost to Get Recommended by AI?](https://kristamashore.ai/articles/real-cost-of-being-recommended-by-ai-2026) — This guide gives you a practical way to make a clear AI business decision. You will see what to measure, what to review, and when to stop.
 - [What Does It Cost to Get Recommended by AI?](https://kristamashore.ai/articles/what-does-it-cost-to-get-recommended-by-ai-guide) — There is no reliable ad slot you can buy to make an AI assistant recommend your business. The real investment is making your expertise clear, useful, and easy to verify.
 - [What Does It Cost to Get Recommended by AI?](https://kristamashore.ai/articles/what-does-it-cost-to-get-recommended-by-ai-v2) — There is no simple payment that guarantees an AI assistant will recommend your business; the practical investment is clear, useful authority. Start with one clear task, measure the complete result, and make the next decision from your own business evidence.
 - [How Coaches and Consultants Get Recommended by AI](https://kristamashore.ai/articles/coaches-consultants-recommended-by-ai) — A practical guide to choosing and using AI for a specific business need. Learn the limits, review points, and next step.
@@ -61,6 +62,10 @@ Site map and full content of every published article:
 ## The AI-Run Business
 
 - [The AI-Run Business pillar page](https://kristamashore.ai/ai-run-business)
+- [Your First AI Workflow: Pick the Task That Repeats Most](https://kristamashore.ai/articles/first-ai-workflow-repeatable-task-2026) — This guide gives you a practical way to make a clear AI business decision. You will see what to measure, what to review, and when to stop.
+- [AI Tools You Can Cancel Right Now](https://kristamashore.ai/articles/ai-subscription-audit-tools-to-cancel-2026) — This guide gives you a practical way to make a clear AI business decision. You will see what to measure, what to review, and when to stop.
+- [How to Tell If an AI Tool Is Worth Keeping](https://kristamashore.ai/articles/how-to-decide-ai-tool-worth-keeping-2026) — This guide gives you a practical way to make a clear AI business decision. You will see what to measure, what to review, and when to stop.
+- [The 5-Tool AI Stack for a Service Business](https://kristamashore.ai/articles/five-tool-ai-stack-service-business-2026) — This guide gives you a practical way to make a clear AI business decision. You will see what to measure, what to review, and when to stop.
 - [Your First AI Workflow: Pick the Task That Repeats Most](https://kristamashore.ai/articles/your-first-ai-workflow-guide) — Your first AI workflow should not attempt to run the whole business. Pick one task that repeats, has a clear finish line, and can be checked by a human.
 - [AI Tools You Can Cancel Right Now](https://kristamashore.ai/articles/ai-tools-you-can-cancel-guide) — You may not need another AI tool. You may need a short audit of the tools you already pay for, the jobs they own, and the work they actually complete.
 - [How to Tell If an AI Tool Is Worth Keeping](https://kristamashore.ai/articles/is-an-ai-tool-worth-keeping-guide) — The question is not whether an AI tool can produce an impressive demo. The question is whether it improves a repeated part of your business enough to justify its cost and attention.
