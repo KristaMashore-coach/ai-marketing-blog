@@ -39,6 +39,30 @@ exec > >(tee -a "$RUN_DIR/run.log") 2>&1
 cd "$ROOT"
 print "[codex-daily] site=kristamashore.ai mode=$MODE articles=1 started=$STAMP"
 
+# 2026-09-14 fix, ported from the blog runner the same day after that repo hit
+# this exact defect for real (blog.kristamashore.com published zero articles
+# 2026-09-10 through 2026-09-14). ensure-backlog.cjs and reconcile-published-
+# topics.cjs (below) write topic-backlog.json/pending-wave.json before
+# generation starts. The success path already commits them, but any OTHER exit
+# after those two scripts run used to leave the tree dirty, and the clean-repo
+# precondition at the top of the NEXT run then aborted before generating
+# anything — for as many days as the tree stayed dirty. This site already lost
+# 2026-08-31 through roughly 2026-09-06 to the reconcile-gate half of this same
+# disease (see the comment above reconcile-published-topics.cjs below); this is
+# the other half, for the case where every generation attempt fails validation.
+# --live only; never touch git in --preflight/--canary. No-ops if nothing
+# changed.
+commit_backlog_bookkeeping() {
+  [[ "$MODE" == "--live" ]] || return 0
+  git add data/blog/topic-backlog.json data/blog/pending-wave.json
+  if git diff --cached --quiet -- data/blog/topic-backlog.json data/blog/pending-wave.json; then
+    return 0
+  fi
+  git commit -m "content: reconcile backlog bookkeeping (no article published this run)"
+  GIT_TERMINAL_PROMPT=0 git pull --rebase origin main
+  GIT_TERMINAL_PROMPT=0 /usr/bin/perl -e '$timeout = shift; alarm $timeout; exec @ARGV' 180 git push origin main
+}
+
 for required in \
   "$CODEX_BIN" \
   "$PROMPT_FILE" \
@@ -132,6 +156,7 @@ node scripts/reconcile-published-topics.cjs || true
 
 node scripts/check-topic-backlog.cjs || {
   print -u2 "[codex-daily] ABORTED: topic backlog contains entries no article can satisfy (see above). Fix data/blog/topic-backlog.json."
+  commit_backlog_bookkeeping
   exit 1
 }
 
@@ -287,6 +312,7 @@ done
 if [[ "$GENERATION_OK" != "1" ]]; then
   restore_queue
   node "$PRESERVATION_SCRIPT" verify "$SNAPSHOT" 0
+  commit_backlog_bookkeeping
   print -u2 "[codex-daily] no article passed validation; published content is unchanged"
   exit 1
 fi
