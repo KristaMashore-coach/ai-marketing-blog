@@ -325,7 +325,21 @@ if [[ "$(node -e 'const q=require(process.argv[1]); console.log(q.length)' "$QUE
   exit 1
 fi
 
-npm run build
+# 2026-09-14 fix: this used to be a bare `npm run build`, so a build failure
+# (e.g. a bad internal link in the freshly merged posts.json — the live
+# incident that blocked this site 2026-09-13/14) killed the script via set -e
+# with NOTHING restored: publish-batch.cjs had already merged the unverified
+# article into posts.json and emptied queue.json, and both stayed dirty,
+# unpublished, and un-built. Every run after that died instantly on the
+# clean-repo precondition, same disease as the bookkeeping bug above but for
+# a different pair of files and a different trigger. git checkout is safe
+# here because nothing from this run has been committed yet at this point.
+if ! npm run build; then
+  print -u2 "[codex-daily] build failed after merging the batch into posts.json; reverting posts.json and queue.json to the last committed state"
+  git checkout -- data/blog/posts.json data/blog/queue.json
+  commit_backlog_bookkeeping
+  exit 1
+fi
 node "$PRESERVATION_SCRIPT" verify "$SNAPSHOT" "$ARTICLE_COUNT"
 NEW_SLUGS="$(node "$PRESERVATION_SCRIPT" new-slugs "$SNAPSHOT")"
 print "[codex-daily] new slugs:"
