@@ -63,6 +63,9 @@ const DAILY_TARGET = argOf("--target", Number(process.env.CODEX_DAILY_ARTICLE_CO
 // backlog would have gone dry, never on the dry morning itself.
 const MIN_DAYS = argOf("--min-days", 3);
 
+// Explicit hold states. A topic in one of these is never auto-loaded.
+const HELD_STATUSES = new Set(["hold-for-review", "held", "retired", "dropped"]);
+
 const DATA = path.join(__dirname, "..", "data", "blog");
 const BACKLOG_PATH = path.join(DATA, "topic-backlog.json");
 const PENDING_PATH = path.join(DATA, "pending-wave.json");
@@ -135,7 +138,11 @@ for (const t of pending) {
   // Before this guard the candidate loop ignored `status` entirely, so a topic
   // marked hold-for-review still auto-loaded and published. A hold mechanism
   // that silently does nothing is worse than none, because it gets trusted.
-  if (t.status && t.status !== "ready") {
+  // Blocklist, NOT an allowlist. The two repos use different neutral statuses
+  // for a queued topic ("ready" on kristamashore.ai, "pending" on the blog), so
+  // "anything not ready is held" would have silently stranded 6 live blog
+  // topics forever. Only these explicit hold states block a load.
+  if (HELD_STATUSES.has(String(t.status || "").toLowerCase())) {
     skipped.push(`${id}: status="${t.status}" (held, not auto-loadable)`);
     continue;
   }
