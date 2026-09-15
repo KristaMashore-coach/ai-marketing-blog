@@ -15,7 +15,8 @@
     "funnelStage": "attention",
     "intent": "informational",
     "angle": "Business owners on a free AI plan may be training the model with their own client information without knowing it. Explain what actually changes on a paid or enterprise tier.",
-    "status": "ready"
+    "status": "ready",
+    "evidence": "Searched 'chatgpt enterprise vs free plan data privacy business'. Dedicated competing pages: pithycyborg.substack.com/p/chatgpt-free-plus-teams-data-privacy-comparison, sonomos.ai/blog/free-vs-paid-chatgpt-privacy-differences-2026, datastudios.org (plan/feature comparison), aibusinessweekly.net/p/chatgpt-enterprise-vs-plus."
   },
   {
     "id": "w8-7",
@@ -33,7 +34,8 @@
     "funnelStage": "attention",
     "intent": "informational",
     "angle": "The subscription price is rarely the real cost. Cover setup time, training, integration, and the cost of picking the wrong tool and switching later.",
-    "status": "ready"
+    "status": "ready",
+    "evidence": "Searched 'hidden costs of AI tools for small business beyond subscription'. Dedicated pages: aibizztoolshub.com/blog/hidden-costs-ai-tools, lilachbullock.com/real-cost-ai-tools-small-business-keep-down, evalu8-evolve.com (what-are-the-hidden-costs...), aiforesight360.com/ai-tools-cost-for-small-business."
   },
   {
     "id": "w8-8",
@@ -51,7 +53,8 @@
     "funnelStage": "attention",
     "intent": "informational",
     "angle": "A concrete week-by-week plan for an owner who has never used AI in the business: pick one task, one tool, measure it, then decide whether to expand.",
-    "status": "ready"
+    "status": "ready",
+    "evidence": "Searched '30 day plan to start using AI in your small business'. Near-exact title matches: mohammedshehu.com/first-30-days-ai, quikteks.com/blog/your-first-30-days-with-ai-a-simple-starter-plan-for-small-business-owners, citsolutions.net/beyond-the-hype-a-30-day-plan-for-implementing-ai-in-your-business, aiacopilot.com (30-day roadmap)."
   },
   {
     "id": "w8-9",
@@ -69,7 +72,8 @@
     "funnelStage": "resonance",
     "intent": "informational",
     "angle": "Most AI rollouts fail on people, not technology. Cover a low-drama way to introduce a new tool to a small team without a mandate that breeds resistance.",
-    "status": "ready"
+    "status": "ready",
+    "evidence": "Searched 'how to introduce AI to your team without resistance small business'. Dedicated pages: enterprisenation.com/learn-something/how-to-introduce-ai-without-needing-to-lose-staff, businesstransitionacademy.com (6-tips-for-helping-your-team-embrace-ai-without-resistance), endless8marketing.com/how-to-introduce-ai-to-your-team, makeapivot.com/single-post/how-to-implement-ai-in-business."
   },
   {
     "id": "w8-10",
@@ -87,15 +91,16 @@
     "funnelStage": "resonance",
     "intent": "informational",
     "angle": "Most small businesses assume renting a tool is the only option. Lay out when a simple owned system actually beats a subscription, and when it doesn't.",
-    "status": "ready"
+    "status": "ready",
+    "evidence": "Searched 'build vs buy AI tool small business custom vs off the shelf'. Dedicated pages: smarterflo.com/blog/build-vs-buy-ai-small-business (exact match), yellow.systems/blog/custom-ai-vs-off-the-shelf-ai, devhawk.ai/blog/build-vs-buy-ai."
   },
   {
     "id": "w8-11",
     "priority": 153,
     "wave": "8 - AI adoption: cost, privacy, ownership, replacing staff (proposed 2026-08-17)",
-    "title": "The AI Mistake of Automating the Wrong Task First",
-    "slug": "the-ai-mistake-of-automating-the-wrong-task-first",
-    "primaryKeyword": "automating the wrong task first small business",
+    "title": "What to Automate First With AI (and What to Skip)",
+    "slug": "what-to-automate-first-with-ai-and-what-to-skip",
+    "primaryKeyword": "what to automate first with ai small business",
     "secondaryKeywords": [
       "AI automation priority mistakes",
       "which task to automate first small business"
@@ -105,7 +110,10 @@
     "funnelStage": "attention",
     "intent": "informational",
     "angle": "Owners often automate the task that's easiest to automate, not the one that costs them the most time. Walk through how to pick correctly the first time.",
-    "status": "ready"
+    "status": "ready",
+    "evidence": "Searched 'which task to automate first with AI small business mistake'. Dedicated pages answer the underlying question in positive form, not 'mistake' form: commercepundit.com/blog/ai-automation-for-small-businesses (What to Automate First), thevirtualsavvy.com/what-tasks-should-i-automate-with-ai-first, thewolfofai.co/post/ai-automation-small-business-tasks.",
+    "previousTitle": "The AI Mistake of Automating the Wrong Task First",
+    "retitledReason": "searcher-vocabulary rewrite, 2026-09-15 demand check"
   },
   {
     "id": "w8-12",
@@ -123,7 +131,8 @@
     "funnelStage": "attention",
     "intent": "informational",
     "angle": "Most small business owners never read the contract on an AI subscription. Name the specific terms worth reading: term length, price increases, and data ownership.",
-    "status": "ready"
+    "status": "ready",
+    "evidence": "Searched 'AI vendor contract terms to check small business data ownership'. Dedicated pages: wardandsmith.com/article/contract-architecture-core-ai-clauses-for-vendor-agreements, aaronhall.com/ai-vendor-contract-clauses-minnesota-businesses, gouchevlaw.com/10-critical-clauses-for-ai-vendor-contracts, crowleylawllc.com/ai-vendor-contracts-7-critical-clauses."
   },
   {
     "id": "w8-13",
@@ -141,7 +150,8 @@
     "funnelStage": "attention",
     "intent": "informational",
     "angle": "Tool sprawl quietly becomes its own cost. Give a simple rule for how many AI tools a small business should be running at once, and when to consolidate.",
-    "status": "ready"
+    "status": "ready",
+    "evidence": "Searched 'how many AI tools does a small business need tool sprawl'. Dedicated pages: cledara.com/blog/ai-tool-sprawl, cloudsecuretech.com/insights/smb-ai-tool-sprawl, forbes.com/sites/terdawn-deboe (AI Agent Sprawl: How Small Businesses Can Regain Control), worqlo.com/blog/enterprise-ai-tool-sprawl. Stat cited: median small business runs ~5 AI tools, 73% say they need help choosing."
   },
   {
     "id": "w8-14",
@@ -159,7 +169,8 @@
     "funnelStage": "attention",
     "intent": "informational",
     "angle": "Owners handling financial, legal-adjacent, or health-adjacent client information carry more privacy risk than a typical small business. Cover what extra checks that requires.",
-    "status": "ready"
+    "status": "ready",
+    "evidence": "Searched 'AI tools for businesses handling sensitive client data privacy'. Dedicated pages: callosium.com/learn/best-ai-tools-for-consultants-handling-sensitive-data (same audience/question), startuphub.ai/ai-news/insights/2026/privacy-first-ai-tools-2026, dialzara.com/blog/top-5-ai-tools-with-transparent-data-policies, alloypress.com/blogs/best-privacy-focused-ai-tools."
   },
   {
     "id": "w8-15",
@@ -177,7 +188,8 @@
     "funnelStage": "attention",
     "intent": "informational",
     "angle": "Not a scare piece: name the concrete, checkable signals that a business has fallen behind, like a competitor answering questions AI already recommends them for.",
-    "status": "ready"
+    "status": "ready",
+    "evidence": "Searched 'signs you waited too long to adopt AI in your business'. mcollins.com/signs-your-business-falling-behind-ai-adoption ('5 Signs Your Business Is Behind on AI Adoption') is a near-exact title match; also entrepreneur.com/leadership/why-waiting-to-adopt-ai-is-riskier-than-you-think, cetdigit.com (real cost of waiting), fastslowmotion.com (is it too late)."
   },
   {
     "id": "w8-16",
@@ -195,7 +207,8 @@
     "funnelStage": "resonance",
     "intent": "informational",
     "angle": "Go deeper on ownership than the platform lock-in piece: what it practically looks like to own the prompts, the data, and the workflow instead of renting access to someone else's.",
-    "status": "ready"
+    "status": "ready",
+    "evidence": "Searched 'what does it mean to actually own your AI workflow instead of renting'. Dedicated pages: cio.com/article/4172558/the-next-digital-divide-ai-owners-vs-ai-renters, ability.ai/blog/ai-harness-ownership-strategy, forbes.com/councils/forbestechcouncil (Own It Or Rent It? A CIO's Framework), shooflyai.com/blog/build-vs-buy-vs-own-ai."
   },
   {
     "id": "w8-17",
@@ -213,7 +226,8 @@
     "funnelStage": "attention",
     "intent": "informational",
     "angle": "The AI tools market moves fast and some vendors won't survive it. Give owners a few concrete signals to check before building a workflow around a new tool.",
-    "status": "ready"
+    "status": "ready",
+    "evidence": "Searched 'how to evaluate AI vendor stability will they still exist in two years'. Near-exact match: adexchanger.com/data-driven-thinking/how-to-tell-if-an-ai-vendor-will-still-matter-in-two-years. Also dev.to/mirasloan/how-to-tell-if-your-ai-vendor-will-still-be-around-in-3-years-5d1j and dev.to/mirasloan/how-to-evaluate-an-ai-vendors-long-term-viability-before-you-build-on-them-2g3k."
   },
   {
     "id": "w8-18",
@@ -231,15 +245,16 @@
     "funnelStage": "resonance",
     "intent": "informational",
     "angle": "Most AI-for-small-business content assumes a solo operator. Address the different rollout, training, and ownership questions that come up once there's a team involved.",
-    "status": "ready"
+    "status": "hold-for-review",
+    "holdReason": "Demand check 2026-09-15 found no search behind this framing: Two searches ('AI adoption small business with employees vs solo owner rollout' and 'AI rollout for company with employees vs solo entrepreneur different approach') returned only adoption-rate statistics pages and solopreneur-trend pieces (peak.capital, fortune.com, forbes 'one person unicorn'), never a dedicated page answering how a team-based AI rollout should differ from a solo one; nobody is asking this specific question."
   },
   {
     "id": "w8-19",
     "priority": 161,
     "wave": "8 - AI adoption: cost, privacy, ownership, replacing staff (proposed 2026-08-17)",
-    "title": "What Small Business Owners Get Wrong About AI Pricing",
-    "slug": "what-small-business-owners-get-wrong-about-ai-pricing",
-    "primaryKeyword": "small business owners wrong about AI pricing",
+    "title": "AI Pricing Mistakes Most Small Businesses Make",
+    "slug": "ai-pricing-mistakes-most-small-businesses-make",
+    "primaryKeyword": "ai pricing mistakes small business",
     "secondaryKeywords": [
       "AI pricing misconceptions small business",
       "common AI cost mistakes small business"
@@ -249,7 +264,10 @@
     "funnelStage": "attention",
     "intent": "informational",
     "angle": "Cover the two most common pricing mistakes: judging a tool only by its monthly price, and assuming the cheapest tool is the lowest total cost.",
-    "status": "ready"
+    "status": "ready",
+    "evidence": "Searched 'AI pricing mistakes small business owners make'. Dedicated pages: medium.com/@yash24.botify/5-ai-mistakes-that-are-costing-your-business-money, success.com/the-real-cost-of-ai-tools-for-small-business-roi-calculator-2, nofluffaitools.com/small-business-ai-mistakes-2026, smarterflo.com/blog/common-ai-mistakes-small-business.",
+    "previousTitle": "What Small Business Owners Get Wrong About AI Pricing",
+    "retitledReason": "searcher-vocabulary rewrite, 2026-09-15 demand check"
   },
   {
     "id": "w8-20",
@@ -267,7 +285,8 @@
     "funnelStage": "attention",
     "intent": "informational",
     "angle": "Give a concrete trigger list for moving off a free AI tier: a customer-facing use case, a privacy concern, or hitting a usage limit that's now costing real time.",
-    "status": "ready"
+    "status": "ready",
+    "evidence": "Searched 'when to upgrade from free AI tool to paid plan signs'. Dedicated pages: best-ai.org/learn/free-vs-paid, zemith.com/en/contents/free-vs-paid-ai-tools-2026 ('When Does Upgrading Actually Make Sense?'), dailyaiintel.com/questions/how-do-you-know-when-youve-actually-outgrown-free-ai-tools (near-exact match)."
   },
   {
     "id": "w9-2",

@@ -130,6 +130,15 @@ const eligible = [];
 for (const t of pending) {
   const id = t.slug || t.title || "(unnamed)";
   if (!t.slug || !t.title) { skipped.push(`${id}: missing slug or title`); continue; }
+  // Added 2026-09-15. A pending topic may be deliberately held (e.g. the
+  // aeo-article-strategy-refresh demand check found no real search behind it).
+  // Before this guard the candidate loop ignored `status` entirely, so a topic
+  // marked hold-for-review still auto-loaded and published. A hold mechanism
+  // that silently does nothing is worse than none, because it gets trusted.
+  if (t.status && t.status !== "ready") {
+    skipped.push(`${id}: status="${t.status}" (held, not auto-loadable)`);
+    continue;
+  }
   if (backlogSlugs.has(t.slug)) { skipped.push(`${id}: already in backlog`); continue; }
   if (publishedSlugs.has(t.slug)) { skipped.push(`${id}: already published`); continue; }
   if (t.title.length > TITLE_MAX) {
