@@ -1090,7 +1090,8 @@
       "funnelStage": "capture",
       "intent": "commercial",
       "angle": "A deliberately small stack by job, not by brand hype, with real monthly costs. Argue for fewer tools used properly over more tools used once.",
-      "status": "ready"
+      "status": "published",
+      "publishedAt": "2026-09-14T20:56:34.137Z"
     },
     {
       "id": "w7-34",
@@ -1108,7 +1109,8 @@
       "funnelStage": "nurture",
       "intent": "commercial",
       "angle": "The discipline most owners skip: baseline the metric before switching the tool on, run 60 to 90 days, decide on your own numbers instead of vendor case studies.",
-      "status": "ready"
+      "status": "published",
+      "publishedAt": "2026-09-14T20:56:34.137Z"
     },
     {
       "id": "w7-35",
@@ -1126,7 +1128,8 @@
       "funnelStage": "resonance",
       "intent": "commercial",
       "angle": "The subscription audit. Categories of tool that duplicate what a general assistant already does, and how to tell before renewal.",
-      "status": "ready"
+      "status": "published",
+      "publishedAt": "2026-09-14T20:56:34.137Z"
     },
     {
       "id": "w7-36",
@@ -1144,7 +1147,8 @@
       "funnelStage": "capture",
       "intent": "commercial",
       "angle": "The AEO angle on cost, and an important correction: you cannot pay to be recommended, there is no ad slot. What the real investment is, in time and content rather than spend.",
-      "status": "ready"
+      "status": "published",
+      "publishedAt": "2026-09-14T20:56:34.137Z"
     },
     {
       "id": "w7-37",
@@ -1162,7 +1166,8 @@
       "funnelStage": "attention",
       "intent": "informational",
       "angle": "Most owners stall because they try to automate everything. One task, two weeks, measured. The exact selection criteria for which task goes first.",
-      "status": "ready"
+      "status": "published",
+      "publishedAt": "2026-09-14T20:56:34.137Z"
     },
     {
       "id": "w7-38",
@@ -1358,6 +1363,121 @@
       "autoLoaded": true,
       "autoLoadedAt": "2026-08-31T14:00:04.404Z",
       "autoLoadedReason": "backlog runway fell to 10 (floor 15); promoted without waiting on approval per Krista 2026-08-20, reaffirmed 2026-08-24"
+    },
+    {
+      "id": "w9-1",
+      "priority": 148,
+      "wave": "9 - AI adoption in practice: one workflow, voice, limits, AI search visibility (proposed 2026-09-07)",
+      "title": "What AI Agents Can and Cannot Do for a Small Business",
+      "slug": "what-ai-agents-can-and-cannot-do-for-a-small-business",
+      "metaTitle": "What AI Agents Can and Cannot Do for a Small Business",
+      "primaryKeyword": "AI agents for small business limitations",
+      "secondaryKeywords": [
+        "what can AI agents actually do",
+        "AI agent risks small business"
+      ],
+      "topicalPillar": "ai-run-business",
+      "contentTypePillar": "educational-authority",
+      "funnelStage": "attention",
+      "intent": "informational",
+      "angle": "They are good at high-volume repetitive text work with a human approving anything outbound. They are bad at judgment, and they will be confidently wrong.",
+      "evidence": "SERP for 'AI agents small business 2026 limitations': uplify.ai/ai-agent-limitations, kaizenaiconsulting.com/ai-agents-small-business-2026-what-works, successknocks.com risks-and-limits, aalpha.net, azterion.com. Dedicated limitation pages, not just vendor pages.",
+      "status": "ready",
+      "autoLoaded": true,
+      "autoLoadedAt": "2026-09-15T14:04:26.002Z",
+      "autoLoadedReason": "backlog runway fell to 10 (floor 15); promoted without waiting on approval per Krista 2026-08-20, reaffirmed 2026-08-24; pillar-balanced per Krista 2026-08-24"
+    },
+    {
+      "id": "w9-8",
+      "priority": 155,
+      "wave": "9 - AI adoption in practice: one workflow, voice, limits, AI search visibility (proposed 2026-09-07)",
+      "title": "How to Get AI to Write in Your Voice Using Your Own Posts",
+      "slug": "how-to-get-ai-to-write-in-your-voice-using-your-own-posts",
+      "metaTitle": "How to Get AI to Write in Your Voice Using Your Own Posts",
+      "primaryKeyword": "train AI to write in my voice",
+      "secondaryKeywords": [
+        "make ChatGPT sound like me",
+        "AI writing in my own style samples"
+      ],
+      "topicalPillar": "ai-content-to-client-system",
+      "contentTypePillar": "process-and-differentiation",
+      "funnelStage": "resonance",
+      "intent": "informational",
+      "angle": "Five to ten real samples beat any adjective you can type. Show it what you sound like instead of describing what you sound like.",
+      "evidence": "SERP for 'train AI to sound like you': amplifyforadvisors.substack 3-step process, soloailab.substack, nickquick.substack, lilachbullock.com, georgekao.medium. Dense cluster with a documented sample-count consensus.",
+      "status": "ready",
+      "autoLoaded": true,
+      "autoLoadedAt": "2026-09-15T14:04:26.005Z",
+      "autoLoadedReason": "backlog runway fell to 10 (floor 15); promoted without waiting on approval per Krista 2026-08-20, reaffirmed 2026-08-24; pillar-balanced per Krista 2026-08-24"
+    },
+    {
+      "id": "w9-14",
+      "priority": 161,
+      "wave": "9 - AI adoption in practice: one workflow, voice, limits, AI search visibility (proposed 2026-09-07)",
+      "title": "What Belongs in an AI Brand Brain Before You Write Anything",
+      "slug": "what-belongs-in-an-ai-brand-brain-before-you-write-anything",
+      "metaTitle": "What Belongs in an AI Brand Brain Before You Write Anything",
+      "primaryKeyword": "AI knowledge base for my business voice",
+      "secondaryKeywords": [
+        "what to put in an AI brand file",
+        "business context file for AI"
+      ],
+      "topicalPillar": "authority-agent-operating-system",
+      "contentTypePillar": "process-and-differentiation",
+      "funnelStage": "authority",
+      "intent": "informational",
+      "angle": "Ten files, and the order to build them in. Every prompt you never have to retype again lives in one of them.",
+      "evidence": "'give ChatGPT context about my business' and 'AI knowledge base for business' both return competing pages across AI-consulting blogs; the sample-based voice cluster confirms the underlying demand.",
+      "status": "ready",
+      "autoLoaded": true,
+      "autoLoadedAt": "2026-09-15T14:04:26.005Z",
+      "autoLoadedReason": "backlog runway fell to 10 (floor 15); promoted without waiting on approval per Krista 2026-08-20, reaffirmed 2026-08-24; pillar-balanced per Krista 2026-08-24"
+    },
+    {
+      "id": "w9-17",
+      "priority": 164,
+      "wave": "9 - AI adoption in practice: one workflow, voice, limits, AI search visibility (proposed 2026-09-07)",
+      "title": "Claude vs ChatGPT: Which One for Writing in Your Own Voice?",
+      "slug": "claude-vs-chatgpt-which-one-for-writing-in-your-own-voice",
+      "metaTitle": "Claude vs ChatGPT: Which One for Writing in Your Own Voice?",
+      "primaryKeyword": "Claude or ChatGPT for writing in your voice",
+      "secondaryKeywords": [
+        "best AI for brand voice writing",
+        "which AI sounds most human"
+      ],
+      "topicalPillar": "claude-for-dummies",
+      "contentTypePillar": "educational-authority",
+      "funnelStage": "resonance",
+      "intent": "commercial",
+      "angle": "Narrow the comparison to one job instead of ranking them overall. For voice work the deciding factor is how much sample text each one will hold.",
+      "evidence": "'Claude vs ChatGPT' is a high-volume comparison cluster refreshed constantly; the voice-specific narrowing is supported by the train-AI-to-sound-like-you cluster and avoids repeating the published general comparison.",
+      "status": "ready",
+      "autoLoaded": true,
+      "autoLoadedAt": "2026-09-15T14:04:26.005Z",
+      "autoLoadedReason": "backlog runway fell to 10 (floor 15); promoted without waiting on approval per Krista 2026-08-20, reaffirmed 2026-08-24; pillar-balanced per Krista 2026-08-24"
+    },
+    {
+      "id": "w9-20",
+      "priority": 167,
+      "wave": "9 - AI adoption in practice: one workflow, voice, limits, AI search visibility (proposed 2026-09-07)",
+      "title": "How a Local Business Shows Up When Someone Asks AI for a Referral",
+      "slug": "how-a-local-business-shows-up-when-someone-asks-ai-for-a-referral",
+      "metaTitle": "How a Local Business Shows Up When Someone Asks AI for a Ref",
+      "primaryKeyword": "how to get recommended by AI search",
+      "secondaryKeywords": [
+        "get my business mentioned by ChatGPT",
+        "AI search visibility local business"
+      ],
+      "topicalPillar": "community-market-leaders-ai",
+      "contentTypePillar": "educational-authority",
+      "funnelStage": "authority",
+      "intent": "informational",
+      "angle": "AI answers are assembled from what is already published and cited about you. What has to exist before your name can appear in one.",
+      "evidence": "'how to get your business recommended by ChatGPT' and answer-engine-optimization queries have a fast-growing dedicated cluster across SEO vendors, with heavy PAA. High commercial intent.",
+      "status": "ready",
+      "autoLoaded": true,
+      "autoLoadedAt": "2026-09-15T14:04:26.005Z",
+      "autoLoadedReason": "backlog runway fell to 10 (floor 15); promoted without waiting on approval per Krista 2026-08-20, reaffirmed 2026-08-24; pillar-balanced per Krista 2026-08-24"
     }
   ],
   "wave7_approved": "2026-08-16 by Krista (APPROVED + 7 AEO additions at her direction)"

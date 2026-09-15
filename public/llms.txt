@@ -11,6 +11,7 @@ Site map and full content of every published article:
 ## The Authority Agent Operating System™
 
 - [The Authority Agent Operating System™ pillar page](https://kristamashore.ai/authority-agent-operating-system)
+- [The Weekly Habit That Gets You Recommended by AI](https://kristamashore.ai/articles/weekly-habit-recommended-by-ai) — Answer one real customer question in public each week with clarity, context, boundaries, and a useful next step. This guide gives you a repeatable way to apply the idea in your business.
 - [What Does It Cost to Get Recommended by AI?](https://kristamashore.ai/articles/what-does-it-cost-to-get-recommended-by-ai) — There is no simple ad slot where you pay an AI assistant to recommend your business. The practical cost of AEO is the time and care required to make your expertise clear, useful, and easy to verify.
 - [What Does It Cost to Get Recommended by AI?](https://kristamashore.ai/articles/what-does-it-cost-to-get-recommended-by-ai-september-2026) — There is no simple fee that buys an AI recommendation. The real cost of AEO is the time and care required to make your expertise clear, useful, and easy to verify.
 - [What Does It Cost to Get Recommended by AI?](https://kristamashore.ai/articles/what-does-it-cost-to-get-recommended-by-ai-fresh-2026) — Being recommended by AI is not a paid placement you can reserve. The practical work is clear expertise: answer questions, explain your process, and keep facts accurate. This guide gives you a practical next step.
@@ -65,6 +66,9 @@ Site map and full content of every published article:
 ## The AI-Run Business
 
 - [The AI-Run Business pillar page](https://kristamashore.ai/ai-run-business)
+- [What to Measure to Know If AI Is Actually Working](https://kristamashore.ai/articles/measure-if-ai-is-working) — Measure hours returned, revenue touched, and quality after review, not merely drafts or prompts. This guide gives you a repeatable way to apply the idea in your business.
+- [How to Train AI on Your Own Business Knowledge](https://kristamashore.ai/articles/train-ai-on-your-business-knowledge) — A useful business knowledge base contains current facts, rules, processes, examples, and definitions. This guide gives you a repeatable way to apply the idea in your business.
+- [Where AI Should Never Touch Your Business](https://kristamashore.ai/articles/where-ai-should-never-touch-your-business) — AI should not own client crises, regulated decisions, confidential information, pricing judgment, or promises. This guide gives you a repeatable way to apply the idea in your business.
 - [Your First AI Workflow: Pick the Task That Repeats Most](https://kristamashore.ai/articles/your-first-ai-workflow) — Your first AI workflow should solve one repeated task, not attempt to run the whole company. Choose a task with a clear input, a visible finish, and enough repetition to learn from the test.
 - [AI Tools You Can Cancel Right Now](https://kristamashore.ai/articles/ai-tools-you-can-cancel) — Canceling an AI subscription can be a smart operating decision when the tool duplicates work elsewhere or has no active owner. Audit each category by job before the next renewal date.
 - [How to Tell If an AI Tool Is Worth Keeping](https://kristamashore.ai/articles/is-an-ai-tool-worth-keeping) — A tool is worth keeping when it improves a business measure enough to justify its cost and upkeep. Use your own baseline, run a defined test, and make the decision from evidence you can inspect.
@@ -143,6 +147,7 @@ Site map and full content of every published article:
 ## Claude for Dummies: The AI Tools That Actually Matter
 
 - [Claude for Dummies: The AI Tools That Actually Matter pillar page](https://kristamashore.ai/claude-for-dummies)
+- [How to Write a Prompt That Gets Usable Work](https://kristamashore.ai/articles/write-a-prompt-that-gets-usable-work) — Prompting for business output means naming the task, context, audience, constraints, examples, and review loop. This guide gives you a repeatable way to apply the idea in your business.
 - [Free vs Paid AI Tools: What You Actually Give Up](https://kristamashore.ai/articles/free-vs-paid-ai-tools) — A practical guide to choosing and using AI for a specific business need. Learn the limits, review points, and next step.
 - [Which AI Should Your Business Use? ChatGPT, Claude, Gemini](https://kristamashore.ai/articles/which-ai-should-your-business-use) — The best AI assistant for your business is the one that fits the work you repeat. Compare ChatGPT, Claude, and Gemini by job, then keep the tools that help you finish better work.
 - [Claude Code for Non-Programmers: What It Actually Does](https://kristamashore.ai/articles/claude-code-for-non-programmers) — Claude Code can feel intimidating because it often opens in a terminal. For a business owner, the useful idea is simpler: it can inspect files, follow instructions, and help complete repeatable work with your review.
