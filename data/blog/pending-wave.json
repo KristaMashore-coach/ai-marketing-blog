@@ -289,26 +289,6 @@
     "evidence": "Searched 'when to upgrade from free AI tool to paid plan signs'. Dedicated pages: best-ai.org/learn/free-vs-paid, zemith.com/en/contents/free-vs-paid-ai-tools-2026 ('When Does Upgrading Actually Make Sense?'), dailyaiintel.com/questions/how-do-you-know-when-youve-actually-outgrown-free-ai-tools (near-exact match)."
   },
   {
-    "id": "w9-2",
-    "priority": 149,
-    "wave": "9 - AI adoption in practice: one workflow, voice, limits, AI search visibility (proposed 2026-09-07)",
-    "title": "Why Your AI Output Gets Worse the Longer You Use It",
-    "slug": "why-your-ai-output-gets-worse-the-longer-you-use-it",
-    "metaTitle": "Why Your AI Output Gets Worse the Longer You Use It",
-    "primaryKeyword": "why does AI output get worse over time",
-    "secondaryKeywords": [
-      "long chat AI quality drops",
-      "AI forgets instructions"
-    ],
-    "topicalPillar": "ai-run-business",
-    "contentTypePillar": "problem-solving",
-    "funnelStage": "resonance",
-    "intent": "informational",
-    "angle": "A long thread drifts because the instructions get buried. Start fresh and re-anchor rather than arguing with a conversation that has lost the plot.",
-    "evidence": "'why does ChatGPT get worse in long conversations' has PAA presence and forum-thread saturation with no dedicated explanatory page. Real question, thin supply.",
-    "status": "ready"
-  },
-  {
     "id": "w9-3",
     "priority": 150,
     "wave": "9 - AI adoption in practice: one workflow, voice, limits, AI search visibility (proposed 2026-09-07)",
@@ -409,26 +389,6 @@
     "status": "ready"
   },
   {
-    "id": "w9-9",
-    "priority": 156,
-    "wave": "9 - AI adoption in practice: one workflow, voice, limits, AI search visibility (proposed 2026-09-07)",
-    "title": "The Words That Give Away AI Writing",
-    "slug": "the-words-that-give-away-ai-writing",
-    "metaTitle": "The Words That Give Away AI Writing",
-    "primaryKeyword": "words that make writing sound like AI",
-    "secondaryKeywords": [
-      "how to spot AI written content",
-      "AI writing tells to remove"
-    ],
-    "topicalPillar": "ai-content-to-client-system",
-    "contentTypePillar": "educational-authority",
-    "funnelStage": "attention",
-    "intent": "informational",
-    "angle": "A short, specific list plus the sentence shapes underneath it. Then the one pass that removes them faster than rewriting.",
-    "evidence": "'how to avoid sounding like AI' returns writingcooperative.com, getmasset.com/resources/blog/the-prompt-to-help-ai-sound-less-like-ai, lilachbullock, plus a paid product (messagingoracle gumroad). Commercial demand confirmed.",
-    "status": "ready"
-  },
-  {
     "id": "w9-10",
     "priority": 157,
     "wave": "9 - AI adoption in practice: one workflow, voice, limits, AI search visibility (proposed 2026-09-07)",
@@ -509,26 +469,6 @@
     "status": "ready"
   },
   {
-    "id": "w9-15",
-    "priority": 162,
-    "wave": "9 - AI adoption in practice: one workflow, voice, limits, AI search visibility (proposed 2026-09-07)",
-    "title": "Why Most AI Setups Fall Apart in Week Three",
-    "slug": "why-most-ai-setups-fall-apart-in-week-three",
-    "metaTitle": "Why Most AI Setups Fall Apart in Week Three",
-    "primaryKeyword": "why AI adoption fails small business",
-    "secondaryKeywords": [
-      "stopped using AI after a few weeks",
-      "AI tools abandoned by teams"
-    ],
-    "topicalPillar": "authority-agent-operating-system",
-    "contentTypePillar": "problem-solving",
-    "funnelStage": "resonance",
-    "intent": "informational",
-    "angle": "Week one is novelty, week two is a second use case, week three is when nobody measured anything and it quietly stops. Name the checkpoint that prevents it.",
-    "evidence": "Every version of the 30-day sequence in the SERP maps weeks 1-4 and the failure point is consistently between adoption and measurement; no page addresses the abandonment directly.",
-    "status": "ready"
-  },
-  {
     "id": "w9-16",
     "priority": 163,
     "wave": "9 - AI adoption in practice: one workflow, voice, limits, AI search visibility (proposed 2026-09-07)",
@@ -549,26 +489,6 @@
     "status": "ready"
   },
   {
-    "id": "w9-18",
-    "priority": 165,
-    "wave": "9 - AI adoption in practice: one workflow, voice, limits, AI search visibility (proposed 2026-09-07)",
-    "title": "What to Do on Your First Day With Claude",
-    "slug": "what-to-do-on-your-first-day-with-claude",
-    "metaTitle": "What to Do on Your First Day With Claude",
-    "primaryKeyword": "how to start using Claude",
-    "secondaryKeywords": [
-      "Claude for beginners first steps",
-      "what to do first with Claude AI"
-    ],
-    "topicalPillar": "claude-for-dummies",
-    "contentTypePillar": "educational-authority",
-    "funnelStage": "attention",
-    "intent": "informational",
-    "angle": "Three things in the first hour, and the one setup step that changes every answer after it. Skip the tour, do the work.",
-    "evidence": "'how to use Claude AI for beginners' returns a growing cluster of getting-started pages across AI blogs and YouTube, with PAA on first-steps phrasing.",
-    "status": "ready"
-  },
-  {
     "id": "w9-19",
     "priority": 166,
     "wave": "9 - AI adoption in practice: one workflow, voice, limits, AI search visibility (proposed 2026-09-07)",
@@ -586,26 +506,6 @@
     "intent": "informational",
     "angle": "Generic questions get averaged answers. Add who it is for, what it is for, and what you already ruled out, and the same tool gets sharper.",
     "evidence": "'why are ChatGPT answers so generic' has strong PAA and forum saturation; the prompting-basics cluster is large and commercially competed across productivity blogs.",
-    "status": "ready"
-  },
-  {
-    "id": "w9-21",
-    "priority": 168,
-    "wave": "9 - AI adoption in practice: one workflow, voice, limits, AI search visibility (proposed 2026-09-07)",
-    "title": "What Small Businesses Get Wrong About Being Found by AI",
-    "slug": "what-small-businesses-get-wrong-about-being-found-by-ai",
-    "metaTitle": "What Small Businesses Get Wrong About Being Found by AI",
-    "primaryKeyword": "AI search optimization mistakes small business",
-    "secondaryKeywords": [
-      "does SEO still matter with AI search",
-      "AI is not sending me traffic"
-    ],
-    "topicalPillar": "community-market-leaders-ai",
-    "contentTypePillar": "problem-solving",
-    "funnelStage": "resonance",
-    "intent": "informational",
-    "angle": "Publishing more pages is not the lever. Being described consistently in the places AI already reads is. Different work, different measure.",
-    "evidence": "'does SEO still matter with AI' and 'zero click search' are live high-volume queries with a large competing cluster across SEO publications and active PAA.",
     "status": "ready"
   }
 ]
