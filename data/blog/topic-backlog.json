@@ -1598,6 +1598,121 @@
       "autoLoaded": true,
       "autoLoadedAt": "2026-09-16T14:00:07.335Z",
       "autoLoadedReason": "backlog runway fell to 10 (floor 15); promoted without waiting on approval per Krista 2026-08-20, reaffirmed 2026-08-24; pillar-balanced per Krista 2026-08-24"
+    },
+    {
+      "id": "w9-3",
+      "priority": 150,
+      "wave": "9 - AI adoption in practice: one workflow, voice, limits, AI search visibility (proposed 2026-09-07)",
+      "title": "How to Tell If an AI Tool Is Trained on Your Data",
+      "slug": "how-to-tell-if-an-ai-tool-is-trained-on-your-data",
+      "metaTitle": "How to Tell If an AI Tool Is Trained on Your Data",
+      "primaryKeyword": "is my data used to train AI",
+      "secondaryKeywords": [
+        "does ChatGPT train on my business data",
+        "AI tool data training opt out"
+      ],
+      "topicalPillar": "ai-run-business",
+      "contentTypePillar": "educational-authority",
+      "funnelStage": "attention",
+      "intent": "informational",
+      "angle": "Three places to look on any vendor page, and the one sentence that decides it. Then what to do when the answer is yes.",
+      "evidence": "'does ChatGPT use my data for training' is a high-volume question-form query with dedicated pages across security and legal blogs plus heavy PAA. Adjacent to the already-published SOC 2 topic without duplicating it.",
+      "status": "ready",
+      "autoLoaded": true,
+      "autoLoadedAt": "2026-09-16T15:08:17.090Z",
+      "autoLoadedReason": "backlog runway fell to 10 (floor 15); promoted without waiting on approval per Krista 2026-08-20, reaffirmed 2026-08-24; pillar-balanced per Krista 2026-08-24"
+    },
+    {
+      "id": "w9-10",
+      "priority": 157,
+      "wave": "9 - AI adoption in practice: one workflow, voice, limits, AI search visibility (proposed 2026-09-07)",
+      "title": "Should You Say Your Content Was Written With AI?",
+      "slug": "should-you-say-your-content-was-written-with-ai",
+      "metaTitle": "Should You Say Your Content Was Written With AI?",
+      "primaryKeyword": "do I need to disclose AI written content",
+      "secondaryKeywords": [
+        "AI content disclosure business",
+        "is it ok to use AI for client content"
+      ],
+      "topicalPillar": "ai-content-to-client-system",
+      "contentTypePillar": "problem-solving",
+      "funnelStage": "resonance",
+      "intent": "informational",
+      "angle": "Where disclosure is required, where it is a choice, and the standard that matters more than either: would you defend every sentence as yours.",
+      "evidence": "'AI content disclosure' has dedicated pages across FTC-adjacent, marketing and platform-policy blogs, with active PAA. Live question, unsettled answer.",
+      "status": "ready",
+      "autoLoaded": true,
+      "autoLoadedAt": "2026-09-16T15:08:17.090Z",
+      "autoLoadedReason": "backlog runway fell to 10 (floor 15); promoted without waiting on approval per Krista 2026-08-20, reaffirmed 2026-08-24; pillar-balanced per Krista 2026-08-24"
+    },
+    {
+      "id": "w9-16",
+      "priority": 163,
+      "wave": "9 - AI adoption in practice: one workflow, voice, limits, AI search visibility (proposed 2026-09-07)",
+      "title": "Do You Need Custom AI or Just Better Instructions?",
+      "slug": "do-you-need-custom-ai-or-just-better-instructions",
+      "metaTitle": "Do You Need Custom AI or Just Better Instructions?",
+      "primaryKeyword": "custom AI tool vs better prompts",
+      "secondaryKeywords": [
+        "do I need to build an AI agent",
+        "when to build vs prompt"
+      ],
+      "topicalPillar": "authority-agent-operating-system",
+      "contentTypePillar": "problem-solving",
+      "funnelStage": "conversion",
+      "intent": "commercial",
+      "angle": "Most people paying to build something needed a written-down process and three saved prompts. Decide with one question about how often the task repeats.",
+      "evidence": "The AI-agents guides warn against generalist agents replacing multiple roles (kaizenaiconsulting, successknocks); the build-vs-prompt decision has clear intent and no dedicated page.",
+      "status": "ready",
+      "autoLoaded": true,
+      "autoLoadedAt": "2026-09-16T15:08:17.091Z",
+      "autoLoadedReason": "backlog runway fell to 10 (floor 15); promoted without waiting on approval per Krista 2026-08-20, reaffirmed 2026-08-24; pillar-balanced per Krista 2026-08-24"
+    },
+    {
+      "id": "w9-19",
+      "priority": 166,
+      "wave": "9 - AI adoption in practice: one workflow, voice, limits, AI search visibility (proposed 2026-09-07)",
+      "title": "How to Ask AI a Question and Get a Useful Answer Back",
+      "slug": "how-to-ask-ai-a-question-and-get-a-useful-answer-back",
+      "metaTitle": "How to Ask AI a Question and Get a Useful Answer Back",
+      "primaryKeyword": "how to ask AI better questions",
+      "secondaryKeywords": [
+        "why are my AI answers so generic",
+        "get better answers from ChatGPT"
+      ],
+      "topicalPillar": "claude-for-dummies",
+      "contentTypePillar": "problem-solving",
+      "funnelStage": "attention",
+      "intent": "informational",
+      "angle": "Generic questions get averaged answers. Add who it is for, what it is for, and what you already ruled out, and the same tool gets sharper.",
+      "evidence": "'why are ChatGPT answers so generic' has strong PAA and forum saturation; the prompting-basics cluster is large and commercially competed across productivity blogs.",
+      "status": "ready",
+      "autoLoaded": true,
+      "autoLoadedAt": "2026-09-16T15:08:17.091Z",
+      "autoLoadedReason": "backlog runway fell to 10 (floor 15); promoted without waiting on approval per Krista 2026-08-20, reaffirmed 2026-08-24; pillar-balanced per Krista 2026-08-24"
+    },
+    {
+      "id": "w9-4",
+      "priority": 151,
+      "wave": "9 - AI adoption in practice: one workflow, voice, limits, AI search visibility (proposed 2026-09-07)",
+      "title": "What to Do When AI Gets a Fact Wrong in Front of a Client",
+      "slug": "what-to-do-when-ai-gets-a-fact-wrong-in-front-of-a-client",
+      "metaTitle": "What to Do When AI Gets a Fact Wrong in Front of a Client",
+      "primaryKeyword": "AI hallucination in client work",
+      "secondaryKeywords": [
+        "AI gave wrong information to a client",
+        "how to check AI output for errors"
+      ],
+      "topicalPillar": "ai-run-business",
+      "contentTypePillar": "problem-solving",
+      "funnelStage": "resonance",
+      "intent": "informational",
+      "angle": "The review step is not optional and it is where every adoption failure actually lives. What to check, in what order, before anything leaves your name.",
+      "evidence": "The AI-agents limitation cluster names hallucination as the top named risk (uplify, successknocks, kaizenaiconsulting); the client-facing consequence framing has no dedicated page against confirmed concern.",
+      "status": "ready",
+      "autoLoaded": true,
+      "autoLoadedAt": "2026-09-16T15:08:17.091Z",
+      "autoLoadedReason": "backlog runway fell to 10 (floor 15); promoted without waiting on approval per Krista 2026-08-20, reaffirmed 2026-08-24; pillar-balanced per Krista 2026-08-24"
     }
   ],
   "wave7_approved": "2026-08-16 by Krista (APPROVED + 7 AEO additions at her direction)"
