@@ -23,7 +23,24 @@ RUN_DIR="$LOG_DIR/$STAMP"
 # mid-day re-run only produces the remainder).
 DAILY_TARGET="${CODEX_DAILY_ARTICLE_COUNT:-5}"
 ARTICLE_COUNT="$DAILY_TARGET"
-MAX_GENERATION_ATTEMPTS="${CODEX_GENERATION_ATTEMPTS:-3}"
+# Raised 3 -> 8 on 2026-09-17 by os-self-repair, matching the blog repo (raised
+# there 2026-09-16). ROOT CAUSE of the chronic repair on com.kristamashore.codex-925move
+# and com.kristamashore.codex-kristamashore-ai: the 6:20 AM run regularly exhausted
+# 3 attempts and exited 1, the 8 AM health check kickstarted it, and the kickstart
+# run then published fine. The kickstart was masking the fact that 3 attempts is
+# simply not enough budget. On 2026-09-17 attempt 1 missed on word count (603/900),
+# attempt 2 missed by TEN words (890/900) and a 180-char metaDescription, and
+# attempt 3 produced zero articles purely because of an apply_patch format error --
+# a mechanical failure that consumed the last content attempt.
+#
+# NOTHING WAS LOOSENED. Every deterministic guard (900-1800 words, 120-155 char
+# metaDescription, link and image checks) is byte-for-byte unchanged. This raises
+# only the number of chances the generator gets to MEET those unchanged guards,
+# which is the opposite of lowering a threshold so a failing case stops failing
+# (.claude/rules/change-contract.md banned move). A run that cannot satisfy the
+# guards in 8 attempts still publishes nothing, still exits non-zero, and is still
+# flagged.
+MAX_GENERATION_ATTEMPTS="${CODEX_GENERATION_ATTEMPTS:-8}"
 LIVE_VERIFY_ATTEMPTS="${CODEX_LIVE_VERIFY_ATTEMPTS:-90}"
 
 case "$MODE" in
