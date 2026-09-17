@@ -61,7 +61,20 @@ const DAILY_TARGET = argOf("--target", Number(process.env.CODEX_DAILY_ARTICLE_CO
 // Keep this many days of runway. 3 days (raised from 2, Krista-directed
 // 2026-08-24) means a promotion happens with a full day of slack before the
 // backlog would have gone dry, never on the dry morning itself.
-const MIN_DAYS = argOf("--min-days", 3);
+//
+// RAISED 3 -> 5 on 2026-09-17 by os-self-repair. This floor is checked at the
+// TOP of the daily run, BEFORE the day's 5 articles are consumed, while
+// daily-health-check [24] measures the SAME number AFTER consumption and flags
+// LOW below 3*cadence (15). With both set to 3 days the steady state was
+// mathematically guaranteed to read 15-5=10 every morning, so krista-blog and
+// kristamashore-ai fired a "topic backlog LOW" P2 every single day while the
+// pipeline was healthy and self-refilling. Two gates measuring one quantity at
+// different phases of the same cycle must not share a threshold. 5 days tops up
+// to 25 and leaves 20 after publishing, clearing the health check's 15 with a
+// full day of margin. The alarm was NOT weakened to achieve this: the producer
+// floor moved up, the detector threshold is untouched, and [24] still fires for
+// the real failure (pending wave empty, so nothing can be promoted).
+const MIN_DAYS = argOf("--min-days", 5);
 
 // Explicit hold states. A topic in one of these is never auto-loaded.
 const HELD_STATUSES = new Set(["hold-for-review", "held", "retired", "dropped"]);
