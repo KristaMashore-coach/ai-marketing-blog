@@ -1280,10 +1280,11 @@
       "funnelStage": "attention",
       "intent": "informational",
       "angle": "Separate the professions-specific versions of this question already covered from the plain owner-with-a-team version. Give a direct, task-by-task answer instead of a vague reassurance.",
-      "status": "ready",
+      "status": "published",
       "autoLoaded": true,
       "autoLoadedAt": "2026-08-31T14:00:04.401Z",
-      "autoLoadedReason": "backlog runway fell to 10 (floor 15); promoted without waiting on approval per Krista 2026-08-20, reaffirmed 2026-08-24"
+      "autoLoadedReason": "backlog runway fell to 10 (floor 15); promoted without waiting on approval per Krista 2026-08-20, reaffirmed 2026-08-24",
+      "publishedAt": "2026-09-16T14:10:29.542Z"
     },
     {
       "id": "w8-2",
@@ -1301,10 +1302,11 @@
       "funnelStage": "resonance",
       "intent": "informational",
       "angle": "Name the specific cost of building a workflow entirely inside one vendor's AI tool: what happens to the work, the data, and the process if that vendor changes terms or shuts down.",
-      "status": "ready",
+      "status": "published",
       "autoLoaded": true,
       "autoLoadedAt": "2026-08-31T14:00:04.404Z",
-      "autoLoadedReason": "backlog runway fell to 10 (floor 15); promoted without waiting on approval per Krista 2026-08-20, reaffirmed 2026-08-24"
+      "autoLoadedReason": "backlog runway fell to 10 (floor 15); promoted without waiting on approval per Krista 2026-08-20, reaffirmed 2026-08-24",
+      "publishedAt": "2026-09-16T14:10:29.542Z"
     },
     {
       "id": "w8-3",
@@ -1322,10 +1324,11 @@
       "funnelStage": "attention",
       "intent": "informational",
       "angle": "A short, concrete checklist to run before paying for any AI tool: what happens to your data, can you export your work, and what does cancellation actually look like.",
-      "status": "ready",
+      "status": "published",
       "autoLoaded": true,
       "autoLoadedAt": "2026-08-31T14:00:04.404Z",
-      "autoLoadedReason": "backlog runway fell to 10 (floor 15); promoted without waiting on approval per Krista 2026-08-20, reaffirmed 2026-08-24"
+      "autoLoadedReason": "backlog runway fell to 10 (floor 15); promoted without waiting on approval per Krista 2026-08-20, reaffirmed 2026-08-24",
+      "publishedAt": "2026-09-16T14:10:29.542Z"
     },
     {
       "id": "w8-4",
@@ -1343,10 +1346,11 @@
       "funnelStage": "resonance",
       "intent": "informational",
       "angle": "Most small business owners never ask this before signing up. Explain what to check in a vendor's terms about data deletion, export, and retention after you leave.",
-      "status": "ready",
+      "status": "published",
       "autoLoaded": true,
       "autoLoadedAt": "2026-08-31T14:00:04.404Z",
-      "autoLoadedReason": "backlog runway fell to 10 (floor 15); promoted without waiting on approval per Krista 2026-08-20, reaffirmed 2026-08-24"
+      "autoLoadedReason": "backlog runway fell to 10 (floor 15); promoted without waiting on approval per Krista 2026-08-20, reaffirmed 2026-08-24",
+      "publishedAt": "2026-09-16T14:10:29.542Z"
     },
     {
       "id": "w8-5",
@@ -1364,10 +1368,11 @@
       "funnelStage": "attention",
       "intent": "informational",
       "angle": "Translate the compliance language small business owners see on AI vendor pricing pages into plain terms, so a privacy claim can actually be checked instead of taken on faith.",
-      "status": "ready",
+      "status": "published",
       "autoLoaded": true,
       "autoLoadedAt": "2026-08-31T14:00:04.404Z",
-      "autoLoadedReason": "backlog runway fell to 10 (floor 15); promoted without waiting on approval per Krista 2026-08-20, reaffirmed 2026-08-24"
+      "autoLoadedReason": "backlog runway fell to 10 (floor 15); promoted without waiting on approval per Krista 2026-08-20, reaffirmed 2026-08-24",
+      "publishedAt": "2026-09-16T14:10:29.542Z"
     },
     {
       "id": "w9-1",
