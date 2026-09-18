@@ -231,6 +231,13 @@ restore_queue() {
 }
 
 validate_candidate() {
+  # Deterministic link repair (added 2026-09-18, scripts/lib/weave-links.cjs):
+  # strips links that can never pass the in-prose gate (generic anchors,
+  # repeats, self-links), collapses the dumped-block paragraphs, and weaves the
+  # missing links into existing paragraphs as short bridge sentences. A body
+  # that already passes is untouched, so the writer keeps first crack. Runs
+  # BEFORE normalize so the recomputed word counts include what it added.
+  node scripts/lib/weave-links.cjs --queue "$QUEUE_PATH" --posts "$ROOT/data/blog/posts.json" --min 3 || print -u2 "[codex-daily] WARN: weave-links did not run cleanly; the gate below still decides"
   node scripts/normalize-codex-queue.cjs || return 1
   local queue_count
   queue_count="$(node -e 'const q=require(process.argv[1]); console.log(Array.isArray(q) ? q.length : -1)' "$QUEUE_PATH")"
@@ -249,6 +256,11 @@ validate_candidate() {
 
 GENERATION_OK=0
 ATTEMPT_FEEDBACK=""
+# Guard feedback from the last attempt that actually produced articles, so an
+# empty attempt in between no longer erases what the writer was told to fix
+# (2026-09-18: attempt 1 failed the link gate, attempt 2 wrote nothing, and
+# attempt 3 was told only "write something", not "fix the links").
+LAST_GUARD_FEEDBACK=""
 for attempt in $(seq 1 "$MAX_GENERATION_ATTEMPTS"); do
   restore_queue
   ATTEMPT_DIR="$RUN_DIR/attempt-$attempt"
@@ -335,6 +347,7 @@ for attempt in $(seq 1 "$MAX_GENERATION_ATTEMPTS"); do
   fi
   cat "$VALIDATION_LOG"
   ATTEMPT_FEEDBACK="$(tail -60 "$VALIDATION_LOG")"
+  LAST_GUARD_FEEDBACK="$ATTEMPT_FEEDBACK"
 done
 
 # Fail-open for the in-prose-links gate ONLY (Krista 2026-08-24, verbatim:

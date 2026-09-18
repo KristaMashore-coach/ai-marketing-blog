@@ -110,3 +110,9 @@ Every disputed factual claim must have a real source URL in the same paragraph, 
 - Reparse it after writing.
 - Confirm the article count matches the Run context, every slug is new and unique, every enum is approved, all internal link slugs exist, and only `data/blog/queue.json` changed.
 - Do not run repository scripts. Finish with a short validation summary.
+
+## Writing the queue file (added 2026-09-18)
+
+- Write `data/blog/queue.json` with ONE shell command: a single `node -e` script that builds the array of article objects in memory and writes it with `JSON.stringify(articles, null, 2) + "\n"`. Never use `apply_patch` on `queue.json` and never split the write into several operations. The patch tool rejects more than one operation on the same file, the attempt is thrown away, and the whole batch is lost.
+- Write every article individually, as its own piece of prose. Never build articles from a shared paragraph template, a `base` array, or string substitution. The batch check rejects any paragraph of 12 or more words that appears in more than one article of the batch, and any paragraph of 20 or more words copied from a published article. If the check reports a duplicated paragraph, rewrite that paragraph from scratch for each article; do not reword it lightly.
+- Internal links go inside sentences in the body as you write each section: the first one within the opening third, the rest spread through the article, each with anchor text that describes the linked article in three or more words. The runner will repair a body that misses this, but a repaired body reads worse than one written right.

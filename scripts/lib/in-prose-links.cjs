@@ -83,9 +83,13 @@ function depthBeforeIndex(events, index) {
   let depth = 0;
   for (const ev of events) {
     if (ev.index >= index) break;
-    depth += ev.delta;
+    // Clamp at zero on every step. A stray closing tag (a body that begins
+    // with </p>, seen live on blog.kristamashore.com 2026-09-18) used to drive
+    // the counter to -1 and make every later <p> read as depth 0, flagging real
+    // in-paragraph links as loose text. Unbalanced closes are harmless now.
+    depth = Math.max(0, depth + ev.delta);
   }
-  return Math.max(0, depth);
+  return depth;
 }
 
 /**
@@ -385,6 +389,21 @@ function runSelfTest() {
       `<p>${filler.repeat(6)}<a href="/articles/only-slug-one">the first real topic guide</a>${filler.repeat(3)}</p>` +
       `<p>${filler.repeat(6)}<a href="/articles/only-slug-two">the second real topic guide</a>${filler.repeat(3)}</p>`;
     cases.push({ name: "below repo floor of 3", body, min: 3, expectOk: false });
+  }
+
+  // 9. A stray closing tag before the first paragraph (live blog body shape,
+  //    caught 2026-09-18) must not turn real in-paragraph links into "loose".
+  {
+    const filler = "Real editorial prose sentence for padding purposes. ";
+    const anchors = [
+      ["/articles/stray-one", "the first real topic guide"],
+      ["/articles/stray-two", "the second real topic guide"],
+      ["/articles/stray-three", "the third real topic guide"],
+    ];
+    const body =
+      "</p><h2>Opening</h2><ol><li>one item</li><li>two item</li></ol>" +
+      anchors.map(([h, t]) => `<p>${filler.repeat(6)}<a href="${h}">${t}</a>${filler.repeat(3)}</p>`).join("");
+    cases.push({ name: "stray closing tag does not orphan links", body, min: 3, expectOk: true });
   }
 
   let pass = 0;

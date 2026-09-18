@@ -7,6 +7,7 @@ const os = require("os");
 const path = require("path");
 const { spawnSync } = require("child_process");
 const { checkInProseLinks } = require("./lib/in-prose-links.cjs");
+const { checkParagraphOverlap } = require("./lib/batch-overlap.cjs");
 
 // Fail-open bypass for the in-prose-links gate ONLY (Krista 2026-08-24: "no
 // matter what... make sure that the articles are created and posted"). Set
@@ -174,6 +175,16 @@ if (article.ctaLabel !== "Learn the AI System") errors.push(`${label}: CTA label
       errors.push(msg);
     }
   }
+}
+// BATCH OVERLAP GATE (added 2026-09-18, scripts/lib/batch-overlap.cjs). The
+// writer's answer to a failing per-article gate was a paragraph template
+// stamped across the whole batch; measured the same day, every site's archive
+// already carried batch-sized clusters of identical paragraphs. Rejects any
+// 12+ word paragraph shared with a batchmate, and any 20+ word paragraph
+// copied from a published article that is not site boilerplate (8+ posts).
+{
+  const overlap = checkParagraphOverlap(article, candidates, posts);
+  if (!overlap.ok) errors.push(`${label}: [BATCH-OVERLAP] ${overlap.reasons.join("; ")}`);
 }
 
 if (errors.length === errorsBefore) {
