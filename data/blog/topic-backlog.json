@@ -1392,10 +1392,11 @@
       "intent": "informational",
       "angle": "They are good at high-volume repetitive text work with a human approving anything outbound. They are bad at judgment, and they will be confidently wrong.",
       "evidence": "SERP for 'AI agents small business 2026 limitations': uplify.ai/ai-agent-limitations, kaizenaiconsulting.com/ai-agents-small-business-2026-what-works, successknocks.com risks-and-limits, aalpha.net, azterion.com. Dedicated limitation pages, not just vendor pages.",
-      "status": "ready",
+      "status": "published",
       "autoLoaded": true,
       "autoLoadedAt": "2026-09-15T14:04:26.002Z",
-      "autoLoadedReason": "backlog runway fell to 10 (floor 15); promoted without waiting on approval per Krista 2026-08-20, reaffirmed 2026-08-24; pillar-balanced per Krista 2026-08-24"
+      "autoLoadedReason": "backlog runway fell to 10 (floor 15); promoted without waiting on approval per Krista 2026-08-20, reaffirmed 2026-08-24; pillar-balanced per Krista 2026-08-24",
+      "publishedAt": "2026-09-17T15:02:31.609Z"
     },
     {
       "id": "w9-8",
@@ -1415,10 +1416,11 @@
       "intent": "informational",
       "angle": "Five to ten real samples beat any adjective you can type. Show it what you sound like instead of describing what you sound like.",
       "evidence": "SERP for 'train AI to sound like you': amplifyforadvisors.substack 3-step process, soloailab.substack, nickquick.substack, lilachbullock.com, georgekao.medium. Dense cluster with a documented sample-count consensus.",
-      "status": "ready",
+      "status": "published",
       "autoLoaded": true,
       "autoLoadedAt": "2026-09-15T14:04:26.005Z",
-      "autoLoadedReason": "backlog runway fell to 10 (floor 15); promoted without waiting on approval per Krista 2026-08-20, reaffirmed 2026-08-24; pillar-balanced per Krista 2026-08-24"
+      "autoLoadedReason": "backlog runway fell to 10 (floor 15); promoted without waiting on approval per Krista 2026-08-20, reaffirmed 2026-08-24; pillar-balanced per Krista 2026-08-24",
+      "publishedAt": "2026-09-17T15:02:31.609Z"
     },
     {
       "id": "w9-14",
@@ -1507,10 +1509,11 @@
       "intent": "informational",
       "angle": "A long thread drifts because the instructions get buried. Start fresh and re-anchor rather than arguing with a conversation that has lost the plot.",
       "evidence": "'why does ChatGPT get worse in long conversations' has PAA presence and forum-thread saturation with no dedicated explanatory page. Real question, thin supply.",
-      "status": "ready",
+      "status": "published",
       "autoLoaded": true,
       "autoLoadedAt": "2026-09-16T14:00:07.332Z",
-      "autoLoadedReason": "backlog runway fell to 10 (floor 15); promoted without waiting on approval per Krista 2026-08-20, reaffirmed 2026-08-24; pillar-balanced per Krista 2026-08-24"
+      "autoLoadedReason": "backlog runway fell to 10 (floor 15); promoted without waiting on approval per Krista 2026-08-20, reaffirmed 2026-08-24; pillar-balanced per Krista 2026-08-24",
+      "publishedAt": "2026-09-17T15:02:31.609Z"
     },
     {
       "id": "w9-9",
@@ -1622,10 +1625,11 @@
       "intent": "informational",
       "angle": "Three places to look on any vendor page, and the one sentence that decides it. Then what to do when the answer is yes.",
       "evidence": "'does ChatGPT use my data for training' is a high-volume question-form query with dedicated pages across security and legal blogs plus heavy PAA. Adjacent to the already-published SOC 2 topic without duplicating it.",
-      "status": "ready",
+      "status": "published",
       "autoLoaded": true,
       "autoLoadedAt": "2026-09-16T15:08:17.090Z",
-      "autoLoadedReason": "backlog runway fell to 10 (floor 15); promoted without waiting on approval per Krista 2026-08-20, reaffirmed 2026-08-24; pillar-balanced per Krista 2026-08-24"
+      "autoLoadedReason": "backlog runway fell to 10 (floor 15); promoted without waiting on approval per Krista 2026-08-20, reaffirmed 2026-08-24; pillar-balanced per Krista 2026-08-24",
+      "publishedAt": "2026-09-17T15:02:31.609Z"
     },
     {
       "id": "w9-10",
@@ -1714,10 +1718,11 @@
       "intent": "informational",
       "angle": "The review step is not optional and it is where every adoption failure actually lives. What to check, in what order, before anything leaves your name.",
       "evidence": "The AI-agents limitation cluster names hallucination as the top named risk (uplify, successknocks, kaizenaiconsulting); the client-facing consequence framing has no dedicated page against confirmed concern.",
-      "status": "ready",
+      "status": "published",
       "autoLoaded": true,
       "autoLoadedAt": "2026-09-16T15:08:17.091Z",
-      "autoLoadedReason": "backlog runway fell to 10 (floor 15); promoted without waiting on approval per Krista 2026-08-20, reaffirmed 2026-08-24; pillar-balanced per Krista 2026-08-24"
+      "autoLoadedReason": "backlog runway fell to 10 (floor 15); promoted without waiting on approval per Krista 2026-08-20, reaffirmed 2026-08-24; pillar-balanced per Krista 2026-08-24",
+      "publishedAt": "2026-09-17T15:02:31.609Z"
     },
     {
       "id": "w9-11",
