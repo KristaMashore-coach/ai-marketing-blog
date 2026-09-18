@@ -119,7 +119,10 @@ function validateRewrite(original, rewritten, archiveIndex, runIndex) {
   if (/[—–]|&mdash;|&ndash;/.test(r)) reasons.push("contains a dash character");
   if (/^#{1,6}\s|\*\*|\[[^\]]+\]\([^)]+\)/.test(r)) reasons.push("contains markdown");
   const wo = wordCount(original), wr = wordCount(r);
-  if (wr < Math.floor(wo * 0.6) || wr > Math.ceil(wo * 1.6)) reasons.push(`length ${wr} words vs original ${wo} (must stay within 60% to 160%)`);
+  // Short originals (a one-line bridge or CTA) need room to become specific;
+  // the band widens below 30 words so a 18-word line may grow to ~40.
+  const lo = wo < 30 ? 0.5 : 0.6, hi = wo < 30 ? 2.4 : 1.6;
+  if (wr < Math.floor(wo * lo) || wr > Math.ceil(wo * hi)) reasons.push(`length ${wr} words vs original ${wo} (must stay within ${Math.round(lo * 100)}% to ${Math.round(hi * 100)}%)`);
   const ho = hrefsOf(original), hr = hrefsOf(r);
   if (JSON.stringify(ho) !== JSON.stringify(hr)) reasons.push(`links changed: had ${JSON.stringify(ho)}, got ${JSON.stringify(hr)}`);
   const low = visibleText(r).toLowerCase();
