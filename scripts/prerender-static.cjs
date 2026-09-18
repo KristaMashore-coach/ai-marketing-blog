@@ -345,7 +345,7 @@ function buildPrivacyBody() {
 <h2>Policy updates</h2>
 <p>We may update this policy as the site or its services change. The date above shows the latest revision.</p>
 <h2>Contact</h2>
-<p>For privacy questions or requests, email <a href="mailto:doit@kristamashore.com">doit@kristamashore.com</a>.</p>
+<p>For privacy questions or requests, email <a href="mailto:support@kristamashore.com">support@kristamashore.com</a>.</p>
 </article>
 </main>`;
 }
@@ -374,7 +374,7 @@ function buildTermsBody() {
 <h2>Governing law</h2>
 <p>These terms are governed by the laws of the State of California, without regard to conflict-of-law principles.</p>
 <h2>Changes and contact</h2>
-<p>We may update these terms. Continued use after an update means you accept the revised terms. Questions may be sent to <a href="mailto:doit@kristamashore.com">doit@kristamashore.com</a>.</p>
+<p>We may update these terms. Continued use after an update means you accept the revised terms. Questions may be sent to <a href="mailto:support@kristamashore.com">support@kristamashore.com</a>.</p>
 </article>
 </main>`;
 }

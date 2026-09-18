@@ -1,7 +1,7 @@
 import SEO from "../components/SEO";
 import BreadcrumbSchema from "../components/JsonLd/BreadcrumbSchema";
 
-const CONTACT_EMAIL = "doit@kristamashore.com";
+const CONTACT_EMAIL = "support@kristamashore.com";
 
 export default function Privacy() {
   return (
