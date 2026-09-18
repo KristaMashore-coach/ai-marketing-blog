@@ -7,7 +7,7 @@ MODE="${1:---preflight}"
 CODEX_BIN="${CODEX_BIN:-/Applications/ChatGPT.app/Contents/Resources/codex}"
 CODEX_AUTOMATION_HOME="${CODEX_AUTOMATION_HOME:-$HOME/.codex/automation-runtime}"
 CODEX_MODEL="${CODEX_MODEL:-gpt-5.6-luna}"
-CODEX_REASONING_EFFORT="${CODEX_REASONING_EFFORT:-low}"
+CODEX_REASONING_EFFORT="${CODEX_REASONING_EFFORT:-medium}"
 CODEX_SERVICE_TIER="${CODEX_SERVICE_TIER:-standard}"
 LIVE_URL="${KRISTAMASHORE_AI_LIVE_URL:-https://kristamashore.ai}"
 PROMPT_FILE="$ROOT/prompts/codex-daily-article-writer.md"
@@ -238,6 +238,11 @@ validate_candidate() {
   # that already passes is untouched, so the writer keeps first crack. Runs
   # BEFORE normalize so the recomputed word counts include what it added.
   node scripts/lib/weave-links.cjs --queue "$QUEUE_PATH" --posts "$ROOT/data/blog/posts.json" --min 3 || print -u2 "[codex-daily] WARN: weave-links did not run cleanly; the gate below still decides"
+  # Stamped-paragraph repair (added 2026-09-18 PM, scripts/lib/rewrite-stamped-paragraphs.cjs --queue):
+  # a paragraph duplicated between batchmates, or copied from a published
+  # article, is rewritten for its article by Codex here, BEFORE the batch-overlap
+  # gate runs, the same way weave-links repairs links.
+  node scripts/lib/rewrite-stamped-paragraphs.cjs --queue "$QUEUE_PATH" --posts "$ROOT/data/blog/posts.json" --site "kristamashore.ai (Krista Mashore on using AI in a real estate or small business, plain and practical)" --effort medium || print -u2 "[codex-daily] WARN: stamped-paragraph repair did not run; the gate below still decides"
   node scripts/normalize-codex-queue.cjs || return 1
   local queue_count
   queue_count="$(node -e 'const q=require(process.argv[1]); console.log(Array.isArray(q) ? q.length : -1)' "$QUEUE_PATH")"
@@ -294,7 +299,7 @@ for attempt in $(seq 1 "$MAX_GENERATION_ATTEMPTS"); do
     print "## Run context"
     print ""
     print "Generate exactly $ARTICLE_COUNT new article(s) in this run."
-    print "Model budget: GPT-5.6 Luna, low reasoning, standard service tier, at most 8 tool calls."
+    print "Model budget: GPT-5.6 Luna, medium reasoning, standard service tier, at most 8 tool calls."
     if [[ -n "$ATTEMPT_FEEDBACK" ]]; then
       print ""
       print "## Correction required from the prior attempt"
