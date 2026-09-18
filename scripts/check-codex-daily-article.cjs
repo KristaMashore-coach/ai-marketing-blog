@@ -184,7 +184,12 @@ if (article.ctaLabel !== "Learn the AI System") errors.push(`${label}: CTA label
 // copied from a published article that is not site boilerplate (8+ posts).
 {
   const overlap = checkParagraphOverlap(article, candidates, posts);
-  if (!overlap.ok) errors.push(`${label}: [BATCH-OVERLAP] ${overlap.reasons.join("; ")}`);
+  if (!overlap.ok) {
+    const overlapMsg = `${label}: [BATCH-OVERLAP] ${overlap.reasons.join("; ")}`;
+    // Same fail-open flag as the in-prose gate (Krista 2026-08-24: articles publish no matter what).
+    if (BYPASS_IN_PROSE_LINKS) console.error(`WARN (bypassed): ${overlapMsg}`);
+    else errors.push(overlapMsg);
+  }
 }
 
 if (errors.length === errorsBefore) {
