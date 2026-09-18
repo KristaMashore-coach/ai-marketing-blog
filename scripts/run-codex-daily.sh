@@ -366,6 +366,10 @@ for attempt in $(seq 1 "$MAX_GENERATION_ATTEMPTS"); do
     continue
   fi
 
+  # Keep every attempt's candidate batch beside its logs (2026-09-18 PM).
+
+  cp "$QUEUE_PATH" "$ATTEMPT_DIR/queue.json" 2>/dev/null || true
+
   VALIDATION_LOG="$ATTEMPT_DIR/validation.log"
   if validate_candidate > "$VALIDATION_LOG" 2>&1; then
     cat "$VALIDATION_LOG"
