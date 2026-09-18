@@ -50,6 +50,17 @@ The articles in one batch are normally one topic cluster. On 2026-08-16 a five-a
 
 So: **every article must link to at least 2 of its siblings in this batch**, inside the prose, where the link genuinely helps the reader. Treat the broadest article in the batch as the hub — it links to every sibling, and every sibling links back to it. Sibling slugs are valid targets even though they are not published yet; the batch publishes atomically, so the links resolve the moment it goes live.
 
+## In-body links (HARD RULE, added 2026-09-18)
+
+`internalLinks` above is metadata rendered in a separate related-articles section on the page. It is NOT enough on its own. **The `body` HTML itself must also contain at least 3 distinct `<a href="/articles/<slug>">` links, woven into sentences where they genuinely help the reader — not a block dumped at the end.** This is enforced by `scripts/lib/in-prose-links.cjs`:
+
+- Every href must be **distinct**. Never link the same slug twice in one body.
+- Every anchor text must be **distinct**, at least 3 words, and never generic ("related guidance," "click here," "read more," "learn more," "this article"). Write it as a real description of the linked article, e.g. `<a href="/articles/what-ai-agents-can-and-cannot-do-for-a-small-business">what AI agents can and cannot do for a small business</a>`.
+- Your **first internal link must land in roughly the first third of the article**, not after the midpoint.
+- **Never put all your links in the final 20% of the body.** Spread them through the piece.
+- Every link must sit inside a real `<p>`, `<li>`, or heading element as part of a sentence.
+- Use the exact same slugs your `internalLinks` array points to (existing articles from `existingArticles`, or your batchmates this run). Never invent one.
+
 ## Exact JSON schema
 
 The array must contain one object per assigned article, each with these keys:

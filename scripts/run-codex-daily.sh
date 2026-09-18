@@ -40,7 +40,18 @@ ARTICLE_COUNT="$DAILY_TARGET"
 # (.claude/rules/change-contract.md banned move). A run that cannot satisfy the
 # guards in 8 attempts still publishes nothing, still exits non-zero, and is still
 # flagged.
-MAX_GENERATION_ATTEMPTS="${CODEX_GENERATION_ATTEMPTS:-8}"
+#
+# RESTORED 8 -> 5 on 2026-09-18. The 8-attempt budget was never the fix for the
+# 2026-09-17 incident above (apply_patch failures, short word counts) — it was
+# a workaround that let the generator brute-force past real gate failures,
+# including the in-body links gate added the same day (scripts/lib/in-prose-
+# links.cjs): the checker only ever verified the internalLinks METADATA count,
+# so a body with zero real editorial links always passed, and extra attempts
+# were spent on unrelated retries while the real defect shipped anyway. Now
+# that the body gate is real, an inflated attempt budget just burns more Codex
+# calls hunting for a lucky pass instead of the model actually meeting the
+# rule the first time. 5 was the value before the 2026-09-17 bump.
+MAX_GENERATION_ATTEMPTS="${CODEX_GENERATION_ATTEMPTS:-5}"
 LIVE_VERIFY_ATTEMPTS="${CODEX_LIVE_VERIFY_ATTEMPTS:-90}"
 
 case "$MODE" in
@@ -326,12 +337,46 @@ for attempt in $(seq 1 "$MAX_GENERATION_ATTEMPTS"); do
   ATTEMPT_FEEDBACK="$(tail -60 "$VALIDATION_LOG")"
 done
 
+# Fail-open for the in-prose-links gate ONLY (Krista 2026-08-24, verbatim:
+# "no matter what, even if I don't approve, still make sure that the
+# articles are created and posted on my blogs"). If every attempt is
+# exhausted and the ONLY reason the last candidate failed is the
+# in-prose-links gate (every other deterministic gate on it passed), publish
+# it anyway rather than losing the whole day, and leave a dated sentinel plus
+# a WARN log line instead of silently lowering the bar. Any OTHER failure
+# still fails the run. See scripts/lib/in-prose-links.cjs.
+IN_PROSE_BYPASSED=0
 if [[ "$GENERATION_OK" != "1" ]]; then
-  restore_queue
-  node "$PRESERVATION_SCRIPT" verify "$SNAPSHOT" 0
-  commit_backlog_bookkeeping
-  print -u2 "[codex-daily] no article passed validation; published content is unchanged"
-  exit 1
+  IN_PROSE_BYPASS_REASONS=""
+  QUEUE_COUNT_NOW="$(node -e 'const q=require(process.argv[1]); console.log(Array.isArray(q)?q.length:0)' "$QUEUE_PATH" 2>/dev/null || echo 0)"
+  CHECKER_LINES="$(grep -E '^\[codex-daily-check\]' "$VALIDATION_LOG" 2>/dev/null || true)"
+  NON_BYPASSABLE="$(print -r -- "$CHECKER_LINES" | grep -v '\[IN-PROSE-LINKS\]' || true)"
+  BYPASS_LOG="$RUN_DIR/in-prose-bypass-validation.log"
+  if [[ -n "$CHECKER_LINES" && -z "$NON_BYPASSABLE" && "$QUEUE_COUNT_NOW" == "$ARTICLE_COUNT" ]] \
+     && CODEX_BYPASS_IN_PROSE_LINKS=1 validate_candidate > "$BYPASS_LOG" 2>&1; then
+    cat "$BYPASS_LOG"
+    IN_PROSE_BYPASS_REASONS="$(print -r -- "$CHECKER_LINES" | grep '\[IN-PROSE-LINKS\]' || true)"
+    GENERATION_OK=1
+    IN_PROSE_BYPASSED=1
+    print "[codex-daily] publishing $ARTICLE_COUNT article(s) (in-prose-links gate bypassed)"
+  else
+    restore_queue
+    node "$PRESERVATION_SCRIPT" verify "$SNAPSHOT" 0
+    commit_backlog_bookkeeping
+    print -u2 "[codex-daily] no article passed validation; published content is unchanged"
+    exit 1
+  fi
+fi
+if (( IN_PROSE_BYPASSED == 1 )); then
+  IN_PROSE_SENTINEL="$ROOT/data/blog/.in-prose-links-failed"
+  mkdir -p "$(dirname "$IN_PROSE_SENTINEL")"
+  {
+    print "date: $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+    print "slugs: $(node -e 'const q=require(process.argv[1]); console.log(q.map(a=>a.slug).join(","))' "$QUEUE_PATH")"
+    print "reasons:"
+    print -r -- "$IN_PROSE_BYPASS_REASONS"
+  } > "$IN_PROSE_SENTINEL"
+  print -u2 "[codex-daily] WARN: published with the in-prose-links gate bypassed (fail-open, Krista 2026-08-24) — see $IN_PROSE_SENTINEL"
 fi
 
 node scripts/publish-batch.cjs --no-git "--count=$ARTICLE_COUNT"

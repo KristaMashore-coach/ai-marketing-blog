@@ -6,6 +6,15 @@ const fs = require("fs");
 const os = require("os");
 const path = require("path");
 const { spawnSync } = require("child_process");
+const { checkInProseLinks } = require("./lib/in-prose-links.cjs");
+
+// Fail-open bypass for the in-prose-links gate ONLY (Krista 2026-08-24: "no
+// matter what... make sure that the articles are created and posted"). Set
+// by scripts/run-codex-daily.sh as a LAST resort after every generation
+// attempt is exhausted and every OTHER gate on the last candidate passed.
+const BYPASS_IN_PROSE_LINKS = process.env.CODEX_BYPASS_IN_PROSE_LINKS === "1";
+const IN_PROSE_TAG = "[IN-PROSE-LINKS]";
+const MIN_BODY_ARTICLE_LINKS = 3; // matches this site's own 3-to-5 internalLinks floor
 
 const ROOT = path.join(__dirname, "..");
 const POSTS_PATH = path.join(ROOT, "data", "blog", "posts.json");
@@ -146,6 +155,26 @@ if (!Array.isArray(article.internalLinks) || article.internalLinks.length < 3 ||
 }
 if (article.ctaUrl !== "https://kristamashore.com/LevelUp") errors.push(`${label}: CTA URL is incorrect`);
 if (article.ctaLabel !== "Learn the AI System") errors.push(`${label}: CTA label is incorrect`);
+
+// IN-PROSE LINKS GATE (added 2026-09-18). The internalLinks array above is
+// metadata rendered in a separate related-articles section; it was the ONLY
+// link requirement, so bodies shipped with as few as 2 real editorial links
+// woven into the prose, or none. This gate requires the BODY itself to carry
+// real editorial links: distinct hrefs, no reused/generic anchor text,
+// anchor text of 3+ words, the first link before the 60% mark, links not all
+// crammed into the final 20%, and every link inside a <p>/<li>/heading.
+// See .claude/rules/nothing-ships-alone.md and scripts/lib/in-prose-links.cjs.
+{
+  const inProse = checkInProseLinks(article.body, { min: MIN_BODY_ARTICLE_LINKS, selfSlug: article.slug });
+  if (!inProse.ok) {
+    const msg = `${label}: ${IN_PROSE_TAG} body fails the in-prose link gate: ${inProse.reasons.join("; ")}`;
+    if (BYPASS_IN_PROSE_LINKS) {
+      console.error(`[codex-daily-check] WARN (bypassed): ${msg}`);
+    } else {
+      errors.push(msg);
+    }
+  }
+}
 
 if (errors.length === errorsBefore) {
   // Citation guard only when this article passed everything cheaper first.
