@@ -1,62 +1,5 @@
 [
   {
-    "id": "w8-15",
-    "priority": 157,
-    "wave": "8 - AI adoption: cost, privacy, ownership, replacing staff (proposed 2026-08-17)",
-    "title": "Signs Your Business Waited Too Long to Start Using AI",
-    "slug": "signs-your-business-waited-too-long-to-start-using-ai",
-    "primaryKeyword": "signs you waited too long to use AI",
-    "secondaryKeywords": [
-      "falling behind competitors on AI adoption",
-      "AI adoption gap small business"
-    ],
-    "topicalPillar": "ai-run-business",
-    "contentTypePillar": "educational-authority",
-    "funnelStage": "attention",
-    "intent": "informational",
-    "angle": "Not a scare piece: name the concrete, checkable signals that a business has fallen behind, like a competitor answering questions AI already recommends them for.",
-    "status": "ready",
-    "evidence": "Searched 'signs you waited too long to adopt AI in your business'. mcollins.com/signs-your-business-falling-behind-ai-adoption ('5 Signs Your Business Is Behind on AI Adoption') is a near-exact title match; also entrepreneur.com/leadership/why-waiting-to-adopt-ai-is-riskier-than-you-think, cetdigit.com (real cost of waiting), fastslowmotion.com (is it too late)."
-  },
-  {
-    "id": "w8-16",
-    "priority": 158,
-    "wave": "8 - AI adoption: cost, privacy, ownership, replacing staff (proposed 2026-08-17)",
-    "title": "What Owning Your AI System Actually Means for a Small Business",
-    "slug": "what-owning-your-ai-system-actually-means-for-a-small-business",
-    "primaryKeyword": "own your AI system small business",
-    "secondaryKeywords": [
-      "AI ownership vs subscription small business",
-      "what it means to own an AI workflow"
-    ],
-    "topicalPillar": "ai-run-business",
-    "contentTypePillar": "educational-authority",
-    "funnelStage": "resonance",
-    "intent": "informational",
-    "angle": "Go deeper on ownership than the platform lock-in piece: what it practically looks like to own the prompts, the data, and the workflow instead of renting access to someone else's.",
-    "status": "ready",
-    "evidence": "Searched 'what does it mean to actually own your AI workflow instead of renting'. Dedicated pages: cio.com/article/4172558/the-next-digital-divide-ai-owners-vs-ai-renters, ability.ai/blog/ai-harness-ownership-strategy, forbes.com/councils/forbestechcouncil (Own It Or Rent It? A CIO's Framework), shooflyai.com/blog/build-vs-buy-vs-own-ai."
-  },
-  {
-    "id": "w8-17",
-    "priority": 159,
-    "wave": "8 - AI adoption: cost, privacy, ownership, replacing staff (proposed 2026-08-17)",
-    "title": "How to Tell if an AI Vendor Will Still Exist in Two Years",
-    "slug": "how-to-tell-if-an-ai-vendor-will-still-exist-in-two-years",
-    "primaryKeyword": "AI vendor longevity small business",
-    "secondaryKeywords": [
-      "will this AI tool still be around",
-      "AI vendor stability check small business"
-    ],
-    "topicalPillar": "ai-run-business",
-    "contentTypePillar": "problem-solving",
-    "funnelStage": "attention",
-    "intent": "informational",
-    "angle": "The AI tools market moves fast and some vendors won't survive it. Give owners a few concrete signals to check before building a workflow around a new tool.",
-    "status": "ready",
-    "evidence": "Searched 'how to evaluate AI vendor stability will they still exist in two years'. Near-exact match: adexchanger.com/data-driven-thinking/how-to-tell-if-an-ai-vendor-will-still-matter-in-two-years. Also dev.to/mirasloan/how-to-tell-if-your-ai-vendor-will-still-be-around-in-3-years-5d1j and dev.to/mirasloan/how-to-evaluate-an-ai-vendors-long-term-viability-before-you-build-on-them-2g3k."
-  },
-  {
     "id": "w8-18",
     "priority": 160,
     "wave": "8 - AI adoption: cost, privacy, ownership, replacing staff (proposed 2026-08-17)",
@@ -74,45 +17,5 @@
     "angle": "Most AI-for-small-business content assumes a solo operator. Address the different rollout, training, and ownership questions that come up once there's a team involved.",
     "status": "hold-for-review",
     "holdReason": "Demand check 2026-09-15 found no search behind this framing: Two searches ('AI adoption small business with employees vs solo owner rollout' and 'AI rollout for company with employees vs solo entrepreneur different approach') returned only adoption-rate statistics pages and solopreneur-trend pieces (peak.capital, fortune.com, forbes 'one person unicorn'), never a dedicated page answering how a team-based AI rollout should differ from a solo one; nobody is asking this specific question."
-  },
-  {
-    "id": "w8-19",
-    "priority": 161,
-    "wave": "8 - AI adoption: cost, privacy, ownership, replacing staff (proposed 2026-08-17)",
-    "title": "AI Pricing Mistakes Most Small Businesses Make",
-    "slug": "ai-pricing-mistakes-most-small-businesses-make",
-    "primaryKeyword": "ai pricing mistakes small business",
-    "secondaryKeywords": [
-      "AI pricing misconceptions small business",
-      "common AI cost mistakes small business"
-    ],
-    "topicalPillar": "ai-run-business",
-    "contentTypePillar": "problem-solving",
-    "funnelStage": "attention",
-    "intent": "informational",
-    "angle": "Cover the two most common pricing mistakes: judging a tool only by its monthly price, and assuming the cheapest tool is the lowest total cost.",
-    "status": "ready",
-    "evidence": "Searched 'AI pricing mistakes small business owners make'. Dedicated pages: medium.com/@yash24.botify/5-ai-mistakes-that-are-costing-your-business-money, success.com/the-real-cost-of-ai-tools-for-small-business-roi-calculator-2, nofluffaitools.com/small-business-ai-mistakes-2026, smarterflo.com/blog/common-ai-mistakes-small-business.",
-    "previousTitle": "What Small Business Owners Get Wrong About AI Pricing",
-    "retitledReason": "searcher-vocabulary rewrite, 2026-09-15 demand check"
-  },
-  {
-    "id": "w8-20",
-    "priority": 162,
-    "wave": "8 - AI adoption: cost, privacy, ownership, replacing staff (proposed 2026-08-17)",
-    "title": "How to Know When It's Time to Upgrade From a Free AI Tool",
-    "slug": "how-to-know-when-its-time-to-upgrade-from-a-free-ai-tool",
-    "primaryKeyword": "when to upgrade from free AI tool",
-    "secondaryKeywords": [
-      "free vs paid AI tool decision point",
-      "signs you need a paid AI plan"
-    ],
-    "topicalPillar": "ai-run-business",
-    "contentTypePillar": "problem-solving",
-    "funnelStage": "attention",
-    "intent": "informational",
-    "angle": "Give a concrete trigger list for moving off a free AI tier: a customer-facing use case, a privacy concern, or hitting a usage limit that's now costing real time.",
-    "status": "ready",
-    "evidence": "Searched 'when to upgrade from free AI tool to paid plan signs'. Dedicated pages: best-ai.org/learn/free-vs-paid, zemith.com/en/contents/free-vs-paid-ai-tools-2026 ('When Does Upgrading Actually Make Sense?'), dailyaiintel.com/questions/how-do-you-know-when-youve-actually-outgrown-free-ai-tools (near-exact match)."
   }
 ]

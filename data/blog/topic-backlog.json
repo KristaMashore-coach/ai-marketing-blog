@@ -1765,10 +1765,11 @@
       "intent": "commercial",
       "angle": "It replaces the drafting, the summarizing and the sorting. It does not replace the judgment about who to call back first.",
       "evidence": "'AI replace employees small business' returns a live cluster and the agents guides quote 10-20 staff hours a week displaced; the honest-boundary version is thinly covered.",
-      "status": "ready",
+      "status": "published",
       "autoLoaded": true,
       "autoLoadedAt": "2026-09-17T16:01:26.318Z",
-      "autoLoadedReason": "backlog runway fell to 10 (floor 15); promoted without waiting on approval per Krista 2026-08-20, reaffirmed 2026-08-24; pillar-balanced per Krista 2026-08-24"
+      "autoLoadedReason": "backlog runway fell to 10 (floor 15); promoted without waiting on approval per Krista 2026-08-20, reaffirmed 2026-08-24; pillar-balanced per Krista 2026-08-24",
+      "publishedAt": "2026-09-18T15:38:05.534Z"
     },
     {
       "id": "w9-12",
@@ -1809,11 +1810,12 @@
       "funnelStage": "attention",
       "intent": "informational",
       "angle": "Business owners on a free AI plan may be training the model with their own client information without knowing it. Explain what actually changes on a paid or enterprise tier.",
-      "status": "ready",
+      "status": "published",
       "evidence": "Searched 'chatgpt enterprise vs free plan data privacy business'. Dedicated competing pages: pithycyborg.substack.com/p/chatgpt-free-plus-teams-data-privacy-comparison, sonomos.ai/blog/free-vs-paid-chatgpt-privacy-differences-2026, datastudios.org (plan/feature comparison), aibusinessweekly.net/p/chatgpt-enterprise-vs-plus.",
       "autoLoaded": true,
       "autoLoadedAt": "2026-09-17T16:01:26.319Z",
-      "autoLoadedReason": "backlog runway fell to 10 (floor 15); promoted without waiting on approval per Krista 2026-08-20, reaffirmed 2026-08-24; pillar-balanced per Krista 2026-08-24"
+      "autoLoadedReason": "backlog runway fell to 10 (floor 15); promoted without waiting on approval per Krista 2026-08-20, reaffirmed 2026-08-24; pillar-balanced per Krista 2026-08-24",
+      "publishedAt": "2026-09-18T15:38:05.534Z"
     },
     {
       "id": "w9-6",
@@ -1877,11 +1879,12 @@
       "funnelStage": "attention",
       "intent": "informational",
       "angle": "The subscription price is rarely the real cost. Cover setup time, training, integration, and the cost of picking the wrong tool and switching later.",
-      "status": "ready",
+      "status": "published",
       "evidence": "Searched 'hidden costs of AI tools for small business beyond subscription'. Dedicated pages: aibizztoolshub.com/blog/hidden-costs-ai-tools, lilachbullock.com/real-cost-ai-tools-small-business-keep-down, evalu8-evolve.com (what-are-the-hidden-costs...), aiforesight360.com/ai-tools-cost-for-small-business.",
       "autoLoaded": true,
       "autoLoadedAt": "2026-09-17T16:02:24.263Z",
-      "autoLoadedReason": "backlog runway fell to 15 (floor 25); promoted without waiting on approval per Krista 2026-08-20, reaffirmed 2026-08-24; pillar-balanced per Krista 2026-08-24"
+      "autoLoadedReason": "backlog runway fell to 15 (floor 25); promoted without waiting on approval per Krista 2026-08-20, reaffirmed 2026-08-24; pillar-balanced per Krista 2026-08-24",
+      "publishedAt": "2026-09-18T15:38:05.534Z"
     },
     {
       "id": "w9-7",
@@ -1922,11 +1925,12 @@
       "funnelStage": "attention",
       "intent": "informational",
       "angle": "A concrete week-by-week plan for an owner who has never used AI in the business: pick one task, one tool, measure it, then decide whether to expand.",
-      "status": "ready",
+      "status": "published",
       "evidence": "Searched '30 day plan to start using AI in your small business'. Near-exact title matches: mohammedshehu.com/first-30-days-ai, quikteks.com/blog/your-first-30-days-with-ai-a-simple-starter-plan-for-small-business-owners, citsolutions.net/beyond-the-hype-a-30-day-plan-for-implementing-ai-in-your-business, aiacopilot.com (30-day roadmap).",
       "autoLoaded": true,
       "autoLoadedAt": "2026-09-17T16:02:24.263Z",
-      "autoLoadedReason": "backlog runway fell to 15 (floor 25); promoted without waiting on approval per Krista 2026-08-20, reaffirmed 2026-08-24; pillar-balanced per Krista 2026-08-24"
+      "autoLoadedReason": "backlog runway fell to 15 (floor 25); promoted without waiting on approval per Krista 2026-08-20, reaffirmed 2026-08-24; pillar-balanced per Krista 2026-08-24",
+      "publishedAt": "2026-09-18T15:38:05.534Z"
     },
     {
       "id": "w8-9",
@@ -1944,11 +1948,12 @@
       "funnelStage": "resonance",
       "intent": "informational",
       "angle": "Most AI rollouts fail on people, not technology. Cover a low-drama way to introduce a new tool to a small team without a mandate that breeds resistance.",
-      "status": "ready",
+      "status": "published",
       "evidence": "Searched 'how to introduce AI to your team without resistance small business'. Dedicated pages: enterprisenation.com/learn-something/how-to-introduce-ai-without-needing-to-lose-staff, businesstransitionacademy.com (6-tips-for-helping-your-team-embrace-ai-without-resistance), endless8marketing.com/how-to-introduce-ai-to-your-team, makeapivot.com/single-post/how-to-implement-ai-in-business.",
       "autoLoaded": true,
       "autoLoadedAt": "2026-09-17T16:02:24.263Z",
-      "autoLoadedReason": "backlog runway fell to 15 (floor 25); promoted without waiting on approval per Krista 2026-08-20, reaffirmed 2026-08-24; pillar-balanced per Krista 2026-08-24"
+      "autoLoadedReason": "backlog runway fell to 15 (floor 25); promoted without waiting on approval per Krista 2026-08-20, reaffirmed 2026-08-24; pillar-balanced per Krista 2026-08-24",
+      "publishedAt": "2026-09-18T15:38:05.534Z"
     },
     {
       "id": "w8-10",
@@ -2061,6 +2066,118 @@
       "autoLoaded": true,
       "autoLoadedAt": "2026-09-17T16:02:24.263Z",
       "autoLoadedReason": "backlog runway fell to 15 (floor 25); promoted without waiting on approval per Krista 2026-08-20, reaffirmed 2026-08-24; pillar-balanced per Krista 2026-08-24"
+    },
+    {
+      "id": "w8-15",
+      "priority": 157,
+      "wave": "8 - AI adoption: cost, privacy, ownership, replacing staff (proposed 2026-08-17)",
+      "title": "Signs Your Business Waited Too Long to Start Using AI",
+      "slug": "signs-your-business-waited-too-long-to-start-using-ai",
+      "primaryKeyword": "signs you waited too long to use AI",
+      "secondaryKeywords": [
+        "falling behind competitors on AI adoption",
+        "AI adoption gap small business"
+      ],
+      "topicalPillar": "ai-run-business",
+      "contentTypePillar": "educational-authority",
+      "funnelStage": "attention",
+      "intent": "informational",
+      "angle": "Not a scare piece: name the concrete, checkable signals that a business has fallen behind, like a competitor answering questions AI already recommends them for.",
+      "status": "ready",
+      "evidence": "Searched 'signs you waited too long to adopt AI in your business'. mcollins.com/signs-your-business-falling-behind-ai-adoption ('5 Signs Your Business Is Behind on AI Adoption') is a near-exact title match; also entrepreneur.com/leadership/why-waiting-to-adopt-ai-is-riskier-than-you-think, cetdigit.com (real cost of waiting), fastslowmotion.com (is it too late).",
+      "autoLoaded": true,
+      "autoLoadedAt": "2026-09-19T14:00:06.937Z",
+      "autoLoadedReason": "backlog runway fell to 20 (floor 25); promoted without waiting on approval per Krista 2026-08-20, reaffirmed 2026-08-24; pillar-balanced per Krista 2026-08-24"
+    },
+    {
+      "id": "w8-16",
+      "priority": 158,
+      "wave": "8 - AI adoption: cost, privacy, ownership, replacing staff (proposed 2026-08-17)",
+      "title": "What Owning Your AI System Actually Means for a Small Business",
+      "slug": "what-owning-your-ai-system-actually-means-for-a-small-business",
+      "primaryKeyword": "own your AI system small business",
+      "secondaryKeywords": [
+        "AI ownership vs subscription small business",
+        "what it means to own an AI workflow"
+      ],
+      "topicalPillar": "ai-run-business",
+      "contentTypePillar": "educational-authority",
+      "funnelStage": "resonance",
+      "intent": "informational",
+      "angle": "Go deeper on ownership than the platform lock-in piece: what it practically looks like to own the prompts, the data, and the workflow instead of renting access to someone else's.",
+      "status": "ready",
+      "evidence": "Searched 'what does it mean to actually own your AI workflow instead of renting'. Dedicated pages: cio.com/article/4172558/the-next-digital-divide-ai-owners-vs-ai-renters, ability.ai/blog/ai-harness-ownership-strategy, forbes.com/councils/forbestechcouncil (Own It Or Rent It? A CIO's Framework), shooflyai.com/blog/build-vs-buy-vs-own-ai.",
+      "autoLoaded": true,
+      "autoLoadedAt": "2026-09-19T14:00:06.940Z",
+      "autoLoadedReason": "backlog runway fell to 20 (floor 25); promoted without waiting on approval per Krista 2026-08-20, reaffirmed 2026-08-24; pillar-balanced per Krista 2026-08-24"
+    },
+    {
+      "id": "w8-17",
+      "priority": 159,
+      "wave": "8 - AI adoption: cost, privacy, ownership, replacing staff (proposed 2026-08-17)",
+      "title": "How to Tell if an AI Vendor Will Still Exist in Two Years",
+      "slug": "how-to-tell-if-an-ai-vendor-will-still-exist-in-two-years",
+      "primaryKeyword": "AI vendor longevity small business",
+      "secondaryKeywords": [
+        "will this AI tool still be around",
+        "AI vendor stability check small business"
+      ],
+      "topicalPillar": "ai-run-business",
+      "contentTypePillar": "problem-solving",
+      "funnelStage": "attention",
+      "intent": "informational",
+      "angle": "The AI tools market moves fast and some vendors won't survive it. Give owners a few concrete signals to check before building a workflow around a new tool.",
+      "status": "ready",
+      "evidence": "Searched 'how to evaluate AI vendor stability will they still exist in two years'. Near-exact match: adexchanger.com/data-driven-thinking/how-to-tell-if-an-ai-vendor-will-still-matter-in-two-years. Also dev.to/mirasloan/how-to-tell-if-your-ai-vendor-will-still-be-around-in-3-years-5d1j and dev.to/mirasloan/how-to-evaluate-an-ai-vendors-long-term-viability-before-you-build-on-them-2g3k.",
+      "autoLoaded": true,
+      "autoLoadedAt": "2026-09-19T14:00:06.940Z",
+      "autoLoadedReason": "backlog runway fell to 20 (floor 25); promoted without waiting on approval per Krista 2026-08-20, reaffirmed 2026-08-24; pillar-balanced per Krista 2026-08-24"
+    },
+    {
+      "id": "w8-19",
+      "priority": 161,
+      "wave": "8 - AI adoption: cost, privacy, ownership, replacing staff (proposed 2026-08-17)",
+      "title": "AI Pricing Mistakes Most Small Businesses Make",
+      "slug": "ai-pricing-mistakes-most-small-businesses-make",
+      "primaryKeyword": "ai pricing mistakes small business",
+      "secondaryKeywords": [
+        "AI pricing misconceptions small business",
+        "common AI cost mistakes small business"
+      ],
+      "topicalPillar": "ai-run-business",
+      "contentTypePillar": "problem-solving",
+      "funnelStage": "attention",
+      "intent": "informational",
+      "angle": "Cover the two most common pricing mistakes: judging a tool only by its monthly price, and assuming the cheapest tool is the lowest total cost.",
+      "status": "ready",
+      "evidence": "Searched 'AI pricing mistakes small business owners make'. Dedicated pages: medium.com/@yash24.botify/5-ai-mistakes-that-are-costing-your-business-money, success.com/the-real-cost-of-ai-tools-for-small-business-roi-calculator-2, nofluffaitools.com/small-business-ai-mistakes-2026, smarterflo.com/blog/common-ai-mistakes-small-business.",
+      "previousTitle": "What Small Business Owners Get Wrong About AI Pricing",
+      "retitledReason": "searcher-vocabulary rewrite, 2026-09-15 demand check",
+      "autoLoaded": true,
+      "autoLoadedAt": "2026-09-19T14:00:06.940Z",
+      "autoLoadedReason": "backlog runway fell to 20 (floor 25); promoted without waiting on approval per Krista 2026-08-20, reaffirmed 2026-08-24; pillar-balanced per Krista 2026-08-24"
+    },
+    {
+      "id": "w8-20",
+      "priority": 162,
+      "wave": "8 - AI adoption: cost, privacy, ownership, replacing staff (proposed 2026-08-17)",
+      "title": "How to Know When It's Time to Upgrade From a Free AI Tool",
+      "slug": "how-to-know-when-its-time-to-upgrade-from-a-free-ai-tool",
+      "primaryKeyword": "when to upgrade from free AI tool",
+      "secondaryKeywords": [
+        "free vs paid AI tool decision point",
+        "signs you need a paid AI plan"
+      ],
+      "topicalPillar": "ai-run-business",
+      "contentTypePillar": "problem-solving",
+      "funnelStage": "attention",
+      "intent": "informational",
+      "angle": "Give a concrete trigger list for moving off a free AI tier: a customer-facing use case, a privacy concern, or hitting a usage limit that's now costing real time.",
+      "status": "ready",
+      "evidence": "Searched 'when to upgrade from free AI tool to paid plan signs'. Dedicated pages: best-ai.org/learn/free-vs-paid, zemith.com/en/contents/free-vs-paid-ai-tools-2026 ('When Does Upgrading Actually Make Sense?'), dailyaiintel.com/questions/how-do-you-know-when-youve-actually-outgrown-free-ai-tools (near-exact match).",
+      "autoLoaded": true,
+      "autoLoadedAt": "2026-09-19T14:00:06.940Z",
+      "autoLoadedReason": "backlog runway fell to 20 (floor 25); promoted without waiting on approval per Krista 2026-08-20, reaffirmed 2026-08-24; pillar-balanced per Krista 2026-08-24"
     }
   ],
   "wave7_approved": "2026-08-16 by Krista (APPROVED + 7 AEO additions at her direction)"
