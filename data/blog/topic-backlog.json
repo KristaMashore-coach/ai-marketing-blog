@@ -1835,10 +1835,11 @@
       "intent": "informational",
       "angle": "A prompt you retype is a prompt you will abandon. Structure the four parts once, store it where the work happens, and stop starting over.",
       "evidence": "The 30-day adoption sequence in the ChatGPT business cluster names a shared prompt library as week two; 'prompt library for business' has competing pages across productivity blogs.",
-      "status": "ready",
+      "status": "published",
       "autoLoaded": true,
       "autoLoadedAt": "2026-09-17T16:01:26.319Z",
-      "autoLoadedReason": "backlog runway fell to 10 (floor 15); promoted without waiting on approval per Krista 2026-08-20, reaffirmed 2026-08-24; pillar-balanced per Krista 2026-08-24"
+      "autoLoadedReason": "backlog runway fell to 10 (floor 15); promoted without waiting on approval per Krista 2026-08-20, reaffirmed 2026-08-24; pillar-balanced per Krista 2026-08-24",
+      "publishedAt": "2026-09-19T14:05:03.101Z"
     },
     {
       "id": "w9-13",
@@ -1904,10 +1905,11 @@
       "intent": "informational",
       "angle": "Thirty minutes a week: what did it do, what did you fix by hand, what is worth keeping. Most AI spend never gets measured and quietly stops paying.",
       "evidence": "Week four of the widely-published 30-day adoption sequence is measurement (aigrowthub, aigatecrashers); no dedicated page explains how, which is the gap.",
-      "status": "ready",
+      "status": "published",
       "autoLoaded": true,
       "autoLoadedAt": "2026-09-17T16:02:24.263Z",
-      "autoLoadedReason": "backlog runway fell to 15 (floor 25); promoted without waiting on approval per Krista 2026-08-20, reaffirmed 2026-08-24; pillar-balanced per Krista 2026-08-24"
+      "autoLoadedReason": "backlog runway fell to 15 (floor 25); promoted without waiting on approval per Krista 2026-08-20, reaffirmed 2026-08-24; pillar-balanced per Krista 2026-08-24",
+      "publishedAt": "2026-09-19T14:05:03.101Z"
     },
     {
       "id": "w8-8",
@@ -1971,11 +1973,12 @@
       "funnelStage": "resonance",
       "intent": "informational",
       "angle": "Most small businesses assume renting a tool is the only option. Lay out when a simple owned system actually beats a subscription, and when it doesn't.",
-      "status": "ready",
+      "status": "published",
       "evidence": "Searched 'build vs buy AI tool small business custom vs off the shelf'. Dedicated pages: smarterflo.com/blog/build-vs-buy-ai-small-business (exact match), yellow.systems/blog/custom-ai-vs-off-the-shelf-ai, devhawk.ai/blog/build-vs-buy-ai.",
       "autoLoaded": true,
       "autoLoadedAt": "2026-09-17T16:02:24.263Z",
-      "autoLoadedReason": "backlog runway fell to 15 (floor 25); promoted without waiting on approval per Krista 2026-08-20, reaffirmed 2026-08-24; pillar-balanced per Krista 2026-08-24"
+      "autoLoadedReason": "backlog runway fell to 15 (floor 25); promoted without waiting on approval per Krista 2026-08-20, reaffirmed 2026-08-24; pillar-balanced per Krista 2026-08-24",
+      "publishedAt": "2026-09-19T14:05:03.101Z"
     },
     {
       "id": "w8-11",
@@ -1993,13 +1996,14 @@
       "funnelStage": "attention",
       "intent": "informational",
       "angle": "Owners often automate the task that's easiest to automate, not the one that costs them the most time. Walk through how to pick correctly the first time.",
-      "status": "ready",
+      "status": "published",
       "evidence": "Searched 'which task to automate first with AI small business mistake'. Dedicated pages answer the underlying question in positive form, not 'mistake' form: commercepundit.com/blog/ai-automation-for-small-businesses (What to Automate First), thevirtualsavvy.com/what-tasks-should-i-automate-with-ai-first, thewolfofai.co/post/ai-automation-small-business-tasks.",
       "previousTitle": "The AI Mistake of Automating the Wrong Task First",
       "retitledReason": "searcher-vocabulary rewrite, 2026-09-15 demand check",
       "autoLoaded": true,
       "autoLoadedAt": "2026-09-17T16:02:24.263Z",
-      "autoLoadedReason": "backlog runway fell to 15 (floor 25); promoted without waiting on approval per Krista 2026-08-20, reaffirmed 2026-08-24; pillar-balanced per Krista 2026-08-24"
+      "autoLoadedReason": "backlog runway fell to 15 (floor 25); promoted without waiting on approval per Krista 2026-08-20, reaffirmed 2026-08-24; pillar-balanced per Krista 2026-08-24",
+      "publishedAt": "2026-09-19T14:05:03.101Z"
     },
     {
       "id": "w8-12",
@@ -2017,11 +2021,12 @@
       "funnelStage": "attention",
       "intent": "informational",
       "angle": "Most small business owners never read the contract on an AI subscription. Name the specific terms worth reading: term length, price increases, and data ownership.",
-      "status": "ready",
+      "status": "published",
       "evidence": "Searched 'AI vendor contract terms to check small business data ownership'. Dedicated pages: wardandsmith.com/article/contract-architecture-core-ai-clauses-for-vendor-agreements, aaronhall.com/ai-vendor-contract-clauses-minnesota-businesses, gouchevlaw.com/10-critical-clauses-for-ai-vendor-contracts, crowleylawllc.com/ai-vendor-contracts-7-critical-clauses.",
       "autoLoaded": true,
       "autoLoadedAt": "2026-09-17T16:02:24.263Z",
-      "autoLoadedReason": "backlog runway fell to 15 (floor 25); promoted without waiting on approval per Krista 2026-08-20, reaffirmed 2026-08-24; pillar-balanced per Krista 2026-08-24"
+      "autoLoadedReason": "backlog runway fell to 15 (floor 25); promoted without waiting on approval per Krista 2026-08-20, reaffirmed 2026-08-24; pillar-balanced per Krista 2026-08-24",
+      "publishedAt": "2026-09-19T14:05:03.101Z"
     },
     {
       "id": "w8-13",
