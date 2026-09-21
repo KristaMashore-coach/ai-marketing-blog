@@ -1533,10 +1533,11 @@
       "intent": "informational",
       "angle": "A short, specific list plus the sentence shapes underneath it. Then the one pass that removes them faster than rewriting.",
       "evidence": "'how to avoid sounding like AI' returns writingcooperative.com, getmasset.com/resources/blog/the-prompt-to-help-ai-sound-less-like-ai, lilachbullock, plus a paid product (messagingoracle gumroad). Commercial demand confirmed.",
-      "status": "ready",
+      "status": "published",
       "autoLoaded": true,
       "autoLoadedAt": "2026-09-16T14:00:07.335Z",
-      "autoLoadedReason": "backlog runway fell to 10 (floor 15); promoted without waiting on approval per Krista 2026-08-20, reaffirmed 2026-08-24; pillar-balanced per Krista 2026-08-24"
+      "autoLoadedReason": "backlog runway fell to 10 (floor 15); promoted without waiting on approval per Krista 2026-08-20, reaffirmed 2026-08-24; pillar-balanced per Krista 2026-08-24",
+      "publishedAt": "2026-09-20T14:34:31.316Z"
     },
     {
       "id": "w9-15",
@@ -1649,10 +1650,11 @@
       "intent": "informational",
       "angle": "Where disclosure is required, where it is a choice, and the standard that matters more than either: would you defend every sentence as yours.",
       "evidence": "'AI content disclosure' has dedicated pages across FTC-adjacent, marketing and platform-policy blogs, with active PAA. Live question, unsettled answer.",
-      "status": "ready",
+      "status": "published",
       "autoLoaded": true,
       "autoLoadedAt": "2026-09-16T15:08:17.090Z",
-      "autoLoadedReason": "backlog runway fell to 10 (floor 15); promoted without waiting on approval per Krista 2026-08-20, reaffirmed 2026-08-24; pillar-balanced per Krista 2026-08-24"
+      "autoLoadedReason": "backlog runway fell to 10 (floor 15); promoted without waiting on approval per Krista 2026-08-20, reaffirmed 2026-08-24; pillar-balanced per Krista 2026-08-24",
+      "publishedAt": "2026-09-20T14:34:31.316Z"
     },
     {
       "id": "w9-16",
@@ -2044,11 +2046,12 @@
       "funnelStage": "attention",
       "intent": "informational",
       "angle": "Tool sprawl quietly becomes its own cost. Give a simple rule for how many AI tools a small business should be running at once, and when to consolidate.",
-      "status": "ready",
+      "status": "published",
       "evidence": "Searched 'how many AI tools does a small business need tool sprawl'. Dedicated pages: cledara.com/blog/ai-tool-sprawl, cloudsecuretech.com/insights/smb-ai-tool-sprawl, forbes.com/sites/terdawn-deboe (AI Agent Sprawl: How Small Businesses Can Regain Control), worqlo.com/blog/enterprise-ai-tool-sprawl. Stat cited: median small business runs ~5 AI tools, 73% say they need help choosing.",
       "autoLoaded": true,
       "autoLoadedAt": "2026-09-17T16:02:24.263Z",
-      "autoLoadedReason": "backlog runway fell to 15 (floor 25); promoted without waiting on approval per Krista 2026-08-20, reaffirmed 2026-08-24; pillar-balanced per Krista 2026-08-24"
+      "autoLoadedReason": "backlog runway fell to 15 (floor 25); promoted without waiting on approval per Krista 2026-08-20, reaffirmed 2026-08-24; pillar-balanced per Krista 2026-08-24",
+      "publishedAt": "2026-09-20T14:34:31.316Z"
     },
     {
       "id": "w8-14",
@@ -2066,11 +2069,12 @@
       "funnelStage": "attention",
       "intent": "informational",
       "angle": "Owners handling financial, legal-adjacent, or health-adjacent client information carry more privacy risk than a typical small business. Cover what extra checks that requires.",
-      "status": "ready",
+      "status": "published",
       "evidence": "Searched 'AI tools for businesses handling sensitive client data privacy'. Dedicated pages: callosium.com/learn/best-ai-tools-for-consultants-handling-sensitive-data (same audience/question), startuphub.ai/ai-news/insights/2026/privacy-first-ai-tools-2026, dialzara.com/blog/top-5-ai-tools-with-transparent-data-policies, alloypress.com/blogs/best-privacy-focused-ai-tools.",
       "autoLoaded": true,
       "autoLoadedAt": "2026-09-17T16:02:24.263Z",
-      "autoLoadedReason": "backlog runway fell to 15 (floor 25); promoted without waiting on approval per Krista 2026-08-20, reaffirmed 2026-08-24; pillar-balanced per Krista 2026-08-24"
+      "autoLoadedReason": "backlog runway fell to 15 (floor 25); promoted without waiting on approval per Krista 2026-08-20, reaffirmed 2026-08-24; pillar-balanced per Krista 2026-08-24",
+      "publishedAt": "2026-09-20T14:34:31.316Z"
     },
     {
       "id": "w8-15",
