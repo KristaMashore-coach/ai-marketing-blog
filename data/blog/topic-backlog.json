@@ -1744,10 +1744,11 @@
       "intent": "informational",
       "angle": "Talk for twenty minutes about something you already know. The transcript is the raw material and the AI is the sorter, never the source.",
       "evidence": "'repurpose transcript into content' returns competing vendor and workflow pages; the existing published article covers one-video-to-eight-posts, this is the spoken-source variant with different intent.",
-      "status": "ready",
+      "status": "published",
       "autoLoaded": true,
       "autoLoadedAt": "2026-09-17T16:01:26.318Z",
-      "autoLoadedReason": "backlog runway fell to 10 (floor 15); promoted without waiting on approval per Krista 2026-08-20, reaffirmed 2026-08-24; pillar-balanced per Krista 2026-08-24"
+      "autoLoadedReason": "backlog runway fell to 10 (floor 15); promoted without waiting on approval per Krista 2026-08-20, reaffirmed 2026-08-24; pillar-balanced per Krista 2026-08-24",
+      "publishedAt": "2026-09-22T15:25:24.653Z"
     },
     {
       "id": "w9-5",
@@ -1791,10 +1792,11 @@
       "intent": "informational",
       "angle": "It is averaging everything ever written on the subject, which is exactly what you want at the blank page and exactly what you do not want at the end.",
       "evidence": "The avoid-sounding-like-AI cluster universally names the edit step as the skipped one (writingcooperative, lilachbullock, georgekao); the why has no dedicated explanatory page.",
-      "status": "ready",
+      "status": "published",
       "autoLoaded": true,
       "autoLoadedAt": "2026-09-17T16:01:26.318Z",
-      "autoLoadedReason": "backlog runway fell to 10 (floor 15); promoted without waiting on approval per Krista 2026-08-20, reaffirmed 2026-08-24; pillar-balanced per Krista 2026-08-24"
+      "autoLoadedReason": "backlog runway fell to 10 (floor 15); promoted without waiting on approval per Krista 2026-08-20, reaffirmed 2026-08-24; pillar-balanced per Krista 2026-08-24",
+      "publishedAt": "2026-09-22T15:25:24.653Z"
     },
     {
       "id": "w8-6",
@@ -2092,11 +2094,12 @@
       "funnelStage": "attention",
       "intent": "informational",
       "angle": "Not a scare piece: name the concrete, checkable signals that a business has fallen behind, like a competitor answering questions AI already recommends them for.",
-      "status": "ready",
+      "status": "published",
       "evidence": "Searched 'signs you waited too long to adopt AI in your business'. mcollins.com/signs-your-business-falling-behind-ai-adoption ('5 Signs Your Business Is Behind on AI Adoption') is a near-exact title match; also entrepreneur.com/leadership/why-waiting-to-adopt-ai-is-riskier-than-you-think, cetdigit.com (real cost of waiting), fastslowmotion.com (is it too late).",
       "autoLoaded": true,
       "autoLoadedAt": "2026-09-19T14:00:06.937Z",
-      "autoLoadedReason": "backlog runway fell to 20 (floor 25); promoted without waiting on approval per Krista 2026-08-20, reaffirmed 2026-08-24; pillar-balanced per Krista 2026-08-24"
+      "autoLoadedReason": "backlog runway fell to 20 (floor 25); promoted without waiting on approval per Krista 2026-08-20, reaffirmed 2026-08-24; pillar-balanced per Krista 2026-08-24",
+      "publishedAt": "2026-09-22T15:25:24.653Z"
     },
     {
       "id": "w8-16",
@@ -2114,11 +2117,12 @@
       "funnelStage": "resonance",
       "intent": "informational",
       "angle": "Go deeper on ownership than the platform lock-in piece: what it practically looks like to own the prompts, the data, and the workflow instead of renting access to someone else's.",
-      "status": "ready",
+      "status": "published",
       "evidence": "Searched 'what does it mean to actually own your AI workflow instead of renting'. Dedicated pages: cio.com/article/4172558/the-next-digital-divide-ai-owners-vs-ai-renters, ability.ai/blog/ai-harness-ownership-strategy, forbes.com/councils/forbestechcouncil (Own It Or Rent It? A CIO's Framework), shooflyai.com/blog/build-vs-buy-vs-own-ai.",
       "autoLoaded": true,
       "autoLoadedAt": "2026-09-19T14:00:06.940Z",
-      "autoLoadedReason": "backlog runway fell to 20 (floor 25); promoted without waiting on approval per Krista 2026-08-20, reaffirmed 2026-08-24; pillar-balanced per Krista 2026-08-24"
+      "autoLoadedReason": "backlog runway fell to 20 (floor 25); promoted without waiting on approval per Krista 2026-08-20, reaffirmed 2026-08-24; pillar-balanced per Krista 2026-08-24",
+      "publishedAt": "2026-09-22T15:25:24.653Z"
     },
     {
       "id": "w8-17",
@@ -2136,11 +2140,12 @@
       "funnelStage": "attention",
       "intent": "informational",
       "angle": "The AI tools market moves fast and some vendors won't survive it. Give owners a few concrete signals to check before building a workflow around a new tool.",
-      "status": "ready",
+      "status": "published",
       "evidence": "Searched 'how to evaluate AI vendor stability will they still exist in two years'. Near-exact match: adexchanger.com/data-driven-thinking/how-to-tell-if-an-ai-vendor-will-still-matter-in-two-years. Also dev.to/mirasloan/how-to-tell-if-your-ai-vendor-will-still-be-around-in-3-years-5d1j and dev.to/mirasloan/how-to-evaluate-an-ai-vendors-long-term-viability-before-you-build-on-them-2g3k.",
       "autoLoaded": true,
       "autoLoadedAt": "2026-09-19T14:00:06.940Z",
-      "autoLoadedReason": "backlog runway fell to 20 (floor 25); promoted without waiting on approval per Krista 2026-08-20, reaffirmed 2026-08-24; pillar-balanced per Krista 2026-08-24"
+      "autoLoadedReason": "backlog runway fell to 20 (floor 25); promoted without waiting on approval per Krista 2026-08-20, reaffirmed 2026-08-24; pillar-balanced per Krista 2026-08-24",
+      "publishedAt": "2026-09-22T15:25:24.653Z"
     },
     {
       "id": "w8-19",
