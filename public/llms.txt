@@ -11,6 +11,7 @@ Site map and full content of every published article:
 ## The Authority Agent Operating System™
 
 - [The Authority Agent Operating System™ pillar page](https://kristamashore.ai/authority-agent-operating-system)
+- [Do You Need Custom AI or Just Better Instructions?](https://kristamashore.ai/articles/custom-ai-or-better-instructions-guide) — You probably do not need custom AI yet. Start by writing the task down, saving three strong instructions, and watching how often the work repeats before you decide to build.
 - [Why Most AI Setups Fall Apart in Week Three](https://kristamashore.ai/articles/why-most-ai-setups-fall-apart-in-week-three) — The first week of using AI feels exciting, and the second week often brings a second use case. By week three, the setup usually needs a clear owner, a measurable task, and a reason to continue.
 - [What Belongs in an AI Brand Brain Before You Write Anything](https://kristamashore.ai/articles/what-belongs-in-an-ai-brand-brain-before-you-write-anything) — An AI tool cannot consistently sound like your business if it only receives a topic and a command. Give it a small, organized brand brain with the facts, examples, boundaries, and decisions it needs before you ask it to write.
 - [The Weekly Habit That Gets You Recommended by AI](https://kristamashore.ai/articles/weekly-habit-recommended-by-ai) — Answer one real customer question in public each week with clarity, context, boundaries, and a useful next step. This guide gives you a repeatable way to apply the idea in your business.
@@ -176,6 +177,7 @@ Site map and full content of every published article:
 ## Community Market Leaders®: AI for Real Estate & Lenders
 
 - [Community Market Leaders®: AI for Real Estate & Lenders pillar page](https://kristamashore.ai/community-market-leaders-ai)
+- [How a Local Business Shows Up When Someone Asks AI for a Referral](https://kristamashore.ai/articles/local-business-ai-referrals) — A local business cannot demand a referral from an AI system. It can make its work easier to understand by publishing clear, specific, trustworthy information in places people can inspect.
 - [Speed to Lead: Using AI to Answer Every Lead in Minutes](https://kristamashore.ai/articles/speed-to-lead-ai-follow-up) — The best speed to lead system does not try to replace your sales conversation. It acknowledges interest, gathers the facts you need, and gets a qualified opportunity in front of you quickly.
 - [Will AI Replace Loan Officers? The 2026 Answer](https://kristamashore.ai/articles/will-ai-replace-loan-officers) — will AI replace loan officers has a practical answer: assign repeatable work to AI and keep judgment human-led. This guide gives you a clear process you can review and repeat.
 - [Will AI Replace Real Estate Agents? What's Real in 2026](https://kristamashore.ai/articles/will-ai-replace-real-estate-agents) — will AI replace real estate agents has a practical answer: assign repeatable work to AI and keep judgment human-led. This guide gives you a clear process you can review and repeat.
@@ -187,6 +189,9 @@ Site map and full content of every published article:
 ## Claude for Dummies: The AI Tools That Actually Matter
 
 - [Claude for Dummies: The AI Tools That Actually Matter pillar page](https://kristamashore.ai/claude-for-dummies)
+- [How to Ask AI a Question and Get a Useful Answer Back](https://kristamashore.ai/articles/ask-ai-better-questions-guide) — Generic questions get generic answers because the tool has to guess what you mean. Give it a reader, a job, relevant context, and a clear shape for the result.
+- [What to Do on Your First Day With Claude](https://kristamashore.ai/articles/first-day-claude-beginners) — Your first day with Claude should produce useful work, not a pile of settings. Choose one real task, give it the context it needs, and review every answer before you trust the pattern.
+- [Claude vs ChatGPT: Which One for Writing in Your Own Voice?](https://kristamashore.ai/articles/claude-writing-voice-comparison) — There is not one universal winner for writing in your own voice. The better choice is the tool that lets you provide useful samples, clear rules, and a review process you will actually use.
 - [How to Write a Prompt That Gets Usable Work](https://kristamashore.ai/articles/write-a-prompt-that-gets-usable-work) — Prompting for business output means naming the task, context, audience, constraints, examples, and review loop. This guide gives you a repeatable way to apply the idea in your business.
 - [Free vs Paid AI Tools: What You Actually Give Up](https://kristamashore.ai/articles/free-vs-paid-ai-tools) — A practical guide to choosing and using AI for a specific business need. Learn the limits, review points, and next step.
 - [Which AI Should Your Business Use? ChatGPT, Claude, Gemini](https://kristamashore.ai/articles/which-ai-should-your-business-use) — The best AI assistant for your business is the one that fits the work you repeat. Compare ChatGPT, Claude, and Gemini by job, then keep the tools that help you finish better work.

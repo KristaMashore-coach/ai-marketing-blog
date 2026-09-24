@@ -1440,10 +1440,11 @@
       "intent": "informational",
       "angle": "Ten files, and the order to build them in. Every prompt you never have to retype again lives in one of them.",
       "evidence": "'give ChatGPT context about my business' and 'AI knowledge base for business' both return competing pages across AI-consulting blogs; the sample-based voice cluster confirms the underlying demand.",
-      "status": "ready",
+      "status": "published",
       "autoLoaded": true,
       "autoLoadedAt": "2026-09-15T14:04:26.005Z",
-      "autoLoadedReason": "backlog runway fell to 10 (floor 15); promoted without waiting on approval per Krista 2026-08-20, reaffirmed 2026-08-24; pillar-balanced per Krista 2026-08-24"
+      "autoLoadedReason": "backlog runway fell to 10 (floor 15); promoted without waiting on approval per Krista 2026-08-20, reaffirmed 2026-08-24; pillar-balanced per Krista 2026-08-24",
+      "publishedAt": "2026-09-23T14:07:59.694Z"
     },
     {
       "id": "w9-17",
@@ -1557,10 +1558,11 @@
       "intent": "informational",
       "angle": "Week one is novelty, week two is a second use case, week three is when nobody measured anything and it quietly stops. Name the checkpoint that prevents it.",
       "evidence": "Every version of the 30-day sequence in the SERP maps weeks 1-4 and the failure point is consistently between adoption and measurement; no page addresses the abandonment directly.",
-      "status": "ready",
+      "status": "published",
       "autoLoaded": true,
       "autoLoadedAt": "2026-09-16T14:00:07.335Z",
-      "autoLoadedReason": "backlog runway fell to 10 (floor 15); promoted without waiting on approval per Krista 2026-08-20, reaffirmed 2026-08-24; pillar-balanced per Krista 2026-08-24"
+      "autoLoadedReason": "backlog runway fell to 10 (floor 15); promoted without waiting on approval per Krista 2026-08-20, reaffirmed 2026-08-24; pillar-balanced per Krista 2026-08-24",
+      "publishedAt": "2026-09-23T14:07:59.694Z"
     },
     {
       "id": "w9-18",
@@ -1863,10 +1865,11 @@
       "intent": "informational",
       "angle": "Build it around the recording session, not the posting days. The calendar fails at the capture step, never at the publish step.",
       "evidence": "'content calendar template' is a saturated commercial cluster; the AI-assisted and abandonment-focused variant has PAA presence and thin dedicated coverage.",
-      "status": "ready",
+      "status": "published",
       "autoLoaded": true,
       "autoLoadedAt": "2026-09-17T16:02:24.263Z",
-      "autoLoadedReason": "backlog runway fell to 15 (floor 25); promoted without waiting on approval per Krista 2026-08-20, reaffirmed 2026-08-24; pillar-balanced per Krista 2026-08-24"
+      "autoLoadedReason": "backlog runway fell to 15 (floor 25); promoted without waiting on approval per Krista 2026-08-20, reaffirmed 2026-08-24; pillar-balanced per Krista 2026-08-24",
+      "publishedAt": "2026-09-23T14:07:59.694Z"
     },
     {
       "id": "w8-7",
@@ -2163,13 +2166,14 @@
       "funnelStage": "attention",
       "intent": "informational",
       "angle": "Cover the two most common pricing mistakes: judging a tool only by its monthly price, and assuming the cheapest tool is the lowest total cost.",
-      "status": "ready",
+      "status": "published",
       "evidence": "Searched 'AI pricing mistakes small business owners make'. Dedicated pages: medium.com/@yash24.botify/5-ai-mistakes-that-are-costing-your-business-money, success.com/the-real-cost-of-ai-tools-for-small-business-roi-calculator-2, nofluffaitools.com/small-business-ai-mistakes-2026, smarterflo.com/blog/common-ai-mistakes-small-business.",
       "previousTitle": "What Small Business Owners Get Wrong About AI Pricing",
       "retitledReason": "searcher-vocabulary rewrite, 2026-09-15 demand check",
       "autoLoaded": true,
       "autoLoadedAt": "2026-09-19T14:00:06.940Z",
-      "autoLoadedReason": "backlog runway fell to 20 (floor 25); promoted without waiting on approval per Krista 2026-08-20, reaffirmed 2026-08-24; pillar-balanced per Krista 2026-08-24"
+      "autoLoadedReason": "backlog runway fell to 20 (floor 25); promoted without waiting on approval per Krista 2026-08-20, reaffirmed 2026-08-24; pillar-balanced per Krista 2026-08-24",
+      "publishedAt": "2026-09-23T14:07:59.694Z"
     },
     {
       "id": "w8-20",
@@ -2187,11 +2191,12 @@
       "funnelStage": "attention",
       "intent": "informational",
       "angle": "Give a concrete trigger list for moving off a free AI tier: a customer-facing use case, a privacy concern, or hitting a usage limit that's now costing real time.",
-      "status": "ready",
+      "status": "published",
       "evidence": "Searched 'when to upgrade from free AI tool to paid plan signs'. Dedicated pages: best-ai.org/learn/free-vs-paid, zemith.com/en/contents/free-vs-paid-ai-tools-2026 ('When Does Upgrading Actually Make Sense?'), dailyaiintel.com/questions/how-do-you-know-when-youve-actually-outgrown-free-ai-tools (near-exact match).",
       "autoLoaded": true,
       "autoLoadedAt": "2026-09-19T14:00:06.940Z",
-      "autoLoadedReason": "backlog runway fell to 20 (floor 25); promoted without waiting on approval per Krista 2026-08-20, reaffirmed 2026-08-24; pillar-balanced per Krista 2026-08-24"
+      "autoLoadedReason": "backlog runway fell to 20 (floor 25); promoted without waiting on approval per Krista 2026-08-20, reaffirmed 2026-08-24; pillar-balanced per Krista 2026-08-24",
+      "publishedAt": "2026-09-23T14:07:59.694Z"
     }
   ],
   "wave7_approved": "2026-08-16 by Krista (APPROVED + 7 AEO additions at her direction)"
