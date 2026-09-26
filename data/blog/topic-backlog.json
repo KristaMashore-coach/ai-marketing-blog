@@ -1464,10 +1464,11 @@
       "intent": "commercial",
       "angle": "Narrow the comparison to one job instead of ranking them overall. For voice work the deciding factor is how much sample text each one will hold.",
       "evidence": "'Claude vs ChatGPT' is a high-volume comparison cluster refreshed constantly; the voice-specific narrowing is supported by the train-AI-to-sound-like-you cluster and avoids repeating the published general comparison.",
-      "status": "ready",
+      "status": "published",
       "autoLoaded": true,
       "autoLoadedAt": "2026-09-15T14:04:26.005Z",
-      "autoLoadedReason": "backlog runway fell to 10 (floor 15); promoted without waiting on approval per Krista 2026-08-20, reaffirmed 2026-08-24; pillar-balanced per Krista 2026-08-24"
+      "autoLoadedReason": "backlog runway fell to 10 (floor 15); promoted without waiting on approval per Krista 2026-08-20, reaffirmed 2026-08-24; pillar-balanced per Krista 2026-08-24",
+      "publishedAt": "2026-09-25T15:18:59.967Z"
     },
     {
       "id": "w9-20",
@@ -1487,10 +1488,11 @@
       "intent": "informational",
       "angle": "AI answers are assembled from what is already published and cited about you. What has to exist before your name can appear in one.",
       "evidence": "'how to get your business recommended by ChatGPT' and answer-engine-optimization queries have a fast-growing dedicated cluster across SEO vendors, with heavy PAA. High commercial intent.",
-      "status": "ready",
+      "status": "published",
       "autoLoaded": true,
       "autoLoadedAt": "2026-09-15T14:04:26.005Z",
-      "autoLoadedReason": "backlog runway fell to 10 (floor 15); promoted without waiting on approval per Krista 2026-08-20, reaffirmed 2026-08-24; pillar-balanced per Krista 2026-08-24"
+      "autoLoadedReason": "backlog runway fell to 10 (floor 15); promoted without waiting on approval per Krista 2026-08-20, reaffirmed 2026-08-24; pillar-balanced per Krista 2026-08-24",
+      "publishedAt": "2026-09-25T15:18:59.967Z"
     },
     {
       "id": "w9-2",
@@ -1582,10 +1584,11 @@
       "intent": "informational",
       "angle": "Three things in the first hour, and the one setup step that changes every answer after it. Skip the tour, do the work.",
       "evidence": "'how to use Claude AI for beginners' returns a growing cluster of getting-started pages across AI blogs and YouTube, with PAA on first-steps phrasing.",
-      "status": "ready",
+      "status": "published",
       "autoLoaded": true,
       "autoLoadedAt": "2026-09-16T14:00:07.335Z",
-      "autoLoadedReason": "backlog runway fell to 10 (floor 15); promoted without waiting on approval per Krista 2026-08-20, reaffirmed 2026-08-24; pillar-balanced per Krista 2026-08-24"
+      "autoLoadedReason": "backlog runway fell to 10 (floor 15); promoted without waiting on approval per Krista 2026-08-20, reaffirmed 2026-08-24; pillar-balanced per Krista 2026-08-24",
+      "publishedAt": "2026-09-25T15:18:59.967Z"
     },
     {
       "id": "w9-21",
@@ -1676,10 +1679,11 @@
       "intent": "commercial",
       "angle": "Most people paying to build something needed a written-down process and three saved prompts. Decide with one question about how often the task repeats.",
       "evidence": "The AI-agents guides warn against generalist agents replacing multiple roles (kaizenaiconsulting, successknocks); the build-vs-prompt decision has clear intent and no dedicated page.",
-      "status": "ready",
+      "status": "published",
       "autoLoaded": true,
       "autoLoadedAt": "2026-09-16T15:08:17.091Z",
-      "autoLoadedReason": "backlog runway fell to 10 (floor 15); promoted without waiting on approval per Krista 2026-08-20, reaffirmed 2026-08-24; pillar-balanced per Krista 2026-08-24"
+      "autoLoadedReason": "backlog runway fell to 10 (floor 15); promoted without waiting on approval per Krista 2026-08-20, reaffirmed 2026-08-24; pillar-balanced per Krista 2026-08-24",
+      "publishedAt": "2026-09-25T15:18:59.967Z"
     },
     {
       "id": "w9-19",
@@ -1699,10 +1703,11 @@
       "intent": "informational",
       "angle": "Generic questions get averaged answers. Add who it is for, what it is for, and what you already ruled out, and the same tool gets sharper.",
       "evidence": "'why are ChatGPT answers so generic' has strong PAA and forum saturation; the prompting-basics cluster is large and commercially competed across productivity blogs.",
-      "status": "ready",
+      "status": "published",
       "autoLoaded": true,
       "autoLoadedAt": "2026-09-16T15:08:17.091Z",
-      "autoLoadedReason": "backlog runway fell to 10 (floor 15); promoted without waiting on approval per Krista 2026-08-20, reaffirmed 2026-08-24; pillar-balanced per Krista 2026-08-24"
+      "autoLoadedReason": "backlog runway fell to 10 (floor 15); promoted without waiting on approval per Krista 2026-08-20, reaffirmed 2026-08-24; pillar-balanced per Krista 2026-08-24",
+      "publishedAt": "2026-09-25T15:18:59.967Z"
     },
     {
       "id": "w9-4",
