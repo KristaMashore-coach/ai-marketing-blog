@@ -216,6 +216,43 @@ if (!Array.isArray(context.assignedTopics) || context.assignedTopics.length === 
 console.log(`[codex-daily] compact context ready: ${context.existingArticles.length} articles, cadence=${expectedCadence}, assigned=${context.assignedTopics.length}`);
 NODE
 
+# PARTIAL BATCH (added 2026-09-26, os-self-repair cause-fix, kristamashore.ai
+# published 0 of 1 while holding one perfectly good article).
+#
+# ARTICLE_COUNT is derived purely from the CADENCE (DAILY_TARGET minus what is
+# already published today). The number of articles that can actually be WRITTEN
+# is a different number: build-codex-daily-context.cjs assigns
+# `available.slice(0, DAILY_CADENCE)`, so a thin backlog yields fewer assigned
+# topics, and the writer is forbidden from inventing one to make up the
+# difference ("The writer never invents topics", the fail-closed guard above).
+#
+# The batch gate then tested `queue_count != ARTICLE_COUNT` — exact equality
+# against the cadence — so a run with 1 assigned topic wrote 1 valid article and
+# failed the very first gate 6 times in a row. save_fallback_candidate() also
+# excludes this case by name (`grep -qE '^\[codex-daily\] (expected|...)'`), so
+# even the fail-open could not rescue it. Measured 2026-09-26: two runs, 12
+# Codex generation attempts, one article that PASSED the link gate, zero
+# published.
+#
+# CLASS: two halves of one pipeline disagreeing about the batch size, where the
+# upstream half is capped by real supply and the downstream half asserts the
+# ideal. Second instance of this class on these runners (2026-09-25: weave-links
+# repaired to a count floor the anti-orphan gate could never accept).
+#
+# This lowers no quality gate. Every per-article check — word count, in-prose
+# links, batch overlap, preservation, crawlability — runs unchanged on whatever
+# is written. It only stops the run demanding more articles than the backlog can
+# supply. The under-cadence condition stays visible: this line, plus the
+# topic-backlog runway check ([24] in daily-health-check.sh), which is the
+# detector that actually owns "not enough topics".
+ASSIGNED_COUNT="$(node -e 'const c=require(process.argv[1]); const a=c.assignedTopics; console.log(Array.isArray(a) ? a.length : -1)' "$CONTEXT_PATH" 2>/dev/null || print -- -1)"
+if [[ "$ASSIGNED_COUNT" != <-> ]]; then
+  print -u2 "[codex-daily] WARN: could not read assignedTopics from the context; leaving the target at $ARTICLE_COUNT"
+elif (( ASSIGNED_COUNT > 0 && ASSIGNED_COUNT < ARTICLE_COUNT )); then
+  print "[codex-daily] PARTIAL BATCH: the backlog can supply only $ASSIGNED_COUNT of $ARTICLE_COUNT article(s) this run; targeting $ASSIGNED_COUNT so the writable article(s) publish instead of being discarded (refill data/blog/topic-backlog.json to restore the full cadence)"
+  ARTICLE_COUNT="$ASSIGNED_COUNT"
+fi
+
 if [[ "$MODE" == "--preflight" ]]; then
   print "[codex-daily] PREFLIGHT PASSED. ChatGPT subscription, $DAILY_TARGET-per-day cadence, context, and empty queue are ready."
   exit 0
