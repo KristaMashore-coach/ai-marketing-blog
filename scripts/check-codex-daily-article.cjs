@@ -91,6 +91,36 @@ const errors = [];
 const baselineSlugs = new Set(baseline.map((item) => item.slug));
 const inRunSlugs = new Set();
 
+// metaDescription sentence-shape uniqueness (ported from the blog repo
+// 2026-09-28). WHY: the blog gained this check after 2026-07-31, when all
+// five articles in one batch shipped the SAME metaDescription template and
+// the length check passed every one of them. The fix was written in the blog
+// repo only and never ported here, so kristamashore.ai kept checking LENGTH
+// and nothing else. Measured 2026-09-28: 8 groups / 36 live posts sharing a
+// description pattern, the newest from 2026-09-17, i.e. still accumulating.
+// Same class as the assignment-conformance gap closed the same day: a fix
+// built for one repo against a symptom both repos had.
+//
+// Compare the TAIL of a description. Boilerplate lives at the end; the topic
+// noun lives at the front. Two descriptions differing only by a swapped noun
+// phrase collapse to the same shape here, which is the point.
+function metaShape(desc) {
+  return String(desc || "")
+    .toLowerCase()
+    .replace(/[^a-z\s]/g, "")
+    .split(/\s+/)
+    .filter(Boolean)
+    .slice(-10)
+    .join(" ");
+}
+
+const publishedMetaShapes = new Map();
+for (const post of baseline) {
+  const shape = metaShape(post.metaDescription);
+  if (shape && !publishedMetaShapes.has(shape)) publishedMetaShapes.set(shape, post.slug);
+}
+const seenBatchMetaShapes = new Map();
+
 for (const article of candidates) {
 const label = `article${article?.slug ? ` (${article.slug})` : ""}`;
 const errorsBefore = errors.length;
@@ -112,6 +142,29 @@ if (String(article.title || "").length > 70) errors.push(`${label}: title must b
 if (String(article.metaTitle || "").length > 60) errors.push(`${label}: metaTitle must be 60 characters or fewer`);
 const metaLength = String(article.metaDescription || "").length;
 if (metaLength < 120 || metaLength > 155) errors.push(`${label}: metaDescription must be 120 to 155 characters; found ${metaLength}`);
+
+// metaDescription must be unique across the site AND within this batch.
+{
+  const shape = metaShape(article.metaDescription);
+  if (shape) {
+    const clashPublished = publishedMetaShapes.get(shape);
+    if (clashPublished) {
+      errors.push(
+        `${label}: metaDescription reuses the sentence pattern already published on "${clashPublished}". ` +
+          `Write a fresh description describing what THIS article delivers, not a template with the topic swapped.`
+      );
+    }
+    const clashBatch = seenBatchMetaShapes.get(shape);
+    if (clashBatch) {
+      errors.push(
+        `${label}: metaDescription reuses the sentence pattern used by "${clashBatch}" in this same batch. ` +
+          `Every article in the batch needs its own description, not one template applied five times.`
+      );
+    } else {
+      seenBatchMetaShapes.set(shape, article.slug);
+    }
+  }
+}
 if (article.author !== "Krista Mashore") errors.push(`${label}: author must be Krista Mashore`);
 if (!PILLARS.has(article.topicalPillar)) errors.push(`${label}: invalid topicalPillar`);
 if (!CONTENT_TYPES.has(article.contentTypePillar)) errors.push(`${label}: invalid contentTypePillar`);
