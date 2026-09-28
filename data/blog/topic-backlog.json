@@ -1608,10 +1608,11 @@
       "intent": "informational",
       "angle": "Publishing more pages is not the lever. Being described consistently in the places AI already reads is. Different work, different measure.",
       "evidence": "'does SEO still matter with AI' and 'zero click search' are live high-volume queries with a large competing cluster across SEO publications and active PAA.",
-      "status": "ready",
+      "status": "published",
       "autoLoaded": true,
       "autoLoadedAt": "2026-09-16T14:00:07.335Z",
-      "autoLoadedReason": "backlog runway fell to 10 (floor 15); promoted without waiting on approval per Krista 2026-08-20, reaffirmed 2026-08-24; pillar-balanced per Krista 2026-08-24"
+      "autoLoadedReason": "backlog runway fell to 10 (floor 15); promoted without waiting on approval per Krista 2026-08-20, reaffirmed 2026-08-24; pillar-balanced per Krista 2026-08-24",
+      "publishedAt": "2026-09-27T14:02:35.063Z"
     },
     {
       "id": "w9-3",
