@@ -17,5 +17,345 @@
     "angle": "Most AI-for-small-business content assumes a solo operator. Address the different rollout, training, and ownership questions that come up once there's a team involved.",
     "status": "hold-for-review",
     "holdReason": "Demand check 2026-09-15 found no search behind this framing: Two searches ('AI adoption small business with employees vs solo owner rollout' and 'AI rollout for company with employees vs solo entrepreneur different approach') returned only adoption-rate statistics pages and solopreneur-trend pieces (peak.capital, fortune.com, forbes 'one person unicorn'), never a dedicated page answering how a team-based AI rollout should differ from a solo one; nobody is asking this specific question."
+  },
+  {
+    "id": "w9-6",
+    "priority": 205,
+    "wave": "9 - searcher-vocabulary AI demand: tools, cost, trust, content systems (proposed 2026-09-28)",
+    "title": "What are Claude Skills and how do they actually work",
+    "slug": "what-are-claude-skills-explained",
+    "metaTitle": "What Are Claude Skills? How They Work (Plain English)",
+    "primaryKeyword": "what are claude skills",
+    "secondaryKeywords": [
+      "claude skills explained",
+      "how do claude skills work"
+    ],
+    "topicalPillar": "claude-for-dummies",
+    "contentTypePillar": "educational-authority",
+    "funnelStage": "attention",
+    "intent": "informational",
+    "angle": "A Skill is just a folder with a plain-English instruction file Claude loads when relevant. Demystify it as a recipe card, not a coding project, so a non-technical owner isn't scared off.",
+    "evidence": "WebSearch 'Claude Skills explained how to use' returned platform.claude.com cookbook intro, support.claude.com 'What are skills?', chrislema.com two separate posts, mindstudio.ai 'What Are Claude Code Skills and How Do They Work?', bleap.finance, justinmckelvey.com setup guide. Strong dedicated cluster.",
+    "status": "ready"
+  },
+  {
+    "id": "w9-7",
+    "priority": 204,
+    "wave": "9 - searcher-vocabulary AI demand: tools, cost, trust, content systems (proposed 2026-09-28)",
+    "title": "Claude connectors and MCP, explained without the jargon",
+    "slug": "claude-connectors-and-mcp-explained",
+    "metaTitle": "Claude Connectors and MCP Explained (No Jargon)",
+    "primaryKeyword": "claude connectors explained",
+    "secondaryKeywords": [
+      "what is mcp claude",
+      "claude mcp connectors"
+    ],
+    "topicalPillar": "claude-for-dummies",
+    "contentTypePillar": "educational-authority",
+    "funnelStage": "attention",
+    "intent": "informational",
+    "angle": "MCP is the USB-C analogy: one standard so any tool can talk to Claude instead of a custom wire for each one. Use that analogy directly, it's the one that actually lands with a non-technical reader.",
+    "evidence": "WebSearch 'Claude connectors MCP explained for non technical users' returned a title literally matching the query: fullstackhr.io 'Connectors and MCP, explained for people who have never touched either', plus sunpeak.ai, fortelabs.com 'Ultimate Guide to Claude Connectors', support.claude.com MCP connectors doc, mindstudio.ai. Direct evidence of dedicated beginner-facing demand.",
+    "status": "ready"
+  },
+  {
+    "id": "w9-8",
+    "priority": 203,
+    "wave": "9 - searcher-vocabulary AI demand: tools, cost, trust, content systems (proposed 2026-09-28)",
+    "title": "How to upload a document to Claude and get a useful answer back",
+    "slug": "how-to-upload-documents-to-claude-useful-answer",
+    "metaTitle": "How to Upload Documents to Claude (And Get It Right)",
+    "primaryKeyword": "how to upload documents to claude",
+    "secondaryKeywords": [
+      "upload pdf to claude",
+      "claude document questions"
+    ],
+    "topicalPillar": "claude-for-dummies",
+    "contentTypePillar": "problem-solving",
+    "funnelStage": "attention",
+    "intent": "informational",
+    "angle": "The real failure mode isn't the upload button, it's asking a vague question after and getting a generic answer instead of one anchored to the file. Teach the one phrase that fixes it.",
+    "evidence": "WebSearch 'how to upload documents to Claude and ask questions' returned a dense dedicated cluster: support.claude.com official doc, guideflow.com tutorial, ai-toolbox.co 'Claude File Uploads: Limits, Formats, and How To', context-link.ai, promptoptimizer.tools, contextcue.app, hamsterstack.com step-by-step guide.",
+    "status": "ready"
+  },
+  {
+    "id": "w9-9",
+    "priority": 202,
+    "wave": "9 - searcher-vocabulary AI demand: tools, cost, trust, content systems (proposed 2026-09-28)",
+    "title": "What can Claude actually do that ChatGPT cannot",
+    "slug": "what-can-claude-do-that-chatgpt-cannot",
+    "metaTitle": "What Can Claude Do That ChatGPT Cannot? (2026)",
+    "primaryKeyword": "what can claude do that chatgpt cannot",
+    "secondaryKeywords": [
+      "claude vs chatgpt differences",
+      "claude unique features"
+    ],
+    "topicalPillar": "claude-for-dummies",
+    "contentTypePillar": "process-and-differentiation",
+    "funnelStage": "resonance",
+    "intent": "informational",
+    "angle": "Skip the generic vs-post and name the specific things: the longer document memory across a conversation, Cowork's ability to actually finish a task, Artifacts as a live workspace. Also say plainly where ChatGPT still wins, since an owner picking blind needs both sides.",
+    "evidence": "WebSearch 'what can Claude do that ChatGPT cannot' returned a whole title cluster using nearly this exact phrase: medium.com '7 Amazing Things Claude Can Do (That ChatGPT Can't)', three separate medium posts titled '8 Crazy Things Claude AI Can Do (That ChatGPT Can't)', eggmatic.net 'What Can Claude Do That ChatGPT Cannot? 7 Real Differences in 2026', artificialcorner.com, zapier.com comparison.",
+    "status": "ready"
+  },
+  {
+    "id": "w9-10",
+    "priority": 201,
+    "wave": "9 - searcher-vocabulary AI demand: tools, cost, trust, content systems (proposed 2026-09-28)",
+    "title": "Claude Pro vs Max vs Team: which plan does a small business need",
+    "slug": "claude-pro-vs-max-vs-team-which-plan",
+    "metaTitle": "Claude Pro vs Max vs Team: Which Plan to Buy",
+    "primaryKeyword": "claude pro vs max vs team",
+    "secondaryKeywords": [
+      "claude pricing plans compared",
+      "which claude plan to buy"
+    ],
+    "topicalPillar": "claude-for-dummies",
+    "contentTypePillar": "problem-solving",
+    "funnelStage": "resonance",
+    "intent": "commercial",
+    "angle": "Most solo owners overbuy Max when Pro covers a few uses a day, and most 2-person teams underbuy by splitting personal Max plans instead of one Team seat. Give the actual usage-based decision tree.",
+    "evidence": "WebSearch 'Claude pricing plans Pro Max Team which one' returned claude.com official pricing page, benchlm.ai 'Claude Pricing Plans 2026: Free, Pro, Max, Team and Enterprise Costs', layer3labs.io 'Claude Pro vs Max vs Team (2026): Pricing & Usage Limits', theaicareerlab.com, aitoolsreview.co.uk, promptsrush.com. Dense, fresh (Sept 2026) dedicated cluster.",
+    "status": "ready"
+  },
+  {
+    "id": "w9-16",
+    "priority": 195,
+    "wave": "9 - searcher-vocabulary AI demand: tools, cost, trust, content systems (proposed 2026-09-28)",
+    "title": "Why your sphere of influence database is worth more than new leads",
+    "slug": "sphere-of-influence-database-worth-more-than-leads",
+    "metaTitle": "Why Your SOI Database Beats New Leads (Real Estate)",
+    "primaryKeyword": "sphere of influence real estate ai",
+    "secondaryKeywords": [
+      "soi database real estate",
+      "ai nurture past clients agents"
+    ],
+    "topicalPillar": "authority-agent-operating-system",
+    "contentTypePillar": "educational-authority",
+    "funnelStage": "authority",
+    "intent": "informational",
+    "angle": "Lead with the stat: 88% of business is repeat and referral, and most agents' 200-300 contact sphere is well past the point manual nurturing breaks down. Make the case for AI-flagged nurture over buying more leads.",
+    "evidence": "WebSearch 'real estate agent sphere of influence database AI nurture' returned revrealestateschool.com 'Ultimate Guide to Sphere of Influence (SOI) in Real Estate', nurturebeast.com, ylopo.com 'The Realtor's Guide to Boosting SOI', ustechautomations.com 'Real Estate Sphere Nurturing: 40% More Referrals', faribai.com, inman.com feature article on SOI plus AI.",
+    "status": "ready"
+  },
+  {
+    "id": "w9-17",
+    "priority": 194,
+    "wave": "9 - searcher-vocabulary AI demand: tools, cost, trust, content systems (proposed 2026-09-28)",
+    "title": "The one-hour rule for open house follow-up, and how AI handles it",
+    "slug": "one-hour-rule-open-house-follow-up-ai",
+    "metaTitle": "The One-Hour Rule for Open House Follow-Up",
+    "primaryKeyword": "open house follow up ai real estate",
+    "secondaryKeywords": [
+      "open house follow up email",
+      "ai open house lead follow up"
+    ],
+    "topicalPillar": "authority-agent-operating-system",
+    "contentTypePillar": "process-and-differentiation",
+    "funnelStage": "conversion",
+    "intent": "informational",
+    "angle": "Cite the specific stat, follow-up within an hour is 4.2x more likely to convert to a consultation, then show what an AI-assisted sequence actually looks like versus a generic drip.",
+    "evidence": "WebSearch 'AI open house follow up email real estate' returned ringcentral.com '11 open house follow-up emails', housingwire.com template roundup, estatepass.ai '7 Scripts That Actually Get Replies', revo.ai on automating follow-up, ustechautomations.com, openhousewiz.com 'AI Open House'. Specific stat found: Zillow Research reports 4.2x more likely to engage within 1 hour.",
+    "status": "ready"
+  },
+  {
+    "id": "w9-18",
+    "priority": 193,
+    "wave": "9 - searcher-vocabulary AI demand: tools, cost, trust, content systems (proposed 2026-09-28)",
+    "title": "Can AI legally write your mortgage pre-approval letters",
+    "slug": "can-ai-legally-write-pre-approval-letters",
+    "metaTitle": "Can AI Legally Write Pre-Approval Letters?",
+    "primaryKeyword": "ai pre approval letter mortgage",
+    "secondaryKeywords": [
+      "ai write pre approval letter",
+      "mortgage pre approval ai compliance"
+    ],
+    "topicalPillar": "authority-agent-operating-system",
+    "contentTypePillar": "problem-solving",
+    "funnelStage": "authority",
+    "intent": "informational",
+    "angle": "Give loan officers the direct compliance answer the sources spell out: a pre-approval letter comes out of the LOS through the lender's approval workflow, never straight from AI, even though AI can draft the scenario language.",
+    "evidence": "WebSearch 'AI tools for mortgage loan officers pre-approval letters marketing' surfaced theaicareerlab.com's dedicated post 'How to Write a Pre-Approval Letter with AI in 2026', which states plainly that 'Pre-approval letters are issued from your LOS through your lender's approval workflow, never via AI.' Addy.com and getperspective.ai cover the surrounding tools.",
+    "status": "ready"
+  },
+  {
+    "id": "w9-24",
+    "priority": 187,
+    "wave": "9 - searcher-vocabulary AI demand: tools, cost, trust, content systems (proposed 2026-09-28)",
+    "title": "The AI tools plumbers and electricians are actually using now",
+    "slug": "ai-tools-plumbers-electricians-are-using-now",
+    "metaTitle": "AI Tools Plumbers and Electricians Are Using Now",
+    "primaryKeyword": "ai tools for plumbers and electricians",
+    "secondaryKeywords": [
+      "ai for hvac business",
+      "ai tools home service business"
+    ],
+    "topicalPillar": "ai-run-business",
+    "contentTypePillar": "educational-authority",
+    "funnelStage": "resonance",
+    "intent": "informational",
+    "angle": "Break it down by trade instead of a generic 'AI for home services' post: predictive maintenance for HVAC, AI-camera pipe inspection for plumbers, automated diagnostics for electricians, plus the scheduling and dispatch layer all three share.",
+    "evidence": "WebSearch 'AI tools for HVAC plumbing electricians home service business' returned servicetitan.com 'AI for Home Services Business', housecallpro.com '6 Best AI Tools for Home Service Businesses in 2026', contextual.io 'How AI is Revolutionizing the Trades', workiz.com, swiftheadway.ai, opticmarketinggroup.com '7 Ways HVAC and Plumbing Companies Can Use AI'. Trade-specific dedicated cluster.",
+    "status": "ready"
+  },
+  {
+    "id": "w9-25",
+    "priority": 186,
+    "wave": "9 - searcher-vocabulary AI demand: tools, cost, trust, content systems (proposed 2026-09-28)",
+    "title": "Is it legal for your AI phone system to record calls in your state",
+    "slug": "is-it-legal-ai-phone-system-record-calls",
+    "metaTitle": "Is It Legal for Your AI Phone System to Record Calls?",
+    "primaryKeyword": "ai call recording laws by state",
+    "secondaryKeywords": [
+      "two party consent ai calls",
+      "ai phone system recording law"
+    ],
+    "topicalPillar": "ai-run-business",
+    "contentTypePillar": "problem-solving",
+    "funnelStage": "resonance",
+    "intent": "informational",
+    "angle": "Name the actual split: 12 states require all-party consent, and California's AB 2905 now requires a specific AI-disclosure line or a $500 per-call fine. Give the exact disclaimer wording that clears both requirements at once.",
+    "evidence": "WebSearch 'recording phone calls AI two party consent law business' returned dialzara.com 'Call Recording Laws for AI Agents by State', sembly.ai 'One-Party vs. Two-Party Laws', calljolt.com 'AI Answering Service Compliance Call Recording Laws', getnextphone.com, retellai.com. Specific facts found: 12 all-party-consent states, and California AB 2905's $500-per-call fine for missing AI disclosure.",
+    "status": "ready"
+  },
+  {
+    "id": "w9-26",
+    "priority": 185,
+    "wave": "9 - searcher-vocabulary AI demand: tools, cost, trust, content systems (proposed 2026-09-28)",
+    "title": "What the ethics rules actually say about lawyers using AI",
+    "slug": "what-ethics-rules-say-about-lawyers-using-ai",
+    "metaTitle": "What the Ethics Rules Say About Lawyers Using AI",
+    "primaryKeyword": "lawyers using ai ethics rules",
+    "secondaryKeywords": [
+      "ai legal ethics rules",
+      "can attorneys use ai"
+    ],
+    "topicalPillar": "ai-run-business",
+    "contentTypePillar": "problem-solving",
+    "funnelStage": "authority",
+    "intent": "informational",
+    "angle": "Cut through the fear headlines: the ABA's own guidance says the rules encourage AI use, they just require competence, confidentiality and verifying every citation before it hits a filing. Name the three rule numbers.",
+    "evidence": "WebSearch 'can lawyers use AI ethics rules attorney' returned americanbar.org 'ABA issues first ethics guidance on a lawyer's use of AI tools', clio.com 'AI Ethics in Law (2026): ABA Guidance & State Requirements', spellbook.com 'State Bar Rules on AI Use', thelegalprompts.com, jdsupra.com. Specific rule numbers found: Model Rules 1.1, 1.6, 5.3.",
+    "status": "ready"
+  },
+  {
+    "id": "w9-27",
+    "priority": 184,
+    "wave": "9 - searcher-vocabulary AI demand: tools, cost, trust, content systems (proposed 2026-09-28)",
+    "title": "Does an AI notetaker break confidentiality for a therapist or doctor",
+    "slug": "does-ai-notetaker-break-confidentiality-therapist",
+    "metaTitle": "Does an AI Notetaker Break Client Confidentiality?",
+    "primaryKeyword": "ai notetaker confidentiality therapist",
+    "secondaryKeywords": [
+      "hipaa compliant ai note taker",
+      "ai therapy notes privacy"
+    ],
+    "topicalPillar": "ai-run-business",
+    "contentTypePillar": "problem-solving",
+    "funnelStage": "authority",
+    "intent": "informational",
+    "angle": "The honest answer from the sources: it's legally fine with the right safeguards, but trust is the real issue, not compliance paperwork. Give the informed-consent line a solo practitioner can actually use before their next session.",
+    "evidence": "WebSearch 'does using an AI notetaker violate client confidentiality therapist doctor' returned simplepractice.com 'HIPAA-compliant AI note-taking guide for therapists', npr.org 'Mental health therapists who use AI to take notes face questions about trust', trytwofold.com 'Top 10 HIPAA-Compliant AI Note Tools for Clinicians', clinictracker.com, autonotes.ai, kenznote.com.",
+    "status": "ready"
+  },
+  {
+    "id": "w9-28",
+    "priority": 183,
+    "wave": "9 - searcher-vocabulary AI demand: tools, cost, trust, content systems (proposed 2026-09-28)",
+    "title": "Hire the next employee or automate the job? How to actually decide",
+    "slug": "hire-employee-or-automate-how-to-decide",
+    "metaTitle": "Hire or Automate? How to Actually Decide",
+    "primaryKeyword": "hire employee vs automate with ai",
+    "secondaryKeywords": [
+      "ai automation vs hiring",
+      "should i hire or automate"
+    ],
+    "topicalPillar": "ai-run-business",
+    "contentTypePillar": "problem-solving",
+    "funnelStage": "resonance",
+    "intent": "commercial",
+    "angle": "Give the actual filter: repetitive, rules-based, measurable work gets automated; anything needing trust, creativity or complex judgment gets hired. Back it with the real fully-loaded cost gap, not just salary.",
+    "evidence": "WebSearch 'hiring an employee vs automating with AI small business decision' returned gemdevstudio.ca 'AI vs Hiring: When to Automate', alphacis.com, ergobite.com 'AI Automation Vs Hiring Employees: Which Saves More Money?', hiringsimplified.blog '2026 Guide', aplosai.com, tightslice.com 'Cost Comparison 2026'. Specific figures found: custom AI solution $4K-$19K year one vs $55K-$65K for an employee.",
+    "status": "ready"
+  },
+  {
+    "id": "w9-34",
+    "priority": 177,
+    "wave": "9 - searcher-vocabulary AI demand: tools, cost, trust, content systems (proposed 2026-09-28)",
+    "title": "How to write a client case study with AI without losing the story",
+    "slug": "write-client-case-study-with-ai-without-losing-story",
+    "metaTitle": "Write a Client Case Study With AI, Keep the Story",
+    "primaryKeyword": "write client case study with ai",
+    "secondaryKeywords": [
+      "ai case study generator",
+      "client case study writing process"
+    ],
+    "topicalPillar": "ai-content-to-client-system",
+    "contentTypePillar": "proof-and-validation",
+    "funnelStage": "conversion",
+    "intent": "informational",
+    "angle": "The rule that separates a credible case study from an obviously-AI one: feed it verified raw material (a real interview, real metrics, an approved quote) and let it structure, never let it invent the specifics.",
+    "evidence": "WebSearch 'how to write a client case study with AI results proof' returned copy.ai 'How to Write a Case Study with AI: The Ultimate Guide', proofmap.com 'How to Write a Case Study with AI Without Losing Credibility', rankai.ai '2026 Guide With 15 Examples', learning.propelgrowth.com, multiple.chat, quillbot.com.",
+    "status": "ready"
+  },
+  {
+    "id": "w9-35",
+    "priority": 176,
+    "wave": "9 - searcher-vocabulary AI demand: tools, cost, trust, content systems (proposed 2026-09-28)",
+    "title": "Why your video gets scrolled past in the first three seconds",
+    "slug": "why-your-video-gets-scrolled-past-first-three-seconds",
+    "metaTitle": "Why Your Video Gets Scrolled Past in 3 Seconds",
+    "primaryKeyword": "video hook first three seconds",
+    "secondaryKeywords": [
+      "short form video hook tips",
+      "why people scroll past videos"
+    ],
+    "topicalPillar": "ai-content-to-client-system",
+    "contentTypePillar": "problem-solving",
+    "funnelStage": "attention",
+    "intent": "informational",
+    "angle": "Name the actual mechanism: 71% decide within the first few seconds, and the algorithm reads that early retention as a quality signal, so a weak hook doesn't just lose that viewer, it caps the video's reach entirely.",
+    "evidence": "WebSearch 'first three seconds video hook why people scroll past' returned jellymarketing.ca 'Stop the Scroll in 3 Seconds', animoto.com 'Why The First 3 Seconds of Video Matter More Than the Next 30', captions.ai, teleprompter.com 'TikTok 3 Second Rule', zingpopsocial.com, greenfroglabs.com 'Anatomy of a Viral Hook', perceedigital.com.",
+    "status": "ready"
+  },
+  {
+    "id": "w9-36",
+    "priority": 175,
+    "wave": "9 - searcher-vocabulary AI demand: tools, cost, trust, content systems (proposed 2026-09-28)",
+    "title": "How a local business actually builds an email list worth having",
+    "slug": "how-local-business-builds-email-list-worth-having",
+    "metaTitle": "How a Local Business Builds an Email List Worth Having",
+    "primaryKeyword": "how to build email list local business",
+    "secondaryKeywords": [
+      "email list building local business",
+      "grow email list small business"
+    ],
+    "topicalPillar": "ai-content-to-client-system",
+    "contentTypePillar": "process-and-differentiation",
+    "funnelStage": "capture",
+    "intent": "informational",
+    "angle": "Push past the generic 'add a signup form' advice to the one thing online-only businesses can't do: a QR code at the register turning every in-person visit into a list-building moment.",
+    "evidence": "WebSearch 'how to build an email list for a local small business' returned vcita.com, business.yelp.com '7 steps', aweber.com 'Best Email List Building Strategies for Small Businesses', launchrolesville.com 'For Your Local Business', rssdmg.com 'Without Being Spammy or Pushy', shopify.com. The QR-code-at-point-of-sale tactic is named specifically as underused by local businesses in multiple sources.",
+    "status": "ready"
+  },
+  {
+    "id": "w9-42",
+    "priority": 169,
+    "wave": "9 - searcher-vocabulary AI demand: tools, cost, trust, content systems (proposed 2026-09-28)",
+    "title": "Is a Chamber of Commerce membership actually worth the money",
+    "slug": "is-chamber-of-commerce-membership-worth-the-money",
+    "metaTitle": "Is a Chamber of Commerce Membership Worth It?",
+    "primaryKeyword": "chamber of commerce membership worth it",
+    "secondaryKeywords": [
+      "chamber of commerce benefits small business",
+      "should i join the chamber of commerce"
+    ],
+    "topicalPillar": "community-market-leaders-ai",
+    "contentTypePillar": "problem-solving",
+    "funnelStage": "authority",
+    "intent": "commercial",
+    "angle": "Give the real numbers found: members are 80% more likely to get repeat business and see a 73% awareness bump, against a $300-400/year cost, but only if the owner actually shows up and gets involved.",
+    "evidence": "WebSearch 'chamber of commerce membership worth it small business' returned grasshopper.com 'Is it Worth It to Join The Local Chamber of Commerce?', uschamber.com 'Benefits of Joining a Local Chamber of Commerce', wildapricot.com, patriotsoftware.com, joinsoca.com 'What to Consider Before Joining a Chamber of Commerce'. Specific stats found: 80% more likely to purchase, 73% increase in awareness.",
+    "status": "ready"
   }
 ]
