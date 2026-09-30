@@ -7,6 +7,7 @@ const os = require("os");
 const path = require("path");
 const { spawnSync } = require("child_process");
 const { checkInProseLinks } = require("./lib/in-prose-links.cjs");
+const { STATIC_ROUTES } = require("./check-internal-links.cjs");
 const { checkParagraphOverlap } = require("./lib/batch-overlap.cjs");
 
 // Fail-open bypass for the in-prose-links gate ONLY (Krista 2026-08-24: "no
@@ -233,6 +234,46 @@ if (article.ctaLabel !== "Learn the AI System") errors.push(`${label}: CTA label
 // writer's answer to a failing per-article gate was a paragraph template
 // stamped across the whole batch; measured the same day, every site's archive
 // already carried batch-sized clusters of identical paragraphs. Rejects any
+// BODY LINK TARGETS MUST EXIST (added 2026-09-30 by os-self-repair).
+//
+// CAUSE, found on the sibling 925move site the same morning: the in-prose gate
+// checks the SHAPE of body links and the internalLinks block checks that the
+// METADATA array's targets exist, but nothing checked that a body href
+// resolves. A writer invented a plausible slug, every per-article gate passed,
+// the batch was written into posts.json, and `npm run build` then died at
+// check-internal-links, leaving the tree dirty and blocking the next day's run.
+// This site had the identical gap and had simply not been hit yet.
+//
+// CLASS: two link surfaces, one existence check. Ported here the same run so
+// the fix does not stay per-repo, which is how the gap survived since the blog
+// site solved it in 2026-08-04.
+{
+  const body = typeof article.body === "string" ? article.body : "";
+  const hrefRe = /<a\s+[^>]*href=["']([^"']+)["']/gi;
+  let m;
+  while ((m = hrefRe.exec(body)) !== null) {
+    const href = m[1];
+    if (!href) continue;
+    if (/^(https?:|mailto:|tel:|#)/.test(href)) continue;
+    const clean = href.split(/[?#]/)[0];
+    if (STATIC_ROUTES.has(clean)) continue;
+    if (!clean.startsWith("/articles/")) {
+      errors.push(`${label}: body contains an invalid internal link: ${href}`);
+      continue;
+    }
+    const slug = clean.slice("/articles/".length).replace(/\/$/, "");
+    if (slug === article.slug) {
+      errors.push(`${label}: body links to itself: ${href}`);
+      continue;
+    }
+    // Same-batch siblings count, exactly as they do for internalLinks above.
+    const inBatch = Array.isArray(candidates) && candidates.some((c) => c && c.slug === slug);
+    if (!baselineSlugs.has(slug) && !inBatch) {
+      errors.push(`${label}: body contains a broken internal link: ${href}`);
+    }
+  }
+}
+
 // 12+ word paragraph shared with a batchmate, and any 20+ word paragraph
 // copied from a published article that is not site boilerplate (8+ posts).
 {

@@ -39,7 +39,7 @@ const PILLARS = [
 ];
 const STATIC_ROUTES = new Set(['/', '/articles', '/about', '/privacy', '/terms', ...PILLARS.map((p) => `/${p}`)]);
 
-function isValidInternalHref(href) {
+function isValidInternalHref(href, slugSet = SLUGS) {
   if (!href) return true;
   if (href.startsWith('http://') || href.startsWith('https://')) return true;
   if (href.startsWith('mailto:') || href.startsWith('tel:')) return true;
@@ -50,53 +50,60 @@ function isValidInternalHref(href) {
 
   if (clean.startsWith('/articles/')) {
     const slug = clean.slice('/articles/'.length).replace(/\/$/, '');
-    return SLUGS.has(slug);
+    return slugSet.has(slug);
   }
 
   return false;
 }
 
-const failures = [];
-for (const post of POSTS) {
-  const bad = [];
+// EXPORTABLE (2026-09-30). STATIC_ROUTES here is already a second copy of the
+// pillars list this file's header warns about; the pre-publish gate imports it
+// rather than becoming a third. Running this file directly is unchanged.
+module.exports = { STATIC_ROUTES, isValidInternalHref };
 
-  // 1. Inline <a href> tags in body HTML — must use /articles/<slug> or a
-  // valid static/pillar route.
-  const body = post.body || '';
-  const re = /<a\s+[^>]*href=["']([^"']+)["']/gi;
-  let m;
-  while ((m = re.exec(body)) !== null) {
-    const href = m[1];
-    if (!isValidInternalHref(href)) bad.push(`body: ${href}`);
-  }
+if (require.main === module) {
+  const failures = [];
+  for (const post of POSTS) {
+    const bad = [];
 
-  // 2. The internalLinks array — bare slug strings, each must be a real post.
-  for (const link of post.internalLinks || []) {
-    if (typeof link !== 'string') {
-      bad.push(`internalLinks: non-string entry ${JSON.stringify(link)}`);
-      continue;
+    // 1. Inline <a href> tags in body HTML — must use /articles/<slug> or a
+    // valid static/pillar route.
+    const body = post.body || '';
+    const re = /<a\s+[^>]*href=["']([^"']+)["']/gi;
+    let m;
+    while ((m = re.exec(body)) !== null) {
+      const href = m[1];
+      if (!isValidInternalHref(href)) bad.push(`body: ${href}`);
     }
-    if (!SLUGS.has(link)) bad.push(`internalLinks: ${link}`);
+
+    // 2. The internalLinks array — bare slug strings, each must be a real post.
+    for (const link of post.internalLinks || []) {
+      if (typeof link !== 'string') {
+        bad.push(`internalLinks: non-string entry ${JSON.stringify(link)}`);
+        continue;
+      }
+      if (!SLUGS.has(link)) bad.push(`internalLinks: ${link}`);
+    }
+
+    if (bad.length) failures.push({ slug: post.slug, bad });
   }
 
-  if (bad.length) failures.push({ slug: post.slug, bad });
-}
-
-if (failures.length === 0) {
-  console.log(`[check-internal-links] ✓ ${POSTS.length} posts contain only valid internal links`);
-  process.exit(0);
-}
-
-console.error(`[check-internal-links] ✗ ${failures.length} post(s) contain broken internal links:`);
-for (const f of failures) {
-  console.error(`  - ${f.slug}:`);
-  for (const bad of f.bad) {
-    console.error(`      ${bad}`);
+  if (failures.length === 0) {
+    console.log(`[check-internal-links] ✓ ${POSTS.length} posts contain only valid internal links`);
+    process.exit(0);
   }
+
+  console.error(`[check-internal-links] ✗ ${failures.length} post(s) contain broken internal links:`);
+  for (const f of failures) {
+    console.error(`  - ${f.slug}:`);
+    for (const bad of f.bad) {
+      console.error(`      ${bad}`);
+    }
+  }
+  console.error('');
+  console.error('Internal article links must use /articles/<slug> format where <slug> exists in posts.json.');
+  console.error(`internalLinks array entries must be bare slugs that exist in posts.json.`);
+  console.error(`Valid static/pillar routes: ${[...STATIC_ROUTES].join(', ')}`);
+  console.error('Fix by hand in data/blog/posts.json before building.');
+  process.exit(1);
 }
-console.error('');
-console.error('Internal article links must use /articles/<slug> format where <slug> exists in posts.json.');
-console.error(`internalLinks array entries must be bare slugs that exist in posts.json.`);
-console.error(`Valid static/pillar routes: ${[...STATIC_ROUTES].join(', ')}`);
-console.error('Fix by hand in data/blog/posts.json before building.');
-process.exit(1);
