@@ -359,72 +359,6 @@
     "status": "ready"
   },
   {
-    "id": "w10-1",
-    "priority": 211,
-    "wave": "10 - practical AI demand: tools, cost, compliance, content systems (proposed 2026-09-30)",
-    "title": "ChatGPT Prompts for Real Estate Social Media Captions",
-    "slug": "chatgpt-prompts-for-real-estate-social-media-captions",
-    "metaTitle": "ChatGPT Prompts for Real Estate Social Media Captions",
-    "primaryKeyword": "chatgpt prompts for real estate agents social media captions",
-    "secondaryKeywords": [
-      "real estate instagram caption prompts",
-      "ai social media posts for realtors",
-      "chatgpt sold post prompt",
-      "real estate content prompts"
-    ],
-    "topicalPillar": "ai-content-to-client-system",
-    "contentTypePillar": "process-and-differentiation",
-    "funnelStage": "resonance",
-    "intent": "informational",
-    "angle": "A handful of reusable caption prompts with the listing facts, audience and tone filled in beats one-off asking, and a batch takes 15 to 30 minutes.",
-    "evidence": "SERP: 9 dedicated pages incl. Coffee & Contracts, Lilach Bullock (22 scripts), Listing Leads (40+ prompts), AI Academy (35 prompts), Layer3 Labs, gptpromptengine.",
-    "status": "ready"
-  },
-  {
-    "id": "w10-2",
-    "priority": 212,
-    "wave": "10 - practical AI demand: tools, cost, compliance, content systems (proposed 2026-09-30)",
-    "title": "Fathom vs Otter vs Fireflies: Which AI Note Taker Wins?",
-    "slug": "fathom-vs-otter-vs-fireflies-which-ai-note-taker-wins",
-    "metaTitle": "Fathom vs Otter vs Fireflies: Which AI Note Taker Wins?",
-    "primaryKeyword": "fathom vs otter vs fireflies",
-    "secondaryKeywords": [
-      "best ai meeting notes app small business",
-      "free ai note taker",
-      "ai note taker for zoom",
-      "otter vs fathom"
-    ],
-    "topicalPillar": "ai-run-business",
-    "contentTypePillar": "problem-solving",
-    "funnelStage": "capture",
-    "intent": "commercial",
-    "angle": "Pick by the job: Fathom for a free Zoom-first option, Otter for live accuracy, Fireflies if your CRM is the hub.",
-    "evidence": "SERP: 9 head-to-head pages incl. Fathom's own vs-Fireflies page, Granola pricing comparison, TechRepublic, index.dev, G2 compare, plus 9 more from a best-AI-meeting-notes query (HappyScribe, FitSmallBusiness, ClickUp, MeetGeek).",
-    "status": "ready"
-  },
-  {
-    "id": "w10-3",
-    "priority": 213,
-    "wave": "10 - practical AI demand: tools, cost, compliance, content systems (proposed 2026-09-30)",
-    "title": "AI Transaction Coordinator: What It Does and What It Costs",
-    "slug": "ai-transaction-coordinator-what-it-does-and-what-it-costs",
-    "metaTitle": "AI Transaction Coordinator: What It Does and What It Costs",
-    "primaryKeyword": "ai transaction coordinator for real estate agents",
-    "secondaryKeywords": [
-      "ai transaction coordinator cost",
-      "best ai transaction coordinator",
-      "ai vs human transaction coordinator",
-      "automate transaction coordination"
-    ],
-    "topicalPillar": "authority-agent-operating-system",
-    "contentTypePillar": "educational-authority",
-    "funnelStage": "attention",
-    "intent": "informational",
-    "angle": "AI handles deadline tracking, document chasing and status emails for roughly a subscription fee versus $300 to $600 per deal for a human TC, but an agent still approves the actions and the exceptions.",
-    "evidence": "SERP: 9 dedicated pages incl. ReBillion (2 pages), AgentUp (Best AI Transaction Coordinator in 2026), ListedKit, RealAnalytica, Agent House. Human TC price quoted at $300-$600 per deal.",
-    "status": "ready"
-  },
-  {
     "id": "w10-4",
     "priority": 214,
     "wave": "10 - practical AI demand: tools, cost, compliance, content systems (proposed 2026-09-30)",
@@ -777,28 +711,6 @@
     "status": "ready"
   },
   {
-    "id": "w10-20",
-    "priority": 230,
-    "wave": "10 - practical AI demand: tools, cost, compliance, content systems (proposed 2026-09-30)",
-    "title": "AI Google Business Profile Posts: Prompts and a Quarterly Batch",
-    "slug": "ai-google-business-profile-posts-prompts-and-a-quarterly-batch",
-    "metaTitle": "AI Google Business Profile Posts: Prompts and a...",
-    "primaryKeyword": "AI Google Business Profile posts how to write with ChatGPT",
-    "secondaryKeywords": [
-      "ai google business profile posts",
-      "chatgpt for google business profile",
-      "gbp post ideas",
-      "google business profile posts local seo"
-    ],
-    "topicalPillar": "community-market-leaders-ai",
-    "contentTypePillar": "process-and-differentiation",
-    "funnelStage": "resonance",
-    "intent": "informational",
-    "angle": "Give the AI your local context once, generate a quarter of drafts in one sitting, and keep the posts specific to your market.",
-    "evidence": "SERP: 9 pages incl. GMB Everywhere (ChatGPT for Google Business Profile), Zapier integration, Windsor.ai, Circleboom, offprompt.blog, AInstein playbook, Localo.",
-    "status": "ready"
-  },
-  {
     "id": "w10-21",
     "priority": 231,
     "wave": "10 - practical AI demand: tools, cost, compliance, content systems (proposed 2026-09-30)",
@@ -884,28 +796,6 @@
     "intent": "informational",
     "angle": "Outline the main story, one tip and one call to action yourself, then let AI draft and tighten it so the newsletter still carries your own opinion.",
     "evidence": "SERP: 9 pages incl. EmailToolTester, beehiiv blog, Matt Giaro (4 Prompts in 5 Minutes), Venngage, Keploy, Letterpal, Jay Pozo.",
-    "status": "ready"
-  },
-  {
-    "id": "w10-25",
-    "priority": 235,
-    "wave": "10 - practical AI demand: tools, cost, compliance, content systems (proposed 2026-09-30)",
-    "title": "How to Build a Custom GPT for Your Business Without Code",
-    "slug": "how-to-build-a-custom-gpt-for-your-business-without-code",
-    "metaTitle": "How to Build a Custom GPT for Your Business Without Code",
-    "primaryKeyword": "how to build a custom GPT for your business no code",
-    "secondaryKeywords": [
-      "create a custom gpt step by step",
-      "custom gpt vs claude project",
-      "custom gpt for small business",
-      "gpt builder instructions"
-    ],
-    "topicalPillar": "claude-for-dummies",
-    "contentTypePillar": "process-and-differentiation",
-    "funnelStage": "resonance",
-    "intent": "informational",
-    "angle": "One bounded task, written instructions plus a few knowledge files, and five real test prompts get you a working assistant quickly, with the Claude Projects equivalent for comparison.",
-    "evidence": "SERP: 9 pages incl. OpenAI (Introducing GPTs), Zapier (Create a custom GPT: beginner's guide), Lilach Bullock non-technical walkthrough, Systemology, Parix 2026 guide, Planet No Code, Sawan KR course.",
     "status": "ready"
   }
 ]
