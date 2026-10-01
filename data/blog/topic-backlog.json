@@ -2291,10 +2291,11 @@
       "intent": "commercial",
       "angle": "Compare by actual use case instead of a generic top-10: Fathom for a solo founder recording constantly, Fireflies for CRM-heavy teams, Granola for bot-free notes that read like a human took them.",
       "evidence": "WebSearch 'AI note taking apps for client meetings small business' returned happyscribe.com '5 Best AI Meeting Note Takers for Small Business', clickup.com, efficient.app 'Ranked & Reviewed', simular.ai, zoom.com My Notes feature page, zapier.com '11 best AI meeting assistants', justtalkingtech.medium.com '90-Day Honest Ranking'. Dense dedicated comparison cluster.",
-      "status": "ready",
+      "status": "published",
       "autoLoaded": true,
       "autoLoadedAt": "2026-09-28T15:11:07.723Z",
-      "autoLoadedReason": "backlog runway fell to 0 (floor 25); promoted without waiting on approval per Krista 2026-08-20, reaffirmed 2026-08-24; pillar-balanced per Krista 2026-08-24"
+      "autoLoadedReason": "backlog runway fell to 0 (floor 25); promoted without waiting on approval per Krista 2026-08-20, reaffirmed 2026-08-24; pillar-balanced per Krista 2026-08-24",
+      "publishedAt": "2026-09-30T14:50:26.668Z"
     },
     {
       "id": "w9-37",
@@ -2407,10 +2408,11 @@
       "intent": "informational",
       "angle": "Most repurposing advice starts at 'run it through AI'; the actual bottleneck is choosing the source asset. Give the filter: deep, tied to a real client question, with a measurable result inside it.",
       "evidence": "WebSearch 'how to repurpose one piece of content into many small business AI' returned lilachbullock.com 'How to Build an AI-Powered Content Repurposing System That Earns Money', sanctuarymg.com, wellows.com, automarck.com 'Turn One Piece Into 20+ Assets', mccarygroup.com, blog.annabyang.com, all naming the 'pillar asset' selection step specifically before the AI extraction step.",
-      "status": "ready",
+      "status": "published",
       "autoLoaded": true,
       "autoLoadedAt": "2026-09-28T15:11:07.723Z",
-      "autoLoadedReason": "backlog runway fell to 0 (floor 25); promoted without waiting on approval per Krista 2026-08-20, reaffirmed 2026-08-24; pillar-balanced per Krista 2026-08-24"
+      "autoLoadedReason": "backlog runway fell to 0 (floor 25); promoted without waiting on approval per Krista 2026-08-20, reaffirmed 2026-08-24; pillar-balanced per Krista 2026-08-24",
+      "publishedAt": "2026-09-30T14:50:26.668Z"
     },
     {
       "id": "w9-38",
@@ -2523,10 +2525,11 @@
       "intent": "informational",
       "angle": "The mistake is asking AI to summarize the blog; the fix is asking it to pull one idea per email and write 200 words around just that idea, so four emails don't read like four summaries of the same post.",
       "evidence": "WebSearch 'how to turn blog post into email newsletter AI' returned planable.io 'Repurpose a Blog Post into a Newsletter', superpath.co 'Templated Newsletters Powered by A.I.', mvplab.ai, checkcopywriting.com 'How to Create Newsletters with AI by Recycling Your Blogs' explicitly describing 'one blog into four distinct newsletters while keeping your voice intact'.",
-      "status": "ready",
+      "status": "published",
       "autoLoaded": true,
       "autoLoadedAt": "2026-09-28T15:11:07.723Z",
-      "autoLoadedReason": "backlog runway fell to 0 (floor 25); promoted without waiting on approval per Krista 2026-08-20, reaffirmed 2026-08-24; pillar-balanced per Krista 2026-08-24"
+      "autoLoadedReason": "backlog runway fell to 0 (floor 25); promoted without waiting on approval per Krista 2026-08-20, reaffirmed 2026-08-24; pillar-balanced per Krista 2026-08-24",
+      "publishedAt": "2026-09-30T14:50:26.668Z"
     },
     {
       "id": "w9-39",
@@ -2639,10 +2642,11 @@
       "intent": "informational",
       "angle": "Give the real numbers by channel instead of 'post consistently': 3-5x/week for Instagram, 5-10x/week floor for X, and just 1-4 blog posts a month, because quality beats a cadence nobody can sustain past week three.",
       "evidence": "WebSearch 'how often should a small business post content AI schedule' returned busyseed.com, pinkdogdigital.com, thesmallbusinessexpo.com, pulsecreative.uk '2026 Honest Answer', lifestyle.middletownlifemagazine.com 'Sustainable Cadence Beats Volume', lovepreetsmm.com, mjwmedia.com, predis.ai, adobe.com. Specific per-channel numbers found across the cluster.",
-      "status": "ready",
+      "status": "published",
       "autoLoaded": true,
       "autoLoadedAt": "2026-09-28T15:11:07.723Z",
-      "autoLoadedReason": "backlog runway fell to 0 (floor 25); promoted without waiting on approval per Krista 2026-08-20, reaffirmed 2026-08-24; pillar-balanced per Krista 2026-08-24"
+      "autoLoadedReason": "backlog runway fell to 0 (floor 25); promoted without waiting on approval per Krista 2026-08-20, reaffirmed 2026-08-24; pillar-balanced per Krista 2026-08-24",
+      "publishedAt": "2026-09-30T14:50:26.668Z"
     },
     {
       "id": "w9-40",
@@ -2755,10 +2759,11 @@
       "intent": "informational",
       "angle": "Skip the generic checklist idea and go to what's actually working: an industry-specific prompt library, a bundle like '30 social captions for your niche,' or a small interactive tool built for under $1,000 now that AI dropped the build cost.",
       "evidence": "WebSearch 'AI lead magnet ideas small business' returned thesmallbusinessexpo.com, ryrob.com 'AI Lead Magnet Idea Generator', salesforce.com '15+ Lead Magnet Ideas', venngage.com, rightblogger.com '5 AI Lead Magnet Examples', diydigital.com.au '7 Great AI Lead Magnets for Small Businesses', leadsync.me.",
-      "status": "ready",
+      "status": "published",
       "autoLoaded": true,
       "autoLoadedAt": "2026-09-28T15:11:07.724Z",
-      "autoLoadedReason": "backlog runway fell to 0 (floor 25); promoted without waiting on approval per Krista 2026-08-20, reaffirmed 2026-08-24; pillar-balanced per Krista 2026-08-24"
+      "autoLoadedReason": "backlog runway fell to 0 (floor 25); promoted without waiting on approval per Krista 2026-08-20, reaffirmed 2026-08-24; pillar-balanced per Krista 2026-08-24",
+      "publishedAt": "2026-09-30T14:50:26.668Z"
     },
     {
       "id": "w9-41",
@@ -2907,6 +2912,131 @@
       "status": "ready",
       "autoLoaded": true,
       "autoLoadedAt": "2026-09-30T14:21:52.876Z",
+      "autoLoadedReason": "backlog runway fell to 20 (floor 25); promoted without waiting on approval per Krista 2026-08-20, reaffirmed 2026-08-24; pillar-balanced per Krista 2026-08-24"
+    },
+    {
+      "id": "w10-4",
+      "priority": 214,
+      "wave": "10 - practical AI demand: tools, cost, compliance, content systems (proposed 2026-09-30)",
+      "title": "How Much Does an AI Phone Answering Service Cost?",
+      "slug": "how-much-does-an-ai-phone-answering-service-cost",
+      "metaTitle": "How Much Does an AI Phone Answering Service Cost?",
+      "primaryKeyword": "ai phone answering service for small business cost",
+      "secondaryKeywords": [
+        "ai answering service pricing",
+        "ai receptionist pricing per minute vs flat",
+        "how much is an ai receptionist",
+        "virtual receptionist cost"
+      ],
+      "topicalPillar": "ai-run-business",
+      "contentTypePillar": "problem-solving",
+      "funnelStage": "capture",
+      "intent": "commercial",
+      "angle": "Most small businesses land at $50 to $300 a month, and the billing model (per minute versus flat) decides the real cost.",
+      "evidence": "SERP: 10 cost-specific pages incl. Nextiva, Allo (2 pages), Dialzara, EverHelp, Puppilot, NextPhone (Flat-Rate vs Per-Minute), SkipCalls. Quoted ranges $18 to $500+/mo.",
+      "status": "ready",
+      "autoLoaded": true,
+      "autoLoadedAt": "2026-10-01T14:11:45.551Z",
+      "autoLoadedReason": "backlog runway fell to 20 (floor 25); promoted without waiting on approval per Krista 2026-08-20, reaffirmed 2026-08-24; pillar-balanced per Krista 2026-08-24"
+    },
+    {
+      "id": "w10-6",
+      "priority": 216,
+      "wave": "10 - practical AI demand: tools, cost, compliance, content systems (proposed 2026-09-30)",
+      "title": "Does a Real Estate Website Chatbot Actually Capture Leads?",
+      "slug": "does-a-real-estate-website-chatbot-actually-capture-leads",
+      "metaTitle": "Does a Real Estate Website Chatbot Actually Capture Leads?",
+      "primaryKeyword": "ai chatbot for real estate website lead capture",
+      "secondaryKeywords": [
+        "real estate chatbot",
+        "website chatbot for realtors",
+        "best real estate chatbots 2026",
+        "chatbot lead qualification real estate"
+      ],
+      "topicalPillar": "ai-content-to-client-system",
+      "contentTypePillar": "educational-authority",
+      "funnelStage": "attention",
+      "intent": "informational",
+      "angle": "A chatbot helps when it answers fast and hands the lead to a human with context, and it fails when it just replaces the contact form with a worse one.",
+      "evidence": "SERP: 10 dedicated pages incl. Crescendo (Best Real Estate Chatbots 2026), ChatBot.com, Fastbots, Spur, Emitrr (Top 9), realty-ai.com, ElevenLabs, ZoneTechAi (2026-09).",
+      "status": "ready",
+      "autoLoaded": true,
+      "autoLoadedAt": "2026-10-01T14:11:45.554Z",
+      "autoLoadedReason": "backlog runway fell to 20 (floor 25); promoted without waiting on approval per Krista 2026-08-20, reaffirmed 2026-08-24; pillar-balanced per Krista 2026-08-24"
+    },
+    {
+      "id": "w10-8",
+      "priority": 218,
+      "wave": "10 - practical AI demand: tools, cost, compliance, content systems (proposed 2026-09-30)",
+      "title": "ChatGPT Prompts for Loan Officers: Emails, Posts, Follow-Up",
+      "slug": "chatgpt-prompts-for-loan-officers-emails-posts-follow-up",
+      "metaTitle": "ChatGPT Prompts for Loan Officers: Emails, Posts, Follow-Up",
+      "primaryKeyword": "chatgpt prompts for mortgage loan officers",
+      "secondaryKeywords": [
+        "ai for loan officers",
+        "chatgpt prompts mortgage marketing",
+        "loan officer email prompts",
+        "ai prompts for mortgage brokers"
+      ],
+      "topicalPillar": "authority-agent-operating-system",
+      "contentTypePillar": "process-and-differentiation",
+      "funnelStage": "resonance",
+      "intent": "informational",
+      "angle": "Prompts for prospecting, referral partner outreach and follow-up, with a hard line that AI never writes compliance language.",
+      "evidence": "SERP: 9 dedicated pages incl. National Mortgage Professional (Your Smartest Intern), aiforwork.co, Loan Officer Hub PDF, The Loan Atlas, Wade's Watch, Accord Mortgages blog, Roar Solutions.",
+      "status": "ready",
+      "autoLoaded": true,
+      "autoLoadedAt": "2026-10-01T14:11:45.557Z",
+      "autoLoadedReason": "backlog runway fell to 20 (floor 25); promoted without waiting on approval per Krista 2026-08-20, reaffirmed 2026-08-24; pillar-balanced per Krista 2026-08-24"
+    },
+    {
+      "id": "w10-5",
+      "priority": 215,
+      "wave": "10 - practical AI demand: tools, cost, compliance, content systems (proposed 2026-09-30)",
+      "title": "Is an AI Receptionist Worth It for a Solo Agent?",
+      "slug": "is-an-ai-receptionist-worth-it-for-a-solo-agent",
+      "metaTitle": "Is an AI Receptionist Worth It for a Solo Agent?",
+      "primaryKeyword": "ai receptionist for real estate agents",
+      "secondaryKeywords": [
+        "ai answering service realtors",
+        "real estate agent missed calls",
+        "ai voice agent for realtors",
+        "ai receptionist for showings"
+      ],
+      "topicalPillar": "ai-run-business",
+      "contentTypePillar": "problem-solving",
+      "funnelStage": "capture",
+      "intent": "commercial",
+      "angle": "Agents miss a large share of calls while at showings, so the decision is one captured deal versus a $25 to $160 monthly fee, plus what to set up so it qualifies instead of just taking messages.",
+      "evidence": "SERP: 9 real-estate-specific pages incl. Nextiva (AI Receptionists for Real Estate), EVS7, Aira, Marlie, Dialnote, Call Agent AI, Backyard Bougie, Nerdbot (2026-07-30). Cited cost range $25-$160/mo.",
+      "status": "ready",
+      "autoLoaded": true,
+      "autoLoadedAt": "2026-10-01T14:11:45.557Z",
+      "autoLoadedReason": "backlog runway fell to 20 (floor 25); promoted without waiting on approval per Krista 2026-08-20, reaffirmed 2026-08-24; pillar-balanced per Krista 2026-08-24"
+    },
+    {
+      "id": "w10-11",
+      "priority": 221,
+      "wave": "10 - practical AI demand: tools, cost, compliance, content systems (proposed 2026-09-30)",
+      "title": "Does Google Penalize AI Content? What Businesses Should Know",
+      "slug": "does-google-penalize-ai-content-what-businesses-should-know",
+      "metaTitle": "Does Google Penalize AI Content? What Businesses Should Know",
+      "primaryKeyword": "does google penalize ai generated content",
+      "secondaryKeywords": [
+        "google ai content policy 2026",
+        "can google detect ai content",
+        "ai blog posts seo",
+        "is ai content bad for seo"
+      ],
+      "topicalPillar": "ai-content-to-client-system",
+      "contentTypePillar": "educational-authority",
+      "funnelStage": "attention",
+      "intent": "informational",
+      "angle": "Google penalizes unhelpful, mass-produced pages, not the tool, so the test is accuracy, originality and real expertise in the draft.",
+      "evidence": "SERP: 9 dedicated pages incl. Rankability study, Frase, SEO Sherpa, Keywords Everywhere, Progeek, Maintouch (September 2026). Cited: Ahrefs study of 600,000 top pages.",
+      "status": "ready",
+      "autoLoaded": true,
+      "autoLoadedAt": "2026-10-01T14:11:45.557Z",
       "autoLoadedReason": "backlog runway fell to 20 (floor 25); promoted without waiting on approval per Krista 2026-08-20, reaffirmed 2026-08-24; pillar-balanced per Krista 2026-08-24"
     }
   ],
