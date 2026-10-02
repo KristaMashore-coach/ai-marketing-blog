@@ -359,50 +359,6 @@
     "status": "ready"
   },
   {
-    "id": "w10-7",
-    "priority": 217,
-    "wave": "10 - practical AI demand: tools, cost, compliance, content systems (proposed 2026-09-30)",
-    "title": "Best AI CRM for Real Estate Agents: What to Compare",
-    "slug": "best-ai-crm-for-real-estate-agents-what-to-compare",
-    "metaTitle": "Best AI CRM for Real Estate Agents: What to Compare",
-    "primaryKeyword": "best ai crm for real estate agents",
-    "secondaryKeywords": [
-      "ai real estate crm",
-      "follow up boss vs lofty",
-      "crm for solo agents",
-      "real estate crm with ai follow up"
-    ],
-    "topicalPillar": "ai-run-business",
-    "contentTypePillar": "problem-solving",
-    "funnelStage": "capture",
-    "intent": "commercial",
-    "angle": "Solo agents and teams need different CRMs, and the AI features worth paying for are lead scoring and automatic follow-up, not chat widgets.",
-    "evidence": "SERP: 9 pages incl. HubSpot blog (5 best AI CRMs for real estate agents), HousingWire, The Close (8 Best CRM), HouseCanary, Retell AI, Sure Send, Ascendix. Named tools: CINC, Lofty, Zurple, Follow Up Boss, Sierra.",
-    "status": "ready"
-  },
-  {
-    "id": "w10-9",
-    "priority": 219,
-    "wave": "10 - practical AI demand: tools, cost, compliance, content systems (proposed 2026-09-30)",
-    "title": "How to Write an AI Disclosure for Your Privacy Policy",
-    "slug": "how-to-write-an-ai-disclosure-for-your-privacy-policy",
-    "metaTitle": "How to Write an AI Disclosure for Your Privacy Policy",
-    "primaryKeyword": "how to write a privacy policy AI disclosure for using AI with clients",
-    "secondaryKeywords": [
-      "ai disclosure privacy policy",
-      "client ai disclosure letter",
-      "do i need to tell clients i use ai",
-      "ai privacy policy template"
-    ],
-    "topicalPillar": "ai-run-business",
-    "contentTypePillar": "process-and-differentiation",
-    "funnelStage": "resonance",
-    "intent": "informational",
-    "angle": "Add one labeled AI section to the policy you already have, naming the tools, what data goes in, and who reviews output.",
-    "evidence": "SERP: 9 pages incl. CookieYes, Termly, Termageddon, Usercentrics, Attestly (Client AI Disclosure Letter), Fourscore Business Law, PolicyForge (15 examples).",
-    "status": "ready"
-  },
-  {
     "id": "w10-10",
     "priority": 220,
     "wave": "10 - practical AI demand: tools, cost, compliance, content systems (proposed 2026-09-30)",
@@ -422,28 +378,6 @@
     "intent": "commercial",
     "angle": "Start on Zapier if you have never built an automation, move to Make for cost on complex flows, and choose n8n only if someone can own hosting and failures.",
     "evidence": "SERP: 9 comparison pages incl. Zapier's own n8n vs Make, Parseur, Digidop, Intuz, Contabo, plus small-business-specific pages (Pravin Kumar, AI Essentials).",
-    "status": "ready"
-  },
-  {
-    "id": "w10-12",
-    "priority": 222,
-    "wave": "10 - practical AI demand: tools, cost, compliance, content systems (proposed 2026-09-30)",
-    "title": "Can AI Detectors Tell If ChatGPT Wrote Your Content?",
-    "slug": "can-ai-detectors-tell-if-chatgpt-wrote-your-content",
-    "metaTitle": "Can AI Detectors Tell If ChatGPT Wrote Your Content?",
-    "primaryKeyword": "does AI detection work on ChatGPT writing",
-    "secondaryKeywords": [
-      "does ai detection work",
-      "gptzero accuracy",
-      "can you tell if chatgpt wrote this",
-      "ai detector false positives"
-    ],
-    "topicalPillar": "ai-content-to-client-system",
-    "contentTypePillar": "educational-authority",
-    "funnelStage": "attention",
-    "intent": "informational",
-    "angle": "Detectors guess from predictability and sentence variety and produce false positives, so the practical protection is specific local detail and real first-hand material, not a detector score.",
-    "evidence": "SERP: 9 results, all dedicated detector pages (GPTZero, Grammarly, Pangram, QuillBot, ZeroGPT, Phrasly) plus a Yahoo Tech tested-5-apps article.",
     "status": "ready"
   },
   {
@@ -491,28 +425,6 @@
     "status": "ready"
   },
   {
-    "id": "w10-15",
-    "priority": 225,
-    "wave": "10 - practical AI demand: tools, cost, compliance, content systems (proposed 2026-09-30)",
-    "title": "Will AI Replace Mortgage Processors? What Changes for Lenders",
-    "slug": "will-ai-replace-mortgage-processors-what-changes-for-lenders",
-    "metaTitle": "Will AI Replace Mortgage Processors? What Changes for...",
-    "primaryKeyword": "will ai replace mortgage processors",
-    "secondaryKeywords": [
-      "ai mortgage processing",
-      "ai for loan processors",
-      "mortgage jobs and ai",
-      "ai loan file review"
-    ],
-    "topicalPillar": "authority-agent-operating-system",
-    "contentTypePillar": "educational-authority",
-    "funnelStage": "attention",
-    "intent": "informational",
-    "angle": "Processing tasks shrink while coordination, quality control and borrower communication stay human, and the risk sits in processing more than origination.",
-    "evidence": "SERP: 9 pages incl. NAMP (Will AI Replace Mortgage Processors), Aiifi (The Real Risk Is in Processing, Not Origination), BNTouch, Astute Financial, LinkedIn pieces.",
-    "status": "ready"
-  },
-  {
     "id": "w10-16",
     "priority": 226,
     "wave": "10 - practical AI demand: tools, cost, compliance, content systems (proposed 2026-09-30)",
@@ -554,28 +466,6 @@
     "intent": "commercial",
     "angle": "Solo operators start free or Plus, and the real reason to pay extra for Business is that client data is excluded from training by default.",
     "evidence": "SERP: 9 pages incl. Tactiq (Plus vs Business), IntuitionLabs, CloudEagle, Flowith, Palpa, AI Made For (Free vs Pro for Business), justinmckelvey.",
-    "status": "ready"
-  },
-  {
-    "id": "w10-18",
-    "priority": 228,
-    "wave": "10 - practical AI demand: tools, cost, compliance, content systems (proposed 2026-09-30)",
-    "title": "AI Virtual Staging: Worth It, and Do You Have to Disclose?",
-    "slug": "ai-virtual-staging-worth-it-and-do-you-have-to-disclose",
-    "metaTitle": "AI Virtual Staging: Worth It, and Do You Have to Disclose?",
-    "primaryKeyword": "ai virtual staging for real estate listings is it worth it",
-    "secondaryKeywords": [
-      "ai virtual staging worth it",
-      "virtual staging disclosure rules",
-      "ai staging vs real staging",
-      "virtual staging apps 2026"
-    ],
-    "topicalPillar": "authority-agent-operating-system",
-    "contentTypePillar": "problem-solving",
-    "funnelStage": "capture",
-    "intent": "commercial",
-    "angle": "At a few dollars a listing it pays for itself on mid-range homes, but disclosure and bait-and-switch complaints mean it needs labeling and real photos alongside.",
-    "evidence": "SERP: 9 pages incl. HousingWire (Best Apps for 2026), Washingtonian (2026-04-27), FastExpert (too fake), NAR (2 articles), StageHQ (ROI, Calculated), AI and Realtors review.",
     "status": "ready"
   },
   {
